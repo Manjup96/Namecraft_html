@@ -40,7 +40,7 @@
   .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
-        width: 80%;
+        width: 100%;
         border-radius: 5px;
     }
 
@@ -125,110 +125,60 @@
     </div>
 </div>
 
-<!-- <center><b>Related Posts</b></center>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 col-lg-4  pt-5">
-      <div class="card mx-5">
-        <a href="number9.php"><img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"></a>
-        <div class="container">
-          <h4 class="text-center"><b>Number 9</b></h4>
-          <p>Number 9 According to Numerology If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9.</p>
-          <!-- <div class="text-center mt-3 fs-5">
-            <span class="fa fa-calendar"></span> June 1, 2023
-          </div> -->
-          <!-- <div class="text-center mt-2">
-            <span class="fa fa-user"></span> Sheelaa M Bajaj
-          </div>
-        </div>
-      </div> -->
-    <!-- </div> -->
+<!-- Related Posts Starts -->
 
-    <!-- <div class="col-md-4  col-lg-4 pt-5">
-      <div class="card mx-5">
-        <a href="number8.php"><img src="images/numbers/8.jpg" alt="Avatar" style="width:100%"></a>
-        <div class="container">
-          <h4 class="text-center"><b>Number 8</b></h4>
-          <p>Let’s take a look at one of the most powerful numbers in numerology: numerology number 8. Saturn or Shani rules the number 8. The shape of number 8 is wavy, twisted, but yet linked, similar to the infinity symbol.</p> -->
-          <!-- <div class="text-center mt-3 fs-5">
-            <span class="fa fa-calendar"></span> June 1, 2023
-          </div> -->
-          <!-- <div class="text-center mt-2">
-            <span class="fa fa-user"></span> Sheelaa M Bajaj
-          </div>
-        </div>
+
+
+<div class="related">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center mb-3">
+        <h6>RELATED POSTS</h6>
       </div>
     </div>
 
-    <div class="col-md-4 pt-5">
-      <div class="card mx-5">
-        <a href="number7.php"><img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"></a>
-        <div class="container">
-          <h4 class="text-center"><b>Number 7</b></h4>
-          <p>Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p> -->
-          <!-- <div class="text-center mt-3 fs-5">
-            <span class="fa fa-calendar"></span> June 1, 2023
-          </div> -->
-          <!-- <div class="text-center mt-2">
-            <span class="fa fa-user"></span> Sheelaa M Bajaj
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>  -->
-
+    
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
-    <a href="number9.php"><img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"></a>
-                    <div class="container">
-                        <h2 class="text-center"  style="font-family:'Montserrat';font-weight;bold;"><b>Number 9</b></h2>
-                        <p style="font-family:'Montserrat';font-size;16px;">Number 9 According to Numerology If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9. </p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class="text-center mt-2 ">
-                            <span class="fa fa-user"></span> Sheelaa M Bajaj
-                        </div>
+   <div class="col-md-4  ">
+    <div class="card p-4">
+        <img src="images/smallno9.jpg" alt="Image of Number 9">
 
-                    </div>
-  </div>
-                    <div class="col-md-4">
-    <a href="number8.php"><img src="images/numbers/8.jpg" alt="Avatar" style="width:100%"></a>
-                    <div class="container">
-                        <h2 class="text-center"  style="font-family:'Montserrat';font-weight;bold;"><b>Number 8</b></h2>
-                        <p style="font-family:'Montserrat';font-size;16px;">Let’s take a look at one of the most powerful numbers in numerology: numerology number 8. Saturn or Shani rules the number 8. The shape of number 8 is wavy, twisted, but yet linked, similar to the infinity symbol.</p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class="text-center mt-2 ">
-                            <span class="fa fa-user"></span> Sheelaa M Bajaj
-                        </div>
-
-                    </div>
-  </div>
-
-                    <div class="col-md-4">
-    <a href="number9.php"><img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"></a>
-                    <div class="container">
-                        <h4 class="text-center"  style="font-family:'Montserrat';font-weight;bold;"><b>Number 7</b></h4>
-                        <p style="font-family:'Montserrat';font-size;16px;>Number 9 According to Numerology If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9. </p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class="text-center mt-2 ">
-                            <span class="fa fa-user"></span> Sheelaa M Bajaj
-                        </div>
-
-                    </div>
+    <h5 class="mt-3 mb-3">Number 9</h5>
+    <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
+    <div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
     </div>
+</div>
+   </div>
+   <div class="col-md-4  ">
+    <div class="card p-4">
+        <img src="images/smallno8.jpg" alt="Image of Number 8">
+
+   <h5 class="mt-3 mb-3">Number 8</h5>
+<p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
+<div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
+    </div>
+</div></div>
+   <div class="col-md-4 ">
+    <div class="card p-4">
+        <img src="images/smallno7.jpg" alt="Image of Number 7">
+
+    <h5 class="mt-3 mb-3">Number 7</h5>
+    <p>Number 7 According to Numerology. If you were born on the 7th, 16th, or 25th, your numerology number is 7.</p>
+    <div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
+    </div>
+   </div></div>
+   </div>
+   </div>
+
+
   </div>
 </div>
-  
 
-
-
+<!-- Related Posts Ends -->
 
 <!-- Content starts -->
 

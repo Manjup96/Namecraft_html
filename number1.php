@@ -15,6 +15,18 @@
   <!-- banner starts -->
 
   <style>
+
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
   .number1 .container-fluid {
     background-image: url("images/numbers/1.jpg");
     background-size: 755px; 
