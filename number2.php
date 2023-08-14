@@ -130,9 +130,16 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button class="btn btn-secondary ">NEXT POST <i class="fas fa-arrow-right"></i></button> 
+            </div>
         </div>
+    </div>
       </div>
     </div>
   </div>
@@ -271,19 +278,21 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #999;
         color: white;
-        padding: 10px 20px;
+        padding: 8px 12px;
         font-size: 16px;
         border: none;
-        border-radius: 4px;
+        
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
@@ -298,22 +307,40 @@
             </div>
             <div class="col-md-12">
             <form>
-               <label for="comment">COMMENT :</label><br>
-               <textarea id="comment" name="comment" rows="10" style="width: 1000px; margin-top:10px;" cols="50" placeholder="Enter your comment here" required></textarea><br>
-                
-               
-               <label for="name">NAME :</label><br>
-               <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+            <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <label class="mb-3">COMMENT *</label>
+            <textarea type="text" rows="10"  name="message" class="form-control" required></textarea>
+        </div>
+    </div>
     
-               <label for="email">EMAIL :</label><br>
-               <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
-    
-               <label for="website">WEBSITE :</label><br>
-               <input type="text" id="website" name="website" placeholder="Enter your website (optional)"><br>
-               
-    
-               <input type="submit" value="Post Comment">
-            </form>
+    <div class="row mb-3 mt-3">
+        <div class="col-md-4">
+            <label  class="mb-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">WEBSITE</label><br>
+            <input type="text" name="website" class="form-control" required/>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website
+            </label><br>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="POST COMMENT" class="post-comment-button">
+    </div>
+</div>            </form>
             </div>
         </div>
     </div>
