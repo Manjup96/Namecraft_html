@@ -21,7 +21,6 @@
     background-position: center;
     color: white;
     padding: 110px;
-    margin-top: 30px;
     opacity: 0.8;
   }
   .number1 .col-md-12{
@@ -35,6 +34,23 @@
     text-decoration: none;
     color: white;
   }
+
+  .number1 {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency here */
+      pointer-events: none;
+    }
+
+
   
 </style>
 
@@ -50,6 +66,7 @@
     </div>
     </div>
   </div>
+  <div class="overlay"></div>
 </div>
 
 
