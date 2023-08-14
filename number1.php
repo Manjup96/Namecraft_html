@@ -137,11 +137,12 @@
     margin-top: 10px;
     letter-spacing: 10px;
     font-size: 23px;
+  color: #abb8c3;
+
 }
 .share .button{
   margin-top: 110px;
   margin-left: 950px;
-  color: 
   
 }
 .share .button button {
@@ -156,7 +157,7 @@
       <div class="col-md-12">
         <h2>SHARE THIS</h2>
 
-        <div class="icons">
+        <div class="icons" style="color:">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
           <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -175,78 +176,55 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
-<style>
-    .related .col-md-12{
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        font-family: 'Hind', 'Arial', 'sans-serif';
 
-    }
-    .related .col-md-4 img {
-        width: 90%;
-        height: 50%;
-    }
-    .related .col-md-4 h2 {
-        font-size: 23px;
-        margin-top: 25px;
-    }
-    .related .col-md-4 p {
-        font-size: 15px;
-        margin-top: 25px;
-    }
-     .related .col-md-4 {
-        border: 1px; /* Add a solid black border */
-        padding: 30px; /* Add some padding to create space between border and content */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add box shadow with 2px vertical offset, 4px blur radius, and 0.5 opacity */
-    }
-    .related .col-md-4 img {
-        width: 90%;
-        height: 50%;
-    }
-    .related .col-md-4 button {
-        font-size: 17px;
-        margin-top: 25px;
-        background-color: grey;
-        color: white;
-    }
-</style>
 
 
 <div class="related">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 text-center mb-3">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-4">
+    
+<div class="container">
+  <div class="row">
+   <div class="col-md-4  ">
+    <div class="card p-4">
         <img src="images/smallno9.jpg" alt="Image of Number 9">
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center">Number 9</h2>
-        <p style="font-family:'Montserrat';font-size;16px;">Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
-         <a href="number9.php" style="display: flex; justify-content: center;">
-  <button class="text-center">Read More</button>
-</a>
-      </div>
-      <div class="col-md-4">
-        <img src="images/smallno8.jpg" alt="Image of Number 8">
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center">Number 8</h2>
-        <p style="font-family:'Montserrat';font-size;16px;">Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
-         <a href="number8.php" style="display: flex; justify-content: center;">
-  <button class="text-center">Read More</button>
-</a>
-      </div>
-      <div class="col-md-4">
-        <img src="images/smallno7.jpg" alt="Image of Number 7">
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center">Number 7</h2>
-        <p style="font-family:'Montserrat';font-size;16px;">Number 7 According to Numerology. If you were born on the 7th, 16th, or 25th, your numerology number is 7.</p>
-       <a href="number7.php" style="display: flex; justify-content: center;">
-  <button class="text-center">Read More</button>
-</a>
-      </div>
+
+    <h5 class="mt-3 mb-3">Number 9</h5>
+    <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
+    <div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
     </div>
+</div>
+   </div>
+   <div class="col-md-4  ">
+    <div class="card p-4">
+        <img src="images/smallno8.jpg" alt="Image of Number 8">
+
+   <h5 class="mt-3 mb-3">Number 8</h5>
+<p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
+<div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
+    </div>
+</div></div>
+   <div class="col-md-4 ">
+    <div class="card p-4">
+        <img src="images/smallno7.jpg" alt="Image of Number 7">
+
+    <h5 class="mt-3 mb-3">Number 7</h5>
+    <p>Number 7 According to Numerology. If you were born on the 7th, 16th, or 25th, your numerology number is 7.</p>
+    <div>
+        <input type="submit" class="mt-3 mb-3" value="Read More">
+    </div>
+   </div></div>
+   </div>
+   </div>
+
+
   </div>
 </div>
 
@@ -342,22 +320,40 @@
             </div>
             <div class="col-md-12">
             <form>
-               <label for="comment">COMMENT :</label><br>
-               <textarea id="comment" name="comment" rows="10" style="width: 1000px; margin-top:10px;" cols="50" placeholder="Enter your comment here" required></textarea><br>
-                
-               
-               <label for="name">NAME :</label><br>
-               <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+            <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <label class="mb-3">COMMENT *</label>
+            <textarea type="text" rows="10"  name="message" class="form-control" required></textarea>
+        </div>
+    </div>
     
-               <label for="email">EMAIL :</label><br>
-               <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
-    
-               <label for="website">WEBSITE :</label><br>
-               <input type="text" id="website" name="website" placeholder="Enter your website (optional)"><br>
-               
-    
-               <input type="submit" value="Post Comment">
-            </form>
+    <div class="row mb-3 mt-3">
+        <div class="col-md-4">
+            <label  class="mb-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">WEBSITE *</label><br>
+            <input type="text" name="website" class="form-control" required/>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website
+            </label><br>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="Post Comment">
+    </div>
+</div>            </form>
             </div>
         </div>
     </div>
