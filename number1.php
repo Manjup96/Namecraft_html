@@ -163,6 +163,39 @@
 }
 </style>
 
+
+<style>
+.icons {
+    text-align: center; /* Center the icons horizontally */
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.icons a {
+    display: inline-block;
+    width: 35px; /* Adjust the width to your preference */
+    height: 35px; /* Adjust the height to your preference */
+    background-color: lightgray;
+    border-radius: 50%; /* Make it circular */
+    line-height: 35px; /* Vertically center the icon */
+    margin: 0 5px; /* Add some spacing between icons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icons a i {
+    color: black;
+    font-size: 18px; /* Adjust the font size to your preference */
+}
+
+.icons a:hover {
+    background-color: black;
+}
+
+.icons a:hover i {
+    color: white;
+}
+</style>
+
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">
@@ -305,19 +338,21 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #999;
         color: white;
-        padding: 10px 20px;
+        padding: 8px 12px;
         font-size: 16px;
         border: none;
-        border-radius: 4px;
+        
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
@@ -340,15 +375,32 @@
         </div>
     </div>
     
-               <label for="email">EMAIL :</label><br>
-               <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
-    
-               <label for="website">WEBSITE :</label><br>
-               <input type="text" id="website" name="website" placeholder="Enter your website (optional)"><br>
-               
-    
-               <input type="submit" value="POST COMMENT">
-            </form>
+    <div class="row mb-3 mt-3">
+        <div class="col-md-4">
+            <label  class="mb-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
+        <div class="col-md-4">
+            <label  class="mb-3">WEBSITE</label><br>
+            <input type="text" name="website" class="form-control" required/>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website
+            </label><br>
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="POST COMMENT" class="post-comment-button">
+    </div>
+</div>            </form>
             </div>
         </div>
     </div>
