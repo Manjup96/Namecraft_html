@@ -242,7 +242,9 @@
     <h5 class="mt-3 mb-3">Number 9</h5>
     <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
     <div>
-        <input type="submit" class="post-comment-button mt-3 mb-3" value="Read More">
+    <a href="number9.php">
+
+        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
     </div>
 </div>
    </div>
@@ -253,7 +255,9 @@
    <h5 class="mt-3 mb-3">Number 8</h5>
 <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
 <div>
-        <input type="submit" class="post-comment-button mt-3 mb-3" value="Read More">
+<a href="number8.php">
+
+        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -263,7 +267,9 @@
     <h5 class="mt-3 mb-3">Number 7</h5>
     <p>Number 7 According to Numerology. If you were born on the 7th, 16th, or 25th, your numerology number is 7.</p>
     <div>
-        <input type="submit" class="post-comment-button mt-3 mb-3" value="Read More">
+    <a href="number7.php">
+
+        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
     </div>
    </div></div>
    </div>
