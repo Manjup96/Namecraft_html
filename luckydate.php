@@ -23,6 +23,7 @@
   .hidden {
     display: none;
   }
+ 
 </style>
 <body>
     <!-- navbar start -->
@@ -41,13 +42,14 @@
 </div>
 
 
-<div class="container">     
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
-      <img src="images/C section delivery date.jpg" style="width:100%; height:auto; border: 2px solid black;">
-    </div>
 
-            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
+    <div class="container">
+       <div class="row g-0">
+            <div class="col-lg-6"  style="margin-top:50px">
+            <img src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            </div>
+
+            <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
                     <h2><b class="text-center" style=" font-family:montserrat;"> Lucky date delivery</b></h2>
                     <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
@@ -210,8 +212,9 @@
                     </div>
                     <input type="checkbox" id="myCheckbox" name="myCheckbox">
                      <label for="myCheckbox"><p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
-                    Save my name, email, and website in this browser for the next time I comment</p></label><br>
-                    <button type="submit" class="btn btn-dark" >Submit</button>
+                    
+                     Save my name, email, and website in this browser for the next time I comment</p></label><br>
+                    <button type="submit" class="btn btn-dark">Submit</button>
           
 
 
@@ -224,27 +227,23 @@
 <script src="myscript.js"></script>
 
             <div class="container">
-    <div class="row g-0 mt-5 justify-content-center">
+    <div class="row g-0 mt-5">
            
-            <h2 class="text-center" style=" font-family:montserrat; ">Related products</h2>
+            <h2><b style=" font-family:montserrat;">Related products</b></h2>
 
-            
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">   
+            <div class="col-lg-4" style="margin-top:30px">   
             <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
              <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
              <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
-         
-            
-      
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">
+
+            <div class="col-lg-4" style="margin-top:30px">
             <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
-           
-            <div class="col-lg-4 col-md-7 col-sm-10"  style="margin-top:30px">
+            <div class="col-lg-4"  style="margin-top:30px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>

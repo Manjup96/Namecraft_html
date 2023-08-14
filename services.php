@@ -27,14 +27,13 @@ html {
     ?>
 
 
-  <div id="innerPageBanner">
-    <img src="images/single_banner1.png" class="banner-image" alt="Banner Image" >
+<div id="innerPageBanner">
+    <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-        <h2 style="font-size:80px;font-family:montserrat;font-weight:bold;">Services</h2>
+        <h2>Services</h2>
     </div>
 </div>
-    
 <div class="container">
     
 <div class="row">
@@ -68,6 +67,8 @@ html {
             <b class="text-center pt-3" style="font-size: 16px; font-family:montserrat;">Name Analysis</b>
         </h2>
         <b class="text-center" style="font-size: 16px;">Rs:100.00</b>
+    </div>
+    </div>
     </div>
     <?php include("footer.php"); ?>
     

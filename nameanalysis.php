@@ -41,15 +41,16 @@
 </div>
 
 
-<div class="container">     
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
-      <img src="images/Name analysis.jpg" style="width:100%; height:auto; border: 2px solid black;">
-    </div>
+    <div class="container">
+       <div class="row g-0">
+            <div class="col-lg-6"  style="margin-top:50px">
+            <img src="images/Name analysis.jpg"style="width:500px;height:400px;  border: 2px solid black;">
+            
+            </div>
       
 
 
-            <div class="col-lg-6 col-md-8 col-sm-10 justify-content-center" style="margin-top:50px;">
+            <div class="col-lg-6"  style="margin-top:50px;  padding-left: 50px;">
             <h2><b class="text-center" style=" font-family:montserrat;">Name Analysis</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> Name analysis in numerology entails analysing the letters of a person’s name
@@ -194,23 +195,23 @@ they may learn about a person’s personality and life path.</p>
 </div>
 <script src="myscript.js"></script>
             <div class="container">
-    <div class="row g-0 mt-5  justify-content-center">
+    <div class="row g-0 mt-5">
            
-            <h2 class="text-center" style="font-family:montserrat;">Related products</h2>
+            <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
 
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">
+            <div class="col-lg-4" style="margin-top:30px">
             <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
-            <div class="col-lg-4 col-md-7 col-sm-10"  style="margin-top:30px">
+            <div class="col-lg-4"  style="margin-top:30px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
             </div>
 
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">
+            <div class="col-lg-4" style="margin-top:30px">
             <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
