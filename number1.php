@@ -244,7 +244,7 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
     </div>
 </div>
    </div>
@@ -257,7 +257,7 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -269,7 +269,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
     </div>
    </div></div>
    </div>
