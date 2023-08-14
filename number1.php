@@ -46,7 +46,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency here */
+      background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency here */
       pointer-events: none;
     }
 
@@ -155,6 +155,38 @@
     <div class="row">
       <div class="col-md-12">
         <h2>SHARE THIS</h2>
+
+        <style>
+.icons {
+    text-align: center; /* Center the icons horizontally */
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.icons a {
+    display: inline-block;
+    width: 35px; /* Adjust the width to your preference */
+    height: 35px; /* Adjust the height to your preference */
+    background-color: lightgray;
+    border-radius: 50%; /* Make it circular */
+    line-height: 35px; /* Vertically center the icon */
+    margin: 0 5px; /* Add some spacing between icons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.icons a i {
+    color: black;
+    font-size: 18px; /* Adjust the font size to your preference */
+}
+
+.icons a:hover {
+    background-color: black;
+}
+
+.icons a:hover i {
+    color: white;
+}
+</style>  
+
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -356,7 +388,7 @@
                <input type="text" id="website" name="website" placeholder="Enter your website (optional)"><br>
                
     
-               <input type="submit" value="Post Comment">
+               <input type="submit" value="POST COMMENT">
             </form>
             </div>
         </div>
