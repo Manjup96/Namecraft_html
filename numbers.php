@@ -22,9 +22,18 @@
     .container {
         padding: 2px 16px;
     }
+    p{
+        font-size:13px;
+        text-align:justify;
+
+    }
+
+    a{
+        padding:25px;
+    }
 </style>
 
-<body>
+<body  >
     <!-- navbar start -->
     <?php
     $page = 'numbers';
@@ -32,27 +41,25 @@
 
     ?>
 
+<style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
 
 
-
-   <div id="innerPageBanner">
-    <img src="images/single_banner1.png" class="banner-image" alt="Banner Image" >
-    <div class="banner-overlay"></div>
-    <div class="banner-content">
-        <h2 style="font-size:80px;font-family:montserrat;font-weight:bold;">Numbers</h2>
-    </div>
-</div>
+  
 
 
-    <div class="container ">
+    <div class="container-fluid ">
         <div class="row">
-            <div class="col-md-4 pt-5 text-center">
-                <div class="card mx-5">
-                    <a href="number1.php">
+            <div class="col-md-4 pt-5 ">
+                <div class="card mx-5 ">
+                    <a href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%">
                      </a>
-                    <div class="container">
-                        <h4 class="text-center"><b>Number 1</b></h4>
+                    <div class="container-fluid">
+                        <h5 >Number 1</h5>
                         <p>The first number in the series of numbers from which all subsequent numbers were produced is 1.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -66,12 +73,12 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                    <a href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
-                        <h4 class="text-center"><b>Number 2</b></h4>
+                        <h5 >Number 2</h5>
                         <p>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -85,12 +92,12 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                    <a href="number3.php">
                      <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
-                        <h4 class="text-center"><b>Number 3</b></h4>
+                        <h5 >Number 3</h5>
                         <p>Number 3’s Distinctive Qualities in Numerology In numerology, the number three represents everything that comes in threes:</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -104,12 +111,12 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                    <a href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
-                        <h4 class="text-center"><b>Number 4</b></h4>
+                        <h5 >Number 4</h5>
                         <p>In numerology, the number 4 is considered to be a highly symbolic and significant number. It is often referred to as the “builder” number and is associated with stability, practicality, hard work, and organization.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -128,7 +135,7 @@
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%">
 </a>
                     <div class="container">
-                        <h4 class="text-center"><b>Number 5</b></h4>
+                        <h5 >Number 5</h5>
                         <p>Mercury rules the number 5 You are brave, intelligent, and adventurous. Your job performance is lightning fast. A valuable asset to your boss. You are successful and capable of rising to the top of any organisation.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -142,13 +149,13 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                      <a href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%">
                      </a>
      
                     <div class="container">
-                        <h4 class="text-center"><b>Number 6</b></h4>
+                        <h5 >Number 6</h5>
                         <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy, understanding, compassion, protection, and balance in this cosmos.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -162,13 +169,13 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                      <a href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%">
                      </a>
      
                     <div class="container">
-                        <h4 class="text-center"><b>Number 7</b></h4>
+                        <h5 >Number 7</h5>
                         <p>Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -182,14 +189,14 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                     
                      <a href="number8.php">
                      <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%">
                      </a>
      
                     <div class="container">
-                        <h4 class="text-center"><b>Number 8</b></h4>
+                        <h5 >Number 8</h5>
                         <p>Let’s take a look at one of the most powerful numbers in numerology: numerology number 8. Saturn or Shani rules the number 8. The shape of number 8 is wavy, twisted, but yet linked, similar to the infinity symbol.</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
@@ -203,13 +210,13 @@
 
             </div>
             <div class="col-md-4 pt-5">
-                <div class="card mx-5">
+                <div class="card mx-5 ">
                      <a href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%">
                      </a>
      
                     <div class="container">
-                        <h4 class="text-center"><b>Number 9</b></h4>
+                        <h5 >Number 9</h5>
                         <p>Number 9 According to Numerology If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9. </p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
