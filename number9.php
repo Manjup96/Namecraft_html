@@ -143,90 +143,82 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
-<style>
-    .related .col-md-12{
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        font-family: 'Hind', 'Arial', 'sans-serif';
 
-    }
-    .related .col-md-4 img {
-        width: 90%;
-        height: 50%;
-    }
-    .related .col-md-4 h2 {
-        font-size: 23px;
-        margin-top: 25px;
-    }
-    .related .col-md-4 p {
-        font-size: 15px;
-        margin-top: 25px;
-    }
-     .related .col-md-4 {
-        border: 1px; /* Add a solid black border */
-        padding: 30px; /* Add some padding to create space between border and content */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add box shadow with 2px vertical offset, 4px blur radius, and 0.5 opacity */
-    }
-    .related .col-md-4 img {
-        width: 90%;
-        height: 50%;
-    }
-    .related .col-md-4 button {
-        font-size: 17px;
-        margin-top: 25px;
-        background-color: grey;
-        color: white;
-    }
-</style>
 
 
 <div class="related">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <h6>RELATED POSTS</h6>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center mb-3">
+          <h6>RELATED POSTS</h6>
+        </div>
       </div>
-    </div>
+  
+      
+  <div class="container">
+    <div class="row">
+     <div class="col-md-4  ">
+      <div class="card p-4">
+          <img src="images/smallno8.jpg" alt="Image of Number 8">
+  
+      <h5 class="mt-3 mb-3">Number 8</h5>
+      <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
+      <div>
+        <a href="number8.php">
+          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+      </div>
+  </div>
+     </div>
+     <div class="col-md-4  ">
+      <div class="card p-4">
+          <img src="images/smallno7.jpg" alt="Image of Number 7">
+  
+     <h5 class="mt-3 mb-3">Number 7</h5>
+  <p>Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p>
+  <div>
+    <a href="number7.php">
 
-    <div class="row">
-      <div class="col-md-4">
-        <img src="images/smallno7.jpg" alt="Image of Number 7">
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center">Number 7</h2>
-        <p style="font-family:'Montserrat';font-size:16px">Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p>
-    <a href="number7.php" style="display: flex; justify-content: center;">
-  <button>Read More</button>
-</a>
+          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
       </div>
-      <div class="col-md-4">
-        <img src="images/smallno7.jpg" alt="Image of Number 7">
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center";>Number 8</h2>
-        <p style="font-family:'Montserrat';font-size:16px">Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p>
-    <a href="number7.php" style="display: flex; justify-content: center;">
-  <button>Read More</button>
-</a>
+  </div></div>
+     <div class="col-md-4 ">
+      <div class="card p-4">
+          <img src="images/numbers/6.jpg" alt="Image of Number 6">
+  
+      <h5 class="mt-3 mb-3">Number 6</h5>
+      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy, understanding, compassion, protection, and balance in this cosmos.</p>
+      <div>
+        <a href="number6.php">
+
+          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
       </div>
-            <div class="col-md-4">
-        <img src="images/numbers/6.jpg" alt="Image of Number 6" >
-        <h2 style="font-family:'Montserrat';font-weight;bold;" class="text-center";>Number 6</h2>
-        <p style="font-family:'Montserrat';font-size:16px">Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy, understanding, compassion, protection, and balance in this cosmos.</p>
-           
-    <a href="number6.php" style="display: flex; justify-content: center;">
-  <button>Read More</button>
-</a>
-</a>
-      </div>
+     </div></div>
+     </div>
+     </div>
+  
+  
     </div>
   </div>
-</div>
-
-<!-- Related Posts Ends -->
+  
+  <!-- Related Posts Ends -->
 
 
 <style>
 .comments{
     margin-top: 150px;
 }
+
+ 
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
 </style>
 
 <div class="comments">
