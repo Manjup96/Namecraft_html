@@ -159,7 +159,7 @@
     <div class="row">
      <div class="col-md-4  ">
       <div class="card p-4">
-          <img src="images/smallno8.jpg" alt="Image of Number 8">
+          <img src="images/numbers/8.jpg" alt="Image of Number 8">
   
       <h5 class="mt-3 mb-3">Number 8</h5>
       <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
@@ -171,10 +171,10 @@
      </div>
      <div class="col-md-4  ">
       <div class="card p-4">
-          <img src="images/smallno7.jpg" alt="Image of Number 7">
+          <img src="images/numbers/7.jpg" alt="Image of Number 7">
   
      <h5 class="mt-3 mb-3">Number 7</h5>
-  <p>Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father of Mathematics and Numerology, saw number Seven as a profoundly spiritual number.</p>
+  <p>Number 7’s Distinctive Qualities in Numerology. Lets take a look at number 7. Pythagoras, the Great Father ....</p>
   <div>
     <a href="number7.php">
 
@@ -186,7 +186,7 @@
           <img src="images/numbers/6.jpg" alt="Image of Number 6">
   
       <h5 class="mt-3 mb-3">Number 6</h5>
-      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy, understanding, compassion, protection, and balance in this cosmos.</p>
+      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy....</p>
       <div>
         <a href="number6.php">
 

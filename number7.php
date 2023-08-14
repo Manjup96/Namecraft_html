@@ -181,10 +181,10 @@
   
       
   <div class="container">
-    <div class="row">
+    <div class="row d-flex">
      <div class="col-md-4  ">
       <div class="card p-4">
-          <img src="images/smallno9.jpg" alt="Image of Number 9">
+          <img src="images/numbers/9.jpg" alt="Image of Number 9">
   
       <h5 class="mt-3 mb-3">Number 9</h5>
       <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
@@ -197,7 +197,7 @@
      </div>
      <div class="col-md-4  ">
       <div class="card p-4">
-          <img src="images/smallno8.jpg" alt="Image of Number 8">
+          <img src="images/numbers/8.jpg" alt="Image of Number 8">
   
      <h5 class="mt-3 mb-3">Number 8</h5>
   <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
@@ -209,10 +209,10 @@
   </div></div>
      <div class="col-md-4 ">
       <div class="card p-4">
-          <img src="images/numbers/6.jpg" alt="Image of Number 6">
+          <img src="images/numbers/6.jpg" alt="Image of Number 6" ">
   
       <h5 class="mt-3 mb-3">Number 6</h5>
-      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy, understanding, compassion, protection, and balance in this cosmos.</p>
+      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy.......</p>
       <div>
       <a href="number6.php">
 
