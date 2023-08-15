@@ -24,6 +24,14 @@
   .hidden {
     display: none;
   }
+
+  .button1 {
+        display: inline-block;
+        background-color: #343a40; /* Set the desired background color */
+        color: white; /* Set the text color */
+        border: none;
+        padding: 10px 20px;
+    }
 </style>
 
 
@@ -141,9 +149,11 @@
                             <label for="message">Specific instruction for name</label>
                             <input type="message" class="form-control" id="specific instruction" name="specific instruction">
                         </div>
-                        <button type="submit" class="btn btn-dark button1">Add to cart</button>
+                        <div class="button-container">
+                      <button type="button" class="btn btn-dark button1">Add to cart</button>
+                    </div>
                     </form>
-                    <d iv class="mb-3 mt-3">
+                    <div class="mb-3 mt-3">
                         <a href="services.php">
                             <p> Category: Uncategorized</p>
                         </a>
