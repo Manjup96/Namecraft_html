@@ -43,10 +43,24 @@
     #carouselExampleCaptions img {
       filter: brightness(0.5);
     }
+         /* Custom CSS for slide animation */
+         #carouselExampleCaptions .carousel-item img {
+            position: relative;
+            animation: slide 1s ease-in;
+        }
+        @keyframes slide {
+          from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
   </style>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style= "font-family: 'Montserrat';">
-    
-    <div class="carousel-inner">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
+        <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/banner/1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
@@ -95,13 +109,13 @@
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
   </div>
 
   <!-- banner ends -->
@@ -461,6 +475,25 @@
         transform: rotate(360deg);
     }
 }
+/* Custom CSS for slide animation */
+
+        
+        /* Additional animation for cards */
+        .testimonial .card {
+            animation: cardSlide 0.7s ease-in;
+        }
+        
+        @keyframes cardSlide {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
   </style>
 
     
