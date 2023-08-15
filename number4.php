@@ -189,9 +189,16 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button class="btn btn-secondary ">NEXT POST <i class="fas fa-arrow-right"></i></button> 
+            </div>
         </div>
+    </div>
       </div>
     </div>
   </div>
@@ -200,7 +207,22 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 
 
 <div class="related">
@@ -223,7 +245,7 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" Readmore-button  mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
@@ -236,7 +258,7 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -248,7 +270,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>

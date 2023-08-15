@@ -188,7 +188,22 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 
 
 <div class="related">
@@ -211,7 +226,7 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
@@ -224,7 +239,7 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -236,7 +251,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>
@@ -245,21 +260,7 @@
 
   </div>
 </div>
-<style>
-  .Readmore-button {
-    background-color: #c0c0c0;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
 
-  .Readmore-button:hover {
-    background-color: black;
-    color: white;
-  }
-</style>
 
 
 <!-- Related Posts Ends -->
