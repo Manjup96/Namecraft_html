@@ -131,6 +131,49 @@
 
 }
 </style>
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
+
+
 
 <div class="share">
   <div class="container-fluid">
@@ -146,9 +189,16 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button class="btn btn-secondary ">NEXT POST <i class="fas fa-arrow-right"></i></button> 
+            </div>
         </div>
+    </div>
       </div>
     </div>
   </div>
@@ -157,7 +207,22 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 
 
 <div class="related">
@@ -179,7 +244,7 @@
       <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
       <div>
         <a href="number9.php">
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
   </div>
      </div>
@@ -192,7 +257,7 @@
   <div>
     <a href="number7.php">
 
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
   </div></div>
      <div class="col-md-4 ">
@@ -204,7 +269,7 @@
       <div>
         <a href="number6.php">
 
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
      </div></div>
      </div>
@@ -215,21 +280,6 @@
   </div>
   
   <!-- Related Posts Ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -308,19 +358,21 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #c0c0c0;
         color: white;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 8px 12px;
+        font-size: 13px;
         border: none;
-        border-radius: 4px;
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
