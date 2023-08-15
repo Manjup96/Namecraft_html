@@ -176,7 +176,7 @@
         <div class="container mt-5 mb-4">
         <div class="row">
             <div class="col-md-6 d-flex justify-content-start">
-                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            <a href="number8.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
             </div>
           
         </div>
