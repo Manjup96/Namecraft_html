@@ -39,19 +39,20 @@
   </script>
   <!-- navbar emds -->
   <!-- banner starts -->
+  <style>
+    #carouselExampleCaptions img {
+      filter: brightness(0.5);
+    }
+  </style>
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style= "font-family: 'Montserrat';">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+    
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/banner/1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="fs-1 text-center" style="color:white">NAME CRAFT</h2>
-          <h5 class="fs-2 text-center">BY SHEELAA M BAJAJ</h5>
-          <p class="fs-5 text-center">A Corrected name as per numerology can correct the defect of the date of birth and</br> turn things around for individual or the business.</p>
+          <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
+          <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
+          <p class=" fs-5 text-center" style="letter-spacing: 2px;">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
           <!--<a class="btn btn-primary btn-border btn-lg fs-4"  href="">Our services</a>-->
           <a class="btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
         </div>
@@ -59,37 +60,37 @@
       <div class="carousel-item">
         <img src="images/banner/2.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <h2 class="fs-1 text-center" style="color:white">NAME CRAFT</h2>
-          <h5 class="fs-4 text-center">BY SHEELAA M BAJAJ</h5>
-          <p class="fs-5 text-center">A Corrected name as per numerology can correct the defect of the date of birth and</br> turn things around for individual or the business.</p>
+        <h2 class=" text-center"style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
+          <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
+          <p class="fs-5 text-center" style="letter-spacing: 2px;">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
           <a class="btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/banner/3.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <h2 class="fs-1 text-center" style="color:white">NAME CRAFT</h2>
-          <h5 class="fs-4 text-center">BY SHEELAA M BAJAJ</h5>
-          <p class="fs-5 text-center">A Corrected name as per numerology can correct the defect of the date of birth and</br> turn things around for individual or the business.</p>
+        <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
+          <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
+          <p class="fs-5 text-center" style="letter-spacing: 2px;">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
           <a  class="btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/banner/5.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <h2 class="fs-1 text-center" style="color:white">NAME CRAFT</h2>
-          <h5 class="fs-4 text-center">BY SHEELAA M BAJAJ</h5>
-          <p class="fs-5 text-center">A Corrected name as per numerology can correct the defect of the date of birth and</br> turn things around for individual or the business.</p>
+        <h2 class="text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
+          <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
+          <p class="fs-5 text-center" style="letter-spacing: 2px;">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
           <a  class="btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="images/banner/4.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-        <h2 class="fs-1 text-center" style="color:white">NAME CRAFT</h2>
-          <h5 class="fs-4 text-center">BY SHEELAA M BAJAJ</h5>
-          <p class="fs-5 text-center">A Corrected name as per numerology can correct the defect of the date of birth and</br> turn things around for individual or the business.</p>
-          <a class=" class="btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
+        <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
+          <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
+          <p class="fs-5 text-center" style="letter-spacing: 2px;">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
+          <a class= "btn  btn-dark btn-border btn-lg fs-4"  href="" style="background-color: black;">Our services</a>
         </div>
       </div>
     </div>
@@ -114,7 +115,9 @@
       letter-spacing: 3px;
       text-align: center;
       font-weight: bold;
-      margin-top: 20px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      letter-spacing: 10px;
     }
 
     .associations .custom-bg {
@@ -127,15 +130,17 @@
       font-size: 30px;
     }
     .associations .logo-container .logo-item {
-      margin: 0.5rem;
+      margin: 0.7rem;
       /* Increased margin for better spacing */
-      flex: 1 0 100px;
+      flex: 2 0 120px;
       /* Added flex to distribute items evenly */
       margin-left: 70px;
     }
 
     .associations .logo-item img {
-      margin-top: 80px;
+      margin-top: 100px; 
+      
+       
     }
   </style>
   
@@ -145,66 +150,59 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-  <div class="associations">
-  <div class="container-fluid p-3  custom-bg ">
-    <h2 class="text-center">OUR ASSOCIATIONS</h2>
-    <div class="row logo-container owl-carousel">
-      <div class="col-6 col-md-4 logo-item">
+<div class="associations">
+  <h2 class="text-center">OUR ASSOCIATIONS</h2>
+  <div class="container-fluid custom-bg" style="height: 250px;">
+    <div class="row logo-container owl-carousel" style=" width:105%; padding: 0 50px;">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; ">
         <img src="images/logo_amazon.png" alt="Logo 1" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item">
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 150px; height: auto; margin-top: -40px;">
         <img src="images/logo_cnbc.png" alt="Logo 2" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item">
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
         <img src="images/logo_cosmo.png" alt="Logo 3" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item">
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
         <img src="images/logo_forbes.png" alt="Logo 4" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item">
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;  padding:5px;">
         <img src="images/logo_indianexpress.png" alt="Logo 5" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px; ">
         <img src="images/logo_NDTV.png" alt="Logo 6" class="img-fluid">
       </div>
     </div>
   </div>
-  </div>
+</div>
+
 
 
 <!-- Add the Owl Carousel JavaScript code -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-  $(document).ready(function() {
-    $(".logo-container").owlCarousel({
-      loop: true,
-      margin: 20,
-      autoplay: true, // Enable autoplay
-            autoplayTimeout: 2000, // Set autoplay timeout in milliseconds
-      autoplayHoverPause: true, // Pause autoplay on hover
-      nav: true,
-      dots: true,
-      responsive: {
-        0: {
-            items: 1
-          },
-          576: {
-            items: 2
-          },
-          768: {
-            items: 3
-          },
-          992: {
-            items: 4
-          },
-          1200: {
-            items: 5
-          }
-      }
-    });
-  });
-</script>
+        $(document).ready(function() {
+            $(".logo-container").owlCarousel({
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: { items: 1 },
+                    576: { items: 2 },
+                    768: { items: 3 },
+                    992: { items: 4 },
+                    1200: { items: 5 }
+                }
+            });
+        });
+    </script>
 
 
   <!-- Our Association Ends -->
@@ -230,10 +228,11 @@
     .about h2 {
       font-family: 'Montserrat';
       color: #333;
-      letter-spacing: 5px;
+      letter-spacing: 10px;
       font-weight: bold;
       padding-top: 60px;
-      text-align: center;
+      text-align: left;
+  
 
     }
 
@@ -241,17 +240,15 @@
       font-family: 'Montserrat';
       font-size: 16px;
       color: black;
-      line-height: 1.5;
-      
-      
+      line-height: 1.7;
+      font-weight: 450;
       
     }
 
     .about img {
       max-width: 100%;
       height: auto;
-      border-radius: 10px;
-      padding-top: 100px;
+      margin-top: 70px;
     }
   </style>
 
@@ -260,13 +257,14 @@
     <div class="row">
 
       <div class="col-md-12 col-lg-6 col-sm-12">
-        <h2>ABOUT NAMECRAFT</h2><br>
+        <h2>ABOUT <span style="color: #6f3473;">NAMECRAFT</span></h2><br>
         <p style="text-align: justify">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.
           Our founder, Sheelaa M Bajaj, is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading, and Feng Shui. She has been featured in numerous media outlets, including The Times of India, Deccan Chronicle, and Femina, among others, and has trained numerous students in these fields.</p>
       </div>
       <div class="col-md-12 col-lg-6 col-sm-12">
-        <img style="margin-bottom: 80px;" src="images/about.png" alt="image">
-      </div>
+  <img style="border-radius: 10px;" src="images/about.png" alt="image">
+</div>
+
 
     </div>
   </div>
@@ -281,61 +279,70 @@
   <!-- Our Services starts -->
 
   <style>
-    .services .container-fluid {
+    #services {
       background-color: #eee5ef;
       padding: 40px;
+      margin-top: 50px;
     }
 
-    .services h2 {
+    #services h2 {
       font-family: 'Montserrat';
       text-align: center;
       margin-bottom: 30px;
       letter-spacing: 5px;
       padding: 30px;
       font-weight: bold;
+      letter-spacing: 10px;
       
     }
 
-    .services .col-md-3 {
+    #services .col-md-3 {
       text-align: center;
       margin-bottom: 20px;
     }
 
-    .services .col-md-3 img {
+    #services .col-md-3 img {
       max-width: 30%;
       height: auto;
     }
 
-    .services .col-md-3 h6 {
-      font-size: 16px;
+    #services .col-md-3 h6 {
+      font-size: 20px;
       margin-top: 10px;
       margin-bottom: 5px;
       letter-spacing: 3px;
       
     }
 
-    .services .col-md-3 p {
+    #services .col-md-3 p {
       font-size: 16px;
-      line-height: 1.5;
+      line-height: 1.7;
+      font-family: 'Montserrat';
+      font-weight: 450;
       
     }
 
-    .services .read-more {
-      color: #b8b8b8;
+    #services a {
+      color: black;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 13px;
       letter-spacing: 2px;
       margin-top: 15px;
       text-transform: uppercase;
-      font-family: 'Hind', 'Mulish, Arial', 'sans-serif';
+      font-family: 'Montserrat';
       text-decoration: none;
     }
+    #services a:hover {
+    color:  #6f3473; /* Change the color to your desired hover color */
+    
+  }
+    
   </style>
   </head>
 
   <body>
-    <div class="services">
-    <div class="container-fluid">
+    
+    <div class="container-fluid" id="services">
       <div class="row">
         <div class="col-md-12">
           <h2>OUR SERVICES</h2>
@@ -345,34 +352,34 @@
       <div class="row">
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/Service1-home.png" alt="logo"><br><br>
-          <h6>BABY NAME CORRECTION</h6><br>
-          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p>
-          <a href="babyname.php" class="read-more" style="color:black">READ MORE &raquo;</a>
+          <h6>BABY NAME <br> CORRECTION</h6><br>
+          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p><br>
+          <a href="babyname.php" class="read-more">READ MORE &raquo;</a>
         </div>
 
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/service2.png" alt="logo"><br><br>
-          <h6>LUCKY DATE DELIVERY</h6><br>
-          <p>Is your brand name numerologically lucky? Learn what leading brand names have in common, good numerology, lucky names which give them a boost over their competitors.</p>
-          <a href="luckydate.php" class="read-more" style="color:black">READ MORE &raquo;</a>
+          <h6>LUCKY DATE <br> DELIVERY</h6><br>
+          <p>Is your brand name numerologically lucky? Learn what leading brand names have in common, good numerology, lucky names which give them a boost over their competitors.</p><br>
+          <a href="luckydate.php" class="read-more">READ MORE &raquo;</a>
         </div>
 
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/service3.png" alt="logo"><br><br>
-          <h6>LUCKY NAME CORRECTION</h6><br>
+          <h6>LUCKY NAME <br>CORRECTION</h6><br>
           <p>A rectified name according to numerology can rectify the date of birth flaw and turn things around for the individual or business. There are Chaldean and Pythagorean numerology systems.</p>
-          <a href="luckyname.php" class="read-more" style="color:black">READ MORE &raquo;</a>
+          <a href="luckyname.php" class="read-more">READ MORE &raquo;</a>
         </div>
 
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/service4.png" alt="logo"><br><br>
-          <h6>NAME ANALYSIS</h6><br>
-          <p>Uncover the hidden meanings behind names with our expert name analysis services. Explore the fascinating stories behind names through our personalized name analysis.</p>
-          <a href="nameanalysis.php" class="read-more" style="color:black">READ MORE &raquo;</a>
+          <h6>NAME ANALYSIS</h6><br><br>
+          <p>Uncover the hidden meanings behind names with our expert name analysis services. Explore the fascinating stories behind names through our personalized name analysis.</p><br>
+          <a href="nameanalysis.php" class="read-more">READ MORE &raquo;</a>
         </div>
       </div>
     </div>
-    </div>
+  
 <!-- Our Services ends -->
 
 
@@ -393,7 +400,7 @@
         font-family: 'Montserrat';
         font-weight: bold;
         margin-top: 80px;
-        letter-spacing: 3px;
+        letter-spacing: 10px;
     }
     .testimonial .card {
         border-radius: 10px;
@@ -429,11 +436,29 @@
   .testimonial .carousel-indicators {
     filter: invert(50%);
     position: static;
+    border-radius: 50%;
     
   }
+  .testimonial .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  /* Add the rotating circle effect */
+@keyframes rotateDots {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
   </style>
-</head>
-<body>
+
     
 <div class="testimonial">
 <div class="row">
@@ -452,11 +477,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-6.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
+                                <p style="text-transform: uppercase;font-weight: 450;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
                                 <br>
-                                <p>Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
+                                <p style= "font-weight: 450;">Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
                                 <br>
-                                <p style="text-transform: uppercase;">Arnaaubh Chakraborrty</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Arnaaubh Chakraborrty</p>
                             </div>
                         </div>
                     </div>
@@ -464,11 +489,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-1.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
                                 <br>
-                                <p>Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
+                                <p style= "font-weight: 450;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase;">Apoorva S</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Apoorva S</p>
                             </div>
                         </div>
                     </div>
@@ -476,11 +501,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-2.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
                                 <br>
-                                <p>With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
+                                <p style= "font-weight: 450;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
                                 <br>
-                                <p style="text-transform: uppercase;">Amitta Sanjeev Sawantt</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Amitta Sanjeev Sawantt</p>
                             </div>
                         </div>
                     </div>
@@ -494,11 +519,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-3.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Consult her for magicology! She creates magic with numbers"</p>
+                                <p style="text-transform: uppercase; font-weight: 450;" >"Consult her for magicology! She creates magic with numbers"</p>
                                 <br>
-                                <p>That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
+                                <p style= "font-weight: 450;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
                                 <br>
-                                <p style="text-transform: uppercase;">Janakie Thakur</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Janakie Thakur</p>
                             </div>
                         </div>
                     </div>
@@ -506,11 +531,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-4.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
                                 <br>
-                                <p>Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
+                                <p style= "font-weight: 450;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
                                 <br>
-                                <p style="text-transform: uppercase;">Varun Appaiah</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Varun Appaiah</p>
                             </div>
                         </div>
                     </div>
@@ -518,11 +543,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-5.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;">"Thanks Sheela for the amazing human being she is"</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">"Thanks Sheela for the amazing human being she is"</p>
                                 <br>
-                                <p>Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
+                                <p style= "font-weight: 450;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase;">Sharmistha Chakraborty</p>
+                                <p style="text-transform: uppercase; font-weight: 450;">Sharmistha Chakraborty</p>
                             </div>
                         </div>
                     </div>
@@ -546,11 +571,12 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
-    // Initialize the Carousel component
     var carousel = document.getElementById('testimonialCarousel');
     var carouselInstance = new bootstrap.Carousel(carousel);
 </script>
+
 
 
 
@@ -572,6 +598,8 @@
         text-align: justify;
         font-size: 16px;
         font-family: 'Montserrat';
+        line-height: 1.7;
+        font-weight: 450;
         
       }
       .clients img {
@@ -585,7 +613,7 @@
  <div class="container">
    <div class="row">
      <div class="col-md-12 col-lg-8 col-sm-12">
-          <h2 style= "font-weight: bold; font-family: 'Montserrat';">MILLIONS OF CLIENTS!</h2>
+          <h2 style= "font-weight: bold; font-family: 'Montserrat'; letter-spacing: 10px;"><span style="color: #6f3473;">MILLIONS</span> OF CLIENTS!</h2>
           <p>Sheelaa M Bajaj, the founder of Namecraft, has consulted and helped millions of clients throughout her illustrious career. Her expertise in numerology, astrology, and esoteric sciences has garnered widespread recognition and trust. Her shows on the Daily TVshow on TEZ news channel, part of India Today Group, as well as appearances on channels like CNBC news and CNBC AWAZ, have captivated millions of viewers. Sheelaa’s expertise has even influenced the professional success of her clients, with one actor securing a role alongside Amitabh Bachchan after following her guidance.</p>
           <p>At Namecraft, we are proud to be a sub-brand of Sheelaa M Bajaj’s renowned numerology company. We carry forward her legacy of excellence, integrity, and personalized service. Namecraft specifically focuses on serving institutions, such as maternity hospitals, and we have plans to expand our numerology services to cater to other sectors as well. With Sheelaa’s expertise and track record of success backing us, we provide the highest quality numerology reports and services. We are dedicated to helping clients make informed decisions, empowering them with the knowledge and insights needed to navigate important choices, such as selecting the perfect name for a newborn. At Namecraft, we believe in the transformative power of numerology and strive to make a positive impact on the lives of our clients.</p>
         </div>
@@ -726,28 +754,34 @@
         padding-top: 50px;
         background-color:  #eee5ef;
         margin-top: 150px;
-        padding-bottom: 50px;
 
 
       }
 
       .tedx .container-fluid iframe {
-        border-radius: 10px;
+        border-radius: 25px;
+        width: 90%;
+        height: 80%;
+        margin-left: 40px;
+        margin-top: 20px;
       }
 
       .tedx .container-fluid h2 {
         font-weight: bold;
         margin-bottom: 20px;
         font-family: 'Montserrat';
+        padding: 28px;
+        margin-top: -40px;
       }
 
       .tedx .container-fluid p {
         font-size: 16px;
-        line-height: 1.5;
         text-align: justify;
-        padding-right: 50px;
         font-family: 'Montserrat';
-        margin-top: 30px;
+        margin-top: -70px;
+        line-height: 1.7;
+        font-weight: 450;
+        padding: 28px;
       }
     </style>
 
@@ -759,7 +793,7 @@
         <iframe width="100%" height="480px" src="https://www.youtube.com/embed/zODg8WBfR8w" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-md-12 col-lg-6 col-sm-12">
-          <h2>A LIFE COACH AND TED-X TALKER</h2>
+          <h2>A <span style="color: #6f3473;">LIFE COACH</span> AND TED-X TALKER</h2>
           <p>Sheelaa Bajaj spoke on one of the golbally respected idea-sharing platform TEDx at New Delhi in january 2019. She enlighted the audience about the topic ‘Finding the Best in the Worst’. It was lauded by hundreds and thousands of people who were present at the venue as well as online.</p>
           <p>Our lives are filled with mystic secrets. Each one of us is in search of some guiding light which will help us understand our past and present and help us peek into the future.</p>
           <p>Did you know that your life is guided by numbers? You may not even realize, but these numbers are constantly manoeuvring your life.</p>
@@ -775,28 +809,35 @@
 
     <!-- video Gallery starts -->
     <style>
-      .gallery .container .row {
+      .gallery .container-fluid .row {
         margin-top: 50px;
+        
       }
 
       .gallery .video-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
+        padding: 20px;
 
 
       }
 
       .gallery .video-column {
-        padding: 10px;
-        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: -60px;
       }
 
       .gallery .video-column video {
-        width: 250px;
-        height: 350px;
+        width: 80%;
         border: 1px solid #ccc;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .gallery h2 {
+          font-family: 'Montserrat';
+          letter-spacing: 10px;
+          font-weight: bold;
       }
 
       
@@ -805,22 +846,21 @@
 
 
     <div class="gallery">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row mb-5">
         <div class="col-md-12">
-          <h2 style= "text-align: center; font-weight: bold;">VIDEO FEEDBACK</h2>
+          <h2 style= "text-align: center; font-weight: bold; margin-top: 80px;">VIDEO FEEDBACK</h2>
         </div>
       </div>
 
-      <div class="row mb-5 video-container" style = "border-radius: 5px;">
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+      <div class="row mb-5 video-container">
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column" >
                <iframe width="100%" height="480" src="https://www.youtube.com/embed/lRn7rAHJ1Ts?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
         </div>
+        <br>
         <div class="col-md-6 col-lg-3 col-sm-12 video-column">
           
            <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZXTYn0yMKNI?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-
-
       
         </div>
         <div class="col-md-6 col-lg-3 col-sm-12 video-column">
