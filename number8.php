@@ -10,6 +10,12 @@
   include 'navbar.php';
 
   ?>
+
+<style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
   <!-- navbar emds -->
 
   <style>
@@ -55,48 +61,43 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        text-align: justify;
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
+        text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
-
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Let’s take a look at one of the most powerful numbers in numerology:</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">numerology number 8. Saturn or Shani rules the number 8. The shape of number 8 is wavy, twisted, but yet linked, similar to the infinity symbol.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">This is probably to suggest that this number has the power to accomplish unlimited heights and everything with endless efforts. This number is also said to represent the balance between the worldly and spiritual worlds. It is a strong, ambitious, and financially concerned number, but it is also generous. It views money as a tool. It is the visionary and entrepreneur with great goals and plans. It takes courage and endurance to see things through. It is the gambler, the visionary, the understanding, the forgiving and the broadminded.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Number 8 in Numerology</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 8 persons are those born on the 8th, 17th, and 26th of any month, or if their date of birth is reduced to the number 8. Number 8’s nature might be frigid and dry. He is regarded as the benefactor of wealth. This group consists of people of average height. A narrow forehead, tiny eyes, a thin beard, black and dark hair, a large chest and shoulders, and typically short legs. Bilious, anxious, and little slow is the temperament.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 8 persons are constantly misunderstood in their life, and as a result, they are deeply lonely at heart. They have a profound and intense character, a significant part on the stage of life, but generally one that is fatalistic or as an instrument of fate for others. They frequently look cold and unconvincing, despite the fact that they have a warm heart for the oppressed of all classes; they suppress their sentiments to allow people to think just what pleases them. You experience continual hurdles, struggle through every stage of your life, are involved in accidents, are defrauded, and the results of your labour do not return to you. Most of the time, folks get the benefits of your efforts.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">The number eight is a fatalistic number. The stars above regulate our situation, but number 8 people are more assured. The stars are usually unfriendly to them, and they almost never escape their anger. This is not to say that those with the number 8 have bad luck. They are either extremely successful or not at all. In their circumstances, there is no middle ground. They are extremely conscientious and self-disciplined. Their unwavering personality and deep sense of responsibility elevate them to the pinnacle of truth and honour. They have a highly concentrated personality, and it is unusual to discover a number 8 individual engaging in meaningless frivolity.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">They are not usually religious, but if they are, they become religious zealots. They are knowledgeable, prudent, and make decisions after much thought. They put up considerable effort to attain their goal once the decision has been made. They are a natural leader with excellent organisational and leadership skills. They are often bad with money and have a difficult time saving.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 8 is associated with the planet Saturn, according to Vedic Numerology. These people are almost always misunderstood in their life, and it is possible that this is why they are so lonely at heart. They have very profound and strong natures, as well as a tremendous power of personality; they normally play some essential position on the stage of life, but usually one that is fatalistic, or as an instrument of fate for others.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">The Positive Side of Number 8</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">This number represents smart judgement, productive work, leadership, success, and the greatest executive talents. It is also a number connected with career ups and downs, transformations, and journeys. It makes one deep while yet being time-sensitive. When friends misunderstand them, they take everything to heart. They have a certain amount of quirkiness, which occasionally reveals itself on a religious level. They may look chilly and disconnected on the outside, yet they are warm on the inside. They have either a very high or extremely low attitude towards their profession.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Relationships</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">Their relationships with their friends, brothers, and other family members portray them as apathetic and give them a sense of hostility towards them. They frequently argue with their father, making life tough for their mother. They do not reap the benefits of their good efforts.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Women with this number are intelligent, crafty, and can easily trick anyone. These people’s romantic relationships are rarely long-term. They will experience several problems as well as struggles. They may also have a late marriage with a number of complications. Their children are generally born late (due to the Saturn effect) and do not receive adequate attention. It is tough for them to earn a living.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Number 8 – Career & Business</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 8 people pursue careers that include authority, power, prestige, and a business-oriented mindset. The majority of 8s prefer self-employment. Number 8 persons are also quite frequent in the legal profession, top-level management, and corporate leadership. These folks take a back seat when it comes to taking risks. They constantly want to stay in their comfort zone and do only tried and tested jobs. These people are goal-oriented and extremely concentrated. As a result, people often become engrossed in their material interests, forgetting about their family. As a result, people must properly balance their personal and work lives. When you reach the fag end, all of your labour comes to an abrupt halt. Usually, you receive the short end of the stick. After a lot of effort, you get very little. Even in top positions, you take too many chances.</p>
-               <p style="font-family:'Montserrat';font-size;16px;">Agriculturist, bricklayer, potter, shoemaker, sailor, plumber, builder, surgeon, medicines, and psychiatry are professions that fit them. Diseases are associated with the pineal gland, liver, respiratory system, blood, or urinary issues. They are at risk of developing depression.</p>
-               <p style="font-family:'Montserrat';font-size;16px;">You have a lot of responsibilities that you can’t handle. Bad luck hovers over your head like a sword. You almost always fail. In rare circumstances, number 8s reject the world and have a deep understanding of the scriptures. You forego your money to help the world. When the number 8 is not good in your numerology, it conjures up images of deception, fraud, murder, harming others, and vengeance. They have all these notions but lack the confidence to act on them.</p> 
-               <p style="font-family:'Montserrat';font-size;16px;">A large proportion of criminals and unhappy persons have an 8 4 or 7 birth or life path number.</p>
-               <h2 style="font-family:'Montserrat';font-weight;bold;">The Way Out</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">One of the only options for a number 8 individual plagued by marital and professional failure is to obtain a Victory name correction. This Victory name luck vibration cancels out all of the negative consequences of 8.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">People at position 8 encounter several challenges. The only cure for a number 8 person is a lucky name, a Saturn numerological yantra, and a lucky stone.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 8 name adjustments are difficult, and one can even choose a Victory name correction.</p>
+                <h3 >Let’s take a look at one of the most powerful numbers in numerology:</h3>
+                <p >numerology number 8. Saturn or Shani rules the number 8. The shape of number 8 is wavy, twisted, but yet linked, similar to the infinity symbol.</p>
+                <p >This is probably to suggest that this number has the power to accomplish unlimited heights and everything with endless efforts. This number is also said to represent the balance between the worldly and spiritual worlds. It is a strong, ambitious, and financially concerned number, but it is also generous. It views money as a tool. It is the visionary and entrepreneur with great goals and plans. It takes courage and endurance to see things through. It is the gambler, the visionary, the understanding, the forgiving and the broadminded.</p>
+                <h3>Number 8 in Numerology</h3>
+                <p>Number 8 persons are those born on the 8th, 17th, and 26th of any month, or if their date of birth is reduced to the number 8. Number 8’s nature might be frigid and dry. He is regarded as the benefactor of wealth. This group consists of people of average height. A narrow forehead, tiny eyes, a thin beard, black and dark hair, a large chest and shoulders, and typically short legs. Bilious, anxious, and little slow is the temperament.</p>
+                <p >Number 8 persons are constantly misunderstood in their life, and as a result, they are deeply lonely at heart. They have a profound and intense character, a significant part on the stage of life, but generally one that is fatalistic or as an instrument of fate for others. They frequently look cold and unconvincing, despite the fact that they have a warm heart for the oppressed of all classes; they suppress their sentiments to allow people to think just what pleases them. You experience continual hurdles, struggle through every stage of your life, are involved in accidents, are defrauded, and the results of your labour do not return to you. Most of the time, folks get the benefits of your efforts.</p>
+                <p >The number eight is a fatalistic number. The stars above regulate our situation, but number 8 people are more assured. The stars are usually unfriendly to them, and they almost never escape their anger. This is not to say that those with the number 8 have bad luck. They are either extremely successful or not at all. In their circumstances, there is no middle ground. They are extremely conscientious and self-disciplined. Their unwavering personality and deep sense of responsibility elevate them to the pinnacle of truth and honour. They have a highly concentrated personality, and it is unusual to discover a number 8 individual engaging in meaningless frivolity.</p>
+                <p>They are not usually religious, but if they are, they become religious zealots. They are knowledgeable, prudent, and make decisions after much thought. They put up considerable effort to attain their goal once the decision has been made. They are a natural leader with excellent organisational and leadership skills. They are often bad with money and have a difficult time saving.</p>
+                <p>Number 8 is associated with the planet Saturn, according to Vedic Numerology. These people are almost always misunderstood in their life, and it is possible that this is why they are so lonely at heart. They have very profound and strong natures, as well as a tremendous power of personality; they normally play some essential position on the stage of life, but usually one that is fatalistic, or as an instrument of fate for others.</p>
+                <h3>The Positive Side of Number 8</h3>
+                <p>This number represents smart judgement, productive work, leadership, success, and the greatest executive talents. It is also a number connected with career ups and downs, transformations, and journeys. It makes one deep while yet being time-sensitive. When friends misunderstand them, they take everything to heart. They have a certain amount of quirkiness, which occasionally reveals itself on a religious level. They may look chilly and disconnected on the outside, yet they are warm on the inside. They have either a very high or extremely low attitude towards their profession.</p>
+                <h3 >Relationships</h3>
+                <p >Their relationships with their friends, brothers, and other family members portray them as apathetic and give them a sense of hostility towards them. They frequently argue with their father, making life tough for their mother. They do not reap the benefits of their good efforts.</p>
+                <p >Women with this number are intelligent, crafty, and can easily trick anyone. These people’s romantic relationships are rarely long-term. They will experience several problems as well as struggles. They may also have a late marriage with a number of complications. Their children are generally born late (due to the Saturn effect) and do not receive adequate attention. It is tough for them to earn a living.</p>
+                <h3 >Number 8 – Career & Business</h3>
+                <p >Number 8 people pursue careers that include authority, power, prestige, and a business-oriented mindset. The majority of 8s prefer self-employment. Number 8 persons are also quite frequent in the legal profession, top-level management, and corporate leadership. These folks take a back seat when it comes to taking risks. They constantly want to stay in their comfort zone and do only tried and tested jobs. These people are goal-oriented and extremely concentrated. As a result, people often become engrossed in their material interests, forgetting about their family. As a result, people must properly balance their personal and work lives. When you reach the fag end, all of your labour comes to an abrupt halt. Usually, you receive the short end of the stick. After a lot of effort, you get very little. Even in top positions, you take too many chances.</p>
+               <p >Agriculturist, bricklayer, potter, shoemaker, sailor, plumber, builder, surgeon, medicines, and psychiatry are professions that fit them. Diseases are associated with the pineal gland, liver, respiratory system, blood, or urinary issues. They are at risk of developing depression.</p>
+               <p >You have a lot of responsibilities that you can’t handle. Bad luck hovers over your head like a sword. You almost always fail. In rare circumstances, number 8s reject the world and have a deep understanding of the scriptures. You forego your money to help the world. When the number 8 is not good in your numerology, it conjures up images of deception, fraud, murder, harming others, and vengeance. They have all these notions but lack the confidence to act on them.</p> 
+               <p >A large proportion of criminals and unhappy persons have an 8 4 or 7 birth or life path number.</p>
+               <h3 >The Way Out</h3>
+                <p >One of the only options for a number 8 individual plagued by marital and professional failure is to obtain a Victory name correction. This Victory name luck vibration cancels out all of the negative consequences of 8.</p>
+                <p >People at position 8 encounter several challenges. The only cure for a number 8 person is a lucky name, a Saturn numerological yantra, and a lucky stone.</p>
+                <p >Number 8 name adjustments are difficult, and one can even choose a Victory name correction.</p>
                
             </div>
         </div>

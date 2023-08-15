@@ -12,6 +12,9 @@
   ?>
   <!-- navbar emds -->
   <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
   .number2 .container-fluid {
     background-image: url("images/number2.jpg");
     background-size: 755px; 
@@ -53,33 +56,28 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
         text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-               <h2  style="font-family:'Montserrat';font-weight;bold;">The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</h2>
-               <p style="font-family:'Montserrat';font-size;16px;">If your birth number or life path number is 2, you are dominated by the number 2. As a 2 in numerology, you have a deep connection to the Earth and want tranquilly.</p>
-               <h2 style="font-family:'Montserrat';font-weight;bold;">The Characteristics of Number 2 in Numerology</h2>
-               <p style="font-family:'Montserrat';font-size;16px;">The Moon is represented by number two. It has an impact on your mind, ideas, and imagination. You experience mood swings of euphoria and despair every two weeks, just like the Moon does. You have a volatile personality. You would rather toe someone’s line and work hard for him in business than work for your own earnings. The moon, for example, does not produce its own light and instead receives it from the sun. Someone else gets the credit for the number two. You are suspicious, dubious, and have a tendency to be dominated or dominate if given authority. You are also susceptible to being fooled and duped by flattery. You have a keen sense of intuition. A number 2 should seek expert assistance with naming since even a minor mistake can heighten its extremely charged emotions.</p>
-               <p style="font-family:'Montserrat';font-size;16px;">You think rationally and are more of a visionary than a warrior. You are also frequently guided by your emotions, and you experience intense emotions. You also have a tendency to overthink things, which causes you to become stuck when making decisions. Expecting perfection from oneself is another quality that you, as a number 2, exhibit frequently, making you feel inadequate. You also frequently stop from speaking up for fear of being misconstrued. You are a peacemaker rather than a confrontationist.</p> 
-               <p style="font-family:'Montserrat';font-size;16px;">In contrast to number one, number two is delicate and feminine. People with the ruling number 2 comprehend oneness and are not driven by ego. Number twos want for connection and support, and their love language is service. Number twos prioritise others. They are also sensitive and kind. They are, nevertheless, far from helpless. Their power resides in their ability to serve others, and they will not hesitate to battle for the safety and happiness of their loved ones.</p> 
-               <p style="font-family:'Montserrat';font-size;16px;">More about numerology 2 may be discovered by discovering other governing numbers in their life as well as the compatibility of these numbers.</p>  
+               <h3>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</h3>
+               <p >If your birth number or life path number is 2, you are dominated by the number 2. As a 2 in numerology, you have a deep connection to the Earth and want tranquilly.</p>
+               <h3>The Characteristics of Number 2 in Numerology</h3>
+               <p >The Moon is represented by number two. It has an impact on your mind, ideas, and imagination. You experience mood swings of euphoria and despair every two weeks, just like the Moon does. You have a volatile personality. You would rather toe someone’s line and work hard for him in business than work for your own earnings. The moon, for example, does not produce its own light and instead receives it from the sun. Someone else gets the credit for the number two. You are suspicious, dubious, and have a tendency to be dominated or dominate if given authority. You are also susceptible to being fooled and duped by flattery. You have a keen sense of intuition. A number 2 should seek expert assistance with naming since even a minor mistake can heighten its extremely charged emotions.</p>
+               <p >You think rationally and are more of a visionary than a warrior. You are also frequently guided by your emotions, and you experience intense emotions. You also have a tendency to overthink things, which causes you to become stuck when making decisions. Expecting perfection from oneself is another quality that you, as a number 2, exhibit frequently, making you feel inadequate. You also frequently stop from speaking up for fear of being misconstrued. You are a peacemaker rather than a confrontationist.</p> 
+               <p >In contrast to number one, number two is delicate and feminine. People with the ruling number 2 comprehend oneness and are not driven by ego. Number twos want for connection and support, and their love language is service. Number twos prioritise others. They are also sensitive and kind. They are, nevertheless, far from helpless. Their power resides in their ability to serve others, and they will not hesitate to battle for the safety and happiness of their loved ones.</p> 
+               <p >More about numerology 2 may be discovered by discovering other governing numbers in their life as well as the compatibility of these numbers.</p>  
             
             </div>
         </div>

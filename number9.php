@@ -10,6 +10,12 @@
   include 'navbar.php';
 
   ?>
+  
+<style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
   <!-- navbar emds -->
 
   <style>
@@ -55,36 +61,32 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        text-align: justify;
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
+        text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-family:'Montserrat';font-size;16px;">Number 9 According to Numerology</h2>
-                <p style="font-family:'Montserrat';font-weight;bold;">If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Mars rules the number 9. As a number 9, you fight for a cause, whether it’s war, nation, or a movement. You are a knowledge provider and seeker, and your career must always be related to teaching, people, or spirituality. Because the number 9 represents the fulfilment of karma, a name adjustment must be done depending on the combo number. A 9 is an extremely powerful number to be born under. You learn far too many life lessons at such a young age.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">The last single digit in numerology, 9, denotes both ends and new beginnings. Depending on your personality and destiny numbers, the number 9 in numerology may represent both chaos and tranquilly. If your destiny number clashes with your life path number, a name adjustment may be required.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">With the essence of both an end and a beginning in the number 9, 9s have the capacity to power through their storms and emerge triumphant, bringing in development and insight through their experience. You are a problem solver and a resilient person. While being compassionate is important, learning to create a clear boundary is necessary to recognise when you’ve gone too far.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">The number 9 is not necessarily lucky, contrary to popular belief. That is only a myth. Only a few people are suited to number nine.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Number 9 folks are burning a lot of their karma from previous lives. Business names that sum up to 9 do not evoke success or abundance.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Number 9s are destined for positions of leadership. You are also more suited to professions such as physicians or attorneys.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Numerology 9 people might be exceedingly sensitive and irritable. Learning to control one’s emotions may help a lot. Relationships might suffer as a result of number 9’s predisposition to be secretive. Be more open to new experiences. Tribulations will be more prevalent than you expect. Consider every ending to be a new beginning.</p>
+                <h3>Number 9 According to Numerology</h3>
+                <p>If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9.</p>
+                <p >Mars rules the number 9. As a number 9, you fight for a cause, whether it’s war, nation, or a movement. You are a knowledge provider and seeker, and your career must always be related to teaching, people, or spirituality. Because the number 9 represents the fulfilment of karma, a name adjustment must be done depending on the combo number. A 9 is an extremely powerful number to be born under. You learn far too many life lessons at such a young age.</p>
+                <p >The last single digit in numerology, 9, denotes both ends and new beginnings. Depending on your personality and destiny numbers, the number 9 in numerology may represent both chaos and tranquilly. If your destiny number clashes with your life path number, a name adjustment may be required.</p>
+                <p >With the essence of both an end and a beginning in the number 9, 9s have the capacity to power through their storms and emerge triumphant, bringing in development and insight through their experience. You are a problem solver and a resilient person. While being compassionate is important, learning to create a clear boundary is necessary to recognise when you’ve gone too far.</p>
+                <p>You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
+                <p >You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
+                <p >The number 9 is not necessarily lucky, contrary to popular belief. That is only a myth. Only a few people are suited to number nine.</p>
+                <p >Number 9 folks are burning a lot of their karma from previous lives. Business names that sum up to 9 do not evoke success or abundance.</p>
+                <p>Number 9s are destined for positions of leadership. You are also more suited to professions such as physicians or attorneys.</p>
+                <p >Numerology 9 people might be exceedingly sensitive and irritable. Learning to control one’s emotions may help a lot. Relationships might suffer as a result of number 9’s predisposition to be secretive. Be more open to new experiences. Tribulations will be more prevalent than you expect. Consider every ending to be a new beginning.</p>
             </div>
         </div>
     </div>

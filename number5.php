@@ -10,6 +10,11 @@
   include 'navbar.php';
 
   ?>
+   <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
   <!-- navbar emds -->
 
   <!-- banner starts -->
@@ -77,49 +82,45 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        text-align: justify;
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
+        text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
  
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h2  style="font-family:'Montserrat';font-weight;bold;">Mercury rules the number 5</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">You are brave, intelligent, and adventurous. Your job performance is lightning fast. A valuable asset to your boss. You are successful and capable of rising to the top of any organisation.</p>
-                <h2  style="font-family:'Montserrat';font-weight;bold;">Numerology Number 5</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">You dislike accepting orders but excel at giving them. You come up with concepts that would ordinarily take individuals months to come up with. Your speciality is problem solving. You’re boss material.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">You can never fail unless your life path or birth number is combined with a 7, 8, or your name number is a malefic 2, 4, and 7 or 8, for example: Rahul is a number 8, despite his birth number of 5.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">If you choose that road, you will always succeed in business. Losses are uncommon unless your business partner’s numerology is not compatible with yours.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">You have a tendency to have a string of relationships, and number 5s have difficulty having children.</p>
+                <h3 >Mercury rules the number 5</h3>
+                <p>You are brave, intelligent, and adventurous. Your job performance is lightning fast. A valuable asset to your boss. You are successful and capable of rising to the top of any organisation.</p>
+                <h3  >Numerology Number 5</h3>
+                <p >You dislike accepting orders but excel at giving them. You come up with concepts that would ordinarily take individuals months to come up with. Your speciality is problem solving. You’re boss material.</p>
+                <p >You can never fail unless your life path or birth number is combined with a 7, 8, or your name number is a malefic 2, 4, and 7 or 8, for example: Rahul is a number 8, despite his birth number of 5.</p>
+                <p >If you choose that road, you will always succeed in business. Losses are uncommon unless your business partner’s numerology is not compatible with yours.</p>
+                <p >You have a tendency to have a string of relationships, and number 5s have difficulty having children.</p>
                 
-                <p style="font-family:'Montserrat';font-size;16px;">You are normally highly dominant and a natural leader in any circumstance. You are the Hierophant, according to the Tarot. There is just too much mayhem when you marry another number 5. You are not suited to working with others. Instead, you are a natural leader and thinker. You are not designed to receive commands and despise them from the bottom of your heart.</p>
+                <p >You are normally highly dominant and a natural leader in any circumstance. You are the Hierophant, according to the Tarot. There is just too much mayhem when you marry another number 5. You are not suited to working with others. Instead, you are a natural leader and thinker. You are not designed to receive commands and despise them from the bottom of your heart.</p>
                 
-                <p style="font-family:'Montserrat';font-size;16px;">If you are not achieving your job objectives, the issue is either the other number in your birthday or LPN (life path number) or a malevolent name.</p>
+                <p >If you are not achieving your job objectives, the issue is either the other number in your birthday or LPN (life path number) or a malevolent name.</p>
                 
-                <p style="font-family:'Montserrat';font-size;16px;">Number 5 persons are highly fortunate in terms of job achievement and financial wealth. Unlike a number 4, 7, or 8, they have it in their numerology to be successful.</p>
+                <p >Number 5 persons are highly fortunate in terms of job achievement and financial wealth. Unlike a number 4, 7, or 8, they have it in their numerology to be successful.</p>
                 
-                <p style="font-family:'Montserrat';font-size;16px;">They are excellent at resolving difficulties and providing advise. People come to them when they have a problem, and they are really excellent at it.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">They make excellent administrators, teachers, counsellors, business advisors, and CEOs.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 5 individuals are fast to adapt to change and seek new experiences, but this can have a detrimental impact on your life and professional chances. Being impulsive is a flaw that you must improve. Making promises or being monotonous might be difficult for a number 5.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Your proclivity to adapt with the flow qualifies you for lucrative but uncertain employment. You are an excellent orator as a numerology 5 person, which opens up many different employment prospects for you.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">While you value your freedom, being alone does not sit well with you.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 5s thrive in social situations, making it easy to form relationships. A numerology 5 person wants thrills and experiences, which may lead relationships to fade out over time. Finding someone who shares your interests might help you maintain your connections.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Individuals in the fifth position value their freedom and cannot be restrained. If you’re married to a number 5, prepare to be bossed around…</p>
-                <p style="font-family:'Montserrat';font-size;16px;">The energy of a number 5 is strong, but it must be directed in the appropriate manner.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Being ambitious and curious might get you far, but it can also make you appear inept and unreliable. Balancing your shortcomings can help you better your situation.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">If the number 5 appears in your numerology charts and you want to learn more, a consultation with Name Craft can assist.</p>
+                <p >They are excellent at resolving difficulties and providing advise. People come to them when they have a problem, and they are really excellent at it.</p>
+                <p >They make excellent administrators, teachers, counsellors, business advisors, and CEOs.</p>
+                <p>Number 5 individuals are fast to adapt to change and seek new experiences, but this can have a detrimental impact on your life and professional chances. Being impulsive is a flaw that you must improve. Making promises or being monotonous might be difficult for a number 5.</p>
+                <p >Your proclivity to adapt with the flow qualifies you for lucrative but uncertain employment. You are an excellent orator as a numerology 5 person, which opens up many different employment prospects for you.</p>
+                <p >While you value your freedom, being alone does not sit well with you.</p>
+                <p >Number 5s thrive in social situations, making it easy to form relationships. A numerology 5 person wants thrills and experiences, which may lead relationships to fade out over time. Finding someone who shares your interests might help you maintain your connections.</p>
+                <p >Individuals in the fifth position value their freedom and cannot be restrained. If you’re married to a number 5, prepare to be bossed around…</p>
+                <p>The energy of a number 5 is strong, but it must be directed in the appropriate manner.</p>
+                <p >Being ambitious and curious might get you far, but it can also make you appear inept and unreliable. Balancing your shortcomings can help you better your situation.</p>
+                <p >If the number 5 appears in your numerology charts and you want to learn more, a consultation with Name Craft can assist.</p>
             </div>
         </div>
     </div>
