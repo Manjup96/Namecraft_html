@@ -154,28 +154,29 @@
   <h2 class="text-center">OUR ASSOCIATIONS</h2>
   <div class="container-fluid custom-bg" style="height: 250px;">
     <div class="row logo-container owl-carousel" style=" width:105%; padding: 0 50px;">
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; ">
-        <img src="images/logo_amazon.png" alt="Logo 1" class="img-fluid">
-      </div>
       
-      <div class="col-6 col-md-4 logo-item" style="max-width: 150px; height: auto; margin-top: -40px;">
-        <img src="images/logo_cnbc.png" alt="Logo 2" class="img-fluid">
-      </div>
-      
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
-        <img src="images/logo_cosmo.png" alt="Logo 3" class="img-fluid">
-      </div>
-      
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -20px; margin-top: -10px;">
         <img src="images/logo_forbes.png" alt="Logo 4" class="img-fluid">
       </div>
       
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;  padding:5px;">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto;  padding:5px;margin-left: -15px;">
         <img src="images/logo_indianexpress.png" alt="Logo 5" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px; ">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -20px; ">
         <img src="images/logo_NDTV.png" alt="Logo 6" class="img-fluid">
       </div>
+      <div class="col-6 col-md-4 logo-item" style="max-width: 600px; height: auto;margin-left: -20px; margin-top: -10px; ">
+        <img src="images/logo_amazon.png" alt="Logo 1" class="img-fluid">
+      </div>
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 150px; height: auto; margin-top: -40px; margin-left: 20px; ">
+        <img src="images/logo_cnbc.png" alt="Logo 2" class="img-fluid">
+      </div>
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -10px; margin-left: -20px;">
+        <img src="images/logo_cosmo.png" alt="Logo 3" class="img-fluid">
+      </div>
+      
     </div>
   </div>
 </div>
@@ -235,11 +236,11 @@
     }
 
     .about p {
-      font-family: 'Mulish', 'Arial', 'sans-serif';
-      font-size:100%;
+      font-family: 'Montserrat';
+      font-size:16px;
       color: #000000;
       line-height: 1.7;
-      font-weight: 545;
+      font-weight: 500;
       margin-left: -20px;
       margin-top: -20px;
       
@@ -317,10 +318,10 @@
     }
 
     #services .col-md-3 p {
-      font-size: 100%;
+      font-size: 16px;
       line-height: 1.7;
-      font-family: 'Mulish', 'Arial', 'sans-serif';
-      font-weight: 545;
+      font-family: 'Montserrat';
+      font-weight: 500;
       
     }
 
@@ -355,10 +356,10 @@
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/Service1-home.png" alt="logo"><br><br>
           <h6>BABY NAME <br> CORRECTION</h6><br>
-          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p>
+          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p><br>
           <a href="babyname.php" class="read-more">READ MORE &raquo;</a>
         </div>
-
+         
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/service2.png" alt="logo"><br><br>
           <h6>LUCKY DATE <br> DELIVERY</h6><br>
@@ -407,13 +408,14 @@
     .testimonial .card {
         border-radius: 10px;
         text-align: center;
-        font-size: 100%;
+        font-size: 16px;
         box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
         border: none;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        font-family: 'Montserrat';
         width: 100%;
         height: 500px;
-        margin-top: 20px;     
+        margin-top: 20px; 
+           
     }
     .testimonial .profile-pic {
       border-radius: 20%;
@@ -479,11 +481,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-6.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;font-weight: 300;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
+                                <p style="text-transform: uppercase;font-weight: 400;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
                                 <br>
-                                <p style= "font-weight:545;">Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
+                                <p style= "font-weight:500;">Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
                                 <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Arnaaubh Chakraborrty</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Arnaaubh Chakraborrty</p>
                             </div>
                         </div>
                     </div>
@@ -491,11 +493,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-1.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
-                                <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Apoorva S</p>
+                                <p style= "font-weight: 500;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
+                                <br><br>
+                                <p style="text-transform: uppercase; font-weight: 400;">Apoorva S</p>
                             </div>
                         </div>
                     </div>
@@ -503,11 +505,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-2.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
                                 <br>
-                                <p style= "font-weight: 545;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
+                                <p style= "font-weight: 500;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
                                 <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Amitta Sanjeev Sawantt</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Amitta Sanjeev Sawantt</p>
                             </div>
                         </div>
                     </div>
@@ -521,11 +523,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-3.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;" >"Consult her for magicology! She creates magic with numbers"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;" >"Consult her for magicology! She creates magic with numbers"</p>
                                 <br>
-                                <p style= "font-weight: 545;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
+                                <p style= "font-weight: 500;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Janakie Thakur</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Janakie Thakur</p>
                             </div>
                         </div>
                     </div>
@@ -533,11 +535,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-4.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
+                                <p style= "font-weight: 500;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Varun Appaiah</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Varun Appaiah</p>
                             </div>
                         </div>
                     </div>
@@ -545,10 +547,10 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-5.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Thanks Sheela for the amazing human being she is"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Thanks Sheela for the amazing human being she is"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
-                                <br><br>
+                                <p style= "font-weight: 500;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
+                                <br><br><br>
                                 <p style="text-transform: uppercase; font-weight: 400;">Sharmistha Chakraborty</p>
                             </div>
                         </div>
@@ -598,10 +600,10 @@
       .clients .container p {
         margin-top: 30px;
         text-align: justify;
-        font-size: 100%;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        font-size: 16px;
+        font-family: 'Montserrat';
         line-height: 1.7;
-        font-weight: 545;
+        font-weight: 500;
         
       }
       .clients img {
@@ -640,12 +642,8 @@
       }
       .tedx_talk p {
         font-size: 100%;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
-        font-weight: 545;
-        
-      
-        
-       
+        font-family: 'Montserrat';
+        font-weight: 500;
       }
       .tedx_talk img {
         border-radius: 10px;
@@ -665,6 +663,9 @@
         cursor: pointer;
         margin-top: 10px;
         letter-spacing: 2px;
+      }
+      .button:hover{
+        color: #6f3473;
       }
     </style>
       
@@ -786,9 +787,9 @@
         text-align: justify;       
         margin-top: -70px;
         padding: 28px;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        font-family: 'Montserrat';
         line-height: 1.7;
-        font-weight: 549;
+        font-weight: 500;
       }
     </style>
 
