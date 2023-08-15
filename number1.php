@@ -231,7 +231,7 @@ body {
         </div>
 
         <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
