@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
     .card {
@@ -9,14 +9,20 @@
         transition: 0.3s;
         width: 80%;
         border-radius: 5px;
+       
     }
 
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        
     }
 
     img {
         border-radius: 5px 5px 0 0;
+        transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+        transform: scale(1.1);
     }
 
     .container {
@@ -53,7 +59,7 @@
 
     <div class="container-fluid ">
         <div class="row">
-            <div class="col-md-4 pt-5 ">
+            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 ">
                     <a href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%">
@@ -72,8 +78,8 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
-                <div class="card mx-5 ">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
+                <div class="card mx-5 " data-aos="zoom-in" data-aos-hover="none">
                    <a href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
                      </a>
@@ -92,7 +98,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1800">
                 <div class="card mx-5 ">
                    <a href="number3.php">
                      <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%">
@@ -257,6 +263,11 @@
 
 
     <?php include("footer.php"); ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

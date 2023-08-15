@@ -236,6 +236,14 @@
     background-color: black;
     color: white;
   }
+  img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
 </style>
 
 
