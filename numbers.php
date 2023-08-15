@@ -64,8 +64,8 @@
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
-                        <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <div class=" mt-4  mb-4" >
+                            <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
                         </div>
 
                     </div>
@@ -83,8 +83,9 @@
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
-                        <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <div class=" mt-4  mb-4" >
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
                     </div>
@@ -103,7 +104,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -123,7 +125,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -143,7 +146,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -164,7 +168,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -185,7 +190,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -207,7 +213,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -228,7 +235,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
