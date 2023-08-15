@@ -12,6 +12,9 @@
   ?>
   <!-- navbar emds -->
   <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
   .number2 .container-fluid {
     background-image: url("images/number2.jpg");
     background-size: 755px; 
@@ -53,33 +56,28 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
         text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-               <h2  style="font-family:'Montserrat';font-weight;bold;">The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</h2>
-               <p style="font-family:'Montserrat';font-size;16px;">If your birth number or life path number is 2, you are dominated by the number 2. As a 2 in numerology, you have a deep connection to the Earth and want tranquilly.</p>
-               <h2 style="font-family:'Montserrat';font-weight;bold;">The Characteristics of Number 2 in Numerology</h2>
-               <p style="font-family:'Montserrat';font-size;16px;">The Moon is represented by number two. It has an impact on your mind, ideas, and imagination. You experience mood swings of euphoria and despair every two weeks, just like the Moon does. You have a volatile personality. You would rather toe someone’s line and work hard for him in business than work for your own earnings. The moon, for example, does not produce its own light and instead receives it from the sun. Someone else gets the credit for the number two. You are suspicious, dubious, and have a tendency to be dominated or dominate if given authority. You are also susceptible to being fooled and duped by flattery. You have a keen sense of intuition. A number 2 should seek expert assistance with naming since even a minor mistake can heighten its extremely charged emotions.</p>
-               <p style="font-family:'Montserrat';font-size;16px;">You think rationally and are more of a visionary than a warrior. You are also frequently guided by your emotions, and you experience intense emotions. You also have a tendency to overthink things, which causes you to become stuck when making decisions. Expecting perfection from oneself is another quality that you, as a number 2, exhibit frequently, making you feel inadequate. You also frequently stop from speaking up for fear of being misconstrued. You are a peacemaker rather than a confrontationist.</p> 
-               <p style="font-family:'Montserrat';font-size;16px;">In contrast to number one, number two is delicate and feminine. People with the ruling number 2 comprehend oneness and are not driven by ego. Number twos want for connection and support, and their love language is service. Number twos prioritise others. They are also sensitive and kind. They are, nevertheless, far from helpless. Their power resides in their ability to serve others, and they will not hesitate to battle for the safety and happiness of their loved ones.</p> 
-               <p style="font-family:'Montserrat';font-size;16px;">More about numerology 2 may be discovered by discovering other governing numbers in their life as well as the compatibility of these numbers.</p>  
+               <h3>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</h3>
+               <p >If your birth number or life path number is 2, you are dominated by the number 2. As a 2 in numerology, you have a deep connection to the Earth and want tranquilly.</p>
+               <h3>The Characteristics of Number 2 in Numerology</h3>
+               <p >The Moon is represented by number two. It has an impact on your mind, ideas, and imagination. You experience mood swings of euphoria and despair every two weeks, just like the Moon does. You have a volatile personality. You would rather toe someone’s line and work hard for him in business than work for your own earnings. The moon, for example, does not produce its own light and instead receives it from the sun. Someone else gets the credit for the number two. You are suspicious, dubious, and have a tendency to be dominated or dominate if given authority. You are also susceptible to being fooled and duped by flattery. You have a keen sense of intuition. A number 2 should seek expert assistance with naming since even a minor mistake can heighten its extremely charged emotions.</p>
+               <p >You think rationally and are more of a visionary than a warrior. You are also frequently guided by your emotions, and you experience intense emotions. You also have a tendency to overthink things, which causes you to become stuck when making decisions. Expecting perfection from oneself is another quality that you, as a number 2, exhibit frequently, making you feel inadequate. You also frequently stop from speaking up for fear of being misconstrued. You are a peacemaker rather than a confrontationist.</p> 
+               <p >In contrast to number one, number two is delicate and feminine. People with the ruling number 2 comprehend oneness and are not driven by ego. Number twos want for connection and support, and their love language is service. Number twos prioritise others. They are also sensitive and kind. They are, nevertheless, far from helpless. Their power resides in their ability to serve others, and they will not hesitate to battle for the safety and happiness of their loved ones.</p> 
+               <p >More about numerology 2 may be discovered by discovering other governing numbers in their life as well as the compatibility of these numbers.</p>  
             
             </div>
         </div>
@@ -114,12 +112,53 @@
 
 }
 </style>
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 
 <div class="share">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+      <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -132,10 +171,10 @@
         <div class="container mt-5 mb-4">
         <div class="row">
             <div class="col-md-6 d-flex justify-content-start">
-                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            <a href="number1.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
             </div>
             <div class="col-md-6 d-flex justify-content-end">
-                <button class="btn btn-secondary ">NEXT POST <i class="fas fa-arrow-right"></i></button> 
+            <a href="number3.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -147,13 +186,45 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+  img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+</style>
 
 
 <div class="related">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-center mb-3">
+      <div class="col-md-12 text-center mt-5 mb-5">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
@@ -161,7 +232,7 @@
     
 <div class="container">
   <div class="row">
-   <div class="col-md-4  ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/9.jpg" alt="Image of Number 9">
 
@@ -170,7 +241,7 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
@@ -183,7 +254,7 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -195,7 +266,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>
@@ -205,13 +276,13 @@
   </div>
 </div>
 
+
+
 <!-- Related Posts Ends -->
 
 <!-- comments Starts -->
 <style>
-.comments{
-    margin-top: 150px;
-}
+
 
 .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -226,24 +297,8 @@
 
 </style>
 
-<div class="comments">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>0 Comments "Number 1"</h2>
-        <img src="images/comntP.png" alt="" style="width: 70px; height: 70px; margin-top: 70px;">
-        <h>Vamshi</h>
-        <h>June 26, 2023 at 12.48 pm <b>Reply</b></h>
-        <h>Thank You</h>
-        <h style="text-decoration: underline;">Your comment is awaiting moderation</h>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- comments Starts -->
 
-<!-- give a reply Starts -->
 <!-- give a reply Starts -->
 <style>
     .form {
@@ -253,14 +308,14 @@
     }
     
     .form p {
-        font-size: 18px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     .form p1 {
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 28px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
     }
     
     .form .col-md-12 form {
@@ -284,12 +339,12 @@
     }
     
     .post-comment-button {
-        background-color: #999;
+        background-color: #c0c0c0;
         color: white;
         padding: 8px 12px;
-        font-size: 16px;
+        font-size: 13px;
         border: none;
-        
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
         transition: background-color 0.3s, color 0.3s;
@@ -304,7 +359,7 @@
 
 
 <div class="form">
-    <div class="container">
+    <div class="container" style="font-size:13px">
         <div class="row">
             <div class="col-md-12">
                 <p1>Leave a Reply</p1>
@@ -338,7 +393,7 @@
     <div class="row mt-3 mb-3">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="save_info"/> Save my name, email, and website
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
         </div>
     </div>
@@ -352,6 +407,7 @@
 </div>
 
 <!-- give a reply Ends --> 
+
 
 <?php include("footer.php");?>
 </body>

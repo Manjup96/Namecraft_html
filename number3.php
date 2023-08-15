@@ -10,6 +10,11 @@
   include 'navbar.php';
 
   ?>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
   <!-- navbar emds -->
   <style>
   .number3 .container-fluid {
@@ -18,7 +23,6 @@
     background-position: center;
     color: white;
     padding: 110px;
-    margin-top: 30px;
     opacity: 0.8;
   }
   .number3 .col-md-12{
@@ -64,37 +68,31 @@
 <!-- banner ends -->
 
 <!-- Content starts -->
-
 <style>
-    .content .container{
-        margin-top: 50px;
-       
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
         text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-              <h2  style="font-family:'Montserrat';font-weight;bold;">Number 3’s Distinctive Qualities in Numerology </h2>
-              <p style="font-family:'Montserrat';font-size;16px;">In numerology, the number three represents everything that comes in threes:</p>
-              <p style="font-family:'Montserrat';font-size;16px;">the past, present, and future; the mind, body, and soul; the beginning, middle, and end; and so on. Many people believe that the number three is unlucky since death occurs in threes. However, 3 can be as miraculous and beneficial. Believe it or not, the finest things in life, according to the Chinese Confucian philosopher Mencius, also come in threes!</p>
-              <p style="font-family:'Montserrat';font-size;16px;">The number three denotes Jupiter or the guru. He is the overlord of all devas, career fortune, and wealth. No. 3 is ruled by Jupiter. He represents wisdom, knowledge, selflessness, service, and sacrifice.</p>
-              <h2  style="font-family:'Montserrat';font-weight;bold;">Numerology’s number three characteristics</h2>
-              <p style="font-family:'Montserrat';font-size;16px;">No. 3 develops your intelligence, hard effort, diligence, and honesty. You tend to obey your superiors and place a high value on discipline. You have a rough exterior but a sensitive heart on the inside. You provide assistance to others without expecting anything in return. You are either full of confidence and achieve great success in your job, or you are the polar opposite and listen to everyone, receive admiration, but never receive recognition. A number 3 should constantly consider what number it has as a life number and come up with an appropriate name to highlight its qualities and avoid being a weak subservient doormat.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Numerology 3s have difficulty concentrating as well. You are filled with energy and want to focus your attention on everything at once. Susceptibility to making poor life choices is also common in persons with numerology 3.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">You are gregarious and artistic, yet you are also scattered and naïve. However, you have a proclivity for living life to the fullest.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Your name numerology and soul number may both have an impact on your life, therefore knowing the numbers that govern your existence is crucial. While you can calculate your life path numbers and learn what they signify for you, only a qualified numerologist can explain how other numbers work together to shape your life. A numerology consultation may help you determine if your name is a good one for your future and prosperity, and it can also help you change your life for the better.</p>
+              <h3 >Number 3’s Distinctive Qualities in Numerology </h3>
+              <p >In numerology, the number three represents everything that comes in threes:</p>
+              <p >the past, present, and future; the mind, body, and soul; the beginning, middle, and end; and so on. Many people believe that the number three is unlucky since death occurs in threes. However, 3 can be as miraculous and beneficial. Believe it or not, the finest things in life, according to the Chinese Confucian philosopher Mencius, also come in threes!</p>
+              <p>The number three denotes Jupiter or the guru. He is the overlord of all devas, career fortune, and wealth. No. 3 is ruled by Jupiter. He represents wisdom, knowledge, selflessness, service, and sacrifice.</p>
+              <h3  >Numerology’s number three characteristics</h3>
+              <p >No. 3 develops your intelligence, hard effort, diligence, and honesty. You tend to obey your superiors and place a high value on discipline. You have a rough exterior but a sensitive heart on the inside. You provide assistance to others without expecting anything in return. You are either full of confidence and achieve great success in your job, or you are the polar opposite and listen to everyone, receive admiration, but never receive recognition. A number 3 should constantly consider what number it has as a life number and come up with an appropriate name to highlight its qualities and avoid being a weak subservient doormat.</p>
+              <p >Numerology 3s have difficulty concentrating as well. You are filled with energy and want to focus your attention on everything at once. Susceptibility to making poor life choices is also common in persons with numerology 3.</p>
+              <p>You are gregarious and artistic, yet you are also scattered and naïve. However, you have a proclivity for living life to the fullest.</p>
+              <p >Your name numerology and soul number may both have an impact on your life, therefore knowing the numbers that govern your existence is crucial. While you can calculate your life path numbers and learn what they signify for you, only a qualified numerologist can explain how other numbers work together to shape your life. A numerology consultation may help you determine if your name is a good one for your future and prosperity, and it can also help you change your life for the better.</p>
             </div>
         </div>
     </div>
@@ -129,11 +127,53 @@
 }
 </style>
 
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+      <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
+
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -143,9 +183,16 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+            <a href="number2.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+            <a href="number4.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
+    </div>
       </div>
     </div>
   </div>
@@ -154,13 +201,45 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+  img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+</style>
 
 
 <div class="related">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-center mb-3">
+      <div class="col-md-12 text-center mb-5 mt-5">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
@@ -168,7 +247,7 @@
     
 <div class="container">
   <div class="row">
-   <div class="col-md-4  ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/9.jpg" alt="Image of Number 9">
 
@@ -177,11 +256,11 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/8.jpg" alt="Image of Number 8">
 
@@ -189,10 +268,10 @@
 <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
 <div>
 <a href="number8.php">
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4  mb-5">
     <div class="card p-4">
         <img src="images/numbers/7.jpg" alt="Image of Number 7">
 
@@ -201,7 +280,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>
@@ -213,29 +292,6 @@
 
 <!-- Related Posts Ends -->
 
-<!-- comments Starts -->
-<style>
-.comments{
-    margin-top: 150px;
-}
-</style>
-
-<div class="comments">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>0 Comments "Number 1"</h2>
-        <img src="images/comntP.png" alt="" style="width: 70px; height: 70px; margin-top: 70px;">
-        <h>Vamshi</h>
-        <h>June 26, 2023 at 12.48 pm <b>Reply</b></h>
-        <h>Thank You</h>
-        <h style="text-decoration: underline;">Your comment is awaiting moderation</h>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- comments Starts -->
 
 
 <!-- give a reply Starts -->
@@ -247,14 +303,14 @@
     }
     
     .form p {
-        font-size: 18px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     .form p1 {
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 28px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
     }
     
     .form .col-md-12 form {
@@ -277,26 +333,28 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #c0c0c0;
         color: white;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 8px 12px;
+        font-size: 13px;
         border: none;
-        border-radius: 4px;
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
 
 
 <div class="form">
-    <div class="container">
+    <div class="container" style="font-size:13px">
         <div class="row">
             <div class="col-md-12">
                 <p1>Leave a Reply</p1>
@@ -330,7 +388,7 @@
     <div class="row mt-3 mb-3">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="save_info"/> Save my name, email, and website
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
         </div>
     </div>
@@ -344,6 +402,7 @@
 </div>
 
 <!-- give a reply Ends --> 
+
 
 <?php include("footer.php");?>
 
