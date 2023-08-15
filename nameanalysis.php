@@ -33,10 +33,10 @@
 
 
 <div id="innerPageBanner">
-    <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
+    <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-        <h2>Services</h2>
+    <h2 style="letter-spacing: 4px; font-size:30px;font-family: Hind, Arial;">SERVICES</h2>
     </div>
 </div>
 
