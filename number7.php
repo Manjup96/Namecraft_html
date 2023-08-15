@@ -68,6 +68,9 @@
     .content .container h3{
       margin-bottom:20px;
     }
+    .content .container .container p{
+        font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 0.5;
+    }
 </style>
 
 <div class="content">
@@ -94,17 +97,23 @@
                 <p >Professions that fit them include teacher, philosopher, actor, or anything else that does not need excellence. Diseases that affect them are associated with the ‘Adrenal’ gland. In general, they have issues with digestion, kidney, blood circulation, ovary, Fallopian tube, and uterine. These disorders are caused by emotional stress or hypertension, both of which restrict the solar plexus. They have the ability to think, but this occasionally goes beyond what it should, which is why certain disorders exist. If they can manage their minds, they will be able to recover from their illnesses.</p>
                 <P >As a malevolent planet, a name rectification for a number 7 is a difficult operation.</P>
                 <h3>The Remedies for Number 7’s are</h3>
-                <ul><li>A Victory Name correction</li>>
-                <li>A Ketu numerological yantra</li>
+                <ul><li>A Victory Name correction</li>
+                              <li>A Ketu numerological yantra</li>
                 <li>A gemstone which repels the Ketu influence.</li></ul>
 
 
-                
+                <div class="container mb-3"><div class="row">
+  <div class="col-md-12">
+  <div >
                 <p ><b> Lucky colour:</b>  Grey</p>
                 <p ><b>  Lucky Stone: </b> Cat’s eye</p>
                 <p ><b> Lucky day:</b> Tuesday & Friday</p>
                 <p ><b>Friendly Numbers: </b>6 & 9</p>
                 <p ><b>Relationship compatibility: </b>  7 & 9</p>
+</div>
+
+  </div>
+</div></div>
 
                 <h3 >Traits Number 7 Should Try to Improve</h3>
                 <p >Being too critical of oneself may backfire in all of your relationships, even the one you have with yourself. Being opinionated is not incorrect, but being a know-it-all in every case may not work. This also applies to their forthright communication, in which they refuse to filter things and tell them as they are, which others may find difficult to accept. In numerology, the 7 number represents someone who is quite separated from others, which might lead to misunderstandings in their social life.</p>
