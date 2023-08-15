@@ -128,6 +128,105 @@
 
 
 
+<!-- Share this starts -->
+<style>
+.share .col-md-12{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-family: 'Hind', 'Arial', 'sans-serif';
+}
+.share .icons{
+    margin-top: 10px;
+    letter-spacing: 10px;
+    font-size: 23px;
+}
+.share .button{
+  margin-top: 110px;
+  margin-left: 950px;
+  color: 
+  
+}
+.share .button button {
+    letter-spacing: 2px;
+
+}
+</style>
+
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
+<div class="share">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>SHARE THIS</h2>
+
+        <div class="icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+          <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                <button class="btn btn-secondary "><i class="fas fa-arrow-left"></i>  PREVIOUS POST </button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button class="btn btn-secondary ">NEXT POST <i class="fas fa-arrow-right"></i></button> 
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Share this ends -->
+
+
+
 <!-- Related Posts Starts -->
 <style>
   .related{
