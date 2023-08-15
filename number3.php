@@ -172,7 +172,8 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+      <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
+
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
