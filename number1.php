@@ -65,7 +65,11 @@
 
   
 </style>
-
+<style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
 
 
 <div class="number1">
