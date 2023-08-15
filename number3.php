@@ -23,7 +23,6 @@
     background-position: center;
     color: white;
     padding: 110px;
-    margin-top: 30px;
     opacity: 0.8;
   }
   .number3 .col-md-12{
