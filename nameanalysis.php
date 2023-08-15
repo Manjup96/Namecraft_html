@@ -36,7 +36,7 @@
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-    <h2 style="letter-spacing: 4px; font-size:30px;font-family: Hind, Arial;">SERVICES</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 500; letter-spacing: 15px; ">SERVICES</h2>
     </div>
 </div>
 
@@ -63,8 +63,7 @@
                     <form action="/action_page.php">
                     <div class="mb-3 mt-3">
                         <label for="full_name">Full name*</label>
-                        <input type="full_name" class="form-control" id="full_name1"  name="full_name1" onkeyup="validateFullNameForm()"> 
-                    
+                        <input type="full_name" class="form-control" id="full_name1"  name="full_name1" onkeyup="validateFullNameForm()">  
                     <div id="name_error" class="error hidden">Please enter a valid full name</div>
                         </div>
                     <div class="mb-3">
@@ -77,8 +76,8 @@
                         </form>
                         <div class="mb-3 mt-3">
                         <a href="services.php"> <p> Category: Uncategorized</p></a>
-                       </div>
-                        </div>
+                     </div>
+                  </div>
             </div>
         </div>
    </div>
@@ -93,8 +92,8 @@
         </div>
         <div class="tabPanel ">
         <div class="row">
-                <div class="col-md-12">
-                <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Description</b></h2>
+                <div class="col-md-12 mt-4">
+                <h2 style=" font-family:montserrat; float: left;font-size: 1.5em; padding-left:30px;">Description</h2>
                 <div class="p-5">
                
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">The cosmic power of numbers may determine one’s happiness and success in life.

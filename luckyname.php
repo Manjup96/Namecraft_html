@@ -38,7 +38,7 @@
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-    <h2 style="letter-spacing: 4px;font-size:30px;font-family: Hind, Arial;">SERVICES</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
 </div>
 
@@ -158,8 +158,8 @@
         </div>
         <div class="tabPanel ">
         <div class="row">
-                <div class="col-md-12">
-                <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Description </b></h2>
+                <div class="col-md-12 mt-4">
+                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description </h2>
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number, 
             their life is filled with hardship and battle.

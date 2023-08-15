@@ -23,7 +23,13 @@
   .hidden {
     display: none;
   }
- 
+  .button1 {
+        display: inline-block;
+        background-color: #343a40; /* Set the desired background color */
+        color: white; /* Set the text color */
+        border: none;
+        padding: 10px 20px;
+    }
 </style>
 <body>
     <!-- navbar start -->
@@ -37,7 +43,7 @@
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-    <h2 style="letter-spacing: 4px;font-size:30px;font-family: Hind, Arial;">SERVICES</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
 </div>
 
@@ -93,7 +99,9 @@
                             <input type="text" class="form-control"  name="date of birth">
                         </div>
                         
-                         <button type="submit" class="btn btn-dark">Add to cart</button>
+                        <div class="button-container">
+                      <button type="button" class="btn btn-dark button1">Add to cart</button>
+                    </div>
                         </form>
                         <div class="mb-3 mt-3">
                         <a href="services.php"> <p> Category: Uncategorized</p></a>
@@ -114,8 +122,8 @@
         </div>
         <div class="tabPanel ">
             <div class="row">
-                <div class="col-md-12">
-               <h2> <b style=" float: left;padding-left:30px; font-family:montserrat;"> Description </b></h2>
+                <div class="col-md-12 mt-4">
+                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;"> Description </h2>
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
                 When it comes to making big decisions, like as purchasing a new home,

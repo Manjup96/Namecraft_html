@@ -24,6 +24,14 @@
   .hidden {
     display: none;
   }
+
+  .button1 {
+        display: inline-block;
+        background-color: #343a40; /* Set the desired background color */
+        color: white; /* Set the text color */
+        border: none;
+        padding: 10px 20px;
+    }
 </style>
 
 
@@ -41,7 +49,7 @@
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-        <h2 style="letter-spacing: 4px;font-size:30px;font-family: Hind, Arial;">SERVICES</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
 </div>
 
@@ -141,9 +149,11 @@
                             <label for="message">Specific instruction for name</label>
                             <input type="message" class="form-control" id="specific instruction" name="specific instruction">
                         </div>
-                        <button type="submit" class="btn btn-dark button1">Add to cart</button>
+                        <div class="button-container">
+                      <button type="button" class="btn btn-dark button1">Add to cart</button>
+                    </div>
                     </form>
-                    <d iv class="mb-3 mt-3">
+                    <div class="mb-3 mt-3">
                         <a href="services.php">
                             <p> Category: Uncategorized</p>
                         </a>
@@ -164,8 +174,8 @@
                     </div>
                     <div class="tabPanel ">
                         <div class="row">
-                            <div class="col-md-12">
-                                <h2><b style="text-align: justify; font-family:montserrat; float: left;padding-left:30px;">Description</b></h2>
+                            <div class="col-md-12 mt-4">
+                                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description</h2>
                                 <div class="p-5">
                                 <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
                                         The cosmic power of numbers may determine one’s happiness and success in life. As a result,
@@ -177,12 +187,12 @@
                                     </p>
                                 
 
-                               <h2><b style="text-align: justify; font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">We can recommend names with a high numerological significance:</b></h2>
+                               <p style="font-size:22px;text-align: justify; font-family:montserrat;  padding-left:30px;">We can recommend names with a high numerological significance:</p>
                                 
                                <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">We can come up with names that highlight your child’s greatest qualities.
                                         We are happy to have provided some of the greatest names to numerous newborn infants, giving them the best possible start in life.</p>
                                 
-                             <h2>   <b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Using Numerology to Pick the Best Baby Name:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Using Numerology to Pick the Best Baby Name:</p>
                                 
                              <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
                                         Your good acts earn you a moniker that signifies power, success, and wealth.
@@ -192,19 +202,19 @@
                                         It is significant because it gives your child a personality.</p>
                                 
 
-                    <h2><b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Selecting the Best Vibration:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Selecting the Best Vibration:</p>
 
                                 
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">This is determined by the baby’s natal star.
                                         Astrology has defined initial sounds for children born under a specific natal star.</p>
                                
-                               <h2> <b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Find a harmonic harmony between your name and your birthday:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Find a harmonic harmony between your name and your birthday:</p>
                                 
                                 <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Every letter is connected with a number in numerology,
                                         and the vibration is determined based on the numerology value of the alphabet and validated using phonics.
                                         The sound’s pronunciation and vibration.The name is also determined and validated using equipment based on energy vibrations.</p>
                                
-                                <h2><b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">We Can Assist You in Making a Difference in Your Child’s Life:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">We Can Assist You in Making a Difference in Your Child’s Life:</p>
                                 
                                 <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
                                         Don’t be concerned! We at Sheelaa.com can recommend alterations to your child’s name spelling so that he or she has a name with a better numerological equation.
