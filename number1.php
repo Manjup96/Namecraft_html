@@ -350,7 +350,6 @@ body {
     
     .form p1 {
         font-size: 28px;
-        font-weight: bold;
         margin-bottom: 20px;
         letter-spacing: 2px;
     }
