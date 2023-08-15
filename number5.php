@@ -130,6 +130,15 @@
 
 <!-- Related Posts Starts -->
 <style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
+<style>
   .Readmore-button {
     background-color: #c0c0c0;
     color: white;
@@ -158,7 +167,7 @@
 <div class="related">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-center mb-3">
+      <div class="col-md-12 text-center mb-5 mt-5">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
@@ -166,7 +175,7 @@
     
 <div class="container">
   <div class="row">
-   <div class="col-md-4  ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/9.jpg" alt="Image of Number 9">
 
@@ -179,7 +188,7 @@
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/8.jpg" alt="Image of Number 8">
 
@@ -191,7 +200,7 @@
         <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4 mb-5">
     <div class="card p-4">
         <img src="images/numbers/7.jpg" alt="Image of Number 7">
 
