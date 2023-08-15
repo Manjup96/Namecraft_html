@@ -125,7 +125,14 @@ body {
                 <p >They are literally the greatest and most diplomatic individuals when it comes to handling funds since they prefer to keep track of what comes in and what goes out. They might be quite serious about any type of investment, no matter how big or small. They like staying up to speed on new developments and techniques from across the world. They enjoy their lives like kings, yet their peak active years are between the ages of 30 and 50.</p>
                 <h3 >Number One Numerology Career & Jobs</h3>
                 <p >They might be directors, institutional leaders, planners, chiefs of any organisation, or at least some high-level managers, doctors, or government personnel. They are susceptible to heart disease and hypertension. They must also take care of their teeth, bones, and eyes, since the number one person is more susceptible to these disorders.</p>
-                <div style="font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 0.5;">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container"><div class="row">
+  <div class="col-md-12">
+  <div style="font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 0.5;">
     <p><b>Lucky days:</b> Sunday, Monday</p>
     <p><b>Lucky gemstone:</b> Ruby, amber (Learn more about gemstones here)</p>
     <p><b>Friendly numbers:</b> 2, 3, 9</p>
@@ -133,11 +140,8 @@ body {
     <p><b>Colour:</b> Orange</p>
 </div>
 
-            </div>
-        </div>
-    </div>
-</div>
-
+  </div>
+</div></div>
 
 
 <!-- Content ends -->
