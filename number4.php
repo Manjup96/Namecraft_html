@@ -134,6 +134,47 @@
 }
 </style>
 
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">

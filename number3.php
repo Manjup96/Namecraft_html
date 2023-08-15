@@ -129,6 +129,47 @@
 }
 </style>
 
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">
@@ -177,7 +218,7 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
     </div>
 </div>
    </div>
@@ -189,7 +230,7 @@
 <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
 <div>
 <a href="number8.php">
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
     </div>
 </div></div>
    <div class="col-md-4 ">
@@ -201,7 +242,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="Read More"></a>
     </div>
    </div></div>
    </div>
@@ -210,7 +251,21 @@
 
   </div>
 </div>
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 <!-- Related Posts Ends -->
 
 <!-- comments Starts -->
@@ -277,19 +332,21 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #999;
         color: white;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 8px 12px;
+        font-size: 13px;
         border: none;
-        border-radius: 4px;
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
