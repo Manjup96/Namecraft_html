@@ -353,11 +353,24 @@
     color:  #6f3473; /* Change the color to your desired hover color */
     
   }
+  @keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Apply the animation to the images on hover */
+
+#services img:hover {
+  animation: zoomIn 0.2s ease-in-out;
+  transform: scale(1.2);
+}
     
   </style>
-  </head>
-
-  <body>
+ 
     
     <div class="container-fluid" id="services">
       <div class="row">
@@ -802,24 +815,25 @@
       .tedx .container-fluid iframe {
         border-radius: 25px;
         width: 90%;
-        height: 80%;
+        height: 100%;
         margin-left: 40px;
-        margin-top: 20px;
+        margin-top: -25px;
+        
       }
 
       .tedx .container-fluid h2 {
         font-weight: bold;
         margin-bottom: 20px;
         font-family: 'Montserrat';
-        padding: 28px;
+        padding: 10px;
         margin-top: -40px;
       }
 
       .tedx .container-fluid p {
         font-size: 16px;
         text-align: justify;       
-        margin-top: -70px;
-        padding: 28px;
+        margin-top: -30px;
+        padding: 10px;
         font-family: 'Montserrat';
         line-height: 1.7;
         font-weight: 500;
