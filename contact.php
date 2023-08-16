@@ -198,43 +198,37 @@
 
 
       <!-- map & address starts -->
-      <div class="container  mt-5">
-        <div class="row ">
-            <div class="col-md-6 col-sm-12 "  >
-                <div >
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124440.57691830404!2d77.53763210639211!3d12.922625484182667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1554df96be99%3A0xbc16940514de3df5!2sName%20Craft!5e0!3m2!1sen!2sin!4v1688198017930!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+      <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124440.57691830404!2d77.53763210639211!3d12.922625484182667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1554df96be99%3A0xbc16940514de3df5!2sName%20Craft!5e0!3m2!1sen!2sin!4v1688198017930!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-           <div class="col-md-1"></div>
-            <div class="col-md-5 col-sm-12 d-flex pt-2" style="min-height: 400px;">
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <div>
+                <div class="text-center">
+                    <img src="images/final-logo.png" alt="Logo" style="height:80px;width:300px;">
+                </div>
+                <div class="text-center">
+                    <p style="font-size:20px;color:black"><i class="fa fa-map-marker"></i>
+                        Number 654, 5ft Cross,</p>
+                    <p style="font-size:18px;"> 4th block, Koramangala</p>
+                    <p style="font-size:18px;"> Near Maharaja Signal,</p>
+                    <p style="font-size:18px;"> Bangaluru-560034</p>
 
-                <div  >
-                    <div class="text-center">
-                        <img src="images/final-logo.png" alt="Logo" style="height:80px;width:300px;">
-                    </div>
-                    <div class="text-center">
-                        <p style="font-size:20px;color:black"><i class="fa fa-map-marker"></i>
-                            Number 654, 5ft Cross,</p>
-                           <p style="font-size:18px;"> 4th block, Koramangala</p>
-                           <p style="font-size:18px;"> Near Maharaja Signal,</p>
-                          <p style="font-size:18px;">  Bangaluru-560034</p>
+                    <p style="font-size:18px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
 
-                        
-                        <p style="font-size:18px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
-                        
-                        <p style="font-size:18px;" >
-                            <i class="fab fa-instagram"></i>
-                            <a href="https://www.instagram.com/your_instagram_account">sheelaambajaj</a>
-                        </p>
-
-                    </div>
-
-
+                    <p style="font-size:18px;" >
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/your_instagram_account">sheelaambajaj</a>
+                    </p>
                 </div>
             </div>
         </div>
-    </div
+    </div>
+</div>
+
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
 
