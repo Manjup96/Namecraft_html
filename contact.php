@@ -219,10 +219,7 @@
 
                     <p style="font-size:18px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
 
-                    <p style="font-size:18px;" >
-                        <i class="fab fa-instagram"></i>
-                        <a href="https://www.instagram.com/your_instagram_account">sheelaambajaj</a>
-                    </p>
+                   
                 </div>
             </div>
         </div>
