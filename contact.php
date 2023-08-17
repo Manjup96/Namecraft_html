@@ -114,14 +114,14 @@
             </div>
             <div class="col-md-6  mt-5">
                 <label>Service Desired</label>
-                <div class="dropdown">
+                <div class="dropdown ">
                     <button class="btn btn-secondary dropdown-toggle form-control" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Baby name correction
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <ul class="dropdown-menu  " aria-labelledby="dropdownMenuButton">
                         <li><a class="dropdown-item" href="#">Lucky name correction</a></li>
                         <li><a class="dropdown-item" href="#">Lucky date delivery</a></li>
-                        <li><a class="dropdown-item" href="#">Name analysi</a></li>
+                        <li><a class="dropdown-item" href="#">Name analysis</a></li>
                     </ul>
                 </div>
             </div>
