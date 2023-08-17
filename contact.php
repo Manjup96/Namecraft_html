@@ -347,13 +347,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     include 'navbar.php';
 
     ?>
-   <div id="innerPageBanner">
-    <img src="images/single_banner1.png" class="banner-image" alt="Banner Image" >
-    <div class="banner-overlay"></div>
-    <div class="banner-content">
-        <h2 style="font-size:80px;font-family:montserrat;font-weight:bold;">Contact</h2>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/single_banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+
     <!-- contact start -->
 
     <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
