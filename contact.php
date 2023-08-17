@@ -173,9 +173,9 @@
             <div class=" col-md-4 pt-2">
                 <div class="card">
                     <div class="card-body">
-                        <i class="fab fa-instagram fa-2x d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Instagram:</h4>
-                        <p class="text-center fs-5">sheelaambajaj</p>
+                    <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
+                        <h4 class="text-center">Email:</h4>
+                        <p class="text-center fs-5">connect@namecraft.co</p>
                     </div>
                 </div>
             </div>
@@ -198,6 +198,7 @@
 
 
       <!-- map & address starts -->
+      <h4 style="text-align:center;font-weight:bold;"class="mt-5">OFFICE LOCATION</h4>
       <div class="container mt-5">
     <div class="row">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
