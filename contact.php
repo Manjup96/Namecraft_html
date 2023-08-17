@@ -110,33 +110,17 @@
                 <input type="text" name="subject" class="form-control"/>
             </div>
             <div class="col-md-6  mt-5">
-            <label for="serviceDesired">Service Desired</label>
-          <div class="dropdown">
-             <button class="btn btn-secondary dropdown-toggle form-control" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Baby name correction
-              </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <li><a class="dropdown-item" value="Lucky name correction">Lucky name correction</a></li>
-        <li><a class="dropdown-item" value="Lucky date delivery">Lucky date delivery</a></li>
-        <li><a class="dropdown-item" value="Name analysis">Name analysis</a></li>
-    </ul>
-</div>
-
-<!-- 
-<div class="mb-3 col-lg-5">
-                                    <label for="entity_type" class="form-label d-block">Entity Type</label>
-                                    <div class="d-flex">
-                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:35px;" required>
-                                            <option value="" disabled selected>Select an Entity Type</option>
-                                            <option value="individual">Individual</option>
-                                            <option value="company">Company</option>
-                                            <option value="organization">Organization</option>
-                                        </select>
-                                    </div>
-                                </div> -->
-
-
-
+                <label>Service Desired</label>
+                <div class="dropdown ">
+                    <button class="btn btn-secondary dropdown-toggle form-control" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Baby name correction
+                    </button>
+                    <ul class="dropdown-menu  " aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Lucky name correction</a></li>
+                        <li><a class="dropdown-item" href="#">Lucky date delivery</a></li>
+                        <li><a class="dropdown-item" href="#">Name analysis</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
