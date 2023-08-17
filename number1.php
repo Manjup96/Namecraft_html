@@ -55,15 +55,14 @@ body {
       overflow: hidden;
     }
 
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency here */
-      pointer-events: none;
-    }
+    /* .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+        } */
 
 
   
