@@ -285,14 +285,13 @@ body {
         </div>
 
         <div class="container mt-5 mb-4">
-    <div class="row">
-        <div class="col-12 d-flex justify-content-center align-items-center">
-            <div class="button">
-                <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-end">
+            <a href="number8.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i> </a>
             </div>
+          
         </div>
     </div>
-</div>
 
       </div>
     </div>
