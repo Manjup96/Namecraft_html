@@ -147,23 +147,23 @@
         <div class="row ">
             <div class="col-md-6 mt-5">
                 <label>Your Name (required)</label>
-                <input type="text" name="name"  class="form-control"/>
+                <input type="text" name="name"  class="form-control"  style="width: 100%;height:45px;" required/>
             </div>
             <div class="col-md-6 mt-5">
                 <label>Your Email (required)</label>
-                <input type="text" name="email" class="form-control"/>
+                <input type="text" name="email" class="form-control"  style="width: 100%;height:45px;" required/>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6  mt-5">
                 <label>Subject</label>
-                <input type="text" name="subject" class="form-control"/>
+                <input type="text" name="subject" class="form-control"  style="width: 100%;height:45px;" required/>
             </div>
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex">
-                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:35px;" required>
+                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
                                             <option value="Baby name correction">Baby name correction</option>
                                             <option value="Lucky name correction">Lucky name correction</option>
                                             <option value="comLucky date deliverypany">Lucky date delivery</option>
