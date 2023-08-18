@@ -2,6 +2,65 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<<<<<<< HEAD
+=======
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+        .dropdown-menu-up {
+            bottom: auto;
+            top: 100%;
+        }
+       /* Banner style start for all 3 views */
+       @media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+        }
+    </style>
+>>>>>>> a214bb9ca1bd7b927bf897bbae371435f7c4554b
 
 <style>
 .banner-image {
@@ -66,11 +125,16 @@
   
 
 
-    <div id="innerPageBanner">
-        <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
-        <div class="banner-overlay"></div>
-        <div class="banner-content">
-            <h2 style="letter-spacing:15px;font-size:45px">CONTACT US</h2>
+<div class="container-fluid p-0">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="banner-overlay"></div>
+                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <h2>CONTACT US</h2>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -137,9 +201,8 @@
 </style>
     <div class="container mt-5 ">
         <div class="row justify-content-center">
-            <div class=" col-md-4">
-                <div class="card">
-                    <div class="card-body">
+            <div class=" col-md-4 pt-4">
+                
                         <i class="fas fa-map-marker-alt fa-2x d-flex justify-content-center mb-3"></i>
                         <h4 class="text-center">Address:</h4>
                         <!-- <p class="text-center fs-5">No 664, 5th Cross road,<br> Koramangala 4th block,<br> Bengaluru-560034</p> -->
@@ -152,31 +215,28 @@
 
                         </p>
 
-                    </div>
-                </div>
+                   
             </div>
             
 
-            <div class=" col-md-4 pt-2">
-                <div class="card">
-                    <div class="card-body">
+            <div class=" col-md-4 pt-5">
+                
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
                         <h4 class="text-center">Email:</h4>
                         <p class="text-center fs-5">connect@namecraft.co</p>
-                    </div>
-                </div>
+                   
             </div>
 
             
 
-            <div class=" col-md-4 pt-2">
-                <div class="card">
-                    <div class="card-body">
+            <div class=" col-md-4 pt-4">
+              
+                   
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
                         <h4 class="text-center">Mobile:</h4>
                         <p class="text-center fs-5">+91-8880030213</p>
-                    </div>
-                </div>
+                    
+                
             </div>
         </div>
     </div>
@@ -218,6 +278,9 @@
 
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
 
