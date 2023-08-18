@@ -59,6 +59,53 @@
         }
     </style>
 
+
+<style>
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+
+</style>
 <body>
 <?php
     $page = 'numbers';
@@ -69,7 +116,11 @@
     body {
       font-family: 'Montserrat', sans-serif;
     }
+
+    
+
   </style>
+  
 
 
 <div class="container-fluid p-0">
@@ -110,16 +161,17 @@
                 <input type="text" name="subject" class="form-control"/>
             </div>
             <div class="col-md-6  mt-5">
-                                    <label for="entity_type" class="form-label d-block">Service Desired</label>
+                <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex">
                                         <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:35px;" required>
-                                            <option value="Baby name correction">  Baby name correction</option>
-                                            <option value="individual">Lucky name correction</option>
-                                            <option value="company">Lucky date delivery</option>
-                                            <option value="organization">Name analysis</option>
+                                            <option value="Baby name correction">Baby name correction</option>
+                                            <option value="Lucky name correction">Lucky name correction</option>
+                                            <option value="comLucky date deliverypany">Lucky date delivery</option>
+                                            <option value="Name analysis">Name analysis</option>
                                         </select>
                                     </div>
-                                </div>
+            </div>
+
         </div>
 
         <div class="row mt-5">
@@ -217,7 +269,6 @@
         </div>
     </div>
 </div>
-
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
 
