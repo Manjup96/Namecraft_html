@@ -30,41 +30,79 @@ body {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-  /* .number1 .container-fluid {
-    background-image: url("images/numbers/1.jpg");
-    background-size: 755px; 
-    background-position: center;
-    color: white;
-    padding: 110px;
-    opacity: 0.8;
-  }
-  .number1 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
-    text-decoration: none;
-    color: white;
-  }
-
-  .number1 {
-      position: relative;
-      overflow: hidden;
+  /<style>
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
     }
 
-    /* .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
-        } */ */
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
 
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
 
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
+    color: white;
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+</style>
   
 </style>
 <style>

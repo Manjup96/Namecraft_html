@@ -127,7 +127,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="banner-overlay"></div>
-                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <img src="images/servicebanner.png" class="d-block w-100" alt="..." style="height:300px;">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <h2>CONTACT US</h2>
                 </div>
@@ -136,7 +136,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="background-color:#CCCCCC">
+    <div class="container-fluid" style="background-color:#eee5ef">
     <div class="container" >
         <div class="row ">
             <div class="col-md-12 mt-5">
