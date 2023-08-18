@@ -110,18 +110,16 @@
                 <input type="text" name="subject" class="form-control"/>
             </div>
             <div class="col-md-6  mt-5">
-                <label>Service Desired</label>
-                <div class="dropdown ">
-                    <button class="btn btn-secondary dropdown-toggle form-control" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Baby name correction
-                    </button>
-                    <ul class="dropdown-menu  " aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#">Lucky name correction</a></li>
-                        <li><a class="dropdown-item" href="#">Lucky date delivery</a></li>
-                        <li><a class="dropdown-item" href="#">Name analysis</a></li>
-                    </ul>
-                </div>
-            </div>
+                                    <label for="entity_type" class="form-label d-block">Service Desired</label>
+                                    <div class="d-flex">
+                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:35px;" required>
+                                            <option value="Baby name correction">  Baby name correction</option>
+                                            <option value="individual">Lucky name correction</option>
+                                            <option value="company">Lucky date delivery</option>
+                                            <option value="organization">Name analysis</option>
+                                        </select>
+                                    </div>
+                                </div>
         </div>
 
         <div class="row mt-5">
