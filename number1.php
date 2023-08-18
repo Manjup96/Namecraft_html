@@ -284,9 +284,16 @@ body {
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-        <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
+        <div class="container mt-5 mb-4">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <div class="button">
+                <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
+    </div>
+</div>
+
       </div>
     </div>
   </div>
