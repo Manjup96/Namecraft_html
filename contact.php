@@ -2,8 +2,6 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<<<<<<< HEAD
-=======
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <style>
         .dropdown-menu-up {
@@ -60,7 +58,7 @@
             background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
         }
     </style>
->>>>>>> a214bb9ca1bd7b927bf897bbae371435f7c4554b
+
 
 <style>
 .banner-image {
@@ -163,17 +161,15 @@
                 <input type="text" name="subject" class="form-control"/>
             </div>
             <div class="col-md-6  mt-5">
-                <label>Service Desired</label>
-                <div class="dropdown ">
-                    <button class="btn btn-secondary dropdown-toggle form-control" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Baby name correction
-                    </button>
-                    <ul class="dropdown-menu  " aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#">Lucky name correction</a></li>
-                        <li><a class="dropdown-item" href="#">Lucky date delivery</a></li>
-                        <li><a class="dropdown-item" href="#">Name analysis</a></li>
-                    </ul>
-                </div>
+                <label for="entity_type" class="form-label d-block">Service Desired</label>
+                                    <div class="d-flex">
+                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:35px;" required>
+                                            <option value="Baby name correction">Baby name correction</option>
+                                            <option value="Lucky name correction">Lucky name correction</option>
+                                            <option value="comLucky date deliverypany">Lucky date delivery</option>
+                                            <option value="Name analysis">Name analysis</option>
+                                        </select>
+                                    </div>
             </div>
 
         </div>
@@ -283,4 +279,3 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>
-

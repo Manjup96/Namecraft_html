@@ -30,7 +30,7 @@ body {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-  .number1 .container-fluid {
+  /* .number1 .container-fluid {
     background-image: url("images/numbers/1.jpg");
     background-size: 755px; 
     background-position: center;
@@ -62,7 +62,7 @@ body {
             width: 100%;
             height: 100%;
             background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
-        } */
+        } */ */
 
 
   
@@ -71,10 +71,60 @@ body {
     body {
       font-family: 'Montserrat', sans-serif;
     }
+       /* Banner style start for all 3 views */
+       @media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+        }
+  
   </style>
 
 
-<div class="number1">
+<!-- <div class="number1">
   <div class="container-fluid">
     <div class="row">
     <div class="col-md-12">
@@ -85,7 +135,21 @@ body {
     </div>
   </div>
   <div class="overlay"></div>
+</div> -->
+
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="banner-overlay"></div>
+            <img src="images/numbers/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <h1>NUMBER 1</h1>
+                <p>JUNE 1, 2023 SHEELAA M BAJAJ</p>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 
 
