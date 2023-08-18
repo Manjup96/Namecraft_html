@@ -2,71 +2,53 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<style>
-        .dropdown-menu-up {
-            bottom: auto;
-            top: 100%;
-        }
-        .banner-image {
-            width: 100%;
-            height: auto;
-        }
-        
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.67);
-        }
-        
-        .banner-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-        }
-    
-        #innerPageBanner {
-            position: relative;
-            background: #f2f2f2;
-        }
-        
-        .banner-image {
-            width: 100%;
-            height: auto;
-        }
-        
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.67);
-        }
-        
-        .banner-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-        }
-        
-        @media (max-width: 768px) {
-            #innerPageBanner {
-    
-        .banner-content {
-                top: 30%;
-            }
-        }}
-    </style>
 
+<style>
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+
+</style>
 <body>
 <?php
     $page = 'numbers';
@@ -77,7 +59,11 @@
     body {
       font-family: 'Montserrat', sans-serif;
     }
+
+    
+
   </style>
+  
 
 
     <div id="innerPageBanner">
@@ -125,6 +111,7 @@
                     </ul>
                 </div>
             </div>
+
         </div>
 
         <div class="row mt-5">
@@ -226,7 +213,6 @@
         </div>
     </div>
 </div>
-
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
 
