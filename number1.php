@@ -30,125 +30,101 @@ body {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-  /* .number1 .container-fluid {
-    background-image: url("images/numbers/1.jpg");
-    background-size: 755px; 
-    background-position: center;
-    color: white;
-    padding: 110px;
-    opacity: 0.8;
-  }
-  .number1 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
-    text-decoration: none;
-    color: white;
-  }
-
-  .number1 {
-      position: relative;
-      overflow: hidden;
-    }
-
-    /* .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
-        } */ */
-
-
-  
+   
 </style>
 <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
     }
-       /* Banner style start for all 3 views */
-       @media only screen and (max-width: 767px) {
-            .carousel-inner .carousel-item img {
-                height: 200px;
-                max-width: 100%;
-            }
-    
-            .carousel-caption h2 {
-                font-size: 18px;
-                padding-top: 20%;
-                display:flex;
-            
-                justify-content:center;
-    
-            }
-        }
-    
-        .carousel-caption {
-            display: grid;
-            place-items: center;
-            height: 100%;
-            text-align: center;
-    
-        }
-    
-        .carousel-caption h2 {
-            display:flex;
-            text-align:center;
-            font-size:45px;
-            letter-spacing:15px;
-            max-width: 80%;
-    
-            margin: 0;
-    
-            padding-top: 35px;
-    
-            color: white;
-    
-        }
-    
-        /* Banner style start end for all 3 views*/
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
-        }
-  
-  </style>
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
+    color: white;
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+</style>
 
 
-<!-- <div class="number1">
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-12">
-    <h1>NUMBER 1</h1>
-    <p>JUNE 1, 2023 SHEELAA M BAJAJ</p>
-    <p><a class="link" href="#index.php">HOME / NUMBER 1</a></p>
-    </div>
-    </div>
-  </div>
-  <div class="overlay"></div>
-</div> -->
 
 <div class="container-fluid p-0">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="banner-overlay"></div>
-            <img src="images/numbers/1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-flex align-items-center justify-content-center">
-                <h1>NUMBER 1</h1>
-                <p>JUNE 1, 2023 SHEELAA M BAJAJ</p>
+            <img src="images/numbers/1.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
+            <div class="carousel-caption">
+                <h5>NUMBER 1</h5>
+                <p style="font-size: 10px">
+                    <i class="fa fa-calendar"></i>&nbsp;JUNE 1, 2023&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
+                </p>
+                <p><a href="index.php">Home</a> / Number1</p>
             </div>
         </div>
     </div>
 </div>
+
 
 
 
