@@ -17,6 +17,24 @@
   .hidden {
     display: none;
   }
+
+  .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
 </style>
 
 <head>
@@ -43,10 +61,11 @@
 </div>
 
     <div class="container">
-       <div class="row g-0">
+       <div class="row justify-content-center">
             <div class="col-lg-6"  style="margin-top:50px">
-            
+            <div class="zoom-container">
             <img src="images/LUCKY ALPHABETS.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            </div>
             </div>
 
             <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
