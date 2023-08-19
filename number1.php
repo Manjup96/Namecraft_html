@@ -287,11 +287,7 @@ body {
         <div class="container mt-5 mb-4">
         <div class="row">
             <div class="col-md-12 d-flex justify-content-end">
-<<<<<<< HEAD
             <a href="number8.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i> </a>
-=======
-            <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i> </a>
->>>>>>> 064113c015fcb7a73e89b9e6ceb6818b61ec27a4
             </div>
           
         </div>
