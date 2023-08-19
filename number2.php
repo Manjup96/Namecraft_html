@@ -246,23 +246,18 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-       
-      </div>
-    </div>
-    
-<div class="container mt-5 mb-4">
-        <div class="row">
-            <div class="col-md-6  d-flex justify-content-start">
+        <div class="container mt-5 mb-4">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between">
             <a href="number1.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
-            </div>
-            <div class="col-md-6 d-flex justify-content-end">
             <a href="number3.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
-            </div>
         </div>
+    </div>
+</div>
+      </div>
     </div>
   </div>
 </div>
-
 
 <!-- Share this ends -->
 

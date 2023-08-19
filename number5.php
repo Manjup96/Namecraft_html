@@ -283,15 +283,13 @@
         </div>
 
         <div class="container mt-5 mb-4">
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-start">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between">
             <a href="number4.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
-            </div>
-            <div class="col-md-6 d-flex justify-content-end">
             <a href="number6.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
-            </div>
         </div>
     </div>
+</div>
       </div>
     </div>
   </div>
@@ -511,3 +509,4 @@
 <?php include("footer.php"); ?>
 
 </body>
+</html>
