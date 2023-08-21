@@ -163,8 +163,8 @@
               When it comes to numerology in Bangalore, we are a household name. 
               We have assisted customers in determining their lucky numbers and dates. 
               We can also help you grasp the complexities of dates and how they affect your life and the lives of those close to you.
-               We also advise you on aspects such as unlucky dates,
-             times when you should avoid making key life decisions or engaging in auspicious activities, and so on.</p>
+              We also advise you on aspects such as unlucky dates,
+              times when you should avoid making key life decisions or engaging in auspicious activities, and so on.</p>
             
 
              
@@ -202,18 +202,18 @@
 
 
        <div class="tabPanel">
-          <h2><b style=" float: left; font-family:montserrat; padding-left:30px;">Reviews</b></h2>
+  <div class="container">
+<div class="row">
+     <div class="col-md-12 mt-4">
+<h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Reviews</h2>
           <div class="p-5">
-                <p style="text-align: justify;color:black;font-size: 16px;">
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
           There are no reviews yet.</p>
-          </div>
-          
-          
-                <p style="text-align: justify;color:black; font-family:montserrat; font-size: 16px;padding-left:30px;">
-                Be the first to review “Lucky date delivery”<br>
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
+                Be the first to review “Name Analysis”<br>
                 Your email address will not be published. Required fields are marked *</p>
           
-                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
+                <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
             <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
             <select name="rating">
             <option value="1">Rate</option>
@@ -223,35 +223,39 @@
             <option value="5">Not bad</option>
             <option value="5">Very poor</option>
             </select><br><br>
-            <p style="font-size: 16px; float: font-family:montserrat; left;padding-left:30px;"> YOUR REVIEW *</p>
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR REVIEW *</p>
                 <input type="message" class="form-control" id="specific instruction"  name="specific instruction">
 
+                <div class="form">
                     <div class="row">
-                        <div class="col mb-6 mt-3">
-                        <p style="font-size: 20px;  font-family:montserrat; float: left;padding-left:30px;">
-                        <label for="name">Name*</label></p>
-                            <input type="text" class="form-control"  name="name">
-                        </div>
-                        <div class="col mb-6 mt-3">
-                        <p style="font-size: 20px; float: left; font-family:montserrat; padding-left:30px;">
-                        <label for="email">Email*</label></p>
-                            <input type="text" class="form-control" name="email">
-                        </div>
+                    <div class="col-md-6">
+            <label  class="mb-3 mt-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-6">
+            <label  class="mb-3 mt-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
                     </div>
-                    <input type="checkbox" id="myCheckbox" name="myCheckbox">
-                     <label for="myCheckbox"><p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
                     
-                     Save my name, email, and website in this browser for the next time I comment</p></label><br>
+                    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
+            </label><br>
+        </div>
+    </div>
+    </div>
                     <button type="submit" class="btn btn-dark">Submit</button>
-          
-
-
+                    </div>
+                    </div>
+             </div>
+           </div>
         </div>
       </div>
     </div>
+  </div>
 </div>
-</div>
-
 <script src="myscript.js"></script>
 
             <div class="container">
