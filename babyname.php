@@ -79,12 +79,12 @@
         <div class="row g-0">
         
   <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
+    <div class=" col-md-6" style="margin-top:50px">
     <div class="zoom-container">
       <img src="images/babyname numerology.jpg" style="width:100%; height:auto; border: 2px solid black;">
     </div>
     </div>
-            <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;padding-left: 50px;">
+            <div class=" col-md-6" style="margin-top:50px;padding-left: 50px;">
                 <h2>
                 <b class="text-center" style=" font-family:montserrat;"> Baby Name Correction</b>
                 </h2>
@@ -309,36 +309,41 @@
 
 
     <script src="myscript.js"></script>
+    
     <style>
-@media (max-width: 1024px) {
-  .related-products {
-    text-align: center;
-  }
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
 
-  .related-products .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
 
-  .col-lg-4.col-md-8.col-sm-10 {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px;
-  }
-}
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
 </style>
 
 
-    <div class="container related-products">
-        <div class="row g-0 mt-5">
+   
 
-            <h2>
-                <b class="text-center heading" style="font-family:montserrat;">Related products</b></h2>
 
-            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
-                <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
+
+    <div class="container">
+    <div class="row g-4 mt-5 justify-content-center align-items-center">
+        <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+                <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
                 <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
+                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b>
                 </h2>
                 <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
@@ -352,14 +357,14 @@
             </div>
 
             <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
-                <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
+                <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
                 <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b>
+                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
                 </h2>
                 <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
-        </div>
     </div>
+</div>
     <?php include("footer.php"); ?>
 
     <script>

@@ -75,7 +75,7 @@
               <br>
               <br>
               <br>
-            <img src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            <img class="img-fluid" src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
             </div>
             </div>
 
