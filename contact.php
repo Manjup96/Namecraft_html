@@ -112,6 +112,27 @@
     include 'navbar.php';
 
     ?>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/single_banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact start -->
+
+    <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
+        <div class="row g-0">
+            <div class="col-lg-12 py-6 px-5">
+                <h1 class="display-5 mb-4 pt-5">Get In Touch</h1>
+
     <style>
     body {
       font-family: 'Montserrat', sans-serif;
@@ -123,6 +144,13 @@
   
 
 
+
+    <div id="innerPageBanner">
+        <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h2 style="letter-spacing:15px;font-size:45px">CONTACT US</h2>
+
 <div class="container-fluid p-0">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -133,6 +161,7 @@
                 </div>
 
             </div>
+
         </div>
     </div>
 

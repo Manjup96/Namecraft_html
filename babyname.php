@@ -187,8 +187,8 @@
             <div style="margin-top: 50px">
                 <div class="tabContainer">
                     <div class="buttonContainer">
-                        <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-                        <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+                    <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Description &nbsp;</button>
+                        <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Review &nbsp;</button>
                     </div>
                     <div class="tabPanel ">
                         <div class="row">
