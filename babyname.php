@@ -38,11 +38,15 @@
     height: 600px;
     margin: 100px; */
     overflow: hidden;
+    display: flex;
+
 }
+
 
 .zoom-container img {
     width: 100%;
     transition: 1s;
+ 
 }
 
 .zoom-container img:hover {
@@ -302,13 +306,34 @@
 
 
 
-    <script src="myscript.js"></script>
 
-    <div class="container">
+
+    <script src="myscript.js"></script>
+    <style>
+@media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
+</style>
+
+
+    <div class="container related-products">
         <div class="row g-0 mt-5">
 
             <h2>
-                <b class="text-center" style="font-family:montserrat;">Related products</b></h2>
+                <b class="text-center heading" style="font-family:montserrat;">Related products</b></h2>
 
             <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
                 <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
