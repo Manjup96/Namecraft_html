@@ -23,6 +23,13 @@
   .hidden {
     display: none;
   }
+  .button1 {
+        display: inline-block;
+        background-color: #343a40; /* Set the desired background color */
+        color: white; /* Set the text color */
+        border: none;
+        padding: 10px 20px;
+    }
 </style>
 <body>
     <!-- navbar start -->
@@ -33,21 +40,22 @@
     ?>
 
 <div id="innerPageBanner">
-    <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
+    <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-        <h2>Services</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
 </div>
 
 
-<div class="container">     
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
-      <img src="images/C section delivery date.jpg" style="width:100%; height:auto; border: 2px solid black;">
-    </div>
 
-            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
+    <div class="container">
+       <div class="row g-0">
+            <div class="col-lg-6"  style="margin-top:50px">
+            <img src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            </div>
+
+            <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
                     <h2><b class="text-center" style=" font-family:montserrat;"> Lucky date delivery</b></h2>
                     <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
@@ -91,7 +99,9 @@
                             <input type="text" class="form-control"  name="date of birth">
                         </div>
                         
-                         <button type="submit" class="btn btn-dark">Add to cart</button>
+                        <div class="button-container">
+                      <button type="button" class="btn btn-dark button1">Add to cart</button>
+                    </div>
                         </form>
                         <div class="mb-3 mt-3">
                         <a href="services.php"> <p> Category: Uncategorized</p></a>
@@ -112,8 +122,8 @@
         </div>
         <div class="tabPanel ">
             <div class="row">
-                <div class="col-md-12">
-               <h2> <b style=" float: left;padding-left:30px; font-family:montserrat;"> Description </b></h2>
+                <div class="col-md-12 mt-4">
+                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;"> Description </h2>
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
                 When it comes to making big decisions, like as purchasing a new home,
@@ -210,8 +220,9 @@
                     </div>
                     <input type="checkbox" id="myCheckbox" name="myCheckbox">
                      <label for="myCheckbox"><p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
-                    Save my name, email, and website in this browser for the next time I comment</p></label><br>
-                    <button type="submit" class="btn btn-dark" >Submit</button>
+                    
+                     Save my name, email, and website in this browser for the next time I comment</p></label><br>
+                    <button type="submit" class="btn btn-dark">Submit</button>
           
 
 
@@ -224,27 +235,23 @@
 <script src="myscript.js"></script>
 
             <div class="container">
-    <div class="row g-0 mt-5 justify-content-center">
+    <div class="row g-0 mt-5">
            
-            <h2 class="text-center" style=" font-family:montserrat; ">Related products</h2>
+            <h2><b style=" font-family:montserrat;">Related products</b></h2>
 
-            
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">   
+            <div class="col-lg-4" style="margin-top:30px">   
             <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
              <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
              <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
-         
-            
-      
-            <div class="col-lg-4 col-md-7 col-sm-10" style="margin-top:30px">
+
+            <div class="col-lg-4" style="margin-top:30px">
             <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
-           
-            <div class="col-lg-4 col-md-7 col-sm-10"  style="margin-top:30px">
+            <div class="col-lg-4"  style="margin-top:30px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
@@ -260,7 +267,7 @@
     <script>
       window.onload = function() {
     showPanel(0, '#F5F5F5');
-  };
+  }; 
   </script>
 
 <script>

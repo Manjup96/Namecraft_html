@@ -2,147 +2,93 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 
-
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 <style>
-     /* Custom dropdown styles */
-     .custom-dropdown {
-        position: relative;
-        display: inline-block;
-    }
+    
+  .error {
+    color: red;
+    display: none;
+  }
 
-    .custom-dropdown-select {
-        padding: 5px 30px 10px 10px;
-        /* padding: 5px; */
-        font-size: 16px;
-        width: 200px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        background-color: #fff;
-        cursor: pointer;
-        position: relative;
-        z-index: 1;
-    }
+  .error.show {
+    display: block;
+    font-size: 80%;
+  }
 
-    .custom-dropdown-select::after {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        pointer-events: none;
-        /* This prevents the arrow from interfering with the input's click event */
-
-    }
-
-    .custom-dropdown-options {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        display: none;
-        padding: 5px;
-        max-height: 200px;
-        overflow-y: auto;
-        z-index: 2;
-    }
-
-    .custom-dropdown-options.show {
-        display: block;
-    }
-
-    .custom-dropdown-option {
-        cursor: pointer;
-        padding: 8px;
-        transition: background-color 0.2s;
-        width: 140px;
-    }
-
-    .custom-dropdown-option:hover {
-        background-color: rgba(0, 123, 255, 0.5);
-    }
-
-    /* Container for the time select */
-    .time-container {
-        margin-top: 20px;
-        text-align: center;
-    }
+  .hidden {
+    display: none;
+  }
 </style>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
-  <!-- navbar start -->
-  <?php
-  $page = 'services';
-  include 'navbar.php';
+    <!-- navbar start -->
+    <?php
+    $page = 'services';
+    include 'navbar.php';
 
-  ?>
+    ?>
 
-
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/single_banner.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-flex align-items-center justify-content-center">
-          <div class="text-center">
-            <h2 style="margin: 130px; font-size: 50px;">Services</h2>
-          </div>
-        </div>
-      </div>
+<div id="innerPageBanner">
+    <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
+    <div class="banner-overlay"></div>
+    <div class="banner-content">
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
-  </div>
+</div>
 
-
-  <div class="container">
-    <div class="row g-0">
-      <div class="col-lg-6" style="margin-top:50px">
-
-        <img src="images/LUCKY ALPHABETS.jpg" style="width:600px;height:500px">
-      </div>
-
-      <div class="col-lg-6" style="margin-top:50px">
-        <h2> <b class="text-center" style=" font-family:montserrat;">Lucky name correction</b></h2>
-        <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
-        <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
-          their life is filled with hardship and battle. They labour really hard yet receive little results or appreciation.
-          Their relationships deteriorate as a result, and others take credit for their efforts.
-          All of your hard effort might be depleted at times, making completion nearly difficult.
-          A rectified name according to numerology can rectify the date of birth flaw and turn things around for the individual or business.
-          There are other numerology systems, such as Chaldean and Pythagorean numerology.</p>
-        <div class="container mt-3">
-
-          <form action="cart.php" method="POST">
-            <div class="row">
-              <!-- Hidden fields for service name and value -->
-              <input type="hidden" name="service_name" value="Lucky Name Correction">
-              <input type="hidden" name="service_value" value="8000">
-
-              <div class="col mb-3 mt-3">
-                <label for="first_name">First name*</label>
-                <input type="text" class="form-control" name="first_name">
-              </div>
-              <div class="col mb-3 mt-3">
-                <label for="surname">Sur name/Second name*</label>
-                <input type="text" class="form-control" name="surname">
-              </div>
+    <div class="container">
+       <div class="row g-0">
+            <div class="col-lg-6"  style="margin-top:50px">
+            
+            <img src="images/LUCKY ALPHABETS.jpg" style="width:500px;height:400px;  border: 2px solid black;">
             </div>
-            <div class="row">
-              <div class="col mb-3 mt-3">
-                <label for="date_of_birth">Date of birth*</label>
-                <input type="date" class="form-control" name="date_of_birth">
-              </div>
-              <div class="col mb-3 mt-3">
-                <label for="place_of_birth">Place of birth*</label>
-                <input type="text" class="form-control" name="place_of_birth">
-              </div>
-            </div>
-            <!-- <div class="row">
+
+            <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
+           <h2> <b class="text-center" style=" font-family:montserrat;">Lucky name correction</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
+                     their life is filled with hardship and battle. They labour really hard yet receive little results or appreciation.
+                     Their relationships deteriorate as a result, and others take credit for their efforts.
+                     All of your hard effort might be depleted at times, making completion nearly difficult.
+                    A rectified name according to numerology can rectify the date of birth flaw and turn things around for the individual or business. 
+                     There are other numerology systems, such as Chaldean and Pythagorean numerology.</p>
+                    <div class="container mt-3">
+                        
+                   <form action="cart.php" method="POST">
+                  <div class="row">
+                        <!-- Hidden fields for service name and value -->
+  <input type="hidden" name="service_name" value="Lucky Name Correction">
+  <input type="hidden" name="service_value" value="8000">
+
+                    <div class="col mb-3 mt-3">
+                      <label for="first_name">First name*</label>
+                      <input type="text" class="form-control" id="first_name" name="first_name" onkeyup="validateFirstNameForm()">
+                       <div id="name_error" class="error hidden">Please enter a valid first name</div>
+                    </div>
+                    <div class="col mb-3 mt-3">
+                      <label for="surname">Sur name/Second name*</label>
+                      <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
+                      <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col mb-3 mt-3">
+                      <label for="date_of_birth">Date of birth*</label>
+                      <input type="date" class="form-control" name="date_of_birth">
+                    </div>
+                    <div class="col mb-3 mt-3">
+                      <label for="place_of_birth">Place of birth*</label>
+                      <input type="text" class="form-control"id="place_birth" name="place_of_birth" onkeyup="validatePlaceOfBirthForm()"> 
+                       <div id="place_error" class="error hidden">Please enter a valid place of birth</div>
+                    </div>
+                  </div>
+                  <div class="row">
                     <div class="col mb-3 mt-3">
                       <label for="time_of_birth">Time of birth*</label>
                       <input type="time" class="form-control" name="time_of_birth">
@@ -154,309 +100,375 @@
                         <option value="PM">PM</option>
                       </select>
                     </div>
-                  </div> -->
-
-            <div class="row">
-              <div class="col mb-3 mt-3">
-            
-
-                <div class="custom-dropdown" id="hourPickerDropdown">
-                  <label for="time of birth">Time of birth*</label>
-                  <input type="text" class="custom-dropdown-select" placeholder="Select an hour" name="time of birth" onclick="showOptions('hour')" readonly>
-                  <div class="custom-dropdown-options" id="hourOptions">
-                    <!-- Hour options will be generated here -->
                   </div>
-                </div>
-              </div>
-
-              <div class="col mb-3 mt-5">
-
-                <div class="custom-dropdown" id="minutePickerDropdown" style="margin-left: 10px;">
-                  <input type="text" class="custom-dropdown-select" placeholder="Select minutes" onclick="showOptions('minute')" readonly>
-                  <div class="custom-dropdown-options" id="minuteOptions">
-                    <!-- Minute options will be generated here -->
+                  <div class="row">
+                    <div class="col mb-3 mt-3">
+                      <label for="father_name">Father name*</label>
+                      <input type="text" class="form-control" id="father_name" name="father_name" onkeyup="validateFatherNameForm()">
+                      <div id="fathername_error" class="error hidden">Please enter a valid father name</div>
+                   </div>
+                    <div class="col mb-3 mt-3">
+                      <label for="mother_name">Mother name*</label>
+                      <input type="text" class="form-control"  id="mother_name" name="mother_name" onkeyup="validateMotherNameForm()">
+                      <div id="mothername_error" class="error hidden">Please enter a valid mother name</div>
+                    </div>
                   </div>
-                </div>
-              </div>
+                  <div class="mb-3 mt-3">
+                    <label for="spouse_name">Husband/Wife name</label>
+                    <input type="text" class="form-control" id="spouse_name" name="spouse_name" onkeyup="validateSpouseNameForm()">
+                    <div id="spousename_error" class="error hidden">Please enter a valid spouse name</div>
+                  </div>
+                  <div class="row">
+                    <div class="col mb-3 mt-3">
+                      <label for="mobile_number">Mobile number*</label>
+                      <input type="text" class="form-control" id="phone_number" name="phone_number" onkeyup="validateMobileForm()">
+                      <div id="mobile_error" class="error hidden">Please enter a valid phone number</div>
+                    </div>
+                    <div class="col mb-3 mt-3">
+                      <label for="email_id">Email id*</label>
+                      <input type="text" class="form-control"  id="email" name="email" onkeyup="validateEmailForm()">
+                      <div id="email_error" class="error hidden">Please enter a valid email</div>
+                    </div>
+                  </div>
+                  <div class="mb-3 mt-3">
+                    <label for="specific_instructions">Specific instruction for name</label>
+                    <input type="text" class="form-control" id="specific_instructions" name="specific_instructions">
+                  </div>
+                  <button type="submit" class="btn btn-dark">Add to cart</button>
+                </form>
 
-              <div class="row">
-                <div class="col mb-3 mt-3">
-                  <label for="father_name">Father name*</label>
-                  <input type="text" class="form-control" name="father_name">
-                </div>
-                <div class="col mb-3 mt-3">
-                  <label for="mother_name">Mother name*</label>
-                  <input type="text" class="form-control" name="mother_name">
-                </div>
-              </div>
-              <div class="mb-3 mt-3">
-                <label for="spouse_name">Husband/Wife name</label>
-                <input type="text" class="form-control" id="spouse_name" name="spouse_name">
-              </div>
-              <div class="row">
-                <div class="col mb-3 mt-3">
-                  <label for="mobile_number">Mobile number*</label>
-                  <input type="text" class="form-control" name="mobile_number">
-                </div>
-                <div class="col mb-3 mt-3">
-                  <label for="email_id">Email id*</label>
-                  <input type="text" class="form-control" name="email_id">
-                </div>
-              </div>
-              <div class="mb-3 mt-3">
-                <label for="specific_instructions">Specific instruction for name</label>
-                <input type="text" class="form-control" id="specific_instructions" name="specific_instructions">
-              </div>
-              <button type="submit" class="btn btn-dark">Add to cart</button>
-          </form>
-
-
-          <div class="mb-3 mt-3">
-            <a href="services.php">
-              <p> Category: Uncategorized</p>
-            </a>
-          </div>
+                         
+                        <div class="mb-3 mt-3">
+                        <a href="services.php"> <p> Category: Uncategorized</p></a>
+                       </div>
+                        </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
+   </div>
+</div>
+</div>
 
-  <div class="container">
-    <div class="row g-0">
-      <div style="margin-top:50px">
-        <div class="tabContainer">
-          <div class="buttonContainer">
-            <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-            <button onclick="showPanel(1,'#F5F5F5')">Review</button>
-          </div>
-          <div class="tabPanel ">
-            <div class="row">
-              <div class="col-md-12">
-                <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Description </b></h2>
+   <div class="container">
+       <div class="row g-0">
+            <div  style="margin-top:50px">
+            <div class="tabContainer">
+        <div class="buttonContainer">
+          <button onclick="showPanel(0,'#F5F5F5')">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+        </div>
+        <div class="tabPanel ">
+        <div class="row">
+                <div class="col-md-12 mt-4">
+                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description </h2>
                 <div class="p-5">
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
-                    their life is filled with hardship and battle.
-                    They labour really hard yet receive little results or appreciation.
-                    Their relationships deteriorate as a result, and others take credit for their efforts.
-                    All of your hard effort might be depleted at times, making completion nearly difficult.</p>
+                <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number, 
+            their life is filled with hardship and battle.
+             They labour really hard yet receive little results or appreciation.
+             Their relationships deteriorate as a result, and others take credit for their efforts. 
+            All of your hard effort might be depleted at times, making completion nearly difficult.</p>
+         
+           
+           <p style="text-align: justify; font-size: 16px; font-family:montserrat;">A rectified name according to numerology can rectify the date of birth
+             flaw and turn things around for the individual or business. 
+            There are other numerology systems, such as Chaldean and Pythagorean numerology.</p>
+           
+
+           
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">For example, a 4 signifies Rahu, an 8 represents Shani, and a 7 represents Ketu;
+                 persons with these birth or life numbers should have their names corrected.</p>
+           
+
+            
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">People with difficult birth dates or life path numbers require a name adjustment.
+                 Their name might be their only salvation.</p>
+           
 
 
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">A rectified name according to numerology can rectify the date of birth
-                    flaw and turn things around for the individual or business.
-                    There are other numerology systems, such as Chaldean and Pythagorean numerology.</p>
+            
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Before we go into name correction,
+             you should realise that a person’s name may have a significant impact on the development and consequences of his endeavours.
+             Sometimes the date of birth is correct but the name is not.
+             The name must be analysed in order to rule out a problematic name.</p>
+            
+              
+           
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Each letter and sound represents a number value.</p>
+           
+
+            
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">The number represents planetary energy</p>
+           
 
 
+             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When the number in the date of birth is weak, it must be strengthened by a name change.</p>
 
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">For example, a 4 signifies Rahu, an 8 represents Shani, and a 7 represents Ketu;
-                    persons with these birth or life numbers should have their names corrected.</p>
+             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">A 4 signifies Rahu, an 8 represents Shani, and a 7 represents Ketu; anyone with these birth or life numbers should have their names corrected.</p>
 
+             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">You may learn your strengths and weaknesses, inner needs, emotional reactions, and methods of dealing with others, as well as your skills, by using numerology.
+            You may assist yourself by being more conscious of your own personality and learning how to comprehend and interact with others,
+            such as family, friends, lovers, employers, and workers.
+            You can even discover what forms of potential energy and tension exist in your life and the lives of people around you.</p>
 
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;">If you are an employer, numerology can help you determine if a candidate has the intrinsic ability to complete your employment needs. 
+             Indeed, numerology may assist you in better understanding everyone with whom you work,
+             and with this new insight, it is possible to improve tough work relationships.
+             Numerology may also be used to predict the optimal periods to marry, change employment, relocate, speculate, and travel.</p>
 
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">People with difficult birth dates or life path numbers require a name adjustment.
-                    Their name might be their only salvation.</p>
-
-
-
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Before we go into name correction,
-                    you should realise that a person’s name may have a significant impact on the development and consequences of his endeavours.
-                    Sometimes the date of birth is correct but the name is not.
-                    The name must be analysed in order to rule out a problematic name.</p>
-
-
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Each letter and sound represents a number value.</p>
-
-
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">The number represents planetary energy</p>
-
-
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When the number in the date of birth is weak, it must be strengthened by a name change.</p>
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">A 4 signifies Rahu, an 8 represents Shani, and a 7 represents Ketu; anyone with these birth or life numbers should have their names corrected.</p>
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">You may learn your strengths and weaknesses, inner needs, emotional reactions, and methods of dealing with others, as well as your skills, by using numerology.
-                    You may assist yourself by being more conscious of your own personality and learning how to comprehend and interact with others,
-                    such as family, friends, lovers, employers, and workers.
-                    You can even discover what forms of potential energy and tension exist in your life and the lives of people around you.</p>
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">If you are an employer, numerology can help you determine if a candidate has the intrinsic ability to complete your employment needs.
-                    Indeed, numerology may assist you in better understanding everyone with whom you work,
-                    and with this new insight, it is possible to improve tough work relationships.
-                    Numerology may also be used to predict the optimal periods to marry, change employment, relocate, speculate, and travel.</p>
-
-                  <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Whether you use numerology to evaluate your life, take advantage of undiscovered chances, affirm skills that you know exist in your heart, or just figure out where to go next, numerology can be a powerful tool for helping you better understand yourself and others you care about. Numerology provides the complete picture,
-                    allowing you to see all of the many aspects of your personality and how they combine together to form the person you are.
-                    With this comprehensive perspective,
-                    you can make the most of your skills in ways that were previously impossible.</p>
-                </div>
-              </div>
+             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">Whether you use numerology to evaluate your life, take advantage of undiscovered chances, affirm skills that you know exist in your heart, or just figure out where to go next, numerology can be a powerful tool for helping you better understand yourself and others you care about. Numerology provides the complete picture, 
+             allowing you to see all of the many aspects of your personality and how they combine together to form the person you are.
+              With this comprehensive perspective,
+              you can make the most of your skills in ways that were previously impossible.</p>
             </div>
+         </div>
+      </div>
+</div>
+
+
+      <div class="tabPanel">
+      <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Reviews</b></h2>
+          <div class="p-5">
+                <p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;">
+          There are no reviews yet.</p>
           </div>
-
-
-          <div class="tabPanel">
-            <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Reviews</b></h2>
-            <div class="p-5">
-              <p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;">
-                There are no reviews yet.</p>
-            </div>
-
-
-            <p style="text-align: justify;color:black;font-size: 16px; font-family:montserrat; padding-left:30px;">
-              Be the first to review “Lucky name correction”<br>
-              Your email address will not be published. Required fields are marked *</p>
-
-            <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
-              <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
-            </p>
+          
+          
+                <p style="text-align: justify;color:black;font-size: 16px; font-family:montserrat; padding-left:30px;">
+                Be the first to review “Lucky name correction”<br>
+                Your email address will not be published. Required fields are marked *</p>
+          
+                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
             <select name="rating">
-              <option value="1">Rate</option>
-              <option value="2">Perfect</option>
-              <option value="3">Good</option>
-              <option value="4">Average</option>
-              <option value="5">Not bad</option>
-              <option value="5">Very poor</option>
+            <option value="1">Rate</option>
+            <option value="2">Perfect</option>
+            <option value="3">Good</option>
+            <option value="4">Average</option>
+            <option value="5">Not bad</option>
+            <option value="5">Very poor</option>
             </select><br><br>
             <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR REVIEW *</p>
-            <input type="message" class="form-control" id="specific instruction" name="specific instruction">
+                <input type="message" class="form-control" id="specific instruction"  name="specific instruction">
 
-            <div class="row">
-              <div class="col mb-6 mt-3">
-                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                  <label for="name">Name*</label>
-                </p>
-                <input type="text" class="form-control" name="name">
-              </div>
-              <div class="col mb-6 mt-3">
-                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                  <label for="email">Email*</label>
-                </p>
-                <input type="text" class="form-control" name="email">
-              </div>
-            </div>
-            <input type="checkbox" id="myCheckbox" name="myCheckbox">
-            <label for="myCheckbox">
-              <p style="text-align: justify ; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
-                Save my name, email, and website in this browser for the next time I comment</p>
-            </label><br>
-            <button type="submit" class="btn btn-dark">Submit</button>
-
-          </div>
+                    <div class="row">
+                        <div class="col mb-6 mt-3">
+                        <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
+                        <label for="name">Name*</label></p>
+                            <input type="text" class="form-control"  name="name">
+                        </div>
+                        <div class="col mb-6 mt-3">
+                        <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
+                        <label for="email">Email*</label></p>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+                    </div>
+                    <input type="checkbox" id="myCheckbox" name="myCheckbox">
+                     <label for="myCheckbox"><p style="text-align: justify ; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
+                    Save my name, email, and website in this browser for the next time I comment</p></label><br>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+          
+</div>
 
         </div>
-      </div>
     </div>
-  </div>
+    </div>
+</div>
 
-  <script src="myscript.js"></script>
-  <div class="container">
+<script src="myscript.js"></script>
+            <div class="container">
     <div class="row g-0 mt-5">
+           
+            <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
 
-      <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
+            <div class="col-lg-4" style="margin-top:30px">
+            <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+            </div>
 
-      <div class="col-lg-4" style="margin-top:30px">
-        <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:400px;height:400px"></a>
-        <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b></h2>
-        <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-      </div>
+            
 
-
-
-      <div class="col-lg-4" style="margin-top:30px">
-        <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:400px;height:400px"></a>
-        <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
-        <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-      </div>
+            <div class="col-lg-4" style="margin-top:30px">   
+            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+            </div>
 
 
-      <div class="col-lg-4" style="margin-top:30px">
-        <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:400px;height:400px"></a>
-        <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
-        <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
-      </div>
-
-    </div>
-  </div>
-  <?php include("footer.php"); ?>
-  <script>
-    window.onload = function() {
-      showPanel(0, '#F5F5F5');
-    };
+            <div class="col-lg-4"  style="margin-top:30px">
+            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
+            </div>
+            
+</div>
+</div>
+<?php include("footer.php"); ?>
+    <script>
+      window.onload = function() {
+    showPanel(0, '#F5F5F5');
+  };
   </script>
-
-  <!-- script for time-->
   <script>
-    document.addEventListener("click", function(event) {
-      const hourOptions = document.getElementById("hourOptions");
-      const minuteOptions = document.getElementById("minuteOptions");
+  function validateFirstName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
 
-      if (!event.target.classList.contains("custom-dropdown-select")) {
-        hourOptions.classList.remove("show");
-        minuteOptions.classList.remove("show");
-      }
-    });
+  function validateFirstNameForm() {
+    var name = document.getElementById('first_name').value;
+    var firstNameError = document.getElementById('name_error');
 
-    function showOptions(type) {
-      const hourOptions = document.getElementById("hourOptions");
-      const minuteOptions = document.getElementById("minuteOptions");
-
-      if (type === 'hour') {
-        hourOptions.innerHTML = generateHourOptions();
-        hourOptions.classList.toggle("show");
-        minuteOptions.classList.remove("show");
-      } else {
-        minuteOptions.innerHTML = generateMinuteOptions();
-        minuteOptions.classList.toggle("show");
-        hourOptions.classList.remove("show");
-      }
+    if (!validateFirstName(name)) {
+      firstNameError.classList.add('show');
+    } else {
+      firstNameError.classList.remove('show');
     }
 
-    function generateHourOptions() {
-      let optionsHTML = "";
+    enableSubmitButton();
+  }
+  document.getElementById('first_name').addEventListener('keyup', validateFirstNameForm);
 
-      for (let hour = 0; hour < 24; hour++) {
-        const formattedHour12 = String(hour % 12 === 0 ? 12 : hour % 12).padStart(2, "0");
-        const amPm = hour < 12 ? "AM" : "PM";
-        optionsHTML += `<div class="custom-dropdown-option" onclick="selectTime('${hour}(${formattedHour12} ${amPm})', 'hour')">${hour} (${formattedHour12} ${amPm})</div>`;
-      }
 
-      return optionsHTML;
+  function validateSurName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateSurNameForm() {
+    var name = document.getElementById('sur_name').value;
+    var surNameError = document.getElementById('surname_error');
+
+    if (!validateSurName(name)) {
+      surNameError.classList.add('show');
+    } else {
+      surNameError.classList.remove('show');
     }
 
-    function generateMinuteOptions() {
-      let optionsHTML = "";
+    enableSubmitButton();
+  }
+  document.getElementById('sur_name').addEventListener('keyup', validateSurNameForm);
 
-      for (let minute = 0; minute < 60; minute++) {
-        const formattedMinute = String(minute).padStart(2, "0");
-        optionsHTML += `<div class="custom-dropdown-option" onclick="selectTime('${formattedMinute}', 'minute')">${formattedMinute}</div>`;
-      }
 
-      return optionsHTML;
+  function validatePlaceOfBirth(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validatePlaceOfBirthForm() {
+    var name = document.getElementById('place_birth').value;
+    var placeofbirthError = document.getElementById('place_error');
+
+    if (!validatePlaceOfBirth(name)) {
+      placeofbirthError.classList.add('show');
+    } else {
+      placeofbirthError.classList.remove('show');
     }
 
-    function selectTime(selectedTime, type) {
-      if (type === 'hour') {
-        const hourDropdown = document.getElementById("hourPickerDropdown");
-        const hourSelect = hourDropdown.querySelector(".custom-dropdown-select");
-        const hourOptions = document.getElementById("hourOptions");
-        hourSelect.value = selectedTime;
-        hourOptions.classList.remove("show");
-      } else {
-        const minuteDropdown = document.getElementById("minutePickerDropdown");
-        const minuteSelect = minuteDropdown.querySelector(".custom-dropdown-select");
-        const minuteOptions = document.getElementById("minuteOptions");
-        minuteSelect.value = selectedTime;
-        minuteOptions.classList.remove("show");
-      }
+    enableSubmitButton();
+  }
+  document.getElementById('place_birth').addEventListener('keyup', validatePlaceOfBirthForm);
+
+
+  function validateFatherName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateFatherNameForm() {
+    var name = document.getElementById('father_name').value;
+    var fatherNameError = document.getElementById('fathername_error');
+
+    if (!validateFatherName(name)) {
+      fatherNameError.classList.add('show');
+    } else {
+      fatherNameError.classList.remove('show');
     }
-  </script>
+
+    enableSubmitButton();
+  }
+  document.getElementById('father_name').addEventListener('keyup', validateFatherNameForm);
 
 
+  function validateMotherName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateMotherNameForm() {
+    var name = document.getElementById('mother_name').value;
+    var motherNameError = document.getElementById('mothername_error');
+
+    if (!validateMotherName(name)) {
+      motherNameError.classList.add('show');
+    } else {
+      motherNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('mother_name').addEventListener('keyup', validateMotherNameForm);
+
+  function validateSpouseName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateSpouseNameForm() {
+    var name = document.getElementById('spouse_name').value;
+    var spouseNameError = document.getElementById('spousename_error');
+
+    if (!validateSpouseName(name)) {
+      spouseNameError.classList.add('show');
+    } else {
+      spouseNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('spouse_name').addEventListener('keyup', validateSpouseNameForm);
+
+
+  
+  function validateMobile(input_str) {
+    var re = /^[0-9]{10}$/;
+    return re.test(input_str);
+  }
+
+  function validateMobileForm() {
+    var mobile = document.getElementById('phone_number').value;
+    var mobileError = document.getElementById('mobile_error');
+
+    if (!validateMobile(mobile)) {
+      mobileError.classList.add('show');
+    } else {
+      mobileError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+
+  document.getElementById('phone_number').addEventListener('keyup', validateMobileForm);
+
+
+  function validateEmail(input_str) {
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(input_str);
+  }
+
+  function validateEmailForm() {
+    var email = document.getElementById('email').value;
+    var emailError = document.getElementById('email_error');
+
+    if (!validateEmail(email)) {
+      emailError.classList.add('show');
+    } else {
+      emailError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('email').addEventListener('keyup', validateEmailForm);
+</script>
 
 </body>
 
