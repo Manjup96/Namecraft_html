@@ -35,6 +35,22 @@
      cursor:pointer;
 }
 
+.submit {
+        background-color: #c0c0c0;
+        color: white;
+        padding: 8px 12px;
+        font-size: 13px;
+        border: none;
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .submit:hover {
+        background-color: black;
+        color: white;
+    }
 </style>
 
 <head>
@@ -288,7 +304,7 @@
         </div>
     </div>
     </div>
-                    <button type="submit" class="btn btn-dark">Submit</button>
+    <input type="submit" value="Submit" class="submit">
                     </div>
                     </div>
              </div>
