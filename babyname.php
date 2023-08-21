@@ -331,41 +331,6 @@
     }
 </style>
 
-
-   
-
-
-
-    <!-- <div class="container">
-    <div class="row g-4 mt-5 justify-content-center align-items-center">
-        <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
-
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
-                <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b>
-                </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
-
-            <div class="col-lg-4 col-md-8 col-sm-10"style="margin-top:30px">
-                <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b>
-                </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
-
-            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
-                <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
-                </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
-    </div>
-</div> -->
-
 <div class="container">
     <div class="row g-4 mt-5 justify-content-center align-items-center">
         <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
