@@ -336,7 +336,7 @@
 
 
 
-    <div class="container">
+    <!-- <div class="container">
     <div class="row g-4 mt-5 justify-content-center align-items-center">
         <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
 
@@ -364,7 +364,41 @@
                 <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
     </div>
+</div> -->
+
+<div class="container">
+    <div class="row g-4 mt-5 justify-content-center align-items-center">
+        <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="luckydate.php">
+                <img src="images/C section delivery date.jpg" alt="Lucky Date Delivery">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Lucky Date Delivery</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="nameanalysis.php">
+                <img src="images/Name analysis.jpg" alt="Name Analysis">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Name Analysis</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="luckyname.php">
+                <img src="images/LUCKY ALPHABETS.jpg" alt="Lucky Name Correction">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Lucky Name Correction</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 35.00</b>
+        </div>
+    </div>
 </div>
+
+
+
+
     <?php include("footer.php"); ?>
 
     <script>
