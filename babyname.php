@@ -32,6 +32,24 @@
         border: none;
         padding: 10px 20px;
     }
+
+    .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
 </style>
 
 
@@ -40,7 +58,6 @@
     <?php
     $page = 'services';
     include 'navbar.php';
-
     ?>
 
 
@@ -59,9 +76,10 @@
         
   <div class="row justify-content-center">
     <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
+    <div class="zoom-container">
       <img src="images/babyname numerology.jpg" style="width:100%; height:auto; border: 2px solid black;">
     </div>
-
+    </div>
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;padding-left: 50px;">
                 <h2>
                 <b class="text-center" style=" font-family:montserrat;"> Baby Name Correction</b>
@@ -169,8 +187,8 @@
             <div style="margin-top: 50px">
                 <div class="tabContainer">
                     <div class="buttonContainer">
-                        <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-                        <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+                    <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Description &nbsp;</button>
+                        <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Review &nbsp;</button>
                     </div>
                     <div class="tabPanel ">
                         <div class="row">
@@ -205,18 +223,18 @@
                                         <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Selecting the Best Vibration:</p>
 
                                 
-                    <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">This is determined by the baby’s natal star.
+                                       <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">This is determined by the baby’s natal star.
                                         Astrology has defined initial sounds for children born under a specific natal star.</p>
                                
                                         <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Find a harmonic harmony between your name and your birthday:</p>
                                 
-                                <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Every letter is connected with a number in numerology,
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Every letter is connected with a number in numerology,
                                         and the vibration is determined based on the numerology value of the alphabet and validated using phonics.
                                         The sound’s pronunciation and vibration.The name is also determined and validated using equipment based on energy vibrations.</p>
                                
                                         <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">We Can Assist You in Making a Difference in Your Child’s Life:</p>
                                 
-                                <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
                                         Don’t be concerned! We at Sheelaa.com can recommend alterations to your child’s name spelling so that he or she has a name with a better numerological equation.
                                         We will examine all circumstances, such as your child’s birth date, when recommending these modifications.
                                         We will recommend slight modifications in the spelling of your kid’s present name so that you may keep the name you chose for your child after much thought,

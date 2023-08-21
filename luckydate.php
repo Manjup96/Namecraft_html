@@ -30,6 +30,24 @@
         border: none;
         padding: 10px 20px;
     }
+    .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
+
 </style>
 <body>
     <!-- navbar start -->
@@ -50,9 +68,11 @@
 
 
     <div class="container">
-       <div class="row g-0">
+       <div class="row justify-content-center zoom-container">
             <div class="col-lg-6"  style="margin-top:50px">
+            <div class="zoom-container">
             <img src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            </div>
             </div>
 
             <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
@@ -117,8 +137,8 @@
             <div  style="margin-top:50px">
             <div class="tabContainer">
         <div class="buttonContainer">
-          <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-          <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Review</button>
         </div>
         <div class="tabPanel ">
             <div class="row">

@@ -15,41 +15,119 @@
     body {
       font-family: 'Montserrat', sans-serif;
     }
-  .number2 .container-fluid {
-    background-image: url("images/number2.jpg");
-    background-size: 755px; 
-    background-position: center;
+  </style>
+<style>
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
     color: white;
-    padding: 110px;
-    opacity: 0.8;
-  }
-  .number2 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
-    text-decoration: none;
-    color: white;
-  }
-  
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        text-align: left;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+        letter-spacing:10px;
+        margin-bottom:30px;
+        
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+    }
+}
 </style>
 
-<!-- banner starts -->
 
-<div class="number2">
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-12">
-    <h1>NUMBER 2</h1>
-    <p>JUNE 2, 2023 SHEELAA M BAJAJ</p>
-    <p><a class="link" href="#index.php">HOME / NUMBER 2</a></p>
+
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="banner-overlay"></div>
+            <img src="images/numbers/2.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
+            <div class="carousel-caption">
+                <h5>NUMBER 2</h5>
+                <p style="font-size: 9px">
+                    <i class="fa fa-calendar"></i>&nbsp;JUNE 2, 2023&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
+                </p>
+                <p><a href="index.php">Home</a> / Number 2</p>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
 </div>
+
+
+
+
 
 <!-- banner ends -->
 
@@ -169,15 +247,13 @@
         </div>
 
         <div class="container mt-5 mb-4">
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-start">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between">
             <a href="number1.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
-            </div>
-            <div class="col-md-6 d-flex justify-content-end">
             <a href="number3.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
-            </div>
         </div>
     </div>
+</div>
       </div>
     </div>
   </div>

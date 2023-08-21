@@ -19,9 +19,23 @@
     font-size: 80%;
   }
 
-  .hidden {
-    display: none;
-  }
+  .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
 </style>
 <body>
     <!-- navbar start -->
@@ -33,6 +47,7 @@
 
 
 <div id="innerPageBanner">
+  
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
@@ -42,10 +57,11 @@
 
 
     <div class="container">
-       <div class="row g-0">
+       <div class="row justify-content-center zoom-container">
             <div class="col-lg-6"  style="margin-top:50px">
+            <div class="zoom-container">
             <img src="images/Name analysis.jpg"style="width:500px;height:400px;  border: 2px solid black;">
-            
+            </div>
             </div>
       
 
@@ -87,8 +103,8 @@
             <div  style="margin-top:50px">
             <div class="tabContainer">
         <div class="buttonContainer">
-          <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-          <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Review</button>
         </div>
         <div class="tabPanel ">
         <div class="row">
