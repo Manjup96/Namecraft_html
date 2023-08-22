@@ -113,6 +113,9 @@
     include 'navbar.php';
     ?>
 
+<!-- Banner Start -->
+
+
 <div class="container-fluid p-0">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -126,6 +129,10 @@
         </div>
     </div>
 </div>
+
+<!-- Banner End -->
+
+<!-- Refund Content start -->
 
      <div class="container pt-5">
         <div class="row">
@@ -153,6 +160,9 @@
             }
         }
     </script>
+    <!-- Refund Content End -->
+
+    
 <?php include("footer.php"); ?>
 </body>
 
