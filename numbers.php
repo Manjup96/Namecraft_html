@@ -4,7 +4,8 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
-    .card {
+  
+        .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 80%;
@@ -16,7 +17,23 @@
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         
     }
+   
+    p{
+        font-size:13px;
+        text-align:justify;
 
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+
+      a{
+        padding:25px;
+    }
+    
+   
+  
     img {
         border-radius: 5px 5px 0 0;
         transition: transform 0.3s ease-in-out;
@@ -25,18 +42,7 @@
         transform: scale(1.1);
     }
 
-    .container {
-        padding: 2px 16px;
-    }
-    p{
-        font-size:13px;
-        text-align:justify;
-
-    }
-
-    a{
-        padding:25px;
-    }
+   
 </style>
 
 <body  >
@@ -57,7 +63,7 @@
   
 
 
-    <div class="container-fluid " >
+    <div class="container-fluid " id="card" >
         <div class="row">
             <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 ">
