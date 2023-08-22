@@ -1,15 +1,15 @@
 <?php
 
-// define('DB_SERVER','localhost');
-// define('DB_USER','root');
-// define('DB_PASS' ,'');
-// define('DB_NAME', 'ozzone');
-
-
 define('DB_SERVER','localhost');
-define('DB_USER','u406176785_nc_user');
+define('DB_USER','root');
 define('DB_PASS' ,'');
-define('DB_NAME', 'u406176785_nc_db');
+define('DB_NAME', 'namecraft_html_db');
+
+
+// define('DB_SERVER','localhost');
+// define('DB_USER','u406176785_nc_mdt_user');
+// define('DB_PASS' ,'');
+// define('DB_NAME', 'u406176785_nc_mdt_db');
 
 
 

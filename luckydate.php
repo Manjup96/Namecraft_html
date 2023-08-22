@@ -30,6 +30,24 @@
         border: none;
         padding: 10px 20px;
     }
+    .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
+
 </style>
 <body>
     <!-- navbar start -->
@@ -50,12 +68,18 @@
 
 
     <div class="container">
-       <div class="row g-0">
-            <div class="col-lg-6"  style="margin-top:50px">
-            <img src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+       <div class="row justify-content-center zoom-container">
+            <div class="col-md-6"  style="margin-top:50px">
+            <div class="zoom-container">
+              <br>
+              <br>
+              <br>
+              <br>
+            <img class="img-fluid" src="images/C section delivery date.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            </div>
             </div>
 
-            <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
+            <div class="col-md-6"  style="margin-top:50px; ">
                     <h2><b class="text-center" style=" font-family:montserrat;"> Lucky date delivery</b></h2>
                     <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
@@ -116,11 +140,11 @@
        <div class="row g-0">
             <div  style="margin-top:50px">
             <div class="tabContainer">
-        <div class="buttonContainer">
-          <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-          <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+        <div class="buttonContainer" style="margin-left:10px">
+          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Review</button>
         </div>
-        <div class="tabPanel ">
+        <div class="tabPanel mt-3">
             <div class="row">
                 <div class="col-md-12 mt-4">
                 <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;"> Description </h2>
@@ -203,9 +227,10 @@
             <option value="5">Not bad</option>
             <option value="5">Very poor</option>
             </select><br><br>
+<div class="container">
+
             <p style="font-size: 16px; float: font-family:montserrat; left;padding-left:30px;"> YOUR REVIEW *</p>
                 <input type="message" class="form-control" id="specific instruction"  name="specific instruction">
-
                     <div class="row">
                         <div class="col mb-6 mt-3">
                         <p style="font-size: 20px;  font-family:montserrat; float: left;padding-left:30px;">
@@ -219,55 +244,78 @@
                         </div>
                     </div>
                     <input type="checkbox" id="myCheckbox" name="myCheckbox">
-                     <label for="myCheckbox"><p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
+                     <label for="myCheckbox" class="mt-3"><p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
                     
                      Save my name, email, and website in this browser for the next time I comment</p></label><br>
-                    <button type="submit" class="btn btn-dark">Submit</button>
-          
+                    <button type="submit" class="btn btn-dark mb-5">Submit</button>
+                    </div>
 
 
         </div>
+        
       </div>
     </div>
 </div>
 </div>
 
 <script src="myscript.js"></script>
+<style>
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
 
-            <div class="container">
-    <div class="row g-0 mt-5">
-           
-            <h2><b style=" font-family:montserrat;">Related products</b></h2>
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
 
-            <div class="col-lg-4" style="margin-top:30px">   
-            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
-             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
 
-            <div class="col-lg-4" style="margin-top:30px">
-            <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
+<div class="container">
+    <div class="row g-4 mt-5 justify-content-center align-items-center">
+        <h2 class="text-center mb-4"><b style="font-family: montserrat;">Related products</b></h2>
 
-            <div class="col-lg-4"  style="margin-top:30px">
-            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
-            </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="nameanalysis.php">
+                <img src="images/Name analysis.jpg" alt="Name Analysis">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Name Analysis</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+        </div>
 
-            
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="luckyname.php">
+                <img src="images/LUCKY ALPHABETS.jpg" alt="Lucky Name Correction">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Lucky Name Correction</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+        </div>
 
-            
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center product-column">
+            <a href="babyname.php">
+                <img src="images/babyname numerology.jpg" alt="Baby Name Correction">
+            </a>
+            <h2 class="text-center mt-3"><b style="font-size: 16px; font-family: montserrat;">Baby Name Correction</b></h2>
+            <b class="text-center" style="font-size: 16px;">Rs: 35.00</b>
+        </div>
+    </div>
 </div>
-</div>
+
     <?php include("footer.php"); ?>
 
     <script>
       window.onload = function() {
     showPanel(0, '#F5F5F5');
-  };
+  }; 
   </script>
 
 <script>

@@ -267,24 +267,28 @@
       margin-top: 70px;
       margin-left: 20px;
     }
-    @media (max-width: 767px) {
-      .about p {
-        padding: 1px;
-        margin-left: 3px;
-      }
+
+    @media (max-width: 991px) {
       .about h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+      }
+
+      .about p {
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 10px;
         margin-left: 5px;
       }
+
       .about img {
-        margin-left: -1px;
+        max-width: 80%;
+        margin: 20px auto;
+        display: block;
       }
     }
-    @media (min-width: 577px) and (max-width: 991px) {
-      .about img {
-        margin-left: -5px;
-      }
-    }
-    
   </style>
 
   <div class="about">
@@ -675,21 +679,17 @@
         height: 80%;
         border-radius: 10px;
       }
-      @media (max-width: 767px) {
-      .clients img {
-        margin-left: 8px;
-      }
+      @media (max-width: 768px) {
+    .clients h2 {
+      text-align: center;
     }
-    @media (min-width: 577px) and (max-width: 991px) {
-      .clients img {
-        margin-left: 180px;
-      }
-      .clients .container p {
-        margin-left: -5px;
-      }
+  }
+  @media (max-width: 991px) {
+    .clients img {
+      display: block;
+      margin: 0 auto; 
     }
-    
-    
+  }
     </style>
 
 <div class="clients">
@@ -713,54 +713,63 @@
     <!-- Book Section starts -->
 
     <style>
-      .tedx_talk {
-        background-color: #eee5ef;
-        margin-top: 50px;
-        font-family: 'Montserrat';
-        padding: 40px;
-      }
-      .tedx_talk p {
-        font-size: 100%;
-        font-family: 'Montserrat';
-        font-weight: 500;
-      }
-      .tedx_talk img {
-        border-radius: 10px;
-        margin-top: 30px;
-      }
+  .tedx_talk {
+    background-color: #eee5ef;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    padding: 40px;
+  }
+  .tedx_talk p {
+    font-size: 100%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  }
+  .tedx_talk img {
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
 
-
-      .button {
-        background-color: #b97ebb;
-        box-shadow: 0 5px 0 #a559a8;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        margin-top: 10px;
-        letter-spacing: 2px;
-      }
-      .button:hover{
-        color: #6f3473;
-      }
-      @media (max-width: 767px) {
-        .tedx_talk h2 {
-        margin-top: 5px;
-      }
-    }
-    @media (min-width: 577px) and (max-width: 991px) {
-      .tedx_talk img {
-        margin-left: -30px;
-      }
-       .tedx_talk h2,p,h5,a {
-        margin-left: 50px;
-      } 
-    }
+  .button {
+    background-color: #b97ebb;
+    box-shadow: 0 5px 0 #a559a8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  .button:hover {
+    color: #6f3473;
+  }
+  @media (max-width: 992px) {
+    .tedx_talk .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       
-    </style>
+    }
+    .tedx_talk .col-md-4,
+    .tedx_talk .col-md-8 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .tedx_talk .col-md-4,
+    .tedx_talk .col-md-8 {
+      flex-basis: 50%;
+      max-width: 50%;
+      /* margin-top:100px; */
+    }
+  }
+</style>
       
     <div class= "tedx_talk">
     <div class="container">
@@ -769,7 +778,7 @@
           <img style="width: 280px; height: 400px;" src="images/Book.jpg" alt="">
         </div>
 
-        <div class="col-md-8 col-lg-8 col-xs-12 content ">
+        <div class="col-md-8 col-lg-8 col-xs-12"><br>
           <h2>IS LOVE A GAME? READ THIS BOOK</h2>
           <p>THE LOVE MIRAGE: The Game of Love Deciphered</p>
           <p>A book by Sheelaa M Bajaj</p><br>
@@ -885,34 +894,23 @@
         line-height: 1.7;
         font-weight: 500;
       }
-      @media (max-width: 767px) {
-        .tedx .container-fluid iframe {
-        margin-left: 0.9px;
-        height: 200px;
-        width: 360px;
-        border-radius: 10px;
-      }
-      .tedx .container-fluid h2 {
-        margin-top: 10px;
-      }
 
+      @media (max-width: 991px) {
+    .tedx .row {
+      flex-direction: column;
     }
-    @media (min-width: 577px) and (max-width: 991px) {
-      .tedx .container-fluid iframe {
-        height: 350px;
-        width: 690px;
-        margin-left: 50px;
-        border-radius: 10px;
-      }
-      .tedx .container-fluid h2 {
-        margin-top: 10px;
-        margin-left: 46px;
-      }
-      .tedx .container-fluid p {
-        padding: 10px;
-      }
+
+    .tedx .col-md-12 {
+      margin-bottom: 20px; 
     }
+
+    .tedx .container-fluid iframe {
+      width: 100%; 
+      height: 45vh; 
       
+      margin: 20px 0;
+    }
+  }
     </style>
 
 
@@ -969,16 +967,12 @@
           letter-spacing: 10px;
           font-weight: bold;
       }
-      @media (max-width: 767px) {
-        .gallery iframe {
-          margin-top: 20px;
-        }
-      }
-      @media (min-width: 577px) and (max-width: 991px) {
-        .gallery iframe {
-          margin-top: 20px;
-        }
-      }
+      @media (max-width: 991px) {
+    .gallery .video-column {
+      margin-bottom: 20px;
+    }
+  }
+      
     </style>
 
 
