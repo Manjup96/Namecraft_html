@@ -24,8 +24,8 @@
             <div class="text-center" style="font-family:Open Sans, sans-serif;">
               <ul class="footer-links list-unstyled text-start">
                 <li><a href="index.php" style="margin-bottom:5px;font-size:14px;color:#000000">Terms of service</a></li><br>
-                <li><a href="about.php" style="margin-bottom:5px;font-size:14px;color:#000000"> Refund policy</a></li><br>
-                <li><a href="services.php" style="margin-bottom:5px;font-size:14px;color:#000000">Privacy policy</a></li><br>
+                <li><a href="refund_policy.php" style="margin-bottom:5px;font-size:14px;color:#000000"> Refund policy</a></li><br>
+                <li><a href="privacy_policy.php" style="margin-bottom:5px;font-size:14px;color:#000000">Privacy policy</a></li><br>
                 <li><a href="contact.php" style="margin-bottom:5px;font-size:14px;color:#000000">Contact us</a></li><br>
               </ul>
             </div>
