@@ -57,7 +57,7 @@
   margin-top:100px;
 }
 .carousel-caption p {
-    margin-top: -80px;
+    margin-top: -100px;
 }
 
 /* Additional styles for p element */
@@ -97,7 +97,7 @@
     }
 }
 
-#id{
+#text{
     color:white;
     text-decoration: none;
 }
@@ -124,7 +124,7 @@
             <div class="carousel-caption">
                 <h5>PRIVACY POLICY</h5>
             
-                <p><a id="id" href="index.php">Home</a> / PRIVACY POLICY</p>
+                <p><a id="text" href="index.php">Home</a> / PRIVACY POLICY</p>
             </div>
         </div>
     </div>

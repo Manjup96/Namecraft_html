@@ -46,7 +46,7 @@
 }
 
 /* Separate h1 and p in carousel-caption */
-.carousel-caption h5,
+
 .carousel-caption p {
     display: block;
     margin: 0;
@@ -54,10 +54,10 @@
 }
 
 .carousel-caption h5{
-  margin-top:50px;
+  margin-top:100px;
 }
 .carousel-caption p {
-    margin-top: -50px;
+    margin-top: -100px;
 }
 
 /* Additional styles for p element */
@@ -103,6 +103,10 @@
             color: gray;
 
         }
+        #text{
+    color:white;
+    text-decoration: none;
+}
     </style>
 
 
@@ -124,7 +128,7 @@
             <div class="carousel-caption">
                 <h5>REFUND POLICY</h5>
             
-                <p><a href="index.php">Home</a> / REFUND POLICY</p>
+                <p><a id="text" href="index.php">Home</a> / REFUND POLICY</p>
             </div>
         </div>
     </div>
