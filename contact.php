@@ -127,12 +127,6 @@
     </div>
 
     <!-- contact start -->
-
-    <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
-        <div class="row g-0">
-            <div class="col-lg-12 py-6 px-5">
-                <h1 class="display-5 mb-4 pt-5">Get In Touch</h1>
-
     <style>
     body {
       font-family: 'Montserrat', sans-serif;
@@ -141,30 +135,11 @@
     
 
   </style>
-  
 
-
-
-    <div id="innerPageBanner">
-        <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
-        <div class="banner-overlay"></div>
-        <div class="banner-content">
-            <h2 style="letter-spacing:15px;font-size:45px">CONTACT US</h2>
-
-<div class="container-fluid p-0">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="banner-overlay"></div>
-                <img src="images/servicebanner.png" class="d-block w-100" alt="..." style="height:300px;">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <h2>CONTACT US</h2>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
+    <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
+        <div class="row g-0">
+            <div class="col-lg-12 py-6 px-5">
+              
     <div class="container-fluid" style="background-color:#eee5ef">
     <div class="container" >
         <div class="row ">
@@ -212,6 +187,7 @@
 
        <center> <button type="button"  style="font-size: 25px;background-color:black;color:white" class="mt-5 mb-5 p-2 " >&nbsp;Send Email&nbsp;</button></center>
     </div>
+</div>
 </div>
     
 
