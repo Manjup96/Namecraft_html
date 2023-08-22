@@ -16,9 +16,9 @@
     -webkit-transition: 0s !important;
     -o-transition: 0s !important;
     transition: 0s !important;
-    transition: -webkit-transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out, -webkit-transform 0s ease-in-out !important;
+    transition: -webkit-transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in !important;
 
 
   }
@@ -39,11 +39,11 @@
   </script>
   <!-- navbar emds -->
   <!-- banner starts -->
-  <style>
+ <!--  <style>
     #carouselExampleCaptions img {
       filter: brightness(0.5);
     }
-         /* Custom CSS for slide animation */
+         
          #carouselExampleCaptions .carousel-item img {
             position: relative;
             animation: slide 1s ease-in;
@@ -58,7 +58,7 @@
                 transform: translateX(0);
             }
         }
-  </style>
+  </style> -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
         <div class="carousel-inner">
       <div class="carousel-item active">
@@ -267,6 +267,24 @@
       margin-top: 70px;
       margin-left: 20px;
     }
+    @media (max-width: 767px) {
+      .about p {
+        padding: 1px;
+        margin-left: 3px;
+      }
+      .about h2 {
+        margin-left: 5px;
+      }
+      .about img {
+        margin-left: -1px;
+      }
+    }
+    @media (min-width: 577px) and (max-width: 991px) {
+      .about img {
+        margin-left: -5px;
+      }
+    }
+    
   </style>
 
   <div class="about">
@@ -493,7 +511,7 @@
         
         /* Additional animation for cards */
         .testimonial .card {
-            animation: cardSlide 0.7s ease-in;
+            animation: cardSlide 0s ease-in;
         }
         
         @keyframes cardSlide {
@@ -657,6 +675,21 @@
         height: 80%;
         border-radius: 10px;
       }
+      @media (max-width: 767px) {
+      .clients img {
+        margin-left: 8px;
+      }
+    }
+    @media (min-width: 577px) and (max-width: 991px) {
+      .clients img {
+        margin-left: 180px;
+      }
+      .clients .container p {
+        margin-left: -5px;
+      }
+    }
+    
+    
     </style>
 
 <div class="clients">
@@ -713,6 +746,20 @@
       .button:hover{
         color: #6f3473;
       }
+      @media (max-width: 767px) {
+        .tedx_talk h2 {
+        margin-top: 5px;
+      }
+    }
+    @media (min-width: 577px) and (max-width: 991px) {
+      .tedx_talk img {
+        margin-left: -30px;
+      }
+       .tedx_talk h2,p,h5,a {
+        margin-left: 50px;
+      } 
+    }
+      
     </style>
       
     <div class= "tedx_talk">
@@ -722,7 +769,7 @@
           <img style="width: 280px; height: 400px;" src="images/Book.jpg" alt="">
         </div>
 
-        <div class="col-md-8 col-lg-8 col-xs-12">
+        <div class="col-md-8 col-lg-8 col-xs-12 content ">
           <h2>IS LOVE A GAME? READ THIS BOOK</h2>
           <p>THE LOVE MIRAGE: The Game of Love Deciphered</p>
           <p>A book by Sheelaa M Bajaj</p><br>
@@ -838,6 +885,34 @@
         line-height: 1.7;
         font-weight: 500;
       }
+      @media (max-width: 767px) {
+        .tedx .container-fluid iframe {
+        margin-left: 0.9px;
+        height: 200px;
+        width: 360px;
+        border-radius: 10px;
+      }
+      .tedx .container-fluid h2 {
+        margin-top: 10px;
+      }
+
+    }
+    @media (min-width: 577px) and (max-width: 991px) {
+      .tedx .container-fluid iframe {
+        height: 350px;
+        width: 690px;
+        margin-left: 50px;
+        border-radius: 10px;
+      }
+      .tedx .container-fluid h2 {
+        margin-top: 10px;
+        margin-left: 46px;
+      }
+      .tedx .container-fluid p {
+        padding: 10px;
+      }
+    }
+      
     </style>
 
 
@@ -894,8 +969,16 @@
           letter-spacing: 10px;
           font-weight: bold;
       }
-
-      
+      @media (max-width: 767px) {
+        .gallery iframe {
+          margin-top: 20px;
+        }
+      }
+      @media (min-width: 577px) and (max-width: 991px) {
+        .gallery iframe {
+          margin-top: 20px;
+        }
+      }
     </style>
 
 
