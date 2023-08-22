@@ -106,6 +106,11 @@
         font-size: 9px;
     }
 }
+
+#num9{
+    color:white;
+    text-decoration: none;
+}
 </style>
 
 
@@ -121,7 +126,7 @@
                     <i class="fa fa-calendar"></i>&nbsp;JUNE 9, 2023&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
                 </p>
-                <p><a href="index.php">Home</a> / Number 9</p>
+                <p><a id="num9" href="index.php">Home</a> / Number 9</p>
             </div>
         </div>
     </div>

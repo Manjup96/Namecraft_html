@@ -159,6 +159,23 @@
             height: 100%;
             background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
         }
+
+        /* @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+} */
 </style>
 
 <head>
@@ -200,6 +217,7 @@
 
     <div class="container">
        <div class="row justify-content-center">
+
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
             <div class="zoom-container">
             <img src="images/LUCKY ALPHABETS.jpg" class="img-fluid" style="width:500px;height:400px;  border:2px solid black;">
@@ -209,6 +227,8 @@
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
            <p class="text" style=" font-size: 36px">Lucky name correction</p>
             <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:100.00</h2>
+
+           
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
                      their life is filled with hardship and battle. They labour really hard yet receive little results or appreciation.
                      Their relationships deteriorate as a result, and others take credit for their efforts.
@@ -229,7 +249,11 @@
                        <div id="name_error" class="error hidden">Please enter a valid first name</div>
                     </div>
                     <div class="col mb-3 mt-3">
+
                       <label for="surname">Sur name*</label>
+
+                      <label for="surname">Last Name*</label>
+
                       <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
                       <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
                     </div>
@@ -309,13 +333,14 @@
        <div class="row g-0">
             <div  style="margin-top:50px">
             <div class="tabContainer">
-        <div class="buttonContainer">
+
+            <div class="buttonContainer">
           <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description</button>
           <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Review</button>
         </div>
         <div class="tabPanel ">
         <div class="row">
-                <div class="col-md-12 mt-4">
+                <div class="col-md-12 mt-4 ">
                 <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description </h2>
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number, 
@@ -438,35 +463,64 @@
 </div>
 
 <script src="myscript.js"></script>
-            <div class="container related-products">
-    <div class="row g-0 mt-5">
+
            
-            <h2><b class="text-center " style="font-family:montserrat;">Related products</b></h2>
-
-            <!-- <div class="imgs"> -->
-            <div class="col-lg-4 col-md-8 col-sm-10 " style="margin-top:30px">
-            <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Date Delivery</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
-            </div>
-
+           
+            
             
 
-            <div class="col-lg-4 col-md-8 col-sm-10 " style="margin-top:30px">   
-            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Name Analysis</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:35.00</p>
-            </div>
+<style>
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
 
 
-            <div class="col-lg-4 col-md-8 col-sm-10 "  style="margin-top:30px">
-            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:35.00</p>
-            </div>
-            </div>
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<div class="container related-products">
+    <div class="row g-0 mt-5">
+        <h2 class="text mb-4"><b style="font-family: montserrat;">Related products</b></h2>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="luckydate.php">
+                <img src="images/C section delivery date.jpg" style="width:350px;height:350px;border: 2px solid black;" >
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky Date Delivery</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+        </div>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="nameanalysis.php">
+                <img src="images/Name analysis.jpg" style="width:350px;height:350px;border: 2px solid black;">
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Name Analysis</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+        </div>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="babyname.php">
+                <img src="images/babyname numerology.jpg" style="width:350px;height:350px;border: 2px solid black;">
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Baby Name Correction</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 35.00</p>
+        </div>
+    </div>
+
 </div>
-</div>
+
 <?php include("footer.php"); ?>
     <script>
       window.onload = function() {

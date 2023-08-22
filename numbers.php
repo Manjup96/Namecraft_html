@@ -4,7 +4,8 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
-    .card {
+  
+        .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 80%;
@@ -16,7 +17,23 @@
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         
     }
+   
+    p{
+        font-size:13px;
+        text-align:justify;
 
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+
+      #link{
+        padding:25px;
+    }
+    
+   
+  
     img {
         border-radius: 5px 5px 0 0;
         transition: transform 0.3s ease-in-out;
@@ -25,18 +42,7 @@
         transform: scale(1.1);
     }
 
-    .container {
-        padding: 2px 16px;
-    }
-    p{
-        font-size:13px;
-        text-align:justify;
-
-    }
-
-    a{
-        padding:25px;
-    }
+   
 </style>
 
 <body  >
@@ -57,11 +63,11 @@
   
 
 
-    <div class="container-fluid ">
+    <div class="container-fluid " id="card" >
         <div class="row">
             <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 ">
-                    <a href="number1.php"  >
+                    <a id="link" href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container-fluid">
@@ -80,7 +86,7 @@
             </div>
             <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
                 <div class="card mx-5 " data-aos="zoom-in" data-aos-hover="none">
-                   <a href="number2.php">
+                   <a id="link" href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -100,7 +106,7 @@
             </div>
             <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1800">
                 <div class="card mx-5 ">
-                   <a href="number3.php">
+                   <a id="link" href="number3.php">
                      <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -121,7 +127,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                   <a href="number4.php">
+                   <a id="link" href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -142,7 +148,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5">
-                 <a href="number5.php">
+                 <a id="link" href="number5.php">
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%">
 </a>
                     <div class="container">
@@ -163,7 +169,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number6.php">
+                     <a id="link" href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -185,7 +191,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number7.php">
+                     <a  id="link" href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -208,7 +214,7 @@
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
                     
-                     <a href="number8.php">
+                     <a id="link" href="number8.php">
                      <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -230,7 +236,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number9.php">
+                     <a id="link" href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%">
                      </a>
      

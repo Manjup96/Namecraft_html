@@ -55,7 +55,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
         }
     </style>
 
@@ -72,7 +72,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(5, 5, 5, 0.67);
+    background-color: rgba(5, 5, 5, 0.5);
 }
 
 .banner-content {
@@ -116,60 +116,41 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/single_banner.png" class="d-block w-100" alt="...">
+                <img src="images/service_banner.png" class="d-block w-100 " alt="..." style="height:300px">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
-                        <h2 style="margin: 130px; font-size: 50px;">Contact Us</h2>
+                        <h2 style="margin: 130px; font-size: 50px;">CONTACT US</h2>
                     </div>
                 </div>
+    <div class="banner-overlay"></div>
+
             </div>
         </div>
     </div>
 
     <!-- contact start -->
-
-    <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
-        <div class="row g-0">
-            <div class="col-lg-12 py-6 px-5">
-                <h1 class="display-5 mb-4 pt-5">Get In Touch</h1>
-
     <style>
     body {
       font-family: 'Montserrat', sans-serif;
     }
 
-    
+    #form{
+        font-size:13px;
+    }
+    #location{
+        font-size:15px;
+    }
 
   </style>
-  
 
-
-
-    <div id="innerPageBanner">
-        <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
-        <div class="banner-overlay"></div>
-        <div class="banner-content">
-            <h2 style="letter-spacing:15px;font-size:45px">CONTACT US</h2>
-
-<div class="container-fluid p-0">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="banner-overlay"></div>
-                <img src="images/servicebanner.png" class="d-block w-100" alt="..." style="height:300px;">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <h2>CONTACT US</h2>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
+    <div class="container-fluid bg-light px-0  d-flex justify-content-center  " id="form"> <!-- Added class "d-flex justify-content-center" -->
+       
+              
     <div class="container-fluid" style="background-color:#eee5ef">
     <div class="container" >
         <div class="row ">
             <div class="col-md-12 mt-5">
-                <p style="font-size: 40px;letter-spacing:2px">GET&nbsp; IN &nbsp;TOUCH</p>
+                <p style="font-size: 40px;letter-spacing:5px;">GET&nbsp; IN &nbsp;TOUCH</p>
             </div>
         </div>
 
@@ -191,8 +172,8 @@
             </div>
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
-                                    <div class="d-flex">
-                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
+                                    <div class="d-flex" >
+                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
                                             <option value="Baby name correction">Baby name correction</option>
                                             <option value="Lucky name correction">Lucky name correction</option>
                                             <option value="comLucky date deliverypany">Lucky date delivery</option>
@@ -213,6 +194,7 @@
        <center> <button type="button"  style="font-size: 25px;background-color:black;color:white" class="mt-5 mb-5 p-2 " >&nbsp;Send Email&nbsp;</button></center>
     </div>
 </div>
+</div>
     
 
 
@@ -225,11 +207,11 @@
     }
 </style>
     <div class="container mt-5 ">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center"  id="location">
             <div class=" col-md-4 pt-4">
                 
                         <i class="fas fa-map-marker-alt fa-2x d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Address:</h4>
+                        <h6 class="text-center">Address:</h6>
                         <!-- <p class="text-center fs-5">No 664, 5th Cross road,<br> Koramangala 4th block,<br> Bengaluru-560034</p> -->
                         <p class="text-center ">
                             Number 654, 5ft Cross,</br>
@@ -244,22 +226,22 @@
             </div>
             
 
-            <div class=" col-md-4 pt-5">
+            <div class=" col-md-4 pt-5"  id="location">
                 
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Email:</h4>
-                        <p class="text-center fs-5">connect@namecraft.co</p>
+                        <h6 class="text-center">Email:</h6>
+                        <p class="text-center ">connect@namecraft.co</p>
                    
             </div>
 
             
 
-            <div class=" col-md-4 pt-4">
+            <div class=" col-md-4 pt-4"  id="location">
               
                    
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Mobile:</h4>
-                        <p class="text-center fs-5">+91-8880030213</p>
+                        <h6 class="text-center">Mobile:</h6>
+                        <p class="text-center ">+91-8880030213</p>
                     
                 
             </div>
@@ -284,13 +266,14 @@
                     <img src="images/final-logo.png" alt="Logo" style="height:80px;width:300px;">
                 </div>
                 <div class="text-center">
-                    <p style="font-size:20px;color:black"><i class="fa fa-map-marker"></i>
+                    <br>
+                    <p style="font-size:15px;color:black"><i class="fa fa-map-marker"></i>
                         Number 654, 5ft Cross,</p>
-                    <p style="font-size:18px;"> 4th block, Koramangala</p>
-                    <p style="font-size:18px;"> Near Maharaja Signal,</p>
-                    <p style="font-size:18px;"> Bangaluru-560034</p>
+                    <p style="font-size:15px;"> 4th block, Koramangala</p>
+                    <p style="font-size:15px;"> Near Maharaja Signal,</p>
+                    <p style="font-size:15px;"> Bangaluru-560034</p>
 
-                    <p style="font-size:18px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
+                    <p style="font-size:15px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
 
                    
                 </div>

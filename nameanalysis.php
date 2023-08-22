@@ -358,7 +358,7 @@ they may learn about a person’s personality and life path.</p>
             <div class="container related-products">
     <div class="row g-0 mt-5">
            
-            <h2><b class="text-center " style="font-family:montserrat;">Related products</b></h2>
+            <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
 
             <div class="col-lg-4 col-md-8 col-sm-10 " style="margin-top:30px">
             <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>

@@ -16,9 +16,9 @@
     -webkit-transition: 0s !important;
     -o-transition: 0s !important;
     transition: 0s !important;
-    transition: -webkit-transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out, -webkit-transform 0s ease-in-out !important;
+    transition: -webkit-transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in !important;
 
 
   }
@@ -39,11 +39,11 @@
   </script>
   <!-- navbar emds -->
   <!-- banner starts -->
-  <style>
+ <!--  <style>
     #carouselExampleCaptions img {
       filter: brightness(0.5);
     }
-         /* Custom CSS for slide animation */
+         
          #carouselExampleCaptions .carousel-item img {
             position: relative;
             animation: slide 1s ease-in;
@@ -58,7 +58,7 @@
                 transform: translateX(0);
             }
         }
-  </style>
+  </style> -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
         <div class="carousel-inner">
       <div class="carousel-item active">
@@ -515,7 +515,7 @@
         
         /* Additional animation for cards */
         .testimonial .card {
-            animation: cardSlide 0.7s ease-in;
+            animation: cardSlide 0s ease-in;
         }
         
         @keyframes cardSlide {
@@ -527,6 +527,25 @@
                 opacity: 1;
                 transform: translateX(0);
             }
+        }
+        @media (max-width: 991px) {
+          .testimonial .profile-pic {
+            margin-left: 70px;
+          }
+          .testimonial .card {
+            width:230px;
+            height: 700px;
+          }
+        }
+        @media (max-width: 768px) {
+          .testimonial .card {
+            margin-left:5px;
+            width: 350px;
+            height: 500px;
+          }
+          .testimonial .profile-pic {
+            margin-left: 130px;
+          }
         }
     </style>
   </style>

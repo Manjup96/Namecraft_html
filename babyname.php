@@ -162,6 +162,25 @@
             height: 100%;
             background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
         }
+
+         
+    @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
+
 </style>
 
 
@@ -199,15 +218,15 @@
       
         
   <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
+    <div class=" col-md-6" style="margin-top:50px">
     <div class="zoom-container">
       <img src="images/babyname numerology.jpg" class="img-fluid" style="width:100%; height:auto; border: 2px solid black;">
     </div>
     </div>
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;">
-               
-                <p class="text" style=" font-size:36px;"> Baby Name Correction</p>
-               
+                <h2>
+                <b class="text-center" style=" font-family:montserrat;"> Baby Name Correction</b>
+                </h2>
                 
                 <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:35.00</h2>
                 
@@ -431,24 +450,28 @@
 
 
     <script src="myscript.js"></script>
+    
     <style>
-@media (max-width: 1024px) {
-  .related-products {
-    text-align: center;
-  }
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
 
-  .related-products .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
 
-  .col-lg-4.col-md-8.col-sm-10 {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px;
-  }
-}
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
 </style>
+
 
 
 
@@ -457,30 +480,38 @@
         <div class="row g-0 mt-5">
 
             <h2>
-                <b class="text-center heading" style="font-family:montserrat;">Related products</b></h2>
+                <b class="text-center" style="font-family:montserrat;">Related products</b></h2>
 
             <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
                 <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959; ">Lucky Date Delivery
+                <h2>
+                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
                 </h2>
-                <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
+                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
             <div class="col-lg-4 col-md-8 col-sm-10"style="margin-top:30px">
                 <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Name Analysis
+                <h2>
+                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b>
                 </h2>
-                <p class="text-center" style="font-size: 16px;">Rs:35.00</p>
+                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
             <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
                 <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Name Correction
+                <h2>
+                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b>
                 </h2>
-                <p class="text-center" style="font-size: 16px;">Rs:100.00</p>
+                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
         </div>
     </div>
+</div>
+
+
+
+
     <?php include("footer.php"); ?>
 
     <script>
