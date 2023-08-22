@@ -101,6 +101,7 @@
         #email-link {
             cursor: pointer;
             color: gray;
+
         }
     </style>
 
