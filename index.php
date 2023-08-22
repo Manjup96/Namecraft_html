@@ -537,6 +537,16 @@
             height: 700px;
           }
         }
+        @media (max-width: 768px) {
+          .testimonial .card {
+            margin-left:5px;
+            width: 350px;
+            height: 500px;
+          }
+          .testimonial .profile-pic {
+            margin-left: 130px;
+          }
+        }
     </style>
   </style>
 
