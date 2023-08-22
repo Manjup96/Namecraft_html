@@ -51,6 +51,119 @@
         background-color: black;
         color: white;
     }
+
+    @media (max-width: 767px) {
+  /* Your CSS styles for mobile devices */
+  .rp {
+     padding-left:60px;
+  }
+  .imgs {
+    padding-left:32px;
+  }
+}
+
+/* iPad view styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for iPad devices */
+  .rp {
+     padding-left:210px;
+  }
+  .imgs {
+    padding-left:180px;
+  }
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+        }
 </style>
 
 <head>
@@ -68,23 +181,37 @@
 
     ?>
 
-<div id="innerPageBanner">
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <div class="banner-overlay"></div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">SERVICES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- <div id="innerPageBanner">
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
     <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
-</div>
+</div> -->
 
     <div class="container">
        <div class="row justify-content-center">
-            <div class="col-lg-6"  style="margin-top:50px">
+            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
             <div class="zoom-container">
-            <img src="images/LUCKY ALPHABETS.jpg" style="width:500px;height:400px;  border: 2px solid black;">
+            <img src="images/LUCKY ALPHABETS.jpg" class="img-fluid" style="width:500px;height:400px;  border:2px solid black;">
             </div>
             </div>
 
-            <div class="col-lg-6"  style="margin-top:50px; padding-left: 50px;">
+            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
            <h2> <b class="text-center" style=" font-family:montserrat;">Lucky name correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
@@ -107,7 +234,7 @@
                        <div id="name_error" class="error hidden">Please enter a valid first name</div>
                     </div>
                     <div class="col mb-3 mt-3">
-                      <label for="surname">Sur name/Second name*</label>
+                      <label for="surname">Sur name*</label>
                       <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
                       <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
                     </div>
@@ -188,8 +315,8 @@
             <div  style="margin-top:50px">
             <div class="tabContainer">
         <div class="buttonContainer">
-          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Description</button>
-          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">Review</button>
+          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Review</button>
         </div>
         <div class="tabPanel ">
         <div class="row">
@@ -319,9 +446,10 @@
             <div class="container">
     <div class="row g-0 mt-5">
            
-            <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
+            <h2><b class="text-center rp" style="font-family:montserrat;">Related products</b></h2>
 
-            <div class="col-lg-4" style="margin-top:30px">
+            <!-- <div class="imgs"> -->
+            <div class="col-lg-4 imgs" style="margin-top:30px">
             <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
@@ -329,19 +457,19 @@
 
             
 
-            <div class="col-lg-4" style="margin-top:30px">   
+            <div class="col-lg-4 imgs" style="margin-top:30px">   
             <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
             </div>
 
 
-            <div class="col-lg-4"  style="margin-top:30px">
+            <div class="col-lg-4 imgs"  style="margin-top:30px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
             </div>
-            
+            </div>
 </div>
 </div>
 <?php include("footer.php"); ?>

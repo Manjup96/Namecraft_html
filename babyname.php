@@ -38,11 +38,15 @@
     height: 600px;
     margin: 100px; */
     overflow: hidden;
+    display: flex;
+
 }
+
 
 .zoom-container img {
     width: 100%;
     transition: 1s;
+ 
 }
 
 .zoom-container img:hover {
@@ -66,6 +70,98 @@
         background-color: black;
         color: white;
     }
+
+    .banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+        }
 </style>
 
 
@@ -76,24 +172,36 @@
     include 'navbar.php';
     ?>
 
-
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <div class="banner-overlay"></div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">SERVICES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
    
-<div id="innerPageBanner">
+<!-- <div id="innerPageBanner">
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
     <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
-</div>
+</div> -->
 
 
     <div class="container">
-        <div class="row g-0">
+      
         
   <div class="row justify-content-center">
     <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
     <div class="zoom-container">
-      <img src="images/babyname numerology.jpg" style="width:100%; height:auto; border: 2px solid black;">
+      <img src="images/babyname numerology.jpg" class="img-fluid" style="width:100%; height:auto; border: 2px solid black;">
     </div>
     </div>
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;padding-left: 50px;">
@@ -203,15 +311,15 @@
             <div style="margin-top: 50px">
                 <div class="tabContainer">
                     <div class="buttonContainer">
-                    <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Description &nbsp;</button>
-                        <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 0; color: blue; cursor: pointer; font-weight:bold">&nbsp;Review &nbsp;</button>
+                    <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description </button>
+                        <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Review </button>
                     </div>
                     <div class="tabPanel ">
                         <div class="row">
                             <div class="col-md-12 mt-4">
                                 <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description</h2>
                                 <div class="p-5">
-                                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
+                                <p style=" text-align: justify; font-size: 16px; font-family:montserrat; float: left;">
                                         The cosmic power of numbers may determine one’s happiness and success in life. As a result,
                                         it is the obligation of the parents to choose the ideal name for their child that not only sounds great but also
                                         sums up correctly. That is precisely where baby name numerology comes into play.
@@ -221,14 +329,14 @@
                                     </p>
                                 
 
-                               <p style="font-size:22px;text-align: justify; font-family:montserrat;  padding-left:30px;">We can recommend names with a high numerological significance:</p>
+                               <p style="font-size:22px;text-align: justify; font-family:montserrat;">We can recommend names with a high numerological significance:</p>
                                 
-                               <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">We can come up with names that highlight your child’s greatest qualities.
+                               <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">We can come up with names that highlight your child’s greatest qualities.
                                         We are happy to have provided some of the greatest names to numerous newborn infants, giving them the best possible start in life.</p>
                                 
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Using Numerology to Pick the Best Baby Name:</p>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Using Numerology to Pick the Best Baby Name:</p>
                                 
-                             <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
+                             <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
                                         Your good acts earn you a moniker that signifies power, success, and wealth.
                                         poor acts provide poor labels that represent depravity, jealousy, and unpleasant vibes.
                                         Your parents may have given you a name, but it reflects your former life.
@@ -236,21 +344,21 @@
                                         It is significant because it gives your child a personality.</p>
                                 
 
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Selecting the Best Vibration:</p>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Selecting the Best Vibration:</p>
 
                                 
-                                       <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">This is determined by the baby’s natal star.
+                                       <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">This is determined by the baby’s natal star.
                                         Astrology has defined initial sounds for children born under a specific natal star.</p>
                                
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">Find a harmonic harmony between your name and your birthday:</p>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Find a harmonic harmony between your name and your birthday:</p>
                                 
-                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Every letter is connected with a number in numerology,
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Every letter is connected with a number in numerology,
                                         and the vibration is determined based on the numerology value of the alphabet and validated using phonics.
                                         The sound’s pronunciation and vibration.The name is also determined and validated using equipment based on energy vibrations.</p>
                                
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; padding-left:30px;">We Can Assist You in Making a Difference in Your Child’s Life:</p>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">We Can Assist You in Making a Difference in Your Child’s Life:</p>
                                 
-                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
                                         Don’t be concerned! We at Sheelaa.com can recommend alterations to your child’s name spelling so that he or she has a name with a better numerological equation.
                                         We will examine all circumstances, such as your child’s birth date, when recommending these modifications.
                                         We will recommend slight modifications in the spelling of your kid’s present name so that you may keep the name you chose for your child after much thought,
@@ -320,13 +428,34 @@
   </div>
 </div>
 
-    <script src="myscript.js"></script>
 
-    <div class="container">
+
+    <script src="myscript.js"></script>
+    <style>
+@media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
+</style>
+
+
+    <div class="container related-products">
         <div class="row g-0 mt-5">
 
             <h2>
-                <b class="text-center" style="font-family:montserrat;">Related products</b></h2>
+                <b class="text-center heading" style="font-family:montserrat;">Related products</b></h2>
 
             <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
                 <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
