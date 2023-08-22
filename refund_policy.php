@@ -77,7 +77,7 @@
 
 .carousel-item img {
     width: 1600px;
-    height: 300px;
+    height: 382px;
     object-fit: cover;
 }
 @media only screen and (max-width: 500px) {
@@ -140,8 +140,8 @@
                 <p>We have a 15 day policy for reworking/revising the report, which means you have 15 days after receiving your item to request a revised report.</p>
            <p>You can always contact us for any return question at <span id="email-link" onclick="openEmailOptions()">connect@namecraft.co.in</span></p>
            
-           <h2>Refunds:</h2>
-            <p>We don't do refunds for name correction reports. You can request for a report to be reworked/revised on, within 15 days of receiving a report. </p>
+           <h2 style="margin-top:45px;">Refunds:</h2>
+            <p style="margin-top:25px;">We don't do refunds for name correction reports. You can request for a report to be reworked/revised on, within 15 days of receiving a report. </p>
         <p>If more than 15 days have passed since you've requested for a revised report, please contact us at connect@namecraft.co.in</p>
         </div>
         </div>
@@ -162,7 +162,7 @@
     </script>
     <!-- Refund Content End -->
 
-    
+
 <?php include("footer.php"); ?>
 </body>
 
