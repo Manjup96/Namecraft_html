@@ -57,7 +57,7 @@
   
 
 
-    <div class="container-fluid ">
+    <div class="container-fluid " >
         <div class="row">
             <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 ">
