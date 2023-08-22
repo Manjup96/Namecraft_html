@@ -528,6 +528,15 @@
                 transform: translateX(0);
             }
         }
+        @media (max-width: 991px) {
+          .testimonial .profile-pic {
+            margin-left: 70px;
+          }
+          .testimonial .card {
+            width:230px;
+            height: 700px;
+          }
+        }
     </style>
   </style>
 
