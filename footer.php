@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <style>
 #footer{
   background-color:#eee5ef;
@@ -34,6 +35,9 @@ color:lightgray;}
 
 
 <div style="padding:30px;margin-top:100px;"  id="footer">
+=======
+<div style="background-color:#eee5ef;padding:30px;margin-top:100px;" class="hide_div_desktop" id="footer">
+>>>>>>> f087846bf58240e8a780e2c75226953a143803e4
   <h1></h1>
   <footer id="footer" role="contentinfo">
     <div class="d-flex flex-row justify-content-space-between">
@@ -41,6 +45,7 @@ color:lightgray;}
         <div class="row">
           
 
+<<<<<<< HEAD
         
 <div class="col-md-4 mb-3" >
     <div >
@@ -56,6 +61,21 @@ color:lightgray;}
     </div>
 </div>
 
+=======
+        <div class="col-md-4 " >
+          <div style="margin-left:20px">
+            <h4 style="font-size:12px;color:#61156B ;" class="pb-2">| SERVICES BY NAMECRAFT</h4><br>
+            <div class="text-center" style="font-family:Open Sans, sans-serif;">
+              <ul class="footer-links list-unstyled text-start">
+                <li><a href="index.php" style="margin-bottom:5px;font-size:14px;color:#000000">Name Analysis</a></li><br>
+                <li><a href="about.php" style="margin-bottom:5px;font-size:14px;color:#000000">Lucky date delivery</a></li><br>
+                <li><a href="services.php" style="margin-bottom:5px;font-size:14px;color:#000000">Baby name correction</a></li><br>
+                <li><a href="numbers.php" style="margin-bottom:5px;font-size:14px;color:#000000">Lucky name correction</a></li><br>
+              </ul>
+            </div>
+            </div>
+          </div>
+>>>>>>> f087846bf58240e8a780e2c75226953a143803e4
 
           <!-- <div class="col-md-1"></div> -->
           <div class="col-md-4 mb-3">

@@ -133,15 +133,15 @@
     <div class="row">
         <div class="col-md-12">
             <p>This Privacy Policy describes how namecraft.co (the “Site” or “we”) collects, uses, and discloses your Personal Information when you visit or make a purchase from the Site.</p>
-        <h2>Contact</h2>
+        <h3>Contact</h3>
         <p>After reviewing this policy, if you have additional questions, want more information about our privacy practices, or would like to make a complaint, please contact us by e-mail at connect@namecraft.co.in or by mail using the details provided below:</p>
         <p>No. 664, 5th Cross<br>
          Koramangala 4th Block<br>
          (Near Maharaja Signal)<br>
          Bangalore - 560034</p>
-         <h2>Collecting Personal Information</h2>
+         <h3>Collecting Personal Information</h3>
          <p>When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information about an identifiable individual (including the information below) as “Personal Information”. See the list below for more information about what Personal Information we collect and why.</p>
-    <h2>Device information</h2>
+    <h3>Device information</h3>
          <ul style="padding: 30px;  list-style-type:none;">
     <li style="list-style-type: disc; font-size:18px;margin-top:-15px;">PURPOSE OF COLLECTION:</li>
      <p> to load the Site accurately for you, and to perform analytics on Site usage to optimize our Site.</p>
@@ -155,7 +155,7 @@
    <p>version of web browser, IP address, time zone, cookie information, what sites or products you view, search terms, and how you interact with the Site</p>
    <p>[ADD OR SUBTRACT ANY OTHER PERSONAL INFORMATION COLLECTED].</p>
      </ul  style="list-style-type: disc;">
-     <h2 style="margin-top:-40px;" >Order information</h2>
+     <h3 style="margin-top:-40px;" >Order information</h3>
      <li style="list-style-type: disc; font-size:18px;margin-top:15px;">PURPOSE OF COLLECTION:</li>
     <p > to provide products or services to you to fulfill our contract, to process your payment information, arrange for shipping, and provide you with invoices and/or order confirmations, communicate with you, screen our orders for potential risk or fraud, and when in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.</p>
     <li style="list-style-type: disc; font-size:18px;">SOURCE OF COLLECTION:</li>
@@ -164,16 +164,16 @@
         <p>shared with our processor Shopify and Wordpress</p>
         <li style="list-style-type: disc; font-size:18px;">PERSONAL INFORMATION COLLECTED:</li>
 <p>name, billing address, shipping address, payment information (including credit card numbers, UPI Id), email address, and phone number.</p>
-<h2>Customer support information</h2>
+<h3>Customer support information</h3>
 <li style="list-style-type: disc; margin-top:15px;">Purpose of collection: to provide customer support.</li>
 <li style="list-style-type: disc;">Source of collection: collected from you</li>
 <li style="list-style-type: disc;">Disclosure for a business purpose</li>
 <li style="list-style-type: disc;">Personal Information collected</li>
-<h2 style="margin-top:15px;">Sharing Personal Information</h2>
+<h3 style="margin-top:15px;">Sharing Personal Information</h3>
 <p style="margin-top:15px;">We share your Personal Information with service providers to help us provide our services and fulfill our contracts with you, as described above. For example:</p>
 <li style="list-style-type: disc;">We use Wordpress to power our online store.</li>
 <li style="list-style-type: disc;">We may share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.</li>
-<h2 style="margin-top:25px;">Behavioural Advertising</h2>
+<h3 style="margin-top:25px;">Behavioural Advertising</h3>
 <p>As described above, we use your Personal Information to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For example:</p>
 <li style="list-style-type: disc;">We use Google Analytics to help us understand how our customers use the Site. You can read more about how Google uses your Personal Information here</li>
 <p>: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics here: https://tools.google.com/dlpage/gaoptout.</p>
@@ -185,18 +185,18 @@
 <li style="list-style-type: disc; margin-top:15px;">GOOGLE - https://www.google.com/settings/ads/anonymous</li>
 <p>Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at</p>
 <p>: https://optout.aboutads.info/.</p>
-<h2>Cookies</h2>
+<h3>Cookies</h3>
 <p>A cookie is a small amount of information that’s downloaded to your computer or device when you visit our Site. We use a number of different cookies, including functional, performance, advertising, and social media or content cookies. Cookies make your browsing experience better by allowing the website to remember your actions and preferences (such as login and region selection). This means you don’t have to re-enter this information each time you return to the site or browse from one page to another. Cookies also provide information on how people use the website, for instance whether it’s their first time visiting or if they are a frequent visitor.</p>
 <p>We use the following cookies to optimize your experience on our Site and to provide our services.</p>
 <p>The length of time that a cookie remains on your computer or mobile device depends on whether it is a “persistent” or “session” cookie. Session cookies last until you stop browsing and persistent cookies last until they expire or are deleted. Most of the cookies we use are persistent and will expire between 30 minutes and two years from the date they are downloaded to your device.</p>
 <p>You can control and manage cookies in various ways. Please keep in mind that removing or blocking cookies can negatively impact your user experience and parts of our website may no longer be fully accessible.</p>
 <p>Most browsers automatically accept cookies, but you can choose whether or not to accept cookies through your browser controls, often found in your browser’s “Tools” or “Preferences” menu. For more information on how to modify your browser settings or how to block, manage or filter cookies can be found in your browser’s help file or through such sites as: www.allaboutcookies.org.</p>
 <p>Additionally, please note that blocking cookies may not completely prevent how we share information with third parties such as our advertising partners. To exercise your rights or opt-out of certain uses of your information by these parties, please follow the instructions in the “Behavioural Advertising” section above.</p>
-<h2>Do Not Track</h2>
+<h3>Do Not Track</h3>
 <p>Please note that because there is no consistent industry understanding of how to respond to “Do Not Track” signals, we do not alter our data collection and usage practices when we detect such a signal from your browser.</p>
-<h2>Changes</h2>
+<h3>Changes</h3>
 <p>We may update this Privacy Policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal, or regulatory reasons.</p>
-<h2>Complaints</h2>
+<h3>Complaints</h3>
 <p>As noted above, if you would like to make a complaint, please contact us by e-mail or by mail using the details provided under “Contact” above.</p>
 <p>Last updated: 09/06/2023</p>
 </div>
