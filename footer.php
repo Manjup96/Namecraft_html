@@ -1,4 +1,4 @@
-<div style="background-color:#c0c0c0;padding:30px;margin-top:100px;" class="hide_div_desktop">
+<div style="background-color:#eee5ef;padding:30px;margin-top:100px;" class="hide_div_desktop" id="footer">
   <h1></h1>
   <footer id="footer" role="contentinfo">
     <div class="d-flex flex-row justify-content-space-between">
