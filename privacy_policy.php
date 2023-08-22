@@ -142,7 +142,7 @@
          <h2>Collecting Personal Information</h2>
          <p>When you visit the Site, we collect certain information about your device, your interaction with the Site, and information necessary to process your purchases. We may also collect additional information if you contact us for customer support. In this Privacy Policy, we refer to any information about an identifiable individual (including the information below) as “Personal Information”. See the list below for more information about what Personal Information we collect and why.</p>
     <h2>Device information</h2>
-         <ul style="padding: 35px;  list-style-type:none;">
+         <ul style="padding: 30px;  list-style-type:none;">
     <li style="list-style-type: disc; font-size:18px;margin-top:-15px;">PURPOSE OF COLLECTION:</li>
      <p> to load the Site accurately for you, and to perform analytics on Site usage to optimize our Site.</p>
      <li style="list-style-type: disc; font-size:18px;">SOURCE OF COLLECTION:</li>
