@@ -192,7 +192,7 @@ text-align: center;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
         }
 </style>
 
@@ -207,7 +207,7 @@ text-align: center;
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
                 <div class="banner-overlay"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">

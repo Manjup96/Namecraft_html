@@ -64,24 +64,20 @@
         color: white;
     }
 
-    @media (max-width: 767px) {
-  /* Your CSS styles for mobile devices */
-  .rp {
-     padding-left:60px;
+    @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
   }
-  .imgs {
-    padding-left:32px;
-  }
-}
 
-/* iPad view styles */
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Your CSS styles for iPad devices */
-  .rp {
-     padding-left:210px;
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .imgs {
-    padding-left:180px;
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
   }
 }
 
@@ -174,7 +170,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
         }
 </style>
 <body>
@@ -189,7 +185,7 @@
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/servicebanner.png" class="d-block w-100" alt="...">
+                <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
                 <div class="banner-overlay"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
@@ -218,8 +214,8 @@
             </div>
 
             <div class="col-lg-6"  style="margin-top:50px; ">
-                    <h2><b class="text-center" style=" font-family:montserrat;"> Lucky date delivery</b></h2>
-                    <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
+                    <p class="text" style=" font-size:36px;"> Lucky date delivery</p>
+                    <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:45.00</h2>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
                        beginning a new business, or choosing the delivery date for our child, 
                        most of us would prefer to rely on our fortunate dates. We all rely on specific dates, 
@@ -262,7 +258,7 @@
                         </div>
                         
                         <div class="button-container">
-                      <button type="button" class="btn btn-dark button1">Add to cart</button>
+                        <input type="submit" value="Add to cart" class="submit">
                     </div>
                         </form>
                         <div class="mb-3 mt-3">
@@ -400,27 +396,27 @@
 </div>
 <script src="myscript.js"></script>
 
-            <div class="container">
+            <div class="container related-products">
     <div class="row g-0 mt-5">
            
-            <h2><b  class="text-center rp" style=" font-family:montserrat;">Related products</b></h2>
+            <h2><b  class="text-center" style=" font-family:montserrat;">Related products</b></h2>
 
-            <div class="col-lg-4 imgs" style="margin-top:30px">   
+            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">   
             <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-             <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
-             <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Name Analysis</h2>
+             <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
             </div>
 
-            <div class="col-lg-4 imgs" style="margin-top:30px">
+            <div class="col-lg-4 col-md-8 col-sm-10 " style="margin-top:30px">
             <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Name Correction</h2>
+            <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
             </div>
 
-            <div class="col-lg-4 imgs"  style="margin-top:30px">
+            <div class="col-lg-4 col-md-8 col-sm-10"  style="margin-top:30px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Baby Name Correction</h2>
+            <p class="text-center" style="font-size: 16px;">Rs:35.00</p>
             </div>
 
             
