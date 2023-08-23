@@ -251,6 +251,13 @@
     }
 
     .about p {
+<<<<<<< HEAD
+
+      font-family: 'montserrat';
+      font-size:100%;
+
+=======
+>>>>>>> 9d77e92cde9dc26e54f4d17fbd1d8698374ebcd7
       font-family: 'Montserrat';
       font-size:16px;
       color: #000000;

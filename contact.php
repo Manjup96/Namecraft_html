@@ -69,7 +69,6 @@ html {
 
 
 
-
 <body>
 <?php
     $page = 'contact';
@@ -163,11 +162,6 @@ html {
     
     <!-- media icons -->
 
-<style>
-    .container .card p{
-        font-size: 18px;
-    }
-</style>
     <div class="container mt-5 ">
         <div class="row justify-content-center"  id="location">
             <div class=" col-md-4 pt-4">

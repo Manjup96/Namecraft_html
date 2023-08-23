@@ -58,6 +58,9 @@
   <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-top:-110px;margin-left:30px;">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+   
+
    
 <div class="collapse navbar-collapse" id="navbarNav" style="padding: 32px 0;">
   <ul class="navbar-nav ml-auto" style="font-size: 16px;">
@@ -71,13 +74,15 @@
       <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" style="<?php echo ($page == 'services') ? 'background-color:#600060;color:white' : ''; ?>" href="services.php">Services</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#600060;color:white' : ''; ?>" href="contact.php">Contact us</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
+    </li>
+   
   </ul>
 </div>
+
 
   </div>
 </nav>
