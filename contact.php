@@ -2,8 +2,9 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" integrity="sha384-aXr6Ad+MMzOeW8F+FUG3XX8vHvbOorn3w65XsO9j1kaFJL/2JoDk4txdw2Kjusf" crossorigin="anonymous">
 
 <style>
 
@@ -105,12 +106,31 @@ html {
     }
 
   </style>
+  <style>
+    /* CSS for background color animation */
+.animate-bg {
+  background-color: transparent;
+  transition: background-color 0.5s ease-out;
+}
 
-    <div class="container-fluid bg-light px-0  d-flex justify-content-center  " id="form"> <!-- Added class "d-flex justify-content-center" -->
-       
+/* CSS for form sliding animation */
+#form.slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#form.slide-up.slide-up-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+  </style>
+
+    <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
               
     <div class="container-fluid" style="background-color:#eee5ef">
-    <div class="container" >
+    <div class="container" data-aos="slide-up" data-aos-duration="1000">
         <div class="row ">
             <div class="col-md-12 mt-5">
                 <p style="font-size: 40px;letter-spacing:5px;">GET&nbsp; IN &nbsp;TOUCH</p>
@@ -158,14 +178,35 @@ html {
     </div>
 </div>
 </div>
-    
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1200, // Adjust the duration as needed
+            delay: 500 // Delay before animations start
+        });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            const bgContainer = document.getElementById("bg-container");
+            const formContainer = document.querySelector("#form");
+
+            // Change background color
+            setTimeout(function() {
+                bgContainer.style.backgroundColor = "#eee5ef";
+            }, 500);
+
+            // Slide up the form
+            setTimeout(function() {
+                formContainer.classList.add("slide-up-animate");
+            }, 1500); // Adjust the delay as needed
+        });
+    </script>
 
     
     <!-- media icons -->
 
     <div class="container mt-5 ">
-        <div class="row justify-content-center"  id="location">
+        <div class="row justify-content-center"  id="location" data-aos="slide-up" data-aos-duration="500">
             <div class=" col-md-4 pt-4">
                 
                         <i class="fas fa-map-marker-alt fa-2x d-flex justify-content-center mb-3"></i>
@@ -184,7 +225,7 @@ html {
             </div>
             
 
-            <div class=" col-md-4 pt-5"  id="location">
+            <div class=" col-md-4 pt-5"  id="location" data-aos="slide-up" data-aos-duration="800">
                 
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
                         <h6 class="text-center">Email:</h6>
@@ -194,7 +235,7 @@ html {
 
             
 
-            <div class=" col-md-4 pt-4"  id="location">
+            <div class=" col-md-4 pt-4"  id="location" data-aos="slide-up" data-aos-duration="1100">
               
                    
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
@@ -241,9 +282,16 @@ html {
 </div>
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
+   
 
 
 </body>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
