@@ -6,119 +6,20 @@
 
 
 
-
 <style>
-/* 
-.dropdown-menu-up {
-            bottom: auto;
-            top: 100%;
-        } */
 
-    body,
+   body,
 html {
   overflow-x: hidden;
 }
 
-/* CSS for desktop view */
-/* @media (min-width: 992px) {
+@media (min-width: 992px) {
     /* Add your desktop-specific styles here */
     /* For example, you can adjust the width of the images to show them side by side */
-    /* #a = justify-content: center; {
+    #a = justify-content: center; {
        
     }
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
-}
-
-.image-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.image-container:hover .overlay {
-  opacity: 0.8;
-} */ */
-/* .content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:100%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-} */
-/* 
-@media (max-width: 767px) {
-  /* Your CSS styles for mobile devices */
- /* .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
- } */
- /* .content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:91%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-} */
-/* } */ */
-
-/* iPad view styles */
-/* @media (min-width: 768px) and (max-width: 1023px) {
-  /* Your CSS styles for iPad devices */
-  /* .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
- } */ */
- /* .content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:100%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-} */
-/* } */
-/* 
-.banner-image {
-    width: 100%;
-    height: auto;
-} */
 
 .banner-overlay {
     position: absolute;
@@ -128,36 +29,6 @@ text-align: center;
     height: 100%;
     background-color: rgba(5, 5, 5, 0.67);
 }
-/* 
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-} */
-/* 
-#innerPageBanner {
-    position: relative;
-    background: #f2f2f2;
-} */
-
-/* @media (max-width: 768px) {
-    #innerPageBanner .banner-content {
-        top: 30%;
-    }
-
-    .banner-image {
-        height: auto;
-    }
-} */
-
-/* @media (max-width: 480px) {
-    #innerPageBanner .banner-content {
-        top: 20%;
-    }
-} */
 @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
                 height: 200px;
@@ -197,14 +68,6 @@ text-align: center;
     
         }
     
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
-        }
 </style>
 <body>
 <?php
