@@ -51,7 +51,7 @@
           <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#600060;color:white' : ''; ?>" href="index.php">Home</a>
         </li>
         <li class="nav-item" style="padding-right: 20px;">
-          <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" style="<?php echo ($page == 'about') ? 'background-color:#600060;color:white' : ''; ?>" href="about.php">About</a>
+          <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" style="<?php echo ($page == 'about') ? 'background-color:#600060;color:white' : ''; ?>" href="about.php">Aboutus</a>
         </li>
         <li class="nav-item" style="padding-right: 20px;">
           <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" style="<?php echo ($page == 'services') ? 'background-color:#600060;color:white' : ''; ?>" href="services.php">Services</a>
