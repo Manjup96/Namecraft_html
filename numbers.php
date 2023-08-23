@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
 <style>
   
@@ -124,7 +124,7 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+                        <p style="font-size:10px margin-bottom: 0;"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
 
                         </div>
 
