@@ -62,7 +62,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:50px;
+  margin-top:100px;
 }
 .carousel-caption p {
     margin-top: -50px;
@@ -85,7 +85,7 @@
 
 .carousel-item img {
     width: 1600px;
-    height: 300px;
+    height: 382px;
     object-fit: cover;
 }
 @media only screen and (max-width: 500px) {

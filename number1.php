@@ -77,7 +77,7 @@ body {
 }
 
 .carousel-caption h5{
-  margin-top:50px;
+  margin-top:100px;
 }
 .carousel-caption p {
     margin-top: -50px;
