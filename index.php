@@ -16,9 +16,9 @@
     -webkit-transition: 0s !important;
     -o-transition: 0s !important;
     transition: 0s !important;
-    transition: -webkit-transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out !important;
-    transition: transform 0s ease-in-out, -webkit-transform 0s ease-in-out !important;
+    transition: -webkit-transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in !important;
+    transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in !important;
 
 
   }
@@ -39,14 +39,28 @@
   </script>
   <!-- navbar emds -->
   <!-- banner starts -->
-  <style>
+ <!--  <style>
     #carouselExampleCaptions img {
       filter: brightness(0.5);
     }
-  </style>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style= "font-family: 'Montserrat';">
-    
-    <div class="carousel-inner">
+         
+         #carouselExampleCaptions .carousel-item img {
+            position: relative;
+            animation: slide 1s ease-in;
+        }
+        @keyframes slide {
+          from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+  </style> -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
+        <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/banner/1.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
@@ -95,13 +109,13 @@
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
   </div>
 
   <!-- banner ends -->
@@ -154,28 +168,29 @@
   <h2 class="text-center">OUR ASSOCIATIONS</h2>
   <div class="container-fluid custom-bg" style="height: 250px;">
     <div class="row logo-container owl-carousel" style=" width:105%; padding: 0 50px;">
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; ">
-        <img src="images/logo_amazon.png" alt="Logo 1" class="img-fluid">
-      </div>
       
-      <div class="col-6 col-md-4 logo-item" style="max-width: 150px; height: auto; margin-top: -40px;">
-        <img src="images/logo_cnbc.png" alt="Logo 2" class="img-fluid">
-      </div>
-      
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
-        <img src="images/logo_cosmo.png" alt="Logo 3" class="img-fluid">
-      </div>
-      
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -20px; margin-top: -10px;">
         <img src="images/logo_forbes.png" alt="Logo 4" class="img-fluid">
       </div>
       
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px;  padding:5px;">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto;  padding:5px;margin-left: -15px;">
         <img src="images/logo_indianexpress.png" alt="Logo 5" class="img-fluid">
       </div>
-      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -30px; ">
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -20px; ">
         <img src="images/logo_NDTV.png" alt="Logo 6" class="img-fluid">
       </div>
+      <div class="col-6 col-md-4 logo-item" style="max-width: 600px; height: auto;margin-left: -20px; margin-top: -10px; ">
+        <img src="images/logo_amazon.png" alt="Logo 1" class="img-fluid">
+      </div>
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 150px; height: auto; margin-top: -40px; margin-left: 20px; ">
+        <img src="images/logo_cnbc.png" alt="Logo 2" class="img-fluid">
+      </div>
+      
+      <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -10px; margin-left: -20px;">
+        <img src="images/logo_cosmo.png" alt="Logo 3" class="img-fluid">
+      </div>
+      
     </div>
   </div>
 </div>
@@ -235,8 +250,13 @@
     }
 
     .about p {
+<<<<<<< HEAD
       font-family: 'montserrat';
       font-size:100%;
+=======
+      font-family: 'Montserrat';
+      font-size:16px;
+>>>>>>> 3a83e801c7aa07f326371c61d5b8ebfc0b032ce2
       color: #000000;
       line-height: 1.7;
       font-weight: 500;
@@ -249,6 +269,28 @@
       height: auto;
       margin-top: 70px;
       margin-left: 20px;
+    }
+
+    @media (max-width: 991px) {
+      .about h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+      }
+
+      .about p {
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+
+      .about img {
+        max-width: 80%;
+        margin: 20px auto;
+        display: block;
+      }
     }
   </style>
 
@@ -315,10 +357,10 @@
     }
 
     #services .col-md-3 p {
-      font-size: 100%;
+      font-size: 16px;
       line-height: 1.7;
-      font-family: 'Mulish', 'Arial', 'sans-serif';
-      font-weight: 545;
+      font-family: 'Montserrat';
+      font-weight: 500;
       
     }
 
@@ -336,11 +378,24 @@
     color:  #6f3473; /* Change the color to your desired hover color */
     
   }
+  @keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Apply the animation to the images on hover */
+
+#services img:hover {
+  animation: zoomIn 0.2s ease-in-out;
+  transform: scale(1.2);
+}
     
   </style>
-  </head>
-
-  <body>
+ 
     
     <div class="container-fluid" id="services">
       <div class="row">
@@ -353,10 +408,10 @@
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/Service1-home.png" alt="logo"><br><br>
           <h6>BABY NAME <br> CORRECTION</h6><br>
-          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p>
+          <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p><br>
           <a href="babyname.php" class="read-more">READ MORE &raquo;</a>
         </div>
-
+         
         <div class="col-md-3 col-lg-3 col-sm-12">
           <img src="images/service2.png" alt="logo"><br><br>
           <h6>LUCKY DATE <br> DELIVERY</h6><br>
@@ -405,13 +460,14 @@
     .testimonial .card {
         border-radius: 10px;
         text-align: center;
-        font-size: 100%;
+        font-size: 16px;
         box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1);
         border: none;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        font-family: 'Montserrat';
         width: 100%;
         height: 500px;
-        margin-top: 20px;     
+        margin-top: 20px; 
+           
     }
     .testimonial .profile-pic {
       border-radius: 20%;
@@ -457,6 +513,44 @@
         transform: rotate(360deg);
     }
 }
+/* Custom CSS for slide animation */
+
+        
+        /* Additional animation for cards */
+        .testimonial .card {
+            animation: cardSlide 0s ease-in;
+        }
+        
+        @keyframes cardSlide {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @media (max-width: 991px) {
+          .testimonial .profile-pic {
+            margin-left: 70px;
+          }
+          .testimonial .card {
+            width:230px;
+            height: 700px;
+          }
+        }
+        @media (max-width: 768px) {
+          .testimonial .card {
+            margin-left:5px;
+            width: 350px;
+            height: 500px;
+          }
+          .testimonial .profile-pic {
+            margin-left: 130px;
+          }
+        }
+    </style>
   </style>
 
     
@@ -477,11 +571,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-6.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase;font-weight: 300;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
+                                <p style="text-transform: uppercase;font-weight: 400;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
                                 <br>
-                                <p style= "font-weight:545;">Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
+                                <p style= "font-weight:500;">Sheelaa has been an excellent mentor. A talk with her for a few seconds can uplift anybody's mind. She is a life coach, an excellent businesswoman, and a lady who believes in magic. She has shown how to create from nowhere.</p>
                                 <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Arnaaubh Chakraborrty</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Arnaaubh Chakraborrty</p>
                             </div>
                         </div>
                     </div>
@@ -489,11 +583,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-1.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
-                                <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Apoorva S</p>
+                                <p style= "font-weight: 500;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
+                                <br><br>
+                                <p style="text-transform: uppercase; font-weight: 400;">Apoorva S</p>
                             </div>
                         </div>
                     </div>
@@ -501,11 +595,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-2.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
                                 <br>
-                                <p style= "font-weight: 545;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
+                                <p style= "font-weight: 500;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
                                 <br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Amitta Sanjeev Sawantt</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Amitta Sanjeev Sawantt</p>
                             </div>
                         </div>
                     </div>
@@ -519,11 +613,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-3.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;" >"Consult her for magicology! She creates magic with numbers"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;" >"Consult her for magicology! She creates magic with numbers"</p>
                                 <br>
-                                <p style= "font-weight: 545;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
+                                <p style= "font-weight: 500;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Janakie Thakur</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Janakie Thakur</p>
                             </div>
                         </div>
                     </div>
@@ -531,11 +625,11 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-4.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
+                                <p style= "font-weight: 500;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
                                 <br><br>
-                                <p style="text-transform: uppercase; font-weight: 300;">Varun Appaiah</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">Varun Appaiah</p>
                             </div>
                         </div>
                     </div>
@@ -543,10 +637,10 @@
                         <div class="card">
                             <img class="profile-pic rounded-circle" src="images/testimonial-5.jpg" alt="Profile Picture">
                             <div class="card-body">
-                                <p style="text-transform: uppercase; font-weight: 300;">"Thanks Sheela for the amazing human being she is"</p>
+                                <p style="text-transform: uppercase; font-weight: 400;">"Thanks Sheela for the amazing human being she is"</p>
                                 <br>
-                                <p style= "font-weight: 545;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
-                                <br><br>
+                                <p style= "font-weight: 500;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
+                                <br><br><br>
                                 <p style="text-transform: uppercase; font-weight: 400;">Sharmistha Chakraborty</p>
                             </div>
                         </div>
@@ -596,10 +690,10 @@
       .clients .container p {
         margin-top: 30px;
         text-align: justify;
-        font-size: 100%;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        font-size: 16px;
+        font-family: 'Montserrat';
         line-height: 1.7;
-        font-weight: 545;
+        font-weight: 500;
         
       }
       .clients img {
@@ -607,6 +701,17 @@
         height: 80%;
         border-radius: 10px;
       }
+      @media (max-width: 768px) {
+    .clients h2 {
+      text-align: center;
+    }
+  }
+  @media (max-width: 991px) {
+    .clients img {
+      display: block;
+      margin: 0 auto; 
+    }
+  }
     </style>
 
 <div class="clients">
@@ -630,41 +735,63 @@
     <!-- Book Section starts -->
 
     <style>
-      .tedx_talk {
-        background-color: #eee5ef;
-        margin-top: 50px;
-        font-family: 'Montserrat';
-        padding: 40px;
-      }
-      .tedx_talk p {
-        font-size: 100%;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
-        font-weight: 545;
-        
+  .tedx_talk {
+    background-color: #eee5ef;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    padding: 40px;
+  }
+  .tedx_talk p {
+    font-size: 100%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+  }
+  .tedx_talk img {
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .button {
+    background-color: #b97ebb;
+    box-shadow: 0 5px 0 #a559a8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  .button:hover {
+    color: #6f3473;
+  }
+  @media (max-width: 992px) {
+    .tedx_talk .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       
-        
-       
-      }
-      .tedx_talk img {
-        border-radius: 10px;
-        margin-top: 30px;
-      }
+    }
+    .tedx_talk .col-md-4,
+    .tedx_talk .col-md-8 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
 
-
-      .button {
-        background-color: #b97ebb;
-        box-shadow: 0 5px 0 #a559a8;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        margin-top: 10px;
-        letter-spacing: 2px;
-      }
-    </style>
+  @media (min-width: 768px) and (max-width: 992px) {
+    .tedx_talk .col-md-4,
+    .tedx_talk .col-md-8 {
+      flex-basis: 50%;
+      max-width: 50%;
+      /* margin-top:100px; */
+    }
+  }
+</style>
       
     <div class= "tedx_talk">
     <div class="container">
@@ -673,7 +800,7 @@
           <img style="width: 280px; height: 400px;" src="images/Book.jpg" alt="">
         </div>
 
-        <div class="col-md-8 col-lg-8 col-xs-12">
+        <div class="col-md-8 col-lg-8 col-xs-12"><br>
           <h2>IS LOVE A GAME? READ THIS BOOK</h2>
           <p>THE LOVE MIRAGE: The Game of Love Deciphered</p>
           <p>A book by Sheelaa M Bajaj</p><br>
@@ -766,28 +893,46 @@
       .tedx .container-fluid iframe {
         border-radius: 25px;
         width: 90%;
-        height: 80%;
+        height: 100%;
         margin-left: 40px;
-        margin-top: 20px;
+        margin-top: -25px;
+        
       }
 
       .tedx .container-fluid h2 {
         font-weight: bold;
         margin-bottom: 20px;
         font-family: 'Montserrat';
-        padding: 28px;
+        padding: 10px;
         margin-top: -40px;
       }
 
       .tedx .container-fluid p {
         font-size: 16px;
         text-align: justify;       
-        margin-top: -70px;
-        padding: 28px;
-        font-family: 'Mulish', 'Arial', 'sans-serif';
+        margin-top: -30px;
+        padding: 10px;
+        font-family: 'Montserrat';
         line-height: 1.7;
-        font-weight: 549;
+        font-weight: 500;
       }
+
+      @media (max-width: 991px) {
+    .tedx .row {
+      flex-direction: column;
+    }
+
+    .tedx .col-md-12 {
+      margin-bottom: 20px; 
+    }
+
+    .tedx .container-fluid iframe {
+      width: 100%; 
+      height: 45vh; 
+      
+      margin: 20px 0;
+    }
+  }
     </style>
 
 
@@ -844,7 +989,11 @@
           letter-spacing: 10px;
           font-weight: bold;
       }
-
+      @media (max-width: 991px) {
+    .gallery .video-column {
+      margin-bottom: 20px;
+    }
+  }
       
     </style>
 

@@ -1,36 +1,48 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
-    .card {
+  
+        .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 80%;
         border-radius: 5px;
+       
     }
 
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        
     }
-
-    img {
-        border-radius: 5px 5px 0 0;
-    }
-
-    .container {
-        padding: 2px 16px;
-    }
+   
     p{
         font-size:13px;
         text-align:justify;
 
     }
 
-    a{
+    .container {
+        padding: 2px 16px;
+    }
+
+      #link{
         padding:25px;
     }
+    
+   
+  
+    img {
+        border-radius: 5px 5px 0 0;
+        transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+
+   
 </style>
 
 <body  >
@@ -51,11 +63,11 @@
   
 
 
-    <div class="container-fluid ">
+    <div class="container-fluid " id="card" >
         <div class="row">
-            <div class="col-md-4 pt-5 ">
+            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 ">
-                    <a href="number1.php"  >
+                    <a id="link" href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container-fluid">
@@ -64,17 +76,17 @@
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
-                        <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <div class=" mt-4  mb-4" >
+                            <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
                         </div>
 
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
-                <div class="card mx-5 ">
-                   <a href="number2.php">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
+                <div class="card mx-5 " data-aos="zoom-in" data-aos-hover="none">
+                   <a id="link" href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -83,17 +95,18 @@
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
-                        <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <div class=" mt-4  mb-4" >
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1800">
                 <div class="card mx-5 ">
-                   <a href="number3.php">
+                   <a id="link" href="number3.php">
                      <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -103,7 +116,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -113,7 +127,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                   <a href="number4.php">
+                   <a id="link" href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%">
                      </a>
                     <div class="container">
@@ -123,7 +137,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -133,7 +148,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5">
-                 <a href="number5.php">
+                 <a id="link" href="number5.php">
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%">
 </a>
                     <div class="container">
@@ -143,7 +158,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -153,7 +169,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number6.php">
+                     <a id="link" href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -164,7 +180,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -174,7 +191,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number7.php">
+                     <a  id="link" href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -185,7 +202,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -196,7 +214,7 @@
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
                     
-                     <a href="number8.php">
+                     <a id="link" href="number8.php">
                      <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -207,7 +225,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -217,7 +236,7 @@
             </div>
             <div class="col-md-4 pt-5">
                 <div class="card mx-5 ">
-                     <a href="number9.php">
+                     <a id="link" href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%">
                      </a>
      
@@ -228,7 +247,8 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                            <p style="font-size:10px"> <span class="fa fa-user"></span>Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+
                         </div>
 
 
@@ -249,6 +269,11 @@
 
 
     <?php include("footer.php"); ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

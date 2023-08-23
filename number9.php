@@ -10,81 +10,163 @@
   include 'navbar.php';
 
   ?>
-  <!-- navbar emds -->
-
-  <style>
-  .number9 .container-fluid {
-    background-image: url("images/numbers/9.jpg");
-    background-size: 755px; 
-    background-position: center;
-    color: white;
-    padding: 110px;
-    margin-top: 30px;
-    opacity: 0.8;
-  }
-  .number9 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
-    text-decoration: none;
-    color: white;
-  }
   
+
+  <!-- navbar emds -->
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+<style>
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
+    color: white;
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        text-align: left;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+        letter-spacing:10px;
+        margin-bottom:30px;
+        
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+    }
+}
+
+#num9{
+    color:white;
+    text-decoration: none;
+}
 </style>
 
-<!-- banner starts -->
 
-<div class="number9">
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-12">
-    <h1>NUMBER 9</h1>
-    <p>JUNE 1, 2023 SHEELAA M BAJAJ</p>
-    <p><a class="link" href="#index.php">HOME / NUMBER 9</a></p>
+
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="banner-overlay"></div>
+            <img src="images/numbers/9.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
+            <div class="carousel-caption">
+                <h5>NUMBER 9</h5>
+                <p style="font-size: 9px">
+                    <i class="fa fa-calendar"></i>&nbsp;JUNE 9, 2023&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
+                </p>
+                <p><a id="num9" href="index.php">Home</a> / Number 9</p>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
 </div>
+
+
+
+
 
 <!-- banner ends -->
 
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-        text-align: justify;
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
+        text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-family:'Montserrat';font-size;16px;">Number 9 According to Numerology</h2>
-                <p style="font-family:'Montserrat';font-weight;bold;">If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Mars rules the number 9. As a number 9, you fight for a cause, whether it’s war, nation, or a movement. You are a knowledge provider and seeker, and your career must always be related to teaching, people, or spirituality. Because the number 9 represents the fulfilment of karma, a name adjustment must be done depending on the combo number. A 9 is an extremely powerful number to be born under. You learn far too many life lessons at such a young age.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">The last single digit in numerology, 9, denotes both ends and new beginnings. Depending on your personality and destiny numbers, the number 9 in numerology may represent both chaos and tranquilly. If your destiny number clashes with your life path number, a name adjustment may be required.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">With the essence of both an end and a beginning in the number 9, 9s have the capacity to power through their storms and emerge triumphant, bringing in development and insight through their experience. You are a problem solver and a resilient person. While being compassionate is important, learning to create a clear boundary is necessary to recognise when you’ve gone too far.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">The number 9 is not necessarily lucky, contrary to popular belief. That is only a myth. Only a few people are suited to number nine.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Number 9 folks are burning a lot of their karma from previous lives. Business names that sum up to 9 do not evoke success or abundance.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Number 9s are destined for positions of leadership. You are also more suited to professions such as physicians or attorneys.</p>
-                <p style="font-family:'Montserrat';font-weight;bold;">Numerology 9 people might be exceedingly sensitive and irritable. Learning to control one’s emotions may help a lot. Relationships might suffer as a result of number 9’s predisposition to be secretive. Be more open to new experiences. Tribulations will be more prevalent than you expect. Consider every ending to be a new beginning.</p>
+                <h3>Number 9 According to Numerology</h3>
+                <p>If you were born on the 9th, 18th, or 27th, your numerology number is 9. 9 in numerology may also refer to somebody whose destiny number totals 9.</p>
+                <p >Mars rules the number 9. As a number 9, you fight for a cause, whether it’s war, nation, or a movement. You are a knowledge provider and seeker, and your career must always be related to teaching, people, or spirituality. Because the number 9 represents the fulfilment of karma, a name adjustment must be done depending on the combo number. A 9 is an extremely powerful number to be born under. You learn far too many life lessons at such a young age.</p>
+                <p >The last single digit in numerology, 9, denotes both ends and new beginnings. Depending on your personality and destiny numbers, the number 9 in numerology may represent both chaos and tranquilly. If your destiny number clashes with your life path number, a name adjustment may be required.</p>
+                <p >With the essence of both an end and a beginning in the number 9, 9s have the capacity to power through their storms and emerge triumphant, bringing in development and insight through their experience. You are a problem solver and a resilient person. While being compassionate is important, learning to create a clear boundary is necessary to recognise when you’ve gone too far.</p>
+                <p>You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
+                <p >You were born a brave fighter. Most number 9s are involved with the elimination of the old and the creation of the new. Whether you’re a plumber, a carpenter, or a reformer. You are extremely clever, yet your Mars nature drives you to fight for what is right rather than who is right. In any scenario, you can be counted on to provide justice. If not affected by the numbers 2, 4, 7, and 8, this is an extremely lucky number. People with the number 9 require a name that reflects their strong karmic tendencies. If not, kids will become pessimistic and have a difficult life.</p>
+                <p >The number 9 is not necessarily lucky, contrary to popular belief. That is only a myth. Only a few people are suited to number nine.</p>
+                <p >Number 9 folks are burning a lot of their karma from previous lives. Business names that sum up to 9 do not evoke success or abundance.</p>
+                <p>Number 9s are destined for positions of leadership. You are also more suited to professions such as physicians or attorneys.</p>
+                <p >Numerology 9 people might be exceedingly sensitive and irritable. Learning to control one’s emotions may help a lot. Relationships might suffer as a result of number 9’s predisposition to be secretive. Be more open to new experiences. Tribulations will be more prevalent than you expect. Consider every ending to be a new beginning.</p>
             </div>
         </div>
     </div>
@@ -118,11 +200,51 @@
 }
 </style>
 
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+      <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
+
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -132,9 +254,14 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-start">
+            <a href="number8.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
+            </div>
+          
         </div>
+    </div>
       </div>
     </div>
   </div>
@@ -143,13 +270,38 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+</style>
 
 
 
 <div class="related">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 text-center mb-3">
+        <div class="col-md-12 text-center mb-5 mt-5">
           <h6>RELATED POSTS</h6>
         </div>
       </div>
@@ -157,7 +309,7 @@
       
   <div class="container">
     <div class="row">
-     <div class="col-md-4  ">
+     <div class="col-md-4   mb-5">
       <div class="card p-4">
           <img src="images/numbers/8.jpg" alt="Image of Number 8">
   
@@ -165,11 +317,11 @@
       <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
       <div>
         <a href="number8.php">
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
   </div>
      </div>
-     <div class="col-md-4  ">
+     <div class="col-md-4 mb-5 ">
       <div class="card p-4">
           <img src="images/numbers/7.jpg" alt="Image of Number 7">
   
@@ -178,10 +330,10 @@
   <div>
     <a href="number7.php">
 
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
   </div></div>
-     <div class="col-md-4 ">
+     <div class="col-md-4  mb-5">
       <div class="card p-4">
           <img src="images/numbers/6.jpg" alt="Image of Number 6">
   
@@ -190,7 +342,7 @@
       <div>
         <a href="number6.php">
 
-          <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+          <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
       </div>
      </div></div>
      </div>
@@ -204,9 +356,6 @@
 
 
 <style>
-.comments{
-    margin-top: 150px;
-}
 
  
 .card {
@@ -219,24 +368,16 @@
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
+
+    img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
 </style>
-
-<div class="comments">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h3>0 Comments "Number 9"</h3>
-        <img src="images/comntP.png" alt="" style="width: 70px; height: 70px; margin-top: 70px;">
-        <h>Vamshi</h>
-        <h>June 26, 2023 at 12.48 pm <b>Reply</b></h>
-        <h>Thank You</h>
-        <h style="text-decoration: underline;">Your comment is awaiting moderation</h>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- comments Starts -->
 
 <!-- give a reply Starts -->
 <style>
@@ -247,14 +388,14 @@
     }
     
     .form p {
-        font-size: 18px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     .form p1 {
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 28px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
     }
     
     .form .col-md-12 form {
@@ -277,26 +418,28 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #c0c0c0;
         color: white;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 8px 12px;
+        font-size: 13px;
         border: none;
-        border-radius: 4px;
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
 
 
 <div class="form">
-    <div class="container">
+    <div class="container" style="font-size:13px">
         <div class="row">
             <div class="col-md-12">
                 <p1>Leave a Reply</p1>
@@ -330,7 +473,7 @@
     <div class="row mt-3 mb-3">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="save_info"/> Save my name, email, and website
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
         </div>
     </div>
@@ -344,6 +487,7 @@
 </div>
 
 <!-- give a reply Ends --> 
+
 
 
 

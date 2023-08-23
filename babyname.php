@@ -24,6 +24,163 @@
   .hidden {
     display: none;
   }
+
+  .button1 {
+        display: inline-block;
+        background-color: #343a40; /* Set the desired background color */
+        color: white; /* Set the text color */
+        border: none;
+        padding: 10px 20px;
+    }
+
+    .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+ 
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
+.submit {
+        background-color: #c0c0c0;
+        color: white;
+        padding: 8px 12px;
+        font-size: 13px;
+        border: none;
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .submit:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
+        }
+
+         
+    @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
+
 </style>
 
 
@@ -32,34 +189,46 @@
     <?php
     $page = 'services';
     include 'navbar.php';
-
     ?>
 
-
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
+                <div class="banner-overlay"></div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">SERVICES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
    
-<div id="innerPageBanner">
-    <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
+<!-- <div id="innerPageBanner">
+    <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
     <div class="banner-overlay"></div>
     <div class="banner-content">
-        <h2>Services</h2>
+    <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">SERVICES</h2>
     </div>
-</div>
+</div> -->
 
 
     <div class="container">
-        <div class="row g-0">
+      
         
   <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px">
-      <img src="images/babyname numerology.jpg" style="width:100%; height:auto; border: 2px solid black;">
+    <div class=" col-md-6" style="margin-top:50px">
+    <div class="zoom-container">
+      <img src="images/babyname numerology.jpg" class="img-fluid" style="width:100%; height:auto; border: 2px solid black;">
     </div>
-
-            <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;padding-left: 50px;">
+    </div>
+            <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;">
                 <h2>
                 <b class="text-center" style=" font-family:montserrat;"> Baby Name Correction</b>
                 </h2>
                 
-                <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
+                <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:35.00</h2>
                 
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">The cosmic power of numbers may determine one’s happiness and success in life. As a result,
                     it is the obligation of the parents to choose the ideal name for their child that not only sounds great but also sums up correctly.
@@ -141,7 +310,9 @@
                             <label for="message">Specific instruction for name</label>
                             <input type="message" class="form-control" id="specific instruction" name="specific instruction">
                         </div>
-                        <button type="submit" class="btn btn-dark">Add to cart</button>
+                        <div class="button-container">
+                        <input type="submit" value="Add to cart" class="submit">
+                    </div>
                     </form>
                     <div class="mb-3 mt-3">
                         <a href="services.php">
@@ -159,15 +330,15 @@
             <div style="margin-top: 50px">
                 <div class="tabContainer">
                     <div class="buttonContainer">
-                        <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-                        <button onclick="showPanel(1,'#F5F5F5')">Review</button>
+                    <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description </button>
+                        <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Review </button>
                     </div>
                     <div class="tabPanel ">
                         <div class="row">
-                            <div class="col-md-12">
-                                <h2><b style="text-align: justify; font-family:montserrat; float: left;padding-left:30px;">Description</b></h2>
+                            <div class="col-md-12 mt-4">
+                                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description</h2>
                                 <div class="p-5">
-                                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
+                                <p style=" text-align: justify; font-size: 16px; font-family:montserrat; float: left;">
                                         The cosmic power of numbers may determine one’s happiness and success in life. As a result,
                                         it is the obligation of the parents to choose the ideal name for their child that not only sounds great but also
                                         sums up correctly. That is precisely where baby name numerology comes into play.
@@ -177,14 +348,14 @@
                                     </p>
                                 
 
-                               <h2><b style="text-align: justify; font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">We can recommend names with a high numerological significance:</b></h2>
+                               <p style="font-size:22px;text-align: justify; font-family:montserrat;">We can recommend names with a high numerological significance:</p>
                                 
-                               <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">We can come up with names that highlight your child’s greatest qualities.
+                               <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">We can come up with names that highlight your child’s greatest qualities.
                                         We are happy to have provided some of the greatest names to numerous newborn infants, giving them the best possible start in life.</p>
                                 
-                             <h2>   <b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Using Numerology to Pick the Best Baby Name:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Using Numerology to Pick the Best Baby Name:</p>
                                 
-                             <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
+                             <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
                                         Your good acts earn you a moniker that signifies power, success, and wealth.
                                         poor acts provide poor labels that represent depravity, jealousy, and unpleasant vibes.
                                         Your parents may have given you a name, but it reflects your former life.
@@ -192,21 +363,21 @@
                                         It is significant because it gives your child a personality.</p>
                                 
 
-                    <h2><b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Selecting the Best Vibration:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Selecting the Best Vibration:</p>
 
                                 
-                    <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">This is determined by the baby’s natal star.
+                                       <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">This is determined by the baby’s natal star.
                                         Astrology has defined initial sounds for children born under a specific natal star.</p>
                                
-                               <h2> <b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">Find a harmonic harmony between your name and your birthday:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Find a harmonic harmony between your name and your birthday:</p>
                                 
-                                <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">Every letter is connected with a number in numerology,
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Every letter is connected with a number in numerology,
                                         and the vibration is determined based on the numerology value of the alphabet and validated using phonics.
                                         The sound’s pronunciation and vibration.The name is also determined and validated using equipment based on energy vibrations.</p>
                                
-                                <h2><b style="font-size: 20px; font-family:montserrat; float: left;padding-left:30px;">We Can Assist You in Making a Difference in Your Child’s Life:</b></h2>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">We Can Assist You in Making a Difference in Your Child’s Life:</p>
                                 
-                                <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">You may have already named your child only to discover that the name does not add up to a decent number or is incompatible with your child’s birth number.
                                         Don’t be concerned! We at Sheelaa.com can recommend alterations to your child’s name spelling so that he or she has a name with a better numerological equation.
                                         We will examine all circumstances, such as your child’s birth date, when recommending these modifications.
                                         We will recommend slight modifications in the spelling of your kid’s present name so that you may keep the name you chose for your child after much thought,
@@ -221,62 +392,91 @@
 
 
                     <div class="tabPanel">
-                      <h2>  <b style=" float: left; font-family:montserrat; padding-left:30px;">Reviews</b></h2>
-                        <div class="p-5">
-                            <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                                There are no reviews yet.</p>
-                        </div>
+  <div class="container">
+<div class="row">
+     <div class="col-md-12 mt-4">
+<h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Reviews</h2>
+          <div class="p-5">
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
+          There are no reviews yet.</p>
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
+                Be the first to review “Name Analysis”<br>
+                Your email address will not be published. Required fields are marked *</p>
+          
+                <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
+            <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
+            <select name="rating">
+            <option value="1">Rate</option>
+            <option value="2">Perfect</option>
+            <option value="3">Good</option>
+            <option value="4">Average</option>
+            <option value="5">Not bad</option>
+            <option value="5">Very poor</option>
+            </select><br><br>
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR REVIEW *</p>
+                <input type="message" class="form-control" id="specific instruction"  name="specific instruction">
 
-
-                        <p style="text-align: justify;color:black; font-family:montserrat; font-size: 16px;padding-left:30px;">
-                            Be the first to review “Baby name correction”<br>
-                            Your email address will not be published. Required fields are marked *</p>
-
-                        <p style="font-size: 16px;  font-family:montserrat; float: left;padding-left:30px;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
-                            <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i>
-                        </p>
-                        <select name="rating">
-                            <option value="1">Rate</option>
-                            <option value="2">Perfect</option>
-                            <option value="3">Good</option>
-                            <option value="4">Average</option>
-                            <option value="5">Not bad</option>
-                            <option value="5">Very poor</option>
-                        </select><br><br>
-                        <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR REVIEW *</p>
-                        <input type="message" class="form-control" id="specific instruction" name="specific instruction">
-
-                        <div class="row">
-                            <div class="col mb-6 mt-3">
-                                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                                    <label for="name">Name*</label>
-                                </p>
-                                <input type="text" class="form-control" name="name">
-                            </div>
-                            <div class="col mb-6 mt-3">
-                                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                                    <label for="email">Email*</label>
-                                </p>
-                                <input type="text" class="form-control" name="email">
-                            </div>
-                        </div>
-                        <input type="checkbox" id="myCheckbox" name="myCheckbox">
-                        <label for="myCheckbox">
-                            <p style="text-align: justify;color:black; font-family:montserrat; font-size: 16px;padding-left:30px;">
-                                Save my name, email, and website in this browser for the next time I comment</p>
-                        </label><br>
-                        <button type="submit" class="btn btn-dark">Submit</button>
+                <div class="form">
+                    <div class="row">
+                    <div class="col-md-6">
+            <label  class="mb-3 mt-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-6">
+            <label  class="mb-3 mt-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
                     </div>
-                </div>
-            </div>
+                    
+                    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
+            </label><br>
         </div>
     </div>
+    </div>
+    <input type="submit" value="Submit" class="submit">
+                      </div>
+                    </div>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
     <script src="myscript.js"></script>
+    
+    <style>
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
 
-    <div class="container">
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
+
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+
+
+
+
+    <div class="container related-products">
         <div class="row g-0 mt-5">
 
             <h2>
@@ -307,6 +507,11 @@
             </div>
         </div>
     </div>
+</div>
+
+
+
+
     <?php include("footer.php"); ?>
 
     <script>

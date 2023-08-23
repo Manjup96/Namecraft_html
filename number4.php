@@ -10,6 +10,8 @@
   include 'navbar.php';
 
   ?>
+
+
   <!-- navbar emds -->
   <style>
 
@@ -24,82 +26,167 @@
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
 
-  .number4 .container-fluid {
-    background-image: url("images/number4.jpg");
-    background-size: 755px; 
-    background-position: center;
+</style>
+<style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+<style>
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
     color: white;
-    padding: 110px;
-    margin-top: 30px;
-    opacity: 0.8;
-  }
-  .number4 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        text-align: left;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+        letter-spacing:10px;
+        margin-bottom:30px;
+        
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+    }
+}
+
+#num4{
+    color:white;
     text-decoration: none;
-    color: white;
-  }
-  
+}
 </style>
 
-<!-- banner starts -->
 
-<div class="number4">
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-12">
-    <h1>NUMBER 4</h1>
-    <p>JUNE 4, 2023 SHEELAA M BAJAJ</p>
-    <p><a class="link" href="#index.php">HOME / NUMBER 4</a></p>
+
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="banner-overlay"></div>
+            <img src="images/numbers/4.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
+            <div class="carousel-caption">
+                <h5>NUMBER 4</h5>
+                <p style="font-size: 9px">
+                    <i class="fa fa-calendar"></i>&nbsp;JUNE 4, 2023&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
+                </p>
+                <p><a id="num4" href="index.php">Home</a> / Number 4</p>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
 </div>
+
+
+
+
 
 <!-- banner ends -->
 
-<!-- Content starts -->
 
+<!-- Content starts -->
 <style>
-    .content .container{
-        margin-top: 50px;
-        
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
         text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
+    }
+    .content .container span{
+      font-weight:5px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-              <p style="font-family:'Montserrat';font-size;16px;">In numerology, the number 4 is considered to be a highly symbolic and significant number. It is often referred to as the “builder” number and is associated with stability, practicality, hard work, and organization.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">In addition to these general characteristics, the number 4 can also have different meanings depending on where it appears in a numerological chart. For example, if the number 4 appears as a person’s life path number, it may indicate that they are destined to be a hard-working and practical builder, with a focus on creating stability and structure in their personal and professional lives.</p>
+              <p >In numerology, the number 4 is considered to be a highly symbolic and significant number. It is often referred to as the “builder” number and is associated with stability, practicality, hard work, and organization.</p>
+              <p >In addition to these general characteristics, the number 4 can also have different meanings depending on where it appears in a numerological chart. For example, if the number 4 appears as a person’s life path number, it may indicate that they are destined to be a hard-working and practical builder, with a focus on creating stability and structure in their personal and professional lives.</p>
               <h3>Here are some additional aspects and characteristics of the number 4 in numerology:</h3>
-              <p style="font-family:'Montserrat';font-size;16px;"><b>Stability and Order:</b> The number 4 is associated with stability, order, and structure. Those with this energy may have a strong need for routine and may be very organized and methodical in their approach to life. They may also be very reliable and dependable, and may have a strong work ethic.
+              <p ><span >Stability and Order:</span> The number 4 is associated with stability, order, and structure. Those with this energy may have a strong need for routine and may be very organized and methodical in their approach to life. They may also be very reliable and dependable, and may have a strong work ethic.
                  Practicality: Those with the number 4 energy tend to be very practical and grounded. They may have a talent for finding practical solutions to problems and may be very detail-oriented. They may also be able to see things from a practical perspective and may be less likely to get caught up in abstract or theoretical ideas.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Responsibility: The number 4 is often associated with responsibility and duty. Those with this energy may take their responsibilities very seriously and may be very committed to fulfilling their obligations. They may also be very reliable and dependable, and may be trusted to follow through on their commitments.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Security and Stability: Those with the number 4 energy may place a strong emphasis on security and stability, both in their personal and professional lives. They may be very cautious and may prefer to stick with what is familiar and safe rather than taking risks or trying new things.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Efficiency and Productivity: The number 4 is associated with efficiency and productivity. Those with this energy may have a talent for finding ways to streamline processes and may be very focused on achieving their goals. They may also be very diligent and hardworking, and may have a strong sense of discipline.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Reliability: Those with the number 4 energy tend to be very reliable and dependable. They are known for their strong work ethic and dedication to their responsibilities. They take their commitments very seriously and are often willing to go above and beyond to fulfill their obligations. In relationships, those with this energy are often considered to be trustworthy and loyal. They value their relationships and are willing to make sacrifices to maintain them.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Consistency: The number 4 is associated with consistency and perseverance. Those with this energy are known for their determination and persistence. They are not easily swayed by emotions or distractions, and they are able to maintain a consistent level of effort over time. This makes them ideal candidates for long-term projects or goals that require a steady and sustained effort. However, they may sometimes be seen as rigid or inflexible in their approach, as they are less likely to deviate from their chosen path.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Pragmatism: Those with the number 4 energy tend to be very pragmatic and practical. They have a talent for finding practical solutions to problems and are able to see things from a logical and objective perspective. This makes them excellent problem-solvers, as they are able to set aside their emotions and focus on finding the most effective solution. However, this practicality can sometimes be seen as a lack of imagination or creativity, as they may be less interested in abstract or theoretical ideas.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Attention to Detail: The number 4 is often associated with attention to detail. Those with this energy are known for their meticulousness and precision. They are able to spot errors or inconsistencies that others might miss, and they are committed to getting things right. This makes them ideal for jobs that require a high degree of accuracy, such as accounting, engineering, or science. However, their focus on details can sometimes cause them to lose sight of the bigger picture.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">Traditionalism: Those with the number 4 energy often have a strong respect for tradition and established customs. They may value stability and predictability, and may be resistant to change or innovation. They may prefer to stick with what is familiar and safe rather than taking risks or trying new things. This makes them ideal for jobs that require a strong sense of tradition or history, such as teaching, preservation, or cultural studies. However, their traditionalism can sometimes lead to a resistance to new ideas or perspectives.</p>
-              <p style="font-family:'Montserrat';font-size;16px;">In conclusion, the number 4 in numerology is associated with reliability, consistency, pragmatism, attention to detail, and traditionalism. Those with this energy are known for their strong work ethic and dedication to their responsibilities. They are able to maintain a consistent level of effort over time and have a talent for finding practical solutions to problems. They are meticulous and precise, but may sometimes lose sight of the bigger picture. They value tradition and stability, but may be resistant to change or innovation. Overall, those with the number 4 energy are seen as dependable, loyal, and hardworking, but may need to balance their practicality with a willingness to embrace new ideas and perspectives.</p>
+              <p >Responsibility: The number 4 is often associated with responsibility and duty. Those with this energy may take their responsibilities very seriously and may be very committed to fulfilling their obligations. They may also be very reliable and dependable, and may be trusted to follow through on their commitments.</p>
+              <p >Security and Stability: Those with the number 4 energy may place a strong emphasis on security and stability, both in their personal and professional lives. They may be very cautious and may prefer to stick with what is familiar and safe rather than taking risks or trying new things.</p>
+              <p >Efficiency and Productivity: The number 4 is associated with efficiency and productivity. Those with this energy may have a talent for finding ways to streamline processes and may be very focused on achieving their goals. They may also be very diligent and hardworking, and may have a strong sense of discipline.</p>
+              <p >Reliability: Those with the number 4 energy tend to be very reliable and dependable. They are known for their strong work ethic and dedication to their responsibilities. They take their commitments very seriously and are often willing to go above and beyond to fulfill their obligations. In relationships, those with this energy are often considered to be trustworthy and loyal. They value their relationships and are willing to make sacrifices to maintain them.</p>
+              <p >Consistency: The number 4 is associated with consistency and perseverance. Those with this energy are known for their determination and persistence. They are not easily swayed by emotions or distractions, and they are able to maintain a consistent level of effort over time. This makes them ideal candidates for long-term projects or goals that require a steady and sustained effort. However, they may sometimes be seen as rigid or inflexible in their approach, as they are less likely to deviate from their chosen path.</p>
+              <p >Pragmatism: Those with the number 4 energy tend to be very pragmatic and practical. They have a talent for finding practical solutions to problems and are able to see things from a logical and objective perspective. This makes them excellent problem-solvers, as they are able to set aside their emotions and focus on finding the most effective solution. However, this practicality can sometimes be seen as a lack of imagination or creativity, as they may be less interested in abstract or theoretical ideas.</p>
+              <p >Attention to Detail: The number 4 is often associated with attention to detail. Those with this energy are known for their meticulousness and precision. They are able to spot errors or inconsistencies that others might miss, and they are committed to getting things right. This makes them ideal for jobs that require a high degree of accuracy, such as accounting, engineering, or science. However, their focus on details can sometimes cause them to lose sight of the bigger picture.</p>
+              <p >Traditionalism: Those with the number 4 energy often have a strong respect for tradition and established customs. They may value stability and predictability, and may be resistant to change or innovation. They may prefer to stick with what is familiar and safe rather than taking risks or trying new things. This makes them ideal for jobs that require a strong sense of tradition or history, such as teaching, preservation, or cultural studies. However, their traditionalism can sometimes lead to a resistance to new ideas or perspectives.</p>
+              <p >In conclusion, the number 4 in numerology is associated with reliability, consistency, pragmatism, attention to detail, and traditionalism. Those with this energy are known for their strong work ethic and dedication to their responsibilities. They are able to maintain a consistent level of effort over time and have a talent for finding practical solutions to problems. They are meticulous and precise, but may sometimes lose sight of the bigger picture. They value tradition and stability, but may be resistant to change or innovation. Overall, those with the number 4 energy are seen as dependable, loyal, and hardworking, but may need to balance their practicality with a willingness to embrace new ideas and perspectives.</p>
             </div>
         </div>
     </div>
@@ -134,11 +221,53 @@
 }
 </style>
 
+<style>
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+
+.icons a i {
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.icons a:hover i {
+  color: white;
+}
+</style>
+
 <div class="share">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+      <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
+
 
         <div class="icons">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -148,9 +277,14 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-between">
+            <a href="number3.php" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> PREVIOUS POST </a>
+            <a href="number5.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></a>
         </div>
+    </div>
+</div>
       </div>
     </div>
   </div>
@@ -159,13 +293,45 @@
 <!-- Share this ends -->
 
 <!-- Related Posts Starts -->
+<style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+  img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+</style>
 
 
 <div class="related">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-center mb-3">
+      <div class="col-md-12 text-center mb-5 mt-5">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
@@ -173,7 +339,7 @@
     
 <div class="container">
   <div class="row">
-   <div class="col-md-4  ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/9.jpg" alt="Image of Number 9">
 
@@ -182,11 +348,11 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" Readmore-button  mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/8.jpg" alt="Image of Number 8">
 
@@ -195,10 +361,10 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/7.jpg" alt="Image of Number 7">
 
@@ -207,7 +373,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class="mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>
@@ -219,29 +385,8 @@
 
 <!-- Related Posts Ends -->
 
-<!-- comments Starts -->
-<style>
-.comments{
-    margin-top: 150px;
-}
-</style>
 
-<div class="comments">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h3>0 Comments "Number 1"</h3>
-        <img src="images/comntP.png" alt="" style="width: 70px; height: 70px; margin-top: 70px;">
-        <h>Vamshi</h>
-        <h>June 26, 2023 at 12.48 pm <b>Reply</b></h>
-        <h>Thank You</h>
-        <h style="text-decoration: underline;">Your comment is awaiting moderation</h>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- comments Starts -->
 
 <!-- give a reply Starts -->
 <style>
@@ -252,14 +397,14 @@
     }
     
     .form p {
-        font-size: 18px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     .form p1 {
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 28px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
     }
     
     .form .col-md-12 form {
@@ -282,26 +427,28 @@
         margin-top: 5px;
     }
     
-    .form input[type="submit"] {
-        background-color: #4CAF50;
+    .post-comment-button {
+        background-color: #c0c0c0;
         color: white;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 8px 12px;
+        font-size: 13px;
         border: none;
-        border-radius: 4px;
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
     }
     
-    .form input[type="submit"]:hover {
-        background-color: #45a049;
+    .post-comment-button:hover {
+        background-color: black;
+        color: white;
     }
 </style>
 
 
 
 <div class="form">
-    <div class="container">
+    <div class="container" style="font-size:13px">
         <div class="row">
             <div class="col-md-12">
                 <p1>Leave a Reply</p1>
@@ -335,7 +482,7 @@
     <div class="row mt-3 mb-3">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="save_info"/> Save my name, email, and website
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
         </div>
     </div>
@@ -349,6 +496,7 @@
 </div>
 
 <!-- give a reply Ends --> 
+
 
 <?php include("footer.php");?>
 

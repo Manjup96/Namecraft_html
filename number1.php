@@ -16,6 +16,9 @@
 
   <style>
 
+body {
+      font-family: 'Montserrat', sans-serif;
+    }
 .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
@@ -26,60 +29,123 @@
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
+  </style>
 
-  .number1 .container-fluid {
-    background-image: url("images/numbers/1.jpg");
-    background-size: 755px; 
-    background-position: center;
+<style>
+   /* Banner style start for all 3 views */
+@media only screen and (max-width: 767px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        display: inline;
+    }
+}
+
+.carousel-caption {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 15px;
+    max-width: 80%;
+    margin: 0;
+    padding-top: 25px;
     color: white;
-    padding: 110px;
-    opacity: 0.8;
-  }
-  .number1 .col-md-12{
-    text-align: Center;
-    letter-spacing: 5px;
-  }
- .col-md-12 h1{
-    margin-bottom: 20px;
-  }
-  .col-md-12 .link {
+}
+
+/* Separate h1 and p in carousel-caption */
+.carousel-caption h5,
+.carousel-caption p {
+    display: block;
+    margin: 0;
+    padding: 5px; /* Add padding for spacing */
+}
+
+.carousel-caption h5{
+  margin-top:50px;
+}
+.carousel-caption p {
+    margin-top: -50px;
+}
+
+/* Additional styles for p element */
+.carousel-caption p {
+    font-size: 13px;
+}
+
+/* Banner style start end for all 3 views */
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
+}
+
+.carousel-item img {
+    width: 1600px;
+    height: 300px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 500px) {
+    .carousel-caption {
+        text-align: left;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+        letter-spacing:10px;
+        margin-bottom:30px;
+        
+    }
+
+    .carousel-caption p {
+        font-size: 9px;
+    }
+}
+
+#num1{
+    color:white;
     text-decoration: none;
-    color: white;
-  }
-
-  .number1 {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.2); /* Adjust the transparency here */
-      pointer-events: none;
-    }
-
-
-  
+}
 </style>
 
 
 
-<div class="number1">
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-md-12">
-    <h1>NUMBER 1</h1>
-    <p>JUNE 1, 2023 SHEELAA M BAJAJ</p>
-    <p><a class="link" href="#index.php">HOME / NUMBER 1</a></p>
+<div class="container-fluid p-0">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="banner-overlay"></div>
+            <img src="images/numbers/1.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
+            <div class="carousel-caption">
+                <h5>NUMBER 1</h5>
+                <p style="font-size: 9px">
+                    <i class="fa fa-calendar"></i>&nbsp;JUNE 1, 2023&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
+                </p>
+                <p><a id="num1" href="index.php">Home</a> / Number 1</p>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
-  <div class="overlay"></div>
 </div>
+
+
 
 
 
@@ -88,50 +154,53 @@
 <!-- Content starts -->
 
 <style>
-    .content .container{
-        margin-top: 50px;
-    }
+    
     .content .container p {
-        margin-top: 30px;
-        font-size: 17px;
         text-align: justify;
+        font-size:16px;
     }
-    .content .container h3 {
-        margin-top: 30px;
-        font-size: 33px;
-        
+   
+    .content .container h3{
+      margin-bottom:20px;
     }
 </style>
 
 <div class="content">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="font-family:'Montserrat';font-weight;bold;">The first number in the series of numbers from which all subsequent numbers were produced is 1.</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">It is also known as a line between Heaven and Earth, with the creative power, the First Cause, contacting the Earth plane. Pythagoras, the inventor of numerology and a Greek philosopher, associated this number with godhead since it is the foundation of all numbers. It is so wonderful that it incorporates everything while also deriving everything from it. It also symbolises the good aspects of life and its creation.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">The Sun rules those born with the number one.</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">You command and dominate those around you. You are powerful, honest, outspoken, confident, and a natural leader. You are capable of completing any work. You have good fortune on your side, and you will always thrive at everything you do. You are not intended to follow, but rather to lead. A natural leader and entrepreneur. Names must start with a 1 or a 6.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 1’s rigid and planted appearance with his head raised high conveys strength and assurance. Because 1 is the foundation of all numbers, there is strategy, desire, and assertiveness. It is also a number representing achievement and strength, attained by perseverance and effort. Despite being the first number in the series of odd numbers, number one has a lot of good energy. It has a plan and does not question its line of action. It is obstinate and has strong beliefs about what is good and wrong. It is a high-energy, dynamic force that persistently pursues its goal. It represents initiative, change, and pioneering work. It also denotes determination to attain one’s goals.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">The planet Sun, which is the primary driving force in the cosmos, rules number one in Vedic numerology. Because the Sun is a hot planet, the number one is similarly hot-headed and harsh. It is a combination of high moral ideals, leadership, and tenacity.</p>
-                <p style="font-family:'Montserrat';font-size;16px;">People born on the first, tenth, nineteenth, and twenty-first of any month are number one. The character of number one makes them self-assured and natural leaders. These individuals are bulky, with hefty bones and bright red eyes. They might be tall and fleshy, with light skin and sparse hair. Their foreheads are generally large, and they have a grace on their face that attracts everyone who comes into contact with them. Because they are smart thinkers and make largely accurate judgements, their diplomacy and tact set them apart from the herd. They may have a strong voice that is appealing, seductive, and well-liked by others. They might be ideal elder siblings due to their responsible character, or even if they are not the elders, their maturity causes them to act as elders.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Number One’s Influence on Personal Relationships</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">Number 1s are compassionate, caring, and passionate in personal relationships. Because number ones are generally family people, they are protective of their spouses and provide them with a good family life. They despise cheating on their spouses and demand the same in return. They have a quick temper yet are great listeners. Because of this, their arguments are full of subtlety and diplomacy. They despise liars and deception, which is why they have few true friends. They may be the centre of attention at any party or event. Because of their captivating charisma, people can always find a number one individual in a crowd.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Number One’s Distinctive Characteristics and Qualities</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">This number’s males and females are always looking for new things and dislike working within established lines. Even if they embrace traditional methods, they add a touch of divinity to them, and these are the people who are capable of contributing something unique to the world because they are endowed with foresight. They constantly succeed with this attribute. They are constantly looking for methods to achieve their goals, which is why they are always engaged in all they do. They are always direct in whatever they want to say, and they have a unique capacity to play with words that others do not. People with this number have an autonomous personality, make independent and accurate judgements, and live a free life.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Financial Considerations</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">They are literally the greatest and most diplomatic individuals when it comes to handling funds since they prefer to keep track of what comes in and what goes out. They might be quite serious about any type of investment, no matter how big or small. They like staying up to speed on new developments and techniques from across the world. They enjoy their lives like kings, yet their peak active years are between the ages of 30 and 50.</p>
-                <h2 style="font-family:'Montserrat';font-weight;bold;">Number One Numerology Career & Jobs</h2>
-                <p style="font-family:'Montserrat';font-size;16px;">They might be directors, institutional leaders, planners, chiefs of any organisation, or at least some high-level managers, doctors, or government personnel. They are susceptible to heart disease and hypertension. They must also take care of their teeth, bones, and eyes, since the number one person is more susceptible to these disorders.</p>
-                <p style="font-family:'Montserrat';font-size;16px;"><b>Lucky days: </b> Sunday, Monday</p>
-                <p style="font-family:'Montserrat';font-size;16px;"><b>Lucky gemstone: </b> Ruby, amber (Learn more about gemstones here)</p>
-                <p style="font-family:'Montserrat';font-size;16px;"><b>Friendly numbers: </b> 2,3,9</p>
-                <p style="font-family:'Montserrat';font-size;16px;"><b>Romance numbers: </b>2,3,6,7,9</p>
-                <p style="font-family:'Montserrat';font-size;16px;"><b>Colour:</b> Orange</p>
+                <h3 >The first number in the series of numbers from which all subsequent numbers were produced is 1.</h3>
+                <p>It is also known as a line between Heaven and Earth, with the creative power, the First Cause, contacting the Earth plane. Pythagoras, the inventor of numerology and a Greek philosopher, associated this number with godhead since it is the foundation of all numbers. It is so wonderful that it incorporates everything while also deriving everything from it. It also symbolises the good aspects of life and its creation.</p>
+                <h3 >The Sun rules those born with the number one.</h3>
+                <p>You command and dominate those around you. You are powerful, honest, outspoken, confident, and a natural leader. You are capable of completing any work. You have good fortune on your side, and you will always thrive at everything you do. You are not intended to follow, but rather to lead. A natural leader and entrepreneur. Names must start with a 1 or a 6.</p>
+                <p>Number 1’s rigid and planted appearance with his head raised high conveys strength and assurance. Because 1 is the foundation of all numbers, there is strategy, desire, and assertiveness. It is also a number representing achievement and strength, attained by perseverance and effort. Despite being the first number in the series of odd numbers, number one has a lot of good energy. It has a plan and does not question its line of action. It is obstinate and has strong beliefs about what is good and wrong. It is a high-energy, dynamic force that persistently pursues its goal. It represents initiative, change, and pioneering work. It also denotes determination to attain one’s goals.</p>
+                <p>The planet Sun, which is the primary driving force in the cosmos, rules number one in Vedic numerology. Because the Sun is a hot planet, the number one is similarly hot-headed and harsh. It is a combination of high moral ideals, leadership, and tenacity.</p>
+                <p >People born on the first, tenth, nineteenth, and twenty-first of any month are number one. The character of number one makes them self-assured and natural leaders. These individuals are bulky, with hefty bones and bright red eyes. They might be tall and fleshy, with light skin and sparse hair. Their foreheads are generally large, and they have a grace on their face that attracts everyone who comes into contact with them. Because they are smart thinkers and make largely accurate judgements, their diplomacy and tact set them apart from the herd. They may have a strong voice that is appealing, seductive, and well-liked by others. They might be ideal elder siblings due to their responsible character, or even if they are not the elders, their maturity causes them to act as elders.</p>
+                <h3 >Number One’s Influence on Personal Relationships</h3>
+                <p >Number 1s are compassionate, caring, and passionate in personal relationships. Because number ones are generally family people, they are protective of their spouses and provide them with a good family life. They despise cheating on their spouses and demand the same in return. They have a quick temper yet are great listeners. Because of this, their arguments are full of subtlety and diplomacy. They despise liars and deception, which is why they have few true friends. They may be the centre of attention at any party or event. Because of their captivating charisma, people can always find a number one individual in a crowd.</p>
+                <h3 >Number One’s Distinctive Characteristics and Qualities</h3>
+                <p >This number’s males and females are always looking for new things and dislike working within established lines. Even if they embrace traditional methods, they add a touch of divinity to them, and these are the people who are capable of contributing something unique to the world because they are endowed with foresight. They constantly succeed with this attribute. They are constantly looking for methods to achieve their goals, which is why they are always engaged in all they do. They are always direct in whatever they want to say, and they have a unique capacity to play with words that others do not. People with this number have an autonomous personality, make independent and accurate judgements, and live a free life.</p>
+                <h3 >Financial Considerations</h3>
+                <p >They are literally the greatest and most diplomatic individuals when it comes to handling funds since they prefer to keep track of what comes in and what goes out. They might be quite serious about any type of investment, no matter how big or small. They like staying up to speed on new developments and techniques from across the world. They enjoy their lives like kings, yet their peak active years are between the ages of 30 and 50.</p>
+                <h3 >Number One Numerology Career & Jobs</h3>
+                <p >They might be directors, institutional leaders, planners, chiefs of any organisation, or at least some high-level managers, doctors, or government personnel. They are susceptible to heart disease and hypertension. They must also take care of their teeth, bones, and eyes, since the number one person is more susceptible to these disorders.</p>
+                
             </div>
         </div>
     </div>
 </div>
+<div class="container"><div class="row">
+  <div class="col-md-12">
+  <div style="font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 0.5;">
+    <p><b>Lucky days:</b> Sunday, Monday</p>
+    <p><b>Lucky gemstone:</b> Ruby, amber (Learn more about gemstones here)</p>
+    <p><b>Friendly numbers:</b> 2, 3, 9</p>
+    <p><b>Romance numbers:</b> 2, 3, 6, 7, 9</p>
+    <p><b>Colour:</b> Orange</p>
+</div>
 
+  </div>
+</div></div>
 
 
 <!-- Content ends -->
@@ -166,32 +235,42 @@
 
 <style>
 .icons {
-    text-align: center; /* Center the icons horizontally */
-    margin-top: 10px; /* Adjust the margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .icons a {
-    display: inline-block;
-    width: 35px; /* Adjust the width to your preference */
-    height: 35px; /* Adjust the height to your preference */
-    background-color: lightgray;
-    border-radius: 50%; /* Make it circular */
-    line-height: 35px; /* Vertically center the icon */
-    margin: 0 5px; /* Add some spacing between icons */
-    transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  
 }
 
+
 .icons a i {
-    color: black;
-    font-size: 18px; /* Adjust the font size to your preference */
+  color: black;
+  font-size: 18px;
+  margin-left:10px;
 }
 
 .icons a:hover {
-    background-color: black;
+  background-color: black;
 }
 
 .icons a:hover i {
-    color: white;
+  color: white;
 }
 </style>
 
@@ -200,7 +279,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h2>SHARE THIS</h2>
+        <p style="font-size:13px;letter-spacing:2px;">SHARE THIS</p>
 
         <div class="icons" style="color:">
           <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -210,9 +289,15 @@
           <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <div class="button">
-          <button class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i></button>
+        <div class="container mt-5 mb-4">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-end">
+            <a href="number2.php" class="btn btn-secondary">NEXT POST <i class="fas fa-arrow-right"></i> </a>
+            </div>
+          
         </div>
+    </div>
+
       </div>
     </div>
   </div>
@@ -222,20 +307,53 @@
 
 <!-- Related Posts Starts -->
 
+<style>
+  .related{
+    background-color:#F0F0F0;
+  }
+  .related .container-fluid h6{
+    font-size:13px;
+    letter-spacing: 1.2px;
+  }
+</style>
 
+<style>
+  .Readmore-button {
+    background-color: #c0c0c0;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size:12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-<div class="related">
+  .Readmore-button:hover {
+    background-color: black;
+    color: white;
+  }
+  img {
+        
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+</style>
+
+<div class="related  ">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12 text-center mb-3">
+      <div class="col-md-12 text-center  mt-5 mb-5">
         <h6>RELATED POSTS</h6>
       </div>
     </div>
 
     
-<div class="container">
-  <div class="row">
-   <div class="col-md-4  ">
+<div class="container ">
+  <div class="row ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/9.jpg" alt="Image of Number 9">
 
@@ -244,11 +362,11 @@
     <div>
     <a href="number9.php">
 
-        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" Readmore-button  mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4  mb-5  ">
     <div class="card p-4">
         <img src="images/numbers/8.jpg" alt="Image of Number 8">
 
@@ -257,10 +375,10 @@
 <div>
 <a href="number8.php">
 
-        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" Readmore-button  mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4  mb-5 ">
     <div class="card p-4">
         <img src="images/numbers/7.jpg" alt="Image of Number 7">
 
@@ -269,7 +387,7 @@
     <div>
     <a href="number7.php">
 
-        <input type="submit" class=" post-comment-button  mt-3 mb-3" value="Read More"></a>
+        <input type="submit" class=" Readmore-button  mt-3 mb-3" value="READ MORE"></a>
     </div>
    </div></div>
    </div>
@@ -279,31 +397,8 @@
   </div>
 </div>
 
+
 <!-- Related Posts Ends -->
-
-<!-- comments Starts -->
-<style>
-.comments{
-    margin-top: 150px;
-}
-</style>
-
-<div class="comments">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h3>0 Comments "Number 1"</h3>
-        <img src="images/comntP.png" alt="" style="width: 70px; height: 70px; margin-top: 70px;">
-        <h>Vamshi</h>
-        <h>June 26, 2023 at 12.48 pm <b>Reply</b></h>
-        <h>Thank You</h>
-        <h style="text-decoration: underline;">Your comment is awaiting moderation</h>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- comments Starts -->
 
 <!-- give a reply Starts -->
 <style>
@@ -314,14 +409,14 @@
     }
     
     .form p {
-        font-size: 18px;
+        font-size: 13px;
         margin-bottom: 10px;
     }
     
     .form p1 {
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 28px;
         margin-bottom: 20px;
+        letter-spacing: 2px;
     }
     
     .form .col-md-12 form {
@@ -345,12 +440,12 @@
     }
     
     .post-comment-button {
-        background-color: #999;
+        background-color: #c0c0c0;
         color: white;
         padding: 8px 12px;
-        font-size: 16px;
+        font-size: 13px;
         border: none;
-        
+        letter-spacing: 2px;
         cursor: pointer;
         margin-top: 10px;
         transition: background-color 0.3s, color 0.3s;
@@ -365,7 +460,7 @@
 
 
 <div class="form">
-    <div class="container">
+    <div class="container" style="font-size:13px">
         <div class="row">
             <div class="col-md-12">
                 <p1>Leave a Reply</p1>
@@ -399,7 +494,7 @@
     <div class="row mt-3 mb-3">
         <div class="col-md-12">
             <label>
-                <input type="checkbox" name="save_info"/> Save my name, email, and website
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
         </div>
     </div>
