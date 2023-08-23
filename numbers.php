@@ -93,7 +93,7 @@
 
             </div>
             <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
-                <div class="card mx-5 d-flex flex-column " data-aos="zoom-in" data-aos-hover="none">
+                <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
                      </a>
@@ -119,7 +119,7 @@
                      </a>
                     <div class="container">
                         <h5 >Number 3</h5>
-                        <p>Number 3’s Distinctive Qualities in Numerology In numerology, the number three represents everything that comes in threes:</p>
+                        <p>Number 3’s Distinctive Qualities in Numerology In numerology, number three represents everything</p>
                         <!-- <div class="text-center mt-3 fs-5">
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
