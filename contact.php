@@ -12,16 +12,15 @@
 html {
   overflow-x: hidden;
 }
-
+/* 
 @media (min-width: 992px) {
-    /* Add your desktop-specific styles here */
-    /* For example, you can adjust the width of the images to show them side by side */
+   
     #a = justify-content: center; {
        
     }
-}
+} */
 
-.banner-overlay {
+.layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +29,7 @@ html {
     background-color: rgba(5, 5, 5, 0.67);
 }
 @media only screen and (max-width: 767px) {
-            .carousel-inner .carousel-item img {
+          .carousel-inner .carousel-item img {
                 height: 200px;
                 max-width: 100%;
             }
@@ -45,6 +44,7 @@ html {
             }
         }
     
+        
         .carousel-caption {
             display: grid;
             place-items: center;
@@ -79,11 +79,11 @@ html {
 
     ?>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="example" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
-                <div class="banner-overlay"></div>
+                <div class="layer"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <h2 style="margin: 130px; font-size: 50px;">CONTACT US</h2>
@@ -94,10 +94,7 @@ html {
     </div>
     <!-- contact start -->
     <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
+   
     #form{
         font-size:13px;
     }

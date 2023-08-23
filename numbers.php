@@ -53,11 +53,7 @@
 
     ?>
 
-<style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
+
 <style>
     .card {
         height: 100%;
@@ -71,10 +67,10 @@
   
 
 
-    <div class="container-fluid " id="card" >
+    <div class="container-fluid " >
         <div class="row">
             <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="500">
-                <div class="card mx-5 d-flex flex-column">
+                <div class="card mx-5 d-flex flex-column" >
                     <a id="link" href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%" id="pic">
                      </a>
