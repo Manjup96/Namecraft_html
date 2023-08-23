@@ -202,7 +202,7 @@ html {
     
     <!-- media icons -->
 
-    <div class="container mt-5 ">
+    <div class="container mt-5 " style="overflow: hidden;">
         <div class="row justify-content-center"  id="location" data-aos="slide-up" data-aos-duration="500">
             <div class=" col-md-4 pt-4">
                 
@@ -249,7 +249,7 @@ html {
 
       <!-- map & address starts -->
       <h4 style="text-align:center;font-weight:bold;"class="mt-5">OFFICE LOCATION</h4>
-      <div class="container mt-5">
+      <div class="container mt-5" style="overflow: hidden;">
     <div class="row">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
             <div>
