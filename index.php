@@ -12,6 +12,10 @@
   ?>
   
   <style>
+    #carouselExampleCaptions {
+        background-color: black; /* Set the background color to match your design */
+    }
+
   /* Custom carousel item transition */
   .carousel-item {
     transition: transform 0s ease-in-out !important;
