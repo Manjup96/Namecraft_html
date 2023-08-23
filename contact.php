@@ -1,18 +1,10 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<<<<<<< HEAD
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-
-
-=======
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
->>>>>>> a4f96165afa3701887c75fd22bc2c409f06dc241
 <style>
 
    body,
@@ -27,7 +19,7 @@ html {
     }
 } */
 
-.banner-overlay {
+.layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -36,7 +28,7 @@ html {
     background-color: rgba(5, 5, 5, 0.67);
 }
 @media only screen and (max-width: 767px) {
-         #example{  .carousel-inner .carousel-item img {
+          .carousel-inner .carousel-item img {
                 height: 200px;
                 max-width: 100%;
             }
@@ -49,9 +41,9 @@ html {
                 justify-content:center;
     
             }
-        }}
+        }
     
-        #example{
+        
         .carousel-caption {
             display: grid;
             place-items: center;
@@ -74,7 +66,7 @@ html {
             color: white;
     
         }
-    }
+    
 </style>
 
 
@@ -90,7 +82,7 @@ html {
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
-                <div class="banner-overlay"></div>
+                <div class="layer"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <h2 style="margin: 130px; font-size: 50px;">CONTACT US</h2>
@@ -101,10 +93,7 @@ html {
     </div>
     <!-- contact start -->
     <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
+   
     #form{
         font-size:13px;
     }

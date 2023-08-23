@@ -10,11 +10,7 @@
   include 'navbar.php';
 
   ?>
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
+ 
   <!-- navbar emds -->
  
 <style>

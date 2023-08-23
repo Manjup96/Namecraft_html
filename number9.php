@@ -13,11 +13,7 @@
   
 
   <!-- navbar emds -->
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
+  
 <style>
    /* Banner style start for all 3 views */
 @media only screen and (max-width: 767px) {

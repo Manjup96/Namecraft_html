@@ -27,14 +27,11 @@
 
 
 <style>
-    .nav-link{
-        color:black;
-    }
-    .nav-link:hover{
-        color:#61156B; 
-        text-decoration: underline;
-    }
-</style>
+             .nav-link:hover {
+    color: #61156B !important;
+    text-decoration: underline !important;
+}
+            </style>
 
     <!-- Add the Navbar Toggle Button -->
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,20 +42,22 @@
     <!-- Navbar Links -->
     <div class="collapse navbar-collapse" id="navbarNav" style="padding: 32px 0;">
         <ul class="navbar-nav ml-auto navbar-items" style="font-size: 16px ;">
+        <li class="nav-item">
+    <a class="nav-link text-center <?php echo ($page == 'index') ? '' : 'active'; ?>" href="index.php" style="color:black">Home</a>
+</li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" href="index.php">Home</a>
+                <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php"  style="color:black">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php">About</a>
+                <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php"  style="color:black">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php">Services</a>
+                <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php"  style="color:black">Contact us</a>
             </li>
+
+           
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php">Contact us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php">Numbers</a>
+                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php" style="color:black">Numbers</a>
             </li>
         </ul>
     </div>
