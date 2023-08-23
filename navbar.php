@@ -7,7 +7,7 @@
 
        
       
-</style>
+
     </div>
 
     <!-- Add CSS for padding and spacing -->
