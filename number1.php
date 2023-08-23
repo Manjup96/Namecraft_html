@@ -100,7 +100,7 @@ body {
 
 .carousel-item img {
     width: 1600px;
-    height: 300px;
+    height: 382px;
     object-fit: cover;
 }
 @media only screen and (max-width: 500px) {
