@@ -46,7 +46,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto" style="font-size: 20px; margin-left: auto;padding-left:20px;">
+      <ul class="navbar-nav ml-auto" style="font-size: 15px; margin-left: auto;padding-left:20px;">
         <li class="nav-item" style="padding-right: 20px;">
           <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#600060;color:white' : ''; ?>" href="index.php">Home</a>
         </li>
