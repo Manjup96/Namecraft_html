@@ -54,6 +54,7 @@ about.h2 {
     </div>
 </div> -->
 
+
 <style>
 .about h2 {
       font-family: 'Montserrat';
@@ -76,25 +77,20 @@ about.h2 {
       text-align: justify;
       
       
+      
     }
 </style>
 
   <section class="tedx_talk" style="background-color:#eee5ef;">
     <div class="container pb-5">
         <div class="row">
-            <div class="col-md-12 col-xs-12 col-lg-7">
-                <div class="text pt-5">
-                <h2>ABOUT <span style="color: #6f3473;"> OUR  BRAND </span></h2><br>
-                    <p style= "text-align:justify;font-family :montserrat; font-size:16px;" color:black; class="text pt-4">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
-                   
-                    <p style=" text-align:justify;font-family :montserrat;font-size:16px;" class="text pt-2">Our founder, Sheelaa M Bajaj is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading and Feng Shui. She has been featured in numerous media outlets including The Times of India, Deccan Chronicle, Femina and among others and has trained numerous students in these fields.</p>
-
             <div class="col-md-12 col-xs-12 col-lg-6">
                 <div class="text pt-5"><br>
                 <h2 class="about" style=" letter-spacing: 8px;">ABOUT OUR <span style="color: #6f3473;">BRAND</span></h2>
                
-                <p class="about pt-4" style=" text-align: justify;">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
-                <p class="about pt-2" style=" text-align: justify;">Our founder, Sheelaa M Bajaj is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading and Feng Shui. She has been featured in numerous media outlets including The Times of India, Deccan Chronicle, Femina and among others and has trained numerous students in these fields.</p>
+                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
+
+                <p class="about pt-1" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Our founder, Sheelaa M Bajaj is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading and Feng Shui. She has been featured in numerous media outlets including The Times of India, Deccan Chronicle, Femina and among others and has trained numerous students in these fields.</p>
                 </div>
             </div>
             <div class="col-md-12 col-xs-12 col-lg-6  text-center pt-1">
@@ -105,7 +101,6 @@ about.h2 {
             </div>
         </div>
     </div>
-
 
  <style>
 
@@ -324,10 +319,10 @@ about.h2 {
             <div class="col-md-12 col-xs-12 col-lg-8">
                 <div class="text pt-5">
                 <h2 class="about" style=" letter-spacing: 8px;">AT NAMECRAFT</h2>
-                    <p class="about pt-4" style=" text-align: justify;">At Namecraft, we have built on Sheelaa’s legacy by bringing her knowledge to institutions, helping them make informed decisions about names and other numerology-based services. We understand the importance of choosing the right name for a child, as it can have a significant impact on their life and future. Our numerology reports are based on a combination of traditional numerology principles and modern scientific research, ensuring accuracy and reliability.</p>
-                    <p class="about pt-2" style=" text-align: justify;">We work closely with maternity hospitals to understand their requirements and provide customized reports that are easy to understand and implement. We also offer a wide range of other numerology-based services, such as business name analysis, Lucky name numerology, and movie name numerology to help organizations achieve their goals.</p>
-                    <p class="about pt-2" style=" text-align: justify;">At Namecraft, we are committed to providing exceptional service and support to our clients. We believe in building long-term relationships with our clients, and we are always available to answer any questions or provide additional guidance. We are constantly exploring new ways to enhance our services and improve the experiences of our clients.</p>
-                    <p class="about pt-2" style=" text-align: justify;">Thank you for considering Namecraft for your numerology needs. We look forward to working with you and helping you achieve your goals.</p>
+                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we have built on Sheelaa’s legacy by bringing her knowledge to institutions, helping them make informed decisions about names and other numerology-based services. We understand the importance of choosing the right name for a child, as it can have a significant impact on their life and future. Our numerology reports are based on a combination of traditional numerology principles and modern scientific research, ensuring accuracy and reliability.</p>
+                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">We work closely with maternity hospitals to understand their requirements and provide customized reports that are easy to understand and implement. We also offer a wide range of other numerology-based services, such as business name analysis, Lucky name numerology, and movie name numerology to help organizations achieve their goals.</p>
+                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we are committed to providing exceptional service and support to our clients. We believe in building long-term relationships with our clients, and we are always available to answer any questions or provide additional guidance. We are constantly exploring new ways to enhance our services and improve the experiences of our clients.</p>
+                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Thank you for considering Namecraft for your numerology needs. We look forward to working with you and helping you achieve your goals.</p>
                 </div>
             </div>
             <div class="col-md-12 col-xs-12 col-lg-4 text-center pt-5">
