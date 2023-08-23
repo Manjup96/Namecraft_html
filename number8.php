@@ -306,15 +306,7 @@
     color: white;
   }
 </style>
-<style>
-    .card {
-        height: 100%;
-    }
 
-    .card-body {
-        flex: 1;
-    }
-</style>
 
 
 <div class="related">
@@ -329,7 +321,7 @@
   <div class="container">
     <div class="row">
      <div class="col-md-4  mb-5 ">
-      <div class="card p-4 d-flex flex-column">
+      <div class="card p-4">
           <img src="images/numbers/9.jpg" alt="Image of Number 9">
   
       <h5 class="mt-3 mb-3">Number 9</h5>
@@ -341,7 +333,7 @@
   </div>
      </div>
      <div class="col-md-4  mb-5 ">
-      <div class="card p-4 d-flex flex-column">
+      <div class="card p-4">
           <img src="images/numbers/7.jpg" alt="Image of Number 7">
   
      <h5 class="mt-3 mb-3">Number 7</h5>
@@ -353,7 +345,7 @@
       </div>
   </div></div>
      <div class="col-md-4 mb-5 ">
-      <div class="card p-4 d-flex flex-column">
+      <div class="card p-4">
           <img src="images/numbers/6.jpg" alt="Image of Number 6">
   
       <h5 class="mt-3 mb-3">Number 6</h5>
