@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
   
@@ -73,7 +73,7 @@
 
     <div class="container-fluid " id="card" >
         <div class="row">
-            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
+            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="500">
                 <div class="card mx-5 d-flex flex-column">
                     <a id="link" href="number1.php"  >
                      <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%" id="pic">
@@ -92,7 +92,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number2.php">
                      <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -112,7 +112,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1800">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5 d-flex flex-column ">
                    <a id="link" href="number3.php">
                      <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -133,7 +133,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="500"  >
                 <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -154,7 +154,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column">
                  <a id="link" href="number5.php">
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -175,7 +175,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5  d-flex flex-column">
                      <a id="link" href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -197,7 +197,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="500">
                 <div class="card mx-5 d-flex flex-column">
                      <a  id="link" href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -219,7 +219,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column ">
                     
                      <a id="link" href="number8.php">
@@ -242,7 +242,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5 d-flex flex-column">
                      <a id="link" href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"  id="pic">
