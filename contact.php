@@ -1,30 +1,24 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<<<<<<< HEAD
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
 
-=======
-<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
->>>>>>> bd9cd96417497767b64dd6ea0f5324f92f380601
 <style>
 
    body,
 html {
   overflow-x: hidden;
 }
-
+/* 
 @media (min-width: 992px) {
-    /* Add your desktop-specific styles here */
-    /* For example, you can adjust the width of the images to show them side by side */
+   
     #a = justify-content: center; {
        
     }
-}
+} */
 
 .banner-overlay {
     position: absolute;
@@ -35,7 +29,7 @@ html {
     background-color: rgba(5, 5, 5, 0.67);
 }
 @media only screen and (max-width: 767px) {
-            .carousel-inner .carousel-item img {
+         #example{  .carousel-inner .carousel-item img {
                 height: 200px;
                 max-width: 100%;
             }
@@ -48,8 +42,9 @@ html {
                 justify-content:center;
     
             }
-        }
+        }}
     
+        #example{
         .carousel-caption {
             display: grid;
             place-items: center;
@@ -72,7 +67,7 @@ html {
             color: white;
     
         }
-    
+    }
 </style>
 
 
@@ -84,7 +79,7 @@ html {
 
     ?>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="example" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/servicebanner1.png" class="d-block w-100" alt="...">

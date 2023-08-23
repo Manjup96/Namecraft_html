@@ -2,27 +2,12 @@
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
         <a class="navbar-brand" href="#" class="p-0px 30px">
-            <img src="images/final-logo.png" alt="Logo" style="margin-right: 60px; height: 60px; width: 215px;">
+            <img src="images/final-logo 123.png" alt="Logo" style="margin-right: 60px; height: 60px; width: 215px;">
         </a>
 
-        <!-- Add CSS for mobile view -->
-        <style>
-            @media (max-width: 767px) {
-                .navbar-toggler {
-                    margin-left: 50px;
-                    margin-bottom: -30px;
-                }
-            }
-        </style>
-
-        <!-- Add CSS for iPad View -->
-        <style>
-            @media (max-width: 1024px) {
-                #padding {
-                    padding-top: 100px;
-                }
-            }
-        </style>
+       
+      
+</style>
     </div>
 
     <!-- Add CSS for padding and spacing -->
@@ -53,7 +38,7 @@
 
     <!-- Add the Navbar Toggle Button -->
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-top: -110px; margin-left: 30px;">
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-top: -70px; margin-left: 30px;">
         <span class="navbar-toggler-icon"></span>
     </button>
 
