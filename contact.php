@@ -3,6 +3,10 @@
 <?php include("head_links.php"); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+
 <style>
 
 .dropdown-menu-up {
@@ -204,7 +208,7 @@ text-align: center;
 </style>
 <body>
 <?php
-    $page = 'numbers';
+    $page = 'contact';
     include 'navbar.php';
 
     ?>

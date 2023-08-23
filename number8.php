@@ -6,7 +6,7 @@
 <body>
 <!-- navbar start -->
 <?php
-  $page = 'index';
+  $page = 'numbers';
   include 'navbar.php';
 
   ?>
