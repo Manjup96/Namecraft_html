@@ -12,20 +12,43 @@
   ?>
   
   <style>
+  /* Custom carousel item transition */
   .carousel-item {
-    -webkit-transition: 0s !important;
-    -o-transition: 0s !important;
-    transition: 0s !important;
-    transition: -webkit-transform 1.5s ease-in !important;
-    transition: transform 1.5s ease-in !important;
-    transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in !important;
-
-
+    transition: transform 0s ease-in-out !important;
   }
-</style>
 
+  /* Slide animation for carousel images */
+  #carouselExampleCaptions .carousel-item img {
+    position: relative;
+    animation: slide 1s ease-in;
+    filter: brightness(0.6);
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Remove unnecessary transitions */
+ .carousel-inner .carousel-item {
+    transition: none !important;
   
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  }
+
+
+    /* Override background color transition */
+    .carousel-inner {
+      background-color: transparent !important;
+    }
+
+</style>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       offset: 120, // offset (in px) from the original trigger point
@@ -36,29 +59,8 @@
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom',
     });
-  </script>
-  <!-- navbar emds -->
-  <!-- banner starts -->
- <!--  <style>
-    #carouselExampleCaptions img {
-      filter: brightness(0.5);
-    }
-         
-         #carouselExampleCaptions .carousel-item img {
-            position: relative;
-            animation: slide 1s ease-in;
-        }
-        @keyframes slide {
-          from {
-                opacity: 0;
-                transform: translateX(100%);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-  </style> -->
+</script>
+
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
         <div class="carousel-inner">
       <div class="carousel-item active">
@@ -117,7 +119,6 @@
             <span class="visually-hidden">Next</span>
         </button>
   </div>
-
   <!-- banner ends -->
 
   <br>
@@ -250,10 +251,13 @@
     }
 
     .about p {
+<<<<<<< HEAD
 
       font-family: 'montserrat';
       font-size:100%;
 
+=======
+>>>>>>> 9d77e92cde9dc26e54f4d17fbd1d8698374ebcd7
       font-family: 'Montserrat';
       font-size:16px;
       color: #000000;

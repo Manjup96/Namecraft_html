@@ -6,7 +6,7 @@
 <body>
 <!-- navbar start -->
 <?php
-  $page = 'index';
+  $page = 'numbers';
   include 'navbar.php';
 
   ?>
@@ -329,6 +329,7 @@
 </style>
 
 
+
 <div class="related">
     <div class="container-fluid">
       <div class="row">
@@ -354,7 +355,7 @@
   </div>
      </div>
      <div class="col-md-4  mb-5 ">
-      <div class="card p-4">
+      <div class="card p-4 ">
           <img src="images/numbers/8.jpg" alt="Image of Number 8">
   
      <h5 class="mt-3 mb-3">Number 8</h5>
@@ -370,7 +371,7 @@
           <img src="images/numbers/6.jpg" alt="Image of Number 6" >
   
       <h5 class="mt-3 mb-3">Number 6</h5>
-      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, sympathy.......</p>
+      <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, </p>
       <div>
       <a href="number6.php">
 

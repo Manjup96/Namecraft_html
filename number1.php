@@ -6,7 +6,7 @@
 <body>
 <!-- navbar start -->
 <?php
-  $page = 'index';
+  $page = 'numbers';
   include 'navbar.php';
 
   ?>
@@ -332,13 +332,22 @@ body {
     background-color: black;
     color: white;
   }
-  img {
+  #pic {
         
         transition: transform 0.3s ease-in-out;
     }
 
-    img:hover {
+    #pic:hover {
         transform: scale(1.1);
+    }
+</style>
+<style>
+    .card {
+        height: 100%;
+    }
+
+    .card-body {
+        flex: 1;
     }
 </style>
 
@@ -351,11 +360,11 @@ body {
     </div>
 
     
-<div class="container ">
+<div class="container">
   <div class="row ">
    <div class="col-md-4  mb-5 ">
-    <div class="card p-4">
-        <img src="images/numbers/9.jpg" alt="Image of Number 9">
+    <div class="card p-4 d-flex flex-column ">
+        <img src="images/numbers/9.jpg" alt="Image of Number 9" id="pic">
 
     <h5 class="mt-3 mb-3">Number 9</h5>
     <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
@@ -367,8 +376,8 @@ body {
 </div>
    </div>
    <div class="col-md-4  mb-5  ">
-    <div class="card p-4">
-        <img src="images/numbers/8.jpg" alt="Image of Number 8">
+    <div class="card p-4 d-flex flex-column">
+        <img src="images/numbers/8.jpg" alt="Image of Number 8" id="pic">
 
    <h5 class="mt-3 mb-3">Number 8</h5>
 <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
@@ -379,8 +388,8 @@ body {
     </div>
 </div></div>
    <div class="col-md-4  mb-5 ">
-    <div class="card p-4">
-        <img src="images/numbers/7.jpg" alt="Image of Number 7">
+    <div class="card p-4 d-flex flex-column">
+        <img src="images/numbers/7.jpg" alt="Image of Number 7" id="pic">
 
     <h5 class="mt-3 mb-3">Number 7</h5>
     <p>Number 7 According to Numerology. If you were born on the 7th, 16th, or 25th, your numerology number is 7.</p>

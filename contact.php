@@ -3,12 +3,16 @@
 <?php include("head_links.php"); ?>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<style>
 
+
+
+
+<style>
+/* 
 .dropdown-menu-up {
             bottom: auto;
             top: 100%;
-        }
+        } */
 
     body,
 html {
@@ -16,10 +20,10 @@ html {
 }
 
 /* CSS for desktop view */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     /* Add your desktop-specific styles here */
     /* For example, you can adjust the width of the images to show them side by side */
-    #a = justify-content: center; {
+    /* #a = justify-content: center; {
        
     }
 }
@@ -42,8 +46,8 @@ html {
 
 .image-container:hover .overlay {
   opacity: 0.8;
-}
-.content {
+} */ */
+/* .content {
 position: absolute;
 top: 93.5%;
 left: 50%;
@@ -54,11 +58,11 @@ background-color:black;
 border: 1px solid;
 font-family: verdana;
 text-align: center;
-}
-
+} */
+/* 
 @media (max-width: 767px) {
   /* Your CSS styles for mobile devices */
- .overlay{
+ /* .overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -68,8 +72,8 @@ text-align: center;
   transition: opacity 0.4s ease-in-out;
   background: white;
   cursor: pointer;
- }
- .content {
+ } */
+ /* .content {
 position: absolute;
 top: 93.5%;
 left: 50%;
@@ -80,13 +84,13 @@ background-color:black;
 border: 1px solid;
 font-family: verdana;
 text-align: center;
-}
-}
+} */
+/* } */ */
 
 /* iPad view styles */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* @media (min-width: 768px) and (max-width: 1023px) {
   /* Your CSS styles for iPad devices */
-  .overlay{
+  /* .overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -96,8 +100,8 @@ text-align: center;
   transition: opacity 0.4s ease-in-out;
   background: white;
   cursor: pointer;
- }
- .content {
+ } */ */
+ /* .content {
 position: absolute;
 top: 93.5%;
 left: 50%;
@@ -108,13 +112,13 @@ background-color:black;
 border: 1px solid;
 font-family: verdana;
 text-align: center;
-}
-}
-
+} */
+/* } */
+/* 
 .banner-image {
     width: 100%;
     height: auto;
-}
+} */
 
 .banner-overlay {
     position: absolute;
@@ -124,7 +128,7 @@ text-align: center;
     height: 100%;
     background-color: rgba(5, 5, 5, 0.67);
 }
-
+/* 
 .banner-content {
     position: absolute;
     top: 50%;
@@ -132,14 +136,14 @@ text-align: center;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-}
-
+} */
+/* 
 #innerPageBanner {
     position: relative;
     background: #f2f2f2;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #innerPageBanner .banner-content {
         top: 30%;
     }
@@ -147,13 +151,13 @@ text-align: center;
     .banner-image {
         height: auto;
     }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     #innerPageBanner .banner-content {
         top: 20%;
     }
-}
+} */
 @media only screen and (max-width: 767px) {
             .carousel-inner .carousel-item img {
                 height: 200px;
@@ -204,7 +208,7 @@ text-align: center;
 </style>
 <body>
 <?php
-    $page = 'numbers';
+    $page = 'contact';
     include 'navbar.php';
 
     ?>
@@ -295,11 +299,6 @@ text-align: center;
     
     <!-- media icons -->
 
-<style>
-    .container .card p{
-        font-size: 18px;
-    }
-</style>
     <div class="container mt-5 ">
         <div class="row justify-content-center"  id="location">
             <div class=" col-md-4 pt-4">

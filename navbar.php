@@ -2,8 +2,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-light">
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
-        <a class="navbar-brand" href="#">
-            <img src="images/final-logo.png" alt="Logo" style="margin-right:60px;height:80px;width:280px;">
+        <a class="navbar-brand" href="#" class="p-0px 30px">
+            <img src="images/final-logo.png" alt="Logo" style="margin-right:60px;height:60px;width:215px;">
             <!-- <img src="images/jungle-lodges.jpg" style="height: 80px;width:80px;margin-right:10px;"> -->
 
             
@@ -40,11 +40,25 @@
 }
        
     </style>
+    <style>
+  .navbar-nav {
+    white-space: nowrap; /* Prevent line breaks */
+  }
+
+  .nav-item {
+    margin-right: 20px; /* Adjust as needed to control spacing */
+  }
+
+  .nav-link {
+    padding: 8px 16px; /* Add padding for better appearance */
+  }
+</style>
    
   </div>
   <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-top:-110px;margin-left:30px;">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto" style="font-size: 20px; margin-left: auto;padding-left:20px;">
         <li class="nav-item" style="padding-right: 20px;">
@@ -63,11 +77,7 @@
         <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#600060;color:white' : ''; ?>" href="contact.php">Contact us</a>
         </li>
 
-      </ul>
 
-      </ul>
-
-    </div>
   </div>
 </nav>
 
