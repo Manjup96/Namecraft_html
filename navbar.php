@@ -41,23 +41,23 @@
 
     <!-- Navbar Links -->
     <div class="collapse navbar-collapse" id="navbarNav" style="padding: 32px 0;">
-        <ul class="navbar-nav ml-auto navbar-items" style="font-size: 16px ;">
+        <ul class="navbar-nav ml-auto navbar-items" style="font-size: 16px ;letter-spacing:2px">
         <li class="nav-item">
-    <a class="nav-link text-center <?php echo ($page == 'index') ? '' : 'active'; ?>" href="index.php" style="color:black">Home</a>
+    <a class="nav-link text-center <?php echo ($page == 'index') ? '' : 'active'; ?>" href="index.php" style="color:black">HOME</a>
 </li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php"  style="color:black">About</a>
+                <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php"  style="color:black">ABOUT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php"  style="color:black">Services</a>
+                <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php"  style="color:black">SERVICES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php"  style="color:black">Contact us</a>
+                <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php"  style="color:black">CONTACT US</a>
             </li>
 
            
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php"  style="color:black">Numbers</a>
+                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php"  style="color:black">NUMBERS</a>
             </li>
         </ul>
     </div>
