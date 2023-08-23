@@ -11,7 +11,18 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-Vkoo8x4CGsO3+Hq6+7F/TA2IHq0CcJ7Wif5f5RME5ePb0y1q0sAdSZ4P5Pe2Pr" crossorigin="anonymous">
 
+<style>
+about.h2 {
+      font-family: 'Montserrat';
+      color: #333;
+      letter-spacing:10px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: -20px;
+      margin-top: 70px;
 
+    }
+    </style>
 
 <body>
     <!-- navbar start -->
@@ -20,7 +31,7 @@
     include 'navbar.php';
     ?>
 
-    
+
         <!-- banner starts -->
     <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">-->
     <!--    <div class="carousel-inner">-->
@@ -71,6 +82,13 @@
   <section class="tedx_talk" style="background-color:#eee5ef;">
     <div class="container pb-5">
         <div class="row">
+            <div class="col-md-12 col-xs-12 col-lg-7">
+                <div class="text pt-5">
+                <h2>ABOUT <span style="color: #6f3473;"> OUR  BRAND </span></h2><br>
+                    <p style= "text-align:justify;font-family :montserrat; font-size:16px;" color:black; class="text pt-4">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
+                   
+                    <p style=" text-align:justify;font-family :montserrat;font-size:16px;" class="text pt-2">Our founder, Sheelaa M Bajaj is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading and Feng Shui. She has been featured in numerous media outlets including The Times of India, Deccan Chronicle, Femina and among others and has trained numerous students in these fields.</p>
+
             <div class="col-md-12 col-xs-12 col-lg-6">
                 <div class="text pt-5"><br>
                 <h2 class="about" style=" letter-spacing: 8px;">ABOUT OUR <span style="color: #6f3473;">BRAND</span></h2>

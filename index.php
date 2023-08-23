@@ -250,15 +250,18 @@
     }
 
     .about p {
+<<<<<<< HEAD
+      font-family: 'montserrat';
+      font-size:100%;
+=======
       font-family: 'Montserrat';
       font-size:16px;
+>>>>>>> 3a83e801c7aa07f326371c61d5b8ebfc0b032ce2
       color: #000000;
       line-height: 1.7;
       font-weight: 500;
       margin-left: -20px;
       margin-top: -20px;
-      
-      
     }
 
     .about img {
@@ -297,7 +300,7 @@
 
       <div class="col-md-12 col-lg-6 col-sm-12">
         <h2>ABOUT <span style="color: #6f3473;">NAMECRAFT</span></h2><br>
-        <p style="text-align: justify;">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.
+        <p style="text-align: justify;" >Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.
           Our founder, Sheelaa M Bajaj, is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading, and Feng Shui. She has been featured in numerous media outlets, including The Times of India, Deccan Chronicle, and Femina, among others, and has trained numerous students in these fields.</p>
       </div>
       <div class="col-md-12 col-lg-6 col-sm-12">
