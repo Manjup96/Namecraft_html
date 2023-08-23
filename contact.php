@@ -222,7 +222,7 @@ html {
             </div>
             
 
-            <div class=" col-md-4 pt-5"  id="location" data-aos="slide-up" data-aos-duration="800">
+            <div class=" col-md-4 pt-5"  id="location" data-aos="slide-up" data-aos-duration="1000">
                 
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
                         <h6 class="text-center">Email:</h6>
@@ -232,7 +232,7 @@ html {
 
             
 
-            <div class=" col-md-4 pt-4"  id="location" data-aos="slide-up" data-aos-duration="1100">
+            <div class=" col-md-4 pt-4"  id="location" data-aos="slide-up" data-aos-duration="1500">
               
                    
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
