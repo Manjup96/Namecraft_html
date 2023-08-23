@@ -71,11 +71,12 @@
       <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" style="<?php echo ($page == 'services') ? 'background-color:#600060;color:white' : ''; ?>" href="services.php">Services</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#600060;color:white' : ''; ?>" href="contact.php">Contact us</a>
     </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
+    </li>
+   
   </ul>
 </div>
 
