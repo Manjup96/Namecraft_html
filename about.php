@@ -8,7 +8,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<style>
+about.h2 {
+      font-family: 'Montserrat';
+      color: #333;
+      letter-spacing:10px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: -20px;
+      margin-top: 70px;
 
+    }
+    </style>
 
 <body>
     <!-- navbar start -->
@@ -17,7 +28,7 @@
     include 'navbar.php';
     ?>
 
-    
+
         <!-- banner starts -->
     <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">-->
     <!--    <div class="carousel-inner">-->
@@ -32,20 +43,20 @@
     <!--    </div>-->
     <!--</div>-->
     
-     <div id="innerPageBanner">
+     <!-- <div id="innerPageBanner">
     <img src="images/single_banner1.png" class="banner-image" alt="Banner Image" style="height:300px;">
     <div class="banner-overlay"></div>
     <div class="banner-content">
         <h2 style="font-size:80px;font-family:montserrat;font-weight:bold;">About</h2>
     </div>
-</div>
+</div> -->
 
    <section class="tedx_talk" style="background-color:#eee5ef;">
     <div class="container pb-5">
         <div class="row">
             <div class="col-md-12 col-xs-12 col-lg-7">
                 <div class="text pt-5">
-                    <h2 style= "font-family :montserrat;" >ABOUT OUR BRAND</h2>
+                <h2>ABOUT <span style="color: #6f3473;"> OUR  BRAND </span></h2><br>
                     <p style= "text-align:justify;font-family :montserrat; font-size:16px;" color:black; class="text pt-4">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
                    
                     <p style=" text-align:justify;font-family :montserrat;font-size:16px;" class="text pt-2">Our founder, Sheelaa M Bajaj is a renowned numerologist, life coach, and spiritual teacher with over two decades of experience in the field. She has helped countless individuals and organizations achieve their goals through her expertise in numerology, astrology, tarot reading and Feng Shui. She has been featured in numerous media outlets including The Times of India, Deccan Chronicle, Femina and among others and has trained numerous students in these fields.</p>
