@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
 <style>
   

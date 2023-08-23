@@ -343,7 +343,7 @@
     <div class="row d-flex">
      <div class="col-md-4 mb-5 ">
       <div class="card p-4">
-          <img src="images/numbers/9.jpg" alt="Image of Number 9">
+          <img src="images/numbers/9.jpg" alt="Image of Number 9" id="pic">
   
       <h5 class="mt-3 mb-3">Number 9</h5>
       <p>Number 9 According to Numerology. If you were born on the 9th, 18th, or 27th, your numerology number is 9.</p>
@@ -356,7 +356,7 @@
      </div>
      <div class="col-md-4  mb-5 ">
       <div class="card p-4 ">
-          <img src="images/numbers/8.jpg" alt="Image of Number 8">
+          <img src="images/numbers/8.jpg" alt="Image of Number 8" id="pic">
   
      <h5 class="mt-3 mb-3">Number 8</h5>
   <p>Number 8 According to Numerology. If you were born on the 8th, 17th, or 26th, your numerology number is 8.</p>
@@ -368,7 +368,7 @@
   </div></div>
      <div class="col-md-4 mb-5">
       <div class="card p-4">
-          <img src="images/numbers/6.jpg" alt="Image of Number 6" >
+          <img src="images/numbers/6.jpg" alt="Image of Number 6" id="pic" >
   
       <h5 class="mt-3 mb-3">Number 6</h5>
       <p>Number 6 According to Numerology Everyone must learn to offer and receive the beauty of harmony, </p>
@@ -399,12 +399,12 @@
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
-    img {
+    #pic{
         
         transition: transform 0.3s ease-in-out;
     }
 
-    img:hover {
+    #pic:hover {
         transform: scale(1.1);
     }
 </style>
