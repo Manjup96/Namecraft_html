@@ -59,23 +59,29 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto" style="font-size: 20px; margin-left: auto;padding-left:20px;">
-        <li class="nav-item" style="padding-right: 20px;">
-          <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#600060;color:white' : ''; ?>" href="index.php">Home</a>
-        </li>
-        <li class="nav-item" style="padding-right: 20px;">
-          <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" style="<?php echo ($page == 'about') ? 'background-color:#600060;color:white' : ''; ?>" href="about.php">Aboutus</a>
-        </li>
-        <li class="nav-item" style="padding-right: 20px;">
-          <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" style="<?php echo ($page == 'services') ? 'background-color:#600060;color:white' : ''; ?>" href="services.php">Services</a>
-        </li>
-        <li class="nav-item" style="padding-right: 20px;">
-          <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
-        </li>
-        <li class="nav-item" style="padding-right: 20px;">
-        <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#600060;color:white' : ''; ?>" href="contact.php">Contact us</a>
-        </li>
+   
+
+   
+<div class="collapse navbar-collapse" id="navbarNav" style="padding: 32px 0;">
+  <ul class="navbar-nav ml-auto" style="font-size: 16px;">
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'index') ? 'active' : ''; ?>" style="<?php echo ($page == 'index') ? 'background-color:#600060;color:white' : ''; ?>" href="index.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" style="<?php echo ($page == 'about') ? 'background-color:#600060;color:white' : ''; ?>" href="about.php">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" style="<?php echo ($page == 'services') ? 'background-color:#600060;color:white' : ''; ?>" href="services.php">Services</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" style="<?php echo ($page == 'contact') ? 'background-color:#600060;color:white' : ''; ?>" href="contact.php">Contact us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" style="<?php echo ($page == 'numbers') ? 'background-color:#600060;color:white' : ''; ?>" href="numbers.php">Numbers</a>
+    </li>
+   
+  </ul>
+</div>
 
 
   </div>
