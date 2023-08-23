@@ -57,7 +57,7 @@
 
            
             <li class="nav-item">
-                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php" style="color:black">Numbers</a>
+                <a class="nav-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php"  style="color:black">Numbers</a>
             </li>
         </ul>
     </div>
