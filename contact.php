@@ -1,11 +1,18 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
+<<<<<<< HEAD
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
 
+=======
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+>>>>>>> a4f96165afa3701887c75fd22bc2c409f06dc241
 <style>
 
    body,
