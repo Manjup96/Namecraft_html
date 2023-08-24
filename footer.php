@@ -123,10 +123,11 @@
         </div>
 
 
-        <?php include 'scrollup.php'; ?>
+
       </div>
 
     </div>
 
   </footer>
+  <?php include 'scrollup.php'; ?>
 </div>
