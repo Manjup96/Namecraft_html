@@ -101,6 +101,10 @@
         font-size: 9px;
     }
 }
+#num8{
+    color:white;
+    text-decoration: none;
+}
 </style>
 
 
@@ -116,7 +120,7 @@
                     <i class="fa fa-calendar"></i>&nbsp;JUNE 8, 2023&nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj
                 </p>
-                <p><a href="index.php">Home</a> / Number 8</p>
+                <p><a id="num8" href="index.php">Home</a> / Number 8</p>
             </div>
         </div>
     </div>
