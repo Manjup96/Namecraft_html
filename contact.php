@@ -1,16 +1,35 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" integrity="sha384-aXr6Ad+MMzOeW8F+FUG3XX8vHvbOorn3w65XsO9j1kaFJL/2JoDk4txdw2Kjusf" crossorigin="anonymous">
+
 <style>
-        .dropdown-menu-up {
-            bottom: auto;
-            top: 100%;
-        }
-       /* Banner style start for all 3 views */
-       @media only screen and (max-width: 767px) {
-            .carousel-inner .carousel-item img {
+
+   body,
+html {
+  overflow-x: hidden;
+}
+/* 
+@media (min-width: 992px) {
+   
+    #a = justify-content: center; {
+       
+    }
+} */
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+@media only screen and (max-width: 767px) {
+          .carousel-inner .carousel-item img {
                 height: 200px;
                 max-width: 100%;
             }
@@ -25,6 +44,7 @@
             }
         }
     
+        
         .carousel-caption {
             display: grid;
             place-items: center;
@@ -48,128 +68,69 @@
     
         }
     
-        /* Banner style start end for all 3 views*/
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.5); /* Adjust the overlay color and opacity as needed */
-        }
-    </style>
-
-
-<style>
-.banner-image {
-    width: 100%;
-    height: auto;
-}
-
-.banner-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(5, 5, 5, 0.67);
-}
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-}
-
-#innerPageBanner {
-    position: relative;
-    background: #f2f2f2;
-}
-
-@media (max-width: 768px) {
-    #innerPageBanner .banner-content {
-        top: 30%;
-    }
-
-    .banner-image {
-        height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    #innerPageBanner .banner-content {
-        top: 20%;
-    }
-}
-
 </style>
+
+
+
 <body>
 <?php
-    $page = 'numbers';
+    $page = 'contact';
     include 'navbar.php';
 
     ?>
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="example" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/single_banner.png" class="d-block w-100" alt="...">
+                <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
+                <div class="layer"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
-                        <h2 style="margin: 130px; font-size: 50px;">Contact Us</h2>
+                        <h2 style="margin: 130px; font-size: 50px;">CONTACT US</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- contact start -->
-
-    <div class="container-fluid bg-light px-0 text-center d-flex justify-content-center"> <!-- Added class "d-flex justify-content-center" -->
-        <div class="row g-0">
-            <div class="col-lg-12 py-6 px-5">
-                <h1 class="display-5 mb-4 pt-5">Get In Touch</h1>
-
     <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
+   
+    #form{
+        font-size:13px;
+    }
+    #location{
+        font-size:15px;
     }
 
-    
+  </style>
+  <style>
+    /* CSS for background color animation */
+.animate-bg {
+  background-color: transparent;
+  transition: background-color 0.5s ease-out;
+}
+
+/* CSS for form sliding animation */
+#form.slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#form.slide-up.slide-up-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
 
   </style>
-  
 
-
-
-    <div id="innerPageBanner">
-        <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
-        <div class="banner-overlay"></div>
-        <div class="banner-content">
-            <h2 style="letter-spacing:15px;font-size:45px">CONTACT US</h2>
-
-<div class="container-fluid p-0">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="banner-overlay"></div>
-                <img src="images/servicebanner.png" class="d-block w-100" alt="..." style="height:300px;">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
-                    <h2>CONTACT US</h2>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
+    <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
+              
     <div class="container-fluid" style="background-color:#eee5ef">
-    <div class="container" >
+    <div class="container" data-aos="slide-up" data-aos-duration="1000">
         <div class="row ">
             <div class="col-md-12 mt-5">
-                <p style="font-size: 40px;letter-spacing:2px">GET&nbsp; IN &nbsp;TOUCH</p>
+                <p style="font-size: 40px;letter-spacing:5px;">GET&nbsp; IN &nbsp;TOUCH</p>
             </div>
         </div>
 
@@ -191,12 +152,12 @@
             </div>
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
-                                    <div class="d-flex">
-                                        <select id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
-                                            <option value="Baby name correction">Baby name correction</option>
-                                            <option value="Lucky name correction">Lucky name correction</option>
-                                            <option value="comLucky date deliverypany">Lucky date delivery</option>
-                                            <option value="Name analysis">Name analysis</option>
+                                    <div class="d-flex" >
+                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px; font-size:16px;" required>
+                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
+                                            <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
+                                            <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
+                                            <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
                                         </select>
                                     </div>
             </div>
@@ -213,23 +174,40 @@
        <center> <button type="button"  style="font-size: 25px;background-color:black;color:white" class="mt-5 mb-5 p-2 " >&nbsp;Send Email&nbsp;</button></center>
     </div>
 </div>
-    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1200, // Adjust the duration as needed
+            delay: 500 // Delay before animations start
+        });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            const bgContainer = document.getElementById("bg-container");
+            const formContainer = document.querySelector("#form");
+
+            // Change background color
+            setTimeout(function() {
+                bgContainer.style.backgroundColor = "#eee5ef";
+            }, 500);
+
+            // Slide up the form
+            setTimeout(function() {
+                formContainer.classList.add("slide-up-animate");
+            }, 1500); // Adjust the delay as needed
+        });
+    </script>
 
     
     <!-- media icons -->
 
-<style>
-    .container .card p{
-        font-size: 18px;
-    }
-</style>
-    <div class="container mt-5 ">
-        <div class="row justify-content-center">
+    <div class="container mt-5 " style="overflow: hidden;">
+        <div class="row justify-content-center"  id="location" data-aos="slide-up" data-aos-duration="500">
             <div class=" col-md-4 pt-4">
                 
                         <i class="fas fa-map-marker-alt fa-2x d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Address:</h4>
+                        <h6 class="text-center">Address:</h6>
                         <!-- <p class="text-center fs-5">No 664, 5th Cross road,<br> Koramangala 4th block,<br> Bengaluru-560034</p> -->
                         <p class="text-center ">
                             Number 654, 5ft Cross,</br>
@@ -244,22 +222,22 @@
             </div>
             
 
-            <div class=" col-md-4 pt-5">
+            <div class=" col-md-4 pt-5"  id="location" data-aos="slide-up" data-aos-duration="1000">
                 
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Email:</h4>
-                        <p class="text-center fs-5">connect@namecraft.co</p>
+                        <h6 class="text-center">Email:</h6>
+                        <p class="text-center ">connect@namecraft.co</p>
                    
             </div>
 
             
 
-            <div class=" col-md-4 pt-4">
+            <div class=" col-md-4 pt-4"  id="location" data-aos="slide-up" data-aos-duration="1500">
               
                    
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
-                        <h4 class="text-center">Mobile:</h4>
-                        <p class="text-center fs-5">+91-8880030213</p>
+                        <h6 class="text-center">Mobile:</h6>
+                        <p class="text-center ">+91-8880030213</p>
                     
                 
             </div>
@@ -271,7 +249,7 @@
 
       <!-- map & address starts -->
       <h4 style="text-align:center;font-weight:bold;"class="mt-5">OFFICE LOCATION</h4>
-      <div class="container mt-5">
+      <div class="container mt-5" style="overflow: hidden;">
     <div class="row">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
             <div>
@@ -284,13 +262,14 @@
                     <img src="images/final-logo.png" alt="Logo" style="height:80px;width:300px;">
                 </div>
                 <div class="text-center">
-                    <p style="font-size:20px;color:black"><i class="fa fa-map-marker"></i>
+                    <br>
+                    <p style="font-size:15px;color:black"><i class="fa fa-map-marker"></i>
                         Number 654, 5ft Cross,</p>
-                    <p style="font-size:18px;"> 4th block, Koramangala</p>
-                    <p style="font-size:18px;"> Near Maharaja Signal,</p>
-                    <p style="font-size:18px;"> Bangaluru-560034</p>
+                    <p style="font-size:15px;"> 4th block, Koramangala</p>
+                    <p style="font-size:15px;"> Near Maharaja Signal,</p>
+                    <p style="font-size:15px;"> Bangaluru-560034</p>
 
-                    <p style="font-size:18px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
+                    <p style="font-size:15px;"><i class="fa fa-phone"></i><a href="tel:+91-8880030213"> +91&nbsp;&nbsp;8880030213</a></p>
 
                    
                 </div>
@@ -300,11 +279,18 @@
 </div>
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
+   
 
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
 </html>

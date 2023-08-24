@@ -3,6 +3,177 @@
 <?php include("head_links.php"); ?>
 
 
+<<<<<<< HEAD
+=======
+  .error.show {
+    display: block;
+    font-size: 80%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .zoom-container {
+    /* width: 300px;
+    height: 600px;
+    margin: 100px; */
+    overflow: hidden;
+}
+
+.zoom-container img {
+    width: 100%;
+    transition: 1s;
+}
+
+.zoom-container img:hover {
+     transform: scale(1.5);
+     cursor:pointer;
+}
+
+.submit {
+        background-color: #c0c0c0;
+        color: white;
+        padding: 8px 12px;
+        font-size: 13px;
+        border: none;
+        letter-spacing: 2px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .submit:hover {
+        background-color: black;
+        color: white;
+    }
+
+    @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+}
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.67);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#innerPageBanner {
+    position: relative;
+    background: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    #innerPageBanner .banner-content {
+        top: 30%;
+    }
+
+    .banner-image {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #innerPageBanner .banner-content {
+        top: 20%;
+    }
+}
+@media only screen and (max-width: 767px) {
+            .carousel-inner .carousel-item img {
+                height: 200px;
+                max-width: 100%;
+            }
+    
+            .carousel-caption h2 {
+                font-size: 18px;
+                padding-top: 20%;
+                display:flex;
+            
+                justify-content:center;
+    
+            }
+        }
+    
+        .carousel-caption {
+            display: grid;
+            place-items: center;
+            height: 100%;
+            text-align: center;
+    
+        }
+    
+        .carousel-caption h2 {
+            display:flex;
+            text-align:center;
+            font-size:45px;
+            letter-spacing:15px;
+            max-width: 80%;
+    
+            margin: 0;
+    
+            padding-top: 35px;
+    
+            color: white;
+    
+        }
+    
+        /* Banner style start end for all 3 views*/
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
+        }
+
+        /* @media (max-width: 1024px) {
+  .related-products {
+    text-align: center;
+  }
+
+  .related-products .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-lg-4.col-md-8.col-sm-10 {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+} */
+</style>
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
 
 <head>
 
@@ -51,15 +222,35 @@
 
     ?>
 
+<<<<<<< HEAD
 <div id="innerPageBanner">
     <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
+=======
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
+                <div class="banner-overlay"></div>
+                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                    <div class="text-center">
+                        <h2 style="margin: 130px; font-size: 50px;">SERVICES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- <div id="innerPageBanner">
+    <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
     <div class="banner-overlay"></div>
     <div class="banner-content">
         <h2 style="text-align:center">Services</h2>
     </div>
-</div>
+</div> -->
 
     <div class="container">
+<<<<<<< HEAD
        <div class="row g-0">
             <div class="col-lg-6"  style="margin-top:50px">
             
@@ -69,6 +260,21 @@
             <div class="col-lg-6"  style="margin-top:50px">
            <h2> <b class="text-center" style=" font-family:montserrat;">Lucky name correction</b></h2>
             <b class="text-center" style="font-size: 16px;">Rs:8000.00</b>
+=======
+       <div class="row justify-content-center">
+
+            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
+            <div class="zoom-container">
+            <img src="images/LUCKY ALPHABETS.jpg" class="img-fluid" style="width:500px;height:400px;  border:2px solid black;">
+            </div>
+            </div>
+
+            <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
+           <p class="text" style=" font-size: 36px">Lucky name correction</p>
+            <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:100.00</h2>
+
+           
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
                      their life is filled with hardship and battle. They labour really hard yet receive little results or appreciation.
                      Their relationships deteriorate as a result, and others take credit for their efforts.
@@ -88,8 +294,18 @@
                       <input type="text" class="form-control" name="first_name">
                     </div>
                     <div class="col mb-3 mt-3">
+<<<<<<< HEAD
                       <label for="surname">Sur name/Second name*</label>
                       <input type="text" class="form-control" name="surname">
+=======
+
+                      <label for="surname">Sur name*</label>
+
+                      <label for="surname">Last Name*</label>
+
+                      <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
+                      <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
                     </div>
                   </div>
                   <div class="row">
@@ -308,7 +524,7 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
                     <label for="specific_instructions">Specific instruction for name</label>
                     <input type="text" class="form-control" id="specific_instructions" name="specific_instructions">
                   </div>
-                  <button type="submit" class="btn btn-dark">Add to cart</button>
+                  <input type="submit" value="Add to cart" class="submit">
                 </form>
 
                          
@@ -326,6 +542,7 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
        <div class="row g-0">
             <div  style="margin-top:50px">
             <div class="tabContainer">
+<<<<<<< HEAD
         <div class="buttonContainer">
           <button onclick="showPanel(0,'#F5F5F5')">Description</button>
           <button onclick="showPanel(1,'#F5F5F5')">Review</button>
@@ -334,6 +551,17 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
         <div class="row">
                 <div class="col-md-12">
                 <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Description </b></h2>
+=======
+
+            <div class="buttonContainer">
+          <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description</button>
+          <button onclick="showPanel(1,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Review</button>
+        </div>
+        <div class="tabPanel ">
+        <div class="row">
+                <div class="col-md-12 mt-4 ">
+                <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description </h2>
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number, 
             their life is filled with hardship and battle.
@@ -398,19 +626,19 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
 </div>
 
 
-      <div class="tabPanel">
-      <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Reviews</b></h2>
+<div class="tabPanel">
+  <div class="container">
+<div class="row">
+     <div class="col-md-12 mt-4">
+<h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Reviews</h2>
           <div class="p-5">
-                <p style="text-align: justify; font-family:montserrat; color:black;font-size: 16px;">
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
           There are no reviews yet.</p>
-          </div>
-          
-          
-                <p style="text-align: justify;color:black;font-size: 16px; font-family:montserrat; padding-left:30px;">
-                Be the first to review “Lucky name correction”<br>
+          <p style="text-align: justify; font-size: 16px; font-family:montserrat;">
+                Be the first to review “Name Analysis”<br>
                 Your email address will not be published. Required fields are marked *</p>
           
-                <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
+                <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
             <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
             <select name="rating">
             <option value="1">Rate</option>
@@ -420,37 +648,44 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
             <option value="5">Not bad</option>
             <option value="5">Very poor</option>
             </select><br><br>
-            <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;"> YOUR REVIEW *</p>
+            <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR REVIEW *</p>
                 <input type="message" class="form-control" id="specific instruction"  name="specific instruction">
 
+                <div class="form">
                     <div class="row">
-                        <div class="col mb-6 mt-3">
-                        <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                        <label for="name">Name*</label></p>
-                            <input type="text" class="form-control"  name="name">
-                        </div>
-                        <div class="col mb-6 mt-3">
-                        <p style="font-size: 16px; font-family:montserrat; float: left;padding-left:30px;">
-                        <label for="email">Email*</label></p>
-                            <input type="text" class="form-control" name="email">
-                        </div>
+                    <div class="col-md-6">
+            <label  class="mb-3 mt-3">NAME *</label><br>
+            <input type="text" name="name" class="form-control" required/>
+        </div>
+        <div class="col-md-6">
+            <label  class="mb-3 mt-3">EMAIL *</label><br>
+            <input type="email" name="email" class="form-control" required/>
+        </div>
                     </div>
-                    <input type="checkbox" id="myCheckbox" name="myCheckbox">
-                     <label for="myCheckbox"><p style="text-align: justify ; font-family:montserrat; color:black;font-size: 16px;padding-left:30px;">
-                    Save my name, email, and website in this browser for the next time I comment</p></label><br>
-                    <button type="submit" class="btn btn-dark">Submit</button>
-          
-</div>
-
+                    
+                    <div class="row mt-3 mb-3">
+        <div class="col-md-12">
+            <label>
+                <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
+            </label><br>
         </div>
     </div>
     </div>
+    <input type="submit" value="Submit" class="submit">
+                    </div>
+                    </div>
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script src="myscript.js"></script>
-            <div class="container">
-    <div class="row g-0 mt-5">
+
            
+<<<<<<< HEAD
             <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
 
             <div class="col-lg-4" style="margin-top:30px">
@@ -475,7 +710,64 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
             </div>
             
 </div>
+=======
+           
+            
+            
+
+<style>
+    /* CSS for responsive images */
+    .product-column img {
+        width: 350px;
+        height: 350px;
+        border: 2px solid black;
+    }
+
+
+    /* Media query for iPad and smaller screens */
+    @media (max-width: 1024px) {
+        .product-column {
+            text-align: center;
+        }
+        .product-column img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<div class="container related-products">
+    <div class="row g-0 mt-5">
+        <h2 class="text mb-4"><b style="font-family: montserrat;">Related products</b></h2>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="luckydate.php">
+                <img src="images/C section delivery date.jpg" style="width:350px;height:350px;border: 2px solid black;" >
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky Date Delivery</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+        </div>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="nameanalysis.php">
+                <img src="images/Name analysis.jpg" style="width:350px;height:350px;border: 2px solid black;">
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Name Analysis</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+        </div>
+
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <a href="babyname.php">
+                <img src="images/babyname numerology.jpg" style="width:350px;height:350px;border: 2px solid black;">
+            </a>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Baby Name Correction</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 35.00</p>
+        </div>
+    </div>
+
+>>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
 </div>
+
 <?php include("footer.php"); ?>
     <script>
       window.onload = function() {
