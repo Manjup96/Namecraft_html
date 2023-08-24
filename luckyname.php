@@ -1,10 +1,8 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
+<style>
 
-
-<<<<<<< HEAD
-=======
   .error.show {
     display: block;
     font-size: 80%;
@@ -173,7 +171,6 @@
   }
 } */
 </style>
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
 
 <head>
 
@@ -222,10 +219,6 @@
 
     ?>
 
-<<<<<<< HEAD
-<div id="innerPageBanner">
-    <img src="images/single_banner.png" class="banner-image" alt="Banner Image">
-=======
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -242,7 +235,6 @@
     </div>
 <!-- <div id="innerPageBanner">
     <img src="images/servicebanner.png" class="banner-image" alt="Banner Image">
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
     <div class="banner-overlay"></div>
     <div class="banner-content">
         <h2 style="text-align:center">Services</h2>
@@ -250,17 +242,6 @@
 </div> -->
 
     <div class="container">
-<<<<<<< HEAD
-       <div class="row g-0">
-            <div class="col-lg-6"  style="margin-top:50px">
-            
-            <img src="images/LUCKY ALPHABETS.jpg" style="width:500px;height:400px">
-            </div>
-
-            <div class="col-lg-6"  style="margin-top:50px">
-           <h2> <b class="text-center" style=" font-family:montserrat;">Lucky name correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:8000.00</b>
-=======
        <div class="row justify-content-center">
 
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
@@ -274,7 +255,6 @@
             <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:100.00</h2>
 
            
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
                      their life is filled with hardship and battle. They labour really hard yet receive little results or appreciation.
                      Their relationships deteriorate as a result, and others take credit for their efforts.
@@ -294,10 +274,6 @@
                       <input type="text" class="form-control" name="first_name">
                     </div>
                     <div class="col mb-3 mt-3">
-<<<<<<< HEAD
-                      <label for="surname">Sur name/Second name*</label>
-                      <input type="text" class="form-control" name="surname">
-=======
 
                       <label for="surname">Sur name*</label>
 
@@ -305,7 +281,6 @@
 
                       <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
                       <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
                     </div>
                   </div>
                   <div class="row">
@@ -542,16 +517,6 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
        <div class="row g-0">
             <div  style="margin-top:50px">
             <div class="tabContainer">
-<<<<<<< HEAD
-        <div class="buttonContainer">
-          <button onclick="showPanel(0,'#F5F5F5')">Description</button>
-          <button onclick="showPanel(1,'#F5F5F5')">Review</button>
-        </div>
-        <div class="tabPanel ">
-        <div class="row">
-                <div class="col-md-12">
-                <h2><b style=" font-family:montserrat; float: left;padding-left:30px;">Description </b></h2>
-=======
 
             <div class="buttonContainer">
           <button onclick="showPanel(0,'#F5F5F5')" style="background: none; border: none; padding: 5px; color: blue; cursor: pointer; font-weight:bold">Description</button>
@@ -561,7 +526,6 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
         <div class="row">
                 <div class="col-md-12 mt-4 ">
                 <h2 style="text-align: justify; font-family:montserrat; font-size: 1.5em; float: left;padding-left:30px;">Description </h2>
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
                 <div class="p-5">
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number, 
             their life is filled with hardship and battle.
@@ -685,32 +649,6 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
 <script src="myscript.js"></script>
 
            
-<<<<<<< HEAD
-            <h2><b class="text-center" style="font-family:montserrat;">Related products</b></h2>
-
-            <div class="col-lg-4" style="margin-top:30px">
-            <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:400px;height:400px"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
-
-            
-
-            <div class="col-lg-4" style="margin-top:30px">   
-            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:400px;height:400px"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
-            </div>
-
-
-            <div class="col-lg-4"  style="margin-top:30px">
-            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:400px;height:400px"></a>
-            <h2><b class="text-center" style="font-size: 16px; font-family:montserrat;">Baby Name Correction</b></h2>
-            <b class="text-center" style="font-size: 16px;">Rs:35.00</b>
-            </div>
-            
-</div>
-=======
            
             
             
@@ -765,7 +703,6 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
         </div>
     </div>
 
->>>>>>> 0325d6a7a1c59ef81b318cf3a9f4c95fb751718c
 </div>
 
 <?php include("footer.php"); ?>
