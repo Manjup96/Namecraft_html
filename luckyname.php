@@ -2,6 +2,11 @@
 <html lang="en">
 <?php include("head_links.php"); ?>
 <style>
+  
+  .error {
+    color: red;
+    display: none;
+  }
 
   .error.show {
     display: block;
@@ -11,6 +16,7 @@
   .hidden {
     display: none;
   }
+ 
 
   .zoom-container {
     /* width: 300px;
@@ -171,6 +177,10 @@
   }
 } */
 </style>
+<<<<<<< HEAD
+
+=======
+>>>>>>> fa8c4bda7f718be74f85c0f9c465991a7bd0aff6
 
 <head>
 
@@ -269,16 +279,13 @@
   <input type="hidden" name="service_name" value="Lucky Name Correction">
   <input type="hidden" name="service_value" value="8000">
 
-                    <div class="col mb-3 mt-3">
+  <div class="col mb-3 mt-3">
                       <label for="first_name">First name*</label>
-                      <input type="text" class="form-control" name="first_name">
+                      <input type="text" class="form-control" id="first_name" name="first_name" onkeyup="validateFirstNameForm()">
+                       <div id="name_error" class="error hidden">Please enter a valid first name</div>
                     </div>
                     <div class="col mb-3 mt-3">
-
-                      <label for="surname">Sur name*</label>
-
-                      <label for="surname">Last Name*</label>
-
+                      <label for="surname">Sur name/Second name*</label>
                       <input type="text" class="form-control" id="sur_name" name="surname" onkeyup="validateSurNameForm()">
                       <div id="surname_error" class="error hidden">Please enter a valid sur name</div>
                     </div>
@@ -289,175 +296,11 @@
                       <input type="date" class="form-control" name="date_of_birth">
                     </div>
                     <div class="col mb-3 mt-3">
-                      <!-- <label for="place_of_birth">Place of birth*</label> -->
-                      <!-- <input type="text" class="form-control" name="place_of_birth"> -->
-                      <div id="location-dropdown">
-    <label for="location">Place Of Birth:</label>
-    <input type="text" id="location" name="location" autocomplete="off">
-    <div id="location-dropdown-content"></div>
-  </div>
+                      <label for="place_of_birth">Place of birth*</label>
+                      <input type="text" class="form-control"id="place_birth" name="place_of_birth" onkeyup="validatePlaceOfBirthForm()"> 
+                       <div id="place_error" class="error hidden">Please enter a valid place of birth</div>
                     </div>
-
                   </div>
-
-                  
-  <br>
-  <div class="row">
-  <div class="col mb-3 mt-3">
-  <label for="country">Country:</label>
-  <input type="text" id="country" name="country" readonly></div>
-  <!-- <label for="state">State:</label> -->
-  <!-- <input type="text" id="state" disabled><br> -->
-  <div class="col mb-3 mt-3">
-  <label for="latitude">Latitude:</label>
-  <input type="text" id="latitude" name="latitude" readonly>
-</div>
-</div>
-<div class="row">
-<div class="col mb-3 mt-3">
-  <label for="longitude">Longitude:</label>
-  <input type="text" id="longitude" name="longitude"  readonly></div>
-  <div class="col mb-3 mt-3">
-  <label for="timezone">Timezone:</label>
-  <input type="text" id="timezone" name="timezone" readonly><br>
-  </div>
-  </div>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      var userId = '624804';
-      var apiKey = '41073cb4d18137939829682596d81f16';
-      var auth = "Basic " + btoa(userId + ":" + apiKey);
-      var api_geo = 'geo_details';
-      var api_timezone = 'timezone_with_dst';
-
-      $("#location").on("input", function () {
-        var input = $(this).val();
-        var data = {
-          "place": input.substring(0, 6),
-          "maxRows": 20
-        };
-
-        var request_geo = $.ajax({
-          url: "https://json.astrologyapi.com/v1/" + api_geo,
-          method: "POST",
-          dataType: 'json',
-          headers: {
-            "authorization": auth,
-            "Content-Type": 'application/json'
-          },
-          data: JSON.stringify(data),
-          success: function (response) {
-            var dropdownContent = $("#location-dropdown-content");
-            dropdownContent.empty();
-
-            if (response.geonames.length > 0) {
-              response.geonames.forEach(function (location) {
-                var locationLink = $("<a>").html(location.place_name + ", " + getFullCountryName(location.country_code) + "<br>Latitude: " + location.latitude + ", Longitude: " + location.longitude)
-                  .attr("data-location", location.place_name)
-                  .attr("data-country", getFullCountryName(location.country_code))
-                //   .attr("data-state", location.adminName1)
-                  .attr("data-latitude", location.latitude)
-                  .attr("data-longitude", location.longitude)
-                  .attr("data-timezone", location.timezone_id)
-                  .click(function () {
-                    var selectedLocation = $(this).attr("data-location");
-                    var selectedCountry = $(this).attr("data-country");
-                    // var selectedState = $(this).attr("data-state");
-                    var latitude = $(this).attr("data-latitude");
-                    var longitude = $(this).attr("data-longitude");
-
-                    $("#location").val(selectedLocation);
-                    $("#country").val(selectedCountry);
-                    // $("#state").val(selectedState);
-                    $("#latitude").val(latitude);
-                    $("#longitude").val(longitude);
-
-                    getTimezoneWithDST(latitude, longitude);
-                    dropdownContent.hide();
-                  });
-
-                dropdownContent.append(locationLink);
-              });
-
-              dropdownContent.show();
-            } else {
-              dropdownContent.hide();
-            }
-          },
-          error: function (xhr, status, error) {
-            console.log(xhr.responseJSON || xhr.responseText);
-            // Handle error
-          }
-        });
-      });
-
-        
-        function getFullCountryName(countryCode) {
-        var countries = {
-          "IN": "India",
-          "PK": "Pakistan",
-          "GB": "United Kingdom"
-          // Add more country codes and names here
-        };
-
-        return countries[countryCode] || countryCode;
-      }
-      function getTimezoneWithDST(latitude, longitude) {
-        var currentDate = new Date();
-        var formattedDate = currentDate.getDate() + "-" + (currentDate.getMonth() + 1) + "-" + currentDate.getFullYear();
-      
-
-        var data = {
-  "latitude": latitude.toString(),
-  "longitude": longitude.toString(),
-  
-};
-console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " + formattedDate);
-  //alert("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " + formattedDate);
-  
-  console.log(JSON.stringify(data));
-//   alert(JSON.stringify(data));
-    
-//     var data=
-//     {
-    
-//      "latitude": "17.38405",
-//             "longitude": "78.45636",
-//             "date": "01-06-2023"
-// }
-
-        var request_timezone = $.ajax({
-          url: "https://json.astrologyapi.com/v1/" + api_timezone,
-          method: "POST",
-          dataType: 'json',
-          headers: {
-            "authorization": auth,
-            "Content-Type": 'application/json'
-          },
-          
-
-      data: JSON.stringify(data),
-                success: function (response) {
-                    console.log(response); // Check the entire response object in the browser console
-            if (response.status) {
-              var timezone = response.timezone;
-            //   alert(timezone);
-              $("#timezone").val(timezone);
-            } else {
-              $("#timezone").val("");
-            }
-          },
-          error: function (xhr, status, error) {
-            console.log(xhr.responseJSON || xhr.responseText);
-            // Handle error
-          }
-        });
-      }
-    });
-  </script>
-
-
-
                   <div class="row">
                     <div class="col mb-3 mt-3">
                       <label for="time_of_birth">Time of birth*</label>
@@ -474,38 +317,48 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
                   <div class="row">
                     <div class="col mb-3 mt-3">
                       <label for="father_name">Father name*</label>
-                      <input type="text" class="form-control" name="father_name">
-                    </div>
+                      <input type="text" class="form-control" id="father_name" name="father_name" onkeyup="validateFatherNameForm()">
+                      <div id="fathername_error" class="error hidden">Please enter a valid father name</div>
+                   </div>
                     <div class="col mb-3 mt-3">
                       <label for="mother_name">Mother name*</label>
-                      <input type="text" class="form-control" name="mother_name">
+                      <input type="text" class="form-control"  id="mother_name" name="mother_name" onkeyup="validateMotherNameForm()">
+                      <div id="mothername_error" class="error hidden">Please enter a valid mother name</div>
                     </div>
                   </div>
                   <div class="mb-3 mt-3">
                     <label for="spouse_name">Husband/Wife name</label>
-                    <input type="text" class="form-control" id="spouse_name" name="spouse_name">
+                    <input type="text" class="form-control" id="spouse_name" name="spouse_name" onkeyup="validateSpouseNameForm()">
+                    <div id="spousename_error" class="error hidden">Please enter a valid spouse name</div>
                   </div>
                   <div class="row">
                     <div class="col mb-3 mt-3">
                       <label for="mobile_number">Mobile number*</label>
-                      <input type="text" class="form-control" name="mobile_number">
+                      <input type="text" class="form-control" id="phone_number" name="phone_number" onkeyup="validateMobileForm()">
+                      <div id="mobile_error" class="error hidden">Please enter a valid phone number</div>
                     </div>
                     <div class="col mb-3 mt-3">
                       <label for="email_id">Email id*</label>
-                      <input type="text" class="form-control" name="email_id">
+                      <input type="text" class="form-control"  id="email" name="email" onkeyup="validateEmailForm()">
+                      <div id="email_error" class="error hidden">Please enter a valid email</div>
                     </div>
                   </div>
                   <div class="mb-3 mt-3">
                     <label for="specific_instructions">Specific instruction for name</label>
                     <input type="text" class="form-control" id="specific_instructions" name="specific_instructions">
+        
                   </div>
                   <input type="submit" value="Add to cart" class="submit">
+                  <div class="mb-3 mt-3">
+                        <a href="services.php"> <p> Category: Uncategorized</p></a>
+                       </div>
+  </div>
+ 
+                  
                 </form>
 
                          
-                        <div class="mb-3 mt-3">
-                        <a href="services.php"> <p> Category: Uncategorized</p></a>
-                       </div>
+                       
                         </div>
             </div>
         </div>
@@ -711,6 +564,168 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
     showPanel(0, '#F5F5F5');
   };
   </script>
+   <script>
+  function validateFirstName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateFirstNameForm() {
+    var name = document.getElementById('first_name').value;
+    var firstNameError = document.getElementById('name_error');
+
+    if (!validateFirstName(name)) {
+      firstNameError.classList.add('show');
+    } else {
+      firstNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('first_name').addEventListener('keyup', validateFirstNameForm);
+
+
+  function validateSurName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateSurNameForm() {
+    var name = document.getElementById('sur_name').value;
+    var surNameError = document.getElementById('surname_error');
+
+    if (!validateSurName(name)) {
+      surNameError.classList.add('show');
+    } else {
+      surNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('sur_name').addEventListener('keyup', validateSurNameForm);
+
+
+  function validatePlaceOfBirth(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validatePlaceOfBirthForm() {
+    var name = document.getElementById('place_birth').value;
+    var placeofbirthError = document.getElementById('place_error');
+
+    if (!validatePlaceOfBirth(name)) {
+      placeofbirthError.classList.add('show');
+    } else {
+      placeofbirthError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('place_birth').addEventListener('keyup', validatePlaceOfBirthForm);
+
+
+  function validateFatherName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateFatherNameForm() {
+    var name = document.getElementById('father_name').value;
+    var fatherNameError = document.getElementById('fathername_error');
+
+    if (!validateFatherName(name)) {
+      fatherNameError.classList.add('show');
+    } else {
+      fatherNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('father_name').addEventListener('keyup', validateFatherNameForm);
+
+
+  function validateMotherName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateMotherNameForm() {
+    var name = document.getElementById('mother_name').value;
+    var motherNameError = document.getElementById('mothername_error');
+
+    if (!validateMotherName(name)) {
+      motherNameError.classList.add('show');
+    } else {
+      motherNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('mother_name').addEventListener('keyup', validateMotherNameForm);
+
+  function validateSpouseName(input_str) {
+    var re = /^([a-zA-Z ]){2,30}$/;
+    return re.test(input_str);
+  }
+
+  function validateSpouseNameForm() {
+    var name = document.getElementById('spouse_name').value;
+    var spouseNameError = document.getElementById('spousename_error');
+
+    if (!validateSpouseName(name)) {
+      spouseNameError.classList.add('show');
+    } else {
+      spouseNameError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('spouse_name').addEventListener('keyup', validateSpouseNameForm);
+
+
+  
+  function validateMobile(input_str) {
+    var re = /^[0-9]{10}$/;
+    return re.test(input_str);
+  }
+
+  function validateMobileForm() {
+    var mobile = document.getElementById('phone_number').value;
+    var mobileError = document.getElementById('mobile_error');
+
+    if (!validateMobile(mobile)) {
+      mobileError.classList.add('show');
+    } else {
+      mobileError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+
+  document.getElementById('phone_number').addEventListener('keyup', validateMobileForm);
+
+
+  function validateEmail(input_str) {
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(input_str);
+  }
+
+  function validateEmailForm() {
+    var email = document.getElementById('email').value;
+    var emailError = document.getElementById('email_error');
+
+    if (!validateEmail(email)) {
+      emailError.classList.add('show');
+    } else {
+      emailError.classList.remove('show');
+    }
+
+    enableSubmitButton();
+  }
+  document.getElementById('email').addEventListener('keyup', validateEmailForm);
+</script>
+
 </body>
 
 </html>
