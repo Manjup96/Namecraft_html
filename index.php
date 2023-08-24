@@ -174,7 +174,7 @@
   <div class="associations">
     <h2 class="text-center">OUR ASSOCIATIONS</h2>
     <div class="container-fluid custom-bg" style="height: 250px;">
-      <div class="row logo-container owl-carousel" style=" width:105%; padding: 0 50px;">
+      <div class="row logo-contai ner owl-carousel" style=" width:105%; padding: 0 50px;">
 
         <div class="col-6 col-md-4 logo-item" style="max-width: 500px; height: auto; margin-left: -20px; margin-top: -10px;">
           <img src="images/logo_forbes.png" alt="Logo 4" class="img-fluid">
