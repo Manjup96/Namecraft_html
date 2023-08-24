@@ -224,7 +224,7 @@
                         </div>
                     <div class="mb-3">
                     <label for="date_of_birth">Date of birth*</label>
-                    <input type="date_of_birth" class="form-control" id="date_of_birth"  name="date_of_birth">
+                    <input type="date" class="form-control" id="date_of_birth"  name="date_of_birth">
                     </div>
                 
                     

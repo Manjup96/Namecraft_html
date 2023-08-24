@@ -255,10 +255,7 @@
                     <input type="text" class="form-control" id="expected_delivery"  name="expected_delivery">
                         </div>
                         <div class="row">
-                        <div class="col mb-3 mt-3">
-                        <label for="date of birth">Date of birth*</label>
-                            <input type="text" class="form-control"  name="date of birth">
-                        </div>
+                       
                         
                         <div class="button-container">
                         <input type="submit" value="Add to cart" class="submit">
