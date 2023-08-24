@@ -1091,12 +1091,7 @@
 
 
 
-<<<<<<< HEAD
-  <?php include("footer.php");
-  ?>
-=======
   <?php include("footer.php"); ?>
->>>>>>> bc159a9cfd439104b45abcbfad34f5fb9a862ba8
 
 </body>
 
