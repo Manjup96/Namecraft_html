@@ -238,10 +238,9 @@ text-align: center;
           </div>
         </div>
       </a>
-      <h2>
-        <b class="text-center pt-3" style="font-size: 16px; font-family: montserrat;">Baby Name Correction</b>
-      </h2>
-      <b class="text-center" style="font-size: 16px;">Rs: 35.00</b>
+      <h5 class="text-center pt-3" style=" font-family: montserrat;">Baby Name Correction</b>
+      </h5>
+      <p class="text-center" style="font-size: 16px;">Rs: 35.00</p>
     </div>
     
     <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
@@ -255,10 +254,9 @@ text-align: center;
             </div>
         </div>
     </a>
-    <h2>
-        <b class="text-center pt-3" style="font-size: 16px; font-family: montserrat;">Lucky Date Delivery</b>
-    </h2>
-    <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+    <h5 class="text-center pt-3" style=" font-family: montserrat;">Lucky Date Delivery</b>
+    </h5>
+    <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
 </div>
 
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
@@ -272,10 +270,9 @@ text-align: center;
             </div>
         </div>
     </a>
-    <h2>
-        <b class="text-center pt-3" style="font-size: 16px; font-family: montserrat;">Lucky Name Correction</b>
-    </h2>
-    <b class="text-center" style="font-size: 16px;">Rs: 45.00</b>
+    <h5 class="text-center pt-3" style=" font-family: montserrat;">Lucky Name Correction</b>
+    </h5>
+    <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
 </div>
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
     <a href="nameanalysis.php">
@@ -288,10 +285,9 @@ text-align: center;
             </div>
         </div>
     </a>
-    <h2>
-        <b class="text-center pt-3" style="font-size: 16px; font-family: montserrat;">Name Analysis</b>
-    </h2>
-    <b class="text-center" style="font-size: 16px;">Rs: 100.00</b>
+    <h5 class="text-center pt-3" style="font-family: montserrat;">Name Analysis</b>
+    </h5>
+    <p class="text-center" style="font-size: 16px;">Rs: 100.00</p>
 </div>
     </div>
     </div>

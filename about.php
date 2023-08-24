@@ -102,7 +102,7 @@ about.h2 {
         </div>
     </div>
 
- <style>
+    <style>
 
 .carousel-section {
    background-image: url("images/why-choose-us-1.jpg"); 
@@ -110,8 +110,7 @@ about.h2 {
   background-size: cover;
   background-position: center;
   background-color:rgba(0,0,0,0.75); 
-  /* background-color: purple; */
-  /* color:inherit; */
+
 }
   
   .carousel-section::after {
@@ -127,7 +126,7 @@ about.h2 {
    
   /* Add any other background-related styles here */
 }
-.services__item h3.custom-heading {
+ .services__item h3.custom-heading {
       font-family: 'Open Sans';
       font-weight: 600;
       text-align:center;
@@ -213,14 +212,14 @@ about.h2 {
       <div class="col-lg-12 pt-5">
         <div class="section-title">
         <br>  
-        <!-- <h2 style="text-align:center;color:white;font-weight:bold">Why Choose Us</h2> -->
+       
 
         </div>
       </div>
     </div>
     <br>
    <div class="row services__list owl-carousel owl-loaded owl-drag">
-    <!-- <h2 style="text-align:center;color:white;font-weight:bold">Why Choose Us?</h2> <br> <br> -->
+   
     <h3 style="font-size: 30px;color: #ffffff;text-align: center" class="vc_custom_heading">WHY CHOOSE US?</h3> <br> 
   <div class="owl-stage-outer">
     <div class="owl-stage">

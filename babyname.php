@@ -224,9 +224,7 @@
     </div>
     </div>
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;">
-                <h2>
-                <b class="text-center" style=" font-family:montserrat;"> Baby Name Correction</b>
-                </h2>
+                <p class="text" style=" font-size:36px;"> Baby Name Correction</p>
                 
                 <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:35.00</h2>
                 
@@ -355,21 +353,19 @@
                                 
                                         <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Using Numerology to Pick the Best Baby Name:</p>
                                 
-                             <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Your name is the outcome of your actions in a previous life. The gods have predetermined it.
                                         Your good acts earn you a moniker that signifies power, success, and wealth.
                                         poor acts provide poor labels that represent depravity, jealousy, and unpleasant vibes.
                                         Your parents may have given you a name, but it reflects your former life.
                                         This article will help you choose the ideal name for your kid based on numerology.
                                         It is significant because it gives your child a personality.</p>
-                                
-
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Selecting the Best Vibration:</p>
-
-                                
-                                       <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">This is determined by the baby’s natal star.
-                                        Astrology has defined initial sounds for children born under a specific natal star.</p>
                                
-                                        <p style="font-size:22px;text-align: justify; font-family:montserrat; ">Find a harmonic harmony between your name and your birthday:</p>
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat;">Selecting the Best Vibration:</p>
+                                        <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">This is determined by the baby’s natal star. Astrology has defined initial sounds for children born under a specific natal star.</p><br><br>
+                               
+
+                                        
+                                        <p style="font-size:22px;text-align: justify; font-family:montserrat;">Find a harmonic harmony between your name and your birthday:</p>
                                 
                                         <p style="text-align: justify; font-size: 16px; font-family:montserrat; float: left;">Every letter is connected with a number in numerology,
                                         and the vibration is determined based on the numerology value of the alphabet and validated using phonics.
@@ -479,31 +475,25 @@
     <div class="container related-products">
         <div class="row g-0 mt-5">
 
-            <h2>
-                <b class="text-center" style="font-family:montserrat;">Related products</b></h2>
+            <h5 class="text" style="font-family:montserrat;">Related products</h5>
 
-            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
                 <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
+                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Lucky Date Delivery</b>
                 </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+                <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
             </div>
 
-            <div class="col-lg-4 col-md-8 col-sm-10"style="margin-top:30px">
+            <div class="col-lg-4 col-md-8 col-sm-10"style="margin-top:10px">
                 <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Name Analysis</b>
-                </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Name Analysis</h2>
+                <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
             </div>
 
-            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+            <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
                 <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 2px solid black;"></a>
-                <h2>
-                <b class="text-center" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</b>
-                </h2>
-                <b class="text-center" style="font-size: 16px;">Rs:45.00</b>
+                <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</h2>
+                <p class="text-center" style="font-size: 16px;">Rs:45.00</p>
             </div>
         </div>
     </div>
