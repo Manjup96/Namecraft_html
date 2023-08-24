@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-light" style="background-color: white;">
 
     <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
-        <a class="navbar-brand" href="#" class="p-0px 30px">
+        <a class="navbar-brand p-0px 30px" href="#">
             <img src="images/final-logo 123.png" alt="Logo" style="margin-right: 60px; height: 60px; width: 215px;">
         </a>
 
