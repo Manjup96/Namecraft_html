@@ -21,16 +21,16 @@
     <!-- Jquery Fancybox CSS -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="screen" />
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" >
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Famous Numerologist and Tarot Card Reader in Mumbai and Bangalore - Sheelaa M Bajaj</title>
     <meta name="description" content="Sheelaa M Bajaj one of the best and most famous numerologist in India, Asia and Dubai. A celebrity numerologist with best Tarot Card readers.">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    
-    
-     
+
+
+
     <!-- Testimonials -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">

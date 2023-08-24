@@ -50,7 +50,7 @@
         </div>
     </div>
 
-<!-- 
+
     <div class="why_choose owl-carousel">
          <div class="container">
             <div class="row">
@@ -103,7 +103,7 @@
     });
   });
 </script>
- -->
+ 
 
 
  <style>
