@@ -115,7 +115,7 @@
               <a href="https://www.twitter.com/c/SheelaaMBajaj/" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
               <a href="https://www.instagram.com/sheelaambajaj/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
               <a href="https://www.youtube.com/c/SheelaaMBajajOfficial" target="_blank"><i class="fab fa-youtube social-icon"></i></a>
-              <p id="p">Namecraft © 2023</p>
+              <p id="p" style="text-align:center;">Namecraft © 2023</p>
             </center>
           </div>
 
