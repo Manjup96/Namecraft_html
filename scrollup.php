@@ -35,9 +35,7 @@
 </head>
 
 <body>
-    <div style="height: 2000px;">
-        <!-- Content that makes the page scrollable -->
-    </div>
+    
 
     <button onclick="scrollToTop()" class="scroll-to-top" id="scrolltotop">
         <i class="fas fa-angle-up"></i>

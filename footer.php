@@ -6,7 +6,7 @@
 <style>
   .footer-links a {
     text-decoration: none;
-    /* Remove underline */
+    
     color: #000000;
     font-size: 14px;
     margin-bottom: 5px;
@@ -15,7 +15,7 @@
 
   .footer-links a:hover {
     color: #61156B;
-    /* Change color on hover */
+   
   }
 
   /* Center-align text in #footer only in mobile view (up to 767px) */
@@ -125,9 +125,9 @@
 
 
       </div>
-
+      
     </div>
-
+   
   </footer>
   <?php include 'scrollup.php'; ?>
 </div>
