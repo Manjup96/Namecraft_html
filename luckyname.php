@@ -738,9 +738,9 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
 
 <div class="container related-products">
     <div class="row g-0 mt-5">
-        <h2 class="text mb-4"><b style="font-family: montserrat;">Related products</b></h2>
+        <h5 class="text" style="font-family: montserrat;">Related products</h5>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
             <a href="luckydate.php">
                 <img src="images/C section delivery date.jpg" style="width:350px;height:350px;border: 2px solid black;" >
             </a>
@@ -748,7 +748,7 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
             <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
         </div>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
             <a href="nameanalysis.php">
                 <img src="images/Name analysis.jpg" style="width:350px;height:350px;border: 2px solid black;">
             </a>
@@ -756,7 +756,7 @@ console.log("Latitude: " + latitude + "\nLongitude: " + longitude + "\nDate: " +
             <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
         </div>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:30px">
+        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
             <a href="babyname.php">
                 <img src="images/babyname numerology.jpg" style="width:350px;height:350px;border: 2px solid black;">
             </a>
