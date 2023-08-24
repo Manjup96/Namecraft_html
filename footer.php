@@ -118,6 +118,10 @@ color:lightgray;}
           </div>
 
       </div>
+
     </div>
+    <?php
+    include "scrollup.php";
+    ?>
   </footer>
 </div>
