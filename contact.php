@@ -153,11 +153,11 @@ html {
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex" >
-                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
-                                            <option value="Baby name correction">Baby name correction</option>
-                                            <option value="Lucky name correction">Lucky name correction</option>
-                                            <option value="comLucky date deliverypany">Lucky date delivery</option>
-                                            <option value="Name analysis">Name analysis</option>
+                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px; font-size:16px;" required>
+                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
+                                            <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
+                                            <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
+                                            <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
                                         </select>
                                     </div>
             </div>
