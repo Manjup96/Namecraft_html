@@ -420,32 +420,36 @@
     </div>
 
     <div class="row">
-      <div class="col-md-3 col-lg-3 col-sm-12">
+    <div class="col-md-3 col-lg-3 col-sm-12">
+      <a href="babyname.php">
         <img src="images/Service1-home.png" alt="logo"><br><br>
-        <h6>BABY NAME <br> CORRECTION</h6><br>
-        <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents preferences.</p><br>
-        <a href="babyname.php" class="read-more">READ MORE &raquo;</a>
-      </div>
+      </a>
+      <h6>BABY NAME <br> CORRECTION</h6><br>
+      <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents' preferences.</p><br>
+    </div>
 
       <div class="col-md-3 col-lg-3 col-sm-12">
-        <img src="images/service2.png" alt="logo"><br><br>
+        <a href="luckydate.php">
+          <img src="images/service2.png" alt="logo"><br><br>
+        </a>
         <h6>LUCKY DATE <br> DELIVERY</h6><br>
         <p>Is your brand name numerologically lucky? Learn what leading brand names have in common, good numerology, lucky names which give them a boost over their competitors.</p><br>
-        <a href="luckydate.php" class="read-more">READ MORE &raquo;</a>
       </div>
 
       <div class="col-md-3 col-lg-3 col-sm-12">
-        <img src="images/service3.png" alt="logo"><br><br>
+        <a href="luckyname.php">
+          <img src="images/service3.png" alt="logo"><br><br>
+        </a>
         <h6>LUCKY NAME <br>CORRECTION</h6><br>
         <p>A rectified name according to numerology can rectify the date of birth flaw and turn things around for the individual or business. There are Chaldean and Pythagorean numerology systems.</p>
-        <a href="luckyname.php" class="read-more">READ MORE &raquo;</a>
       </div>
 
       <div class="col-md-3 col-lg-3 col-sm-12">
-        <img src="images/service4.png" alt="logo"><br><br>
+        <a href="nameanalysis.php">
+          <img src="images/service4.png" alt="logo"><br><br>
+        </a>
         <h6>NAME ANALYSIS</h6><br><br>
         <p>Uncover the hidden meanings behind names with our expert name analysis services. Explore the fascinating stories behind names through our personalized name analysis.</p><br>
-        <a href="nameanalysis.php" class="read-more">READ MORE &raquo;</a>
       </div>
     </div>
   </div>
