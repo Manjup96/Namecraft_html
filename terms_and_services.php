@@ -81,7 +81,7 @@
 
 .carousel-item img {
     width: 1600px;
-    height: 300px;
+    height: 382px;
     object-fit: cover;
 }
 @media only screen and (max-width: 500px) {
@@ -122,7 +122,10 @@
   text-align: justify;
   color: black;
 }
-
+#text{
+    color:white;
+    text-decoration: none;
+}
 /* You can continue adding more styles as needed */
 </style>
 
@@ -138,7 +141,7 @@
             <div class="carousel-caption">
                 <h5>TERMS OF SERVICES </h5>
             
-                <p><a href="index.php">Home</a> / TERMS OF SERVICES</p>
+                <p><a id="text" href="index.php">Home</a> / TERMS OF SERVICES</p>
             </div>
         </div>
     </div>

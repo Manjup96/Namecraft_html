@@ -49,7 +49,7 @@ color:lightgray;}
         
 <div class="col-md-4 mb-3" >
     <div >
-        <h4 style="font-size: 12px; color: #61156B;" class="pb-2">| SERVICES BY NAMECRAFT</h4><br>
+        <h4 style="font-size: 16px; color: #61156B;" class="pb-2">| SERVICES BY NAMECRAFT</h4><br>
         <div class="text-center" style="font-family: Open Sans, sans-serif;">
             <ul class="footer-links list-unstyled text-start"  >
                 <li><a href="nameanalysis.php">Name Analysis</a></li><br>
@@ -66,10 +66,10 @@ color:lightgray;}
           <!-- <div class="col-md-1"></div> -->
           <div class="col-md-4 mb-3">
             <div >
-            <h4 style="font-size:12px;color:#61156B ;" class="pb-1">| MORE INFO</h4><br>
+            <h4 style="font-size:16px;color:#61156B ;" class="pb-1">| MORE INFO</h4><br>
             <div class="text-center" style="font-family:Open Sans, sans-serif;">
               <ul class="footer-links list-unstyled text-start" >
-                <li><a href="index.php" >Terms of service</a></li><br>
+                <li><a href="terms_and_services.php" >Terms of service</a></li><br>
                 <li><a href="refund_policy.php" > Refund policy</a></li><br>
                 <li><a href="privacy_policy.php" >Privacy policy</a></li><br>
                 <li><a href="contact.php" >Contact us</a></li><br>

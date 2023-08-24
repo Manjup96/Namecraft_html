@@ -1,122 +1,26 @@
 <!doctype html>
 <html lang="en">
 <?php include("head_links.php"); ?>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" integrity="sha384-aXr6Ad+MMzOeW8F+FUG3XX8vHvbOorn3w65XsO9j1kaFJL/2JoDk4txdw2Kjusf" crossorigin="anonymous">
+
 <style>
 
-.dropdown-menu-up {
-            bottom: auto;
-            top: 100%;
-        }
-
-    body,
+   body,
 html {
   overflow-x: hidden;
 }
-
-/* CSS for desktop view */
+/* 
 @media (min-width: 992px) {
-    /* Add your desktop-specific styles here */
-    /* For example, you can adjust the width of the images to show them side by side */
+   
     #a = justify-content: center; {
        
     }
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
-}
+} */
 
-.image-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.image-container:hover .overlay {
-  opacity: 0.8;
-}
-.content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:100%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-}
-
-@media (max-width: 767px) {
-  /* Your CSS styles for mobile devices */
- .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
- }
- .content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:91%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-}
-}
-
-/* iPad view styles */
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Your CSS styles for iPad devices */
-  .overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-  background: white;
-  cursor: pointer;
- }
- .content {
-position: absolute;
-top: 93.5%;
-left: 50%;
-width:100%;
-transform: translate(-50%, -50%);
-color: white;
-background-color:black;
-border: 1px solid;
-font-family: verdana;
-text-align: center;
-}
-}
-
-.banner-image {
-    width: 100%;
-    height: auto;
-}
-
-.banner-overlay {
+.layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -124,38 +28,8 @@ text-align: center;
     height: 100%;
     background-color: rgba(5, 5, 5, 0.67);
 }
-
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-}
-
-#innerPageBanner {
-    position: relative;
-    background: #f2f2f2;
-}
-
-@media (max-width: 768px) {
-    #innerPageBanner .banner-content {
-        top: 30%;
-    }
-
-    .banner-image {
-        height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    #innerPageBanner .banner-content {
-        top: 20%;
-    }
-}
 @media only screen and (max-width: 767px) {
-            .carousel-inner .carousel-item img {
+          .carousel-inner .carousel-item img {
                 height: 200px;
                 max-width: 100%;
             }
@@ -170,6 +44,7 @@ text-align: center;
             }
         }
     
+        
         .carousel-caption {
             display: grid;
             place-items: center;
@@ -193,27 +68,22 @@ text-align: center;
     
         }
     
-        .banner-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(5, 5, 5, 0.67); /* Adjust the overlay color and opacity as needed */
-        }
 </style>
+
+
+
 <body>
 <?php
-    $page = 'numbers';
+    $page = 'contact';
     include 'navbar.php';
 
     ?>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="example" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
-                <div class="banner-overlay"></div>
+                <div class="layer"></div>
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <h2 style="margin: 130px; font-size: 50px;">CONTACT US</h2>
@@ -224,10 +94,7 @@ text-align: center;
     </div>
     <!-- contact start -->
     <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-
+   
     #form{
         font-size:13px;
     }
@@ -236,12 +103,31 @@ text-align: center;
     }
 
   </style>
+  <style>
+    /* CSS for background color animation */
+.animate-bg {
+  background-color: transparent;
+  transition: background-color 0.5s ease-out;
+}
 
-    <div class="container-fluid bg-light px-0  d-flex justify-content-center  " id="form"> <!-- Added class "d-flex justify-content-center" -->
-       
+/* CSS for form sliding animation */
+#form.slide-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+#form.slide-up.slide-up-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+  </style>
+
+    <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
               
     <div class="container-fluid" style="background-color:#eee5ef">
-    <div class="container" >
+    <div class="container" data-aos="slide-up" data-aos-duration="1000">
         <div class="row ">
             <div class="col-md-12 mt-5">
                 <p style="font-size: 40px;letter-spacing:5px;">GET&nbsp; IN &nbsp;TOUCH</p>
@@ -267,11 +153,11 @@ text-align: center;
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex" >
-                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
-                                            <option value="Baby name correction">Baby name correction</option>
-                                            <option value="Lucky name correction">Lucky name correction</option>
-                                            <option value="comLucky date deliverypany">Lucky date delivery</option>
-                                            <option value="Name analysis">Name analysis</option>
+                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px; font-size:16px;" required>
+                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
+                                            <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
+                                            <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
+                                            <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
                                         </select>
                                     </div>
             </div>
@@ -289,19 +175,35 @@ text-align: center;
     </div>
 </div>
 </div>
-    
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1200, // Adjust the duration as needed
+            delay: 500 // Delay before animations start
+        });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            const bgContainer = document.getElementById("bg-container");
+            const formContainer = document.querySelector("#form");
+
+            // Change background color
+            setTimeout(function() {
+                bgContainer.style.backgroundColor = "#eee5ef";
+            }, 500);
+
+            // Slide up the form
+            setTimeout(function() {
+                formContainer.classList.add("slide-up-animate");
+            }, 1500); // Adjust the delay as needed
+        });
+    </script>
 
     
     <!-- media icons -->
 
-<style>
-    .container .card p{
-        font-size: 18px;
-    }
-</style>
-    <div class="container mt-5 ">
-        <div class="row justify-content-center"  id="location">
+    <div class="container mt-5 " style="overflow: hidden;">
+        <div class="row justify-content-center"  id="location" data-aos="slide-up" data-aos-duration="500">
             <div class=" col-md-4 pt-4">
                 
                         <i class="fas fa-map-marker-alt fa-2x d-flex justify-content-center mb-3"></i>
@@ -320,7 +222,7 @@ text-align: center;
             </div>
             
 
-            <div class=" col-md-4 pt-5"  id="location">
+            <div class=" col-md-4 pt-5"  id="location" data-aos="slide-up" data-aos-duration="1000">
                 
                     <i class="fa-solid fa-at fa-2xl d-flex justify-content-center mb-3"></i>
                         <h6 class="text-center">Email:</h6>
@@ -330,7 +232,7 @@ text-align: center;
 
             
 
-            <div class=" col-md-4 pt-4"  id="location">
+            <div class=" col-md-4 pt-4"  id="location" data-aos="slide-up" data-aos-duration="1500">
               
                    
                         <i class="fas fa-phone fa-2x d-flex justify-content-center mb-3"></i>
@@ -347,7 +249,7 @@ text-align: center;
 
       <!-- map & address starts -->
       <h4 style="text-align:center;font-weight:bold;"class="mt-5">OFFICE LOCATION</h4>
-      <div class="container mt-5">
+      <div class="container mt-5" style="overflow: hidden;">
     <div class="row">
         <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
             <div>
@@ -377,11 +279,18 @@ text-align: center;
 </div>
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
+   
 
 
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 
 </html>

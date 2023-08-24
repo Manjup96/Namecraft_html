@@ -34,11 +34,11 @@
     
    
   
-    img {
+    #pic {
         border-radius: 5px 5px 0 0;
         transition: transform 0.3s ease-in-out;
     }
-    img:hover {
+    #pic:hover {
         transform: scale(1.1);
     }
 
@@ -53,11 +53,7 @@
 
     ?>
 
-<style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
+
 <style>
     .card {
         height: 100%;
@@ -71,12 +67,12 @@
   
 
 
-    <div class="container-fluid " id="card" >
+    <div class="container-fluid " >
         <div class="row">
-            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="1000">
-                <div class="card mx-5 d-flex flex-column">
+            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="500">
+                <div class="card mx-5 d-flex flex-column" >
                     <a id="link" href="number1.php"  >
-                     <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%" id="pic">
                      </a>
                     <div class="container-fluid">
                         <h5 >Number 1</h5>
@@ -92,10 +88,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1500">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number2.php">
-                     <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
                     <div class="container">
                         <h5 >Number 2</h5>
@@ -112,10 +108,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1800">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5 d-flex flex-column ">
                    <a id="link" href="number3.php">
-                     <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
                     <div class="container">
                         <h5 >Number 3</h5>
@@ -124,7 +120,7 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+                        <p style="font-size:10px margin-bottom: 0;"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
 
                         </div>
 
@@ -133,10 +129,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="500"  >
                 <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number4.php">
-                     <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
                     <div class="container">
                         <h5 >Number 4</h5>
@@ -154,10 +150,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column">
                  <a id="link" href="number5.php">
-    <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%">
+    <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%"  id="pic">
 </a>
                     <div class="container">
                         <h5 >Number 5</h5>
@@ -175,10 +171,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5  d-flex flex-column">
                      <a id="link" href="number6.php">
-                     <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
      
                     <div class="container">
@@ -197,10 +193,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="500">
                 <div class="card mx-5 d-flex flex-column">
                      <a  id="link" href="number7.php">
-                     <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
      
                     <div class="container">
@@ -219,11 +215,11 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column ">
                     
                      <a id="link" href="number8.php">
-                     <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
      
                     <div class="container">
@@ -242,10 +238,10 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5">
+            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5 d-flex flex-column">
                      <a id="link" href="number9.php">
-                     <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%">
+                     <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
      
                     <div class="container">
