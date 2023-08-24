@@ -24,18 +24,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" ) {
   $first_name = $_POST["first_name"];
   $surname = $_POST["surname"];
   $date_of_birth = $_POST["date_of_birth"];
-  // $place_of_birth = $_POST["place_of_birth"];
+  $place_of_birth = $_POST["place_of_birth"];
   $time_of_birth = $_POST["time_of_birth"];
   $am_pm = $_POST["am_pm"];
   $father_name = $_POST["father_name"];
   $mother_name = $_POST["mother_name"];
   $spouse_name = $_POST["spouse_name"];
   $mobile_number = $_POST["mobile_number"];
-  $country = $_POST["country"];
-  $location = $_POST["location"];
-  $latitude =$_POST["latitude"];
-  $longitude = $_POST["longitude"];
-  $timezone = $_POST["timezone"];
   $email_id = $_POST["email_id"];
   $specific_instructions = $_POST["specific_instructions"];
   
@@ -53,8 +48,8 @@ $service_name = $_POST['service_name'];
   $razorpay_payment_id = "testing1234";
   
           // Insert into leads table
-        $sql = "INSERT INTO leads (first_name, surname, date_of_birth, country, location, latitude,longitude,timezone, time_of_birth, am_pm, service_name, service_value, isReportGenerated, father_name, mother_name, spouse_name, mobile_number, email_id, specific_instructions)
-          VALUES ('$first_name', '$surname', '$date_of_birth', '$country', '$location', '$latitude','$longitude','$timezone', '$time_of_birth', '$am_pm', '$service_name', '$service_value', 'No', '$father_name', '$mother_name', '$spouse_name', '$mobile_number', '$email_id', '$specific_instructions')";
+        $sql = "INSERT INTO leads (first_name, surname, date_of_birth, place_of_birth, time_of_birth, am_pm, service_name, service_value, isReportGenerated, father_name, mother_name, spouse_name, mobile_number, email_id, specific_instructions)
+          VALUES ('$first_name', '$surname', '$date_of_birth', '$place_of_birth', '$time_of_birth', '$am_pm', '$service_name', '$service_value', 'No', '$father_name', '$mother_name', '$spouse_name', '$mobile_number', '$email_id', '$specific_instructions')";
 
         // Insert into ordersdetails table
         $query = "INSERT INTO ordersdetails (orderNumber, name, email, contactno, service_name, service_value, txnType, txnNumber, razorpay_payment_id)
@@ -77,14 +72,9 @@ if (mysqli_query($con, $sql) && mysqli_query($con, $query)) {
       $mail_user->Port = 465;
       $mail_user->SMTPAuth = true;
       $mail_user->SMTPSecure = 'ssl';
-    //   $mail_user->Username = 'manjuprasad@iiiqbets.com';
-    //   $mail_user->Password = 'OlIrHLI09N';
-    //   $mail_user->setFrom('manjuprasad@iiiqbets.com', 'NAME CRAFT');
-      
-        $mail_user->Username = 'bhagath.koduri@iiiqbets.com';
-                $mail_user->Password = 'Bhagath@123$';
-      $mail_user->setFrom('bhagath.koduri@iiiqbets.com', 'NAME CRAFT');
-
+      $mail_user->Username = 'manjuprasad@iiiqbets.com';
+      $mail_user->Password = 'OlIrHLI09N';
+      $mail_user->setFrom('manjuprasad@iiiqbets.com', 'NAME CRAFT');
       $mail_user->addAddress($email_id, $first_name);
       $mail_user->isHTML(true);
       
@@ -102,7 +92,7 @@ $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Order Number:</
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>First Name:</td><td style='padding: 5px; border: 1px solid black;'>$first_name</td></tr>";
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Surname:</td><td style='padding: 5px; border: 1px solid black;'>$surname</td></tr>";
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Date of Birth:</td><td style='padding: 5px; border: 1px solid black;'>$date_of_birth</td></tr>";
-$body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Place of Birth:</td><td style='padding: 5px; border: 1px solid black;'>$location,$country</td></tr>";
+$body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Place of Birth:</td><td style='padding: 5px; border: 1px solid black;'>$place_of_birth</td></tr>";
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Time of Birth:</td><td style='padding: 5px; border: 1px solid black;'>$time_of_birth</td></tr>";
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>AM/PM:</td><td style='padding: 5px; border: 1px solid black;'>$am_pm</td></tr>";
 $body .= "<tr><td style='padding: 5px; border: 1px solid black;'>Father Name:</td><td style='padding: 5px; border: 1px solid black;'>$father_name</td></tr>";
@@ -238,16 +228,14 @@ else {
     </div>
 
 
-<center><h2 style="text-align:center;">You have chosen the following services:</h2> </center>
-<center><p>Service Name: <?php echo isset($_POST['service_name']) ? $_POST['service_name'] : ''; ?></p></center>
-<center><p>Service Value: <?php echo isset($_POST['service_value']) ? $_POST['service_value'] : ''; ?></p></center>
-
-
+<h2>You have chosen the following services:</h2>
+<p>Service Name: <?php echo isset($_POST['service_name']) ? $_POST['service_name'] : ''; ?></p>
+<p>Service Value: <?php echo isset($_POST['service_value']) ? $_POST['service_value'] : ''; ?></p>
 
 
 <div>
- <center> <h3>Payment </h3> </center>
- <center> <form action="payment.php" method="POST">
+  <h3>Payment </h3>
+  <form action="payment.php" method="POST">
   <!-- Include the necessary input fields for the global variables -->
   <input type="hidden" name="first_name" value="<?php echo $first_name; ?>">
   <input type="hidden" name="surname" value="<?php echo $surname; ?>">
@@ -263,16 +251,10 @@ else {
   <input type="hidden" name="specific_instructions" value="<?php echo $specific_instructions; ?>">
   <input type="hidden" name="service_name" value="<?php echo $service_name; ?>">
   <input type="hidden" name="service_value" value="<?php echo $service_value; ?>">
-  <input type="hidden" name="country" value="<?php echo $country; ?>">
-  <input type="hidden" name="location" value="<?php echo $location; ?>">
-  <input type="hidden" name="latitude" value="<?php echo $latitude; ?>">
-  <input type="hidden" name="longitude" value="<?php echo $longitude; ?>">
-  <input type="hidden" name="timezone" value="<?php echo $timezone; ?>"></center>
-
   <!-- Include other input fields -->
 
   <!-- Submit button -->
- <center> <input type="submit" name="payment" value="Payment"></center>
+  <input type="submit" name="payment" value="Payment">
 </form>
 
 </div>
