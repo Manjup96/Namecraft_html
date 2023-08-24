@@ -11,18 +11,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-Vkoo8x4CGsO3+Hq6+7F/TA2IHq0CcJ7Wif5f5RME5ePb0y1q0sAdSZ4P5Pe2Pr" crossorigin="anonymous">
 
-<style>
-about.h2 {
-      font-family: 'Montserrat';
-      color: #333;
-      letter-spacing:10px;
-      font-weight: bold;
-      text-align: left;
-      margin-left: -20px;
-      margin-top: 70px;
 
-    }
-    </style>
 
 <body>
     <!-- navbar start -->
@@ -31,7 +20,7 @@ about.h2 {
     include 'navbar.php';
     ?>
 
-
+    
         <!-- banner starts -->
     <!--<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">-->
     <!--    <div class="carousel-inner">-->
@@ -53,7 +42,6 @@ about.h2 {
         <h2 style="font-size:80px;font-family:montserrat;font-weight:bold;">About</h2>
     </div>
 </div> -->
-
 
 <style>
 .about h2 {
@@ -101,6 +89,7 @@ about.h2 {
             </div>
         </div>
     </div>
+
 
  <style>
 
@@ -203,10 +192,7 @@ about.h2 {
  
 </style>
 
-<section class="carousel-section" >
-  
- 
-    
+<section class="carousel-section" >  
     <!-- End of left and right controls -->
   <div class="container">
     <div class="row">
@@ -227,14 +213,14 @@ about.h2 {
       <div class="owl-item why_choose_box">
           
   <div class="services__item">
-  <img src="types_of_dances/semi_classical.jpg" alt="">
+  <!-- <img src="types_of_dances/semi_classical.jpg" alt=""> -->
   
-  <h3 class="custom-heading" style="font-size:13px;font-weight:;color:white;text-align:center; font: size 10px;">
+  <h3 class="custom-heading" style="font-family: 'Montserrat';font-size:13px;font-weight:;color:white;text-align:center; font: size 10px;">
   
   <i class="fa-solid fa-gift" aria-hidden="true" style="font-size: 38px;margin-bottom: 20px;"></i><br>
     HOLISTIC TRANSFORMATION
   </h3> <br>
-  <p style= "font-size: 12px; text-align:center;font-family :montserrat;color: white;font-weight:semi-bold;font-size;10px;">
+  <p style= " margin-inline: 30px;font-size: 13px; text-align:center;font-family: 'Montserrat';color: white;font-weight:semi-bold;font-size;10px;">
     Our focus goes beyond a mere name change; we aim to facilitate holistic transformation in your life. By aligning your name with the principles of numerology, we strive to bring harmony and balance to various aspects of your life, including career, relationships, health, and overall well-being.
   </p> <br> 
 </div>
@@ -249,7 +235,7 @@ about.h2 {
          <h3 class="custom-heading"  style=" font-size:13px;font-weight:;color:white;text-align:center;">
    <i class="fa-solid fa-hand-holding" style="font-size: 38px;margin-bottom: 20px;"></i><br>
     PERSONALIZED APPORACH</h3> <br>
-    <p style= " font-size: 12px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;"> At Namecraft, we recognize that each individual is unique, and their name correction needs should be treated with utmost care and customization. The result is a meticulously crafted name that resonates with your true essence and enhances your positive vibrations</P><br>
+    <p style= "margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;"> At Namecraft, we recognize that each individual is unique, and their name correction needs should be treated with utmost care and customization. The result is a meticulously crafted name that resonates with your true essence and enhances your positive vibrations</P><br>
                   
           </div>
         
@@ -261,7 +247,9 @@ about.h2 {
   <h3 class="custom-heading" style="font-size:13px;font-weight:;color:white;text-align:center;">
   <!-- <i class="fa-sharp fa-solid fa-ranking-star"></i> -->
  <i class="fa-solid fa-handshake" style="font-size: 38px;margin-bottom: 20px;"></i><br>TRUSTED EXPERIENCE</h3> <br>
-                  <p style= " font-size: 12px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist Sheelaa M Bajaj, a highly respected figure in the field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P><br>
+ <!-- <center> <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist </p>  <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">Sheelaa M Bajaj, a highly respected figure in the </p>  field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>               -->
+  <center> <p style= "margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist Sheelaa M Bajaj, a highly respected figure in the field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>
+                <br>
             
           </div>
         
@@ -322,7 +310,7 @@ about.h2 {
                 <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we have built on Sheelaa’s legacy by bringing her knowledge to institutions, helping them make informed decisions about names and other numerology-based services. We understand the importance of choosing the right name for a child, as it can have a significant impact on their life and future. Our numerology reports are based on a combination of traditional numerology principles and modern scientific research, ensuring accuracy and reliability.</p>
                 <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">We work closely with maternity hospitals to understand their requirements and provide customized reports that are easy to understand and implement. We also offer a wide range of other numerology-based services, such as business name analysis, Lucky name numerology, and movie name numerology to help organizations achieve their goals.</p>
                 <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we are committed to providing exceptional service and support to our clients. We believe in building long-term relationships with our clients, and we are always available to answer any questions or provide additional guidance. We are constantly exploring new ways to enhance our services and improve the experiences of our clients.</p>
-                <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Thank you for considering Namecraft for your numerology needs. We look forward to working with you and helping you achieve your goals.</p>
+                <p class="about pt-1" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Thank you for considering Namecraft for your numerology needs. We look forward to working with you and helping you achieve your goals.</p>
                 </div>
             </div>
             <div class="col-md-12 col-xs-12 col-lg-4 text-center pt-5">
