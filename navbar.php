@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Navigation Menu with Toggle</title>
 <style>
+
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
-
+ 
   #navbar {
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #cb9857;
+    background-color:black;
     transition: 1s;
   }
 
@@ -34,7 +35,7 @@
    font-size:10px;
 
   }
-
+  
   img {
     height: auto;
     max-width: 100%;
@@ -46,6 +47,7 @@
 
   .nav-content {
     padding: 0 40px;
+    
   }
 
 
@@ -150,22 +152,30 @@
 
 
 <style>
-             .menu-link:hover {
+
+ .menu-link:hover {
     color: #61156B !important;
     text-decoration: underline !important;
+    text-underline-offset: 5px;
+   
 }
 .menu-link.active {
     text-decoration: underline !important;
     color: #61156B !important;
+    text-underline-offset: 5px;
+
 }
-            </style>
+
+
+
+  </style>
 </head>
 <body>
 
-<nav id="navbar"  class="navbar-expand-lg navbar-light navbar-light fixed-top" style="background-color: white;padding: 20px 0;">
+<nav id="navbar" class="navbar-expand-lg navbar-light navbar-light fixed-top" style="background-color: white;padding: 20px 0;">
 <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between nav-content">
         <a class="navbar-brand p-0px 30px" href="#">
-            <img src="images/final-logo 123.png" alt="Logo" style="height: 60px; width: 215px;"id="navbarimg">
+            <img src="images/final-logo 123.png" alt="Logo" style="height:50px; width: 215px ;"id="navbarimg">  
         </a>
 
        
@@ -196,8 +206,10 @@
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $("#navbar").addClass("scrollNav");
+                
             } else {
                 $("#navbar").removeClass("scrollNav");
+              
             }
         });
 
