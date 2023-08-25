@@ -101,7 +101,7 @@
   }
     .menu {
       display: none;
-      margin-top:50px;
+      margin-top:40px;
     }
 
     .toggle-btn {
@@ -186,11 +186,11 @@
         &#9776;
     </button>
     <ul class="menu" id="menu" style="letter-spacing:2px;">
-        <li style="padding-right:20px;"  class="menu-item "> <a class="menu-link text-center <?php echo ($page == 'index') ?  'active' : ''; ?>" href="index.php" style="color:black;">HOME</a></li>
-        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php"  style="color:black">ABOUT US</a></li>
-        <li style="padding-right:20px;" class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php"  style="color:black">SERVICES</a></li>
-        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php"  style="color:black">CONTACT US</a></li>
-        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php"  style="color:black">NUMBERS</a></li>
+        <li style="padding-right:20px;"  class="menu-item "> <a class="menu-link text-center <?php echo ($page == 'index') ?  'active' : ''; ?>" href="index.php" style="color:black; ">HOME</a></li>
+        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php"  style="color:black; ">ABOUT US</a></li>
+        <li style="padding-right:20px;" class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'services') ? 'active' : ''; ?>" href="services.php"  style="color:black; ">SERVICES</a></li>
+        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact.php"  style="color:black; ">CONTACT US</a></li>
+        <li style="padding-right:20px;"  class="menu-item"> <a class="menu-link text-center <?php echo ($page == 'numbers') ? 'active' : ''; ?>" href="numbers.php"  style="color:black; ">NUMBERS</a></li>
     </ul>
 </nav>
 
