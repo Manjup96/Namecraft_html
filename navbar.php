@@ -169,6 +169,8 @@
 
 
   </style>
+
+
 </head>
 <body>
 
@@ -177,9 +179,6 @@
         <a class="navbar-brand p-0px 30px" href="#">
             <img src="images/final-logo 123.png" alt="Logo" style="height:50px; width: 215px ;"id="navbarimg">  
         </a>
-
-       
-      
 
     </div>
     <button class="toggle-btn" id="toggleBtn">
