@@ -109,7 +109,7 @@
 
 
 
-<div class="container-fluid p-0">
+<div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="banner-overlay"></div>
@@ -376,6 +376,7 @@
         transition: 0.3s;
         width: 100%;
         border-radius: 5px;
+        font-family:Montserrat ;
     }
 
     .card:hover {

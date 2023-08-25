@@ -69,7 +69,7 @@
     }
   </style>
 
-  <section class="tedx_talk" style="background-color:#eee5ef;">
+  <section class="tedx_talk" style="background-color:#eee5ef; padding-top:90px;">
     <div class="container pb-5">
       <div class="row">
         <div class="col-md-12 col-xs-12 col-lg-6">

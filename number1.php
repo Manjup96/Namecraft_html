@@ -42,6 +42,7 @@
     }
 
     .carousel-caption p {
+
         font-size: 18px;
         display: inline;
     }
@@ -124,7 +125,7 @@
 
 
 
-<div class="container-fluid p-0">
+<div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="banner-overlay"></div>
@@ -159,6 +160,7 @@
     .content .container h3{
       margin-bottom:20px;
     }
+    
 </style>
 
 <div class="content">
@@ -340,6 +342,7 @@
 <style>
     .card {
         height: 100%;
+        font-family:Montserrat ;
     }
 
     .card-body {

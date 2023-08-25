@@ -66,7 +66,7 @@
     });
   </script>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';padding-top:100px;">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/banner/1.png" class="d-block w-100" alt="...">

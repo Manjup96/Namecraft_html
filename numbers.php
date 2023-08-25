@@ -4,13 +4,13 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <style>
-  
+
         .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 80%;
         border-radius: 5px;
-       
+       font-family:Montserrat ;
     }
 
     .card:hover {
@@ -67,7 +67,7 @@
   
 
 
-    <div class="container-fluid " >
+    <div class="container-fluid " style="padding-top:100px;" >
         <div class="row">
             <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="500">
                 <div class="card mx-5 d-flex flex-column" >
@@ -120,7 +120,7 @@
                             <span class="fa fa-calendar"></span> June 1, 2023
                         </div> -->
                         <div class=" mt-3  mb-3" >
-                        <p style="font-size:10px margin-bottom: 0;"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
+                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
 
                         </div>
 
