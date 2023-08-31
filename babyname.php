@@ -220,7 +220,7 @@
   <div class="row justify-content-center">
     <div class=" col-md-6" style="margin-top:50px">
     <div class="zoom-container">
-      <img src="images/babyname numerology.jpg" class="img-fluid" style="width:100%; height:auto;">
+      <img src="images/babyname numerology.jpg" class="img-fluid" style="width:100%; height:auto;border: 1px solid black;">
     </div>
     </div>
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;">
