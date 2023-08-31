@@ -189,7 +189,7 @@
 </div>
 <div class="container"><div class="row">
   <div class="col-md-12">
-  <div style="font-size: 13px; font-family: 'Montserrat', sans-serif; line-height: 0.5;">
+  <div style="font-size: 13px; font-family: 'Montserrat', ; line-height: 0.5;">
     <p><b>Lucky days:</b> Sunday, Monday</p>
     <p><b>Lucky gemstone:</b> Ruby, amber (Learn more about gemstones here)</p>
     <p><b>Friendly numbers:</b> 2, 3, 9</p>
