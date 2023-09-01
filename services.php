@@ -230,7 +230,7 @@ text-align: center;
     <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
       <a href="babyname.php">
         <div class="image-container">
-          <img src="images/babyname numerology.jpg" class="img-fluid" style="width: 350px; height: 350px; border: 2px solid black;">
+          <img src="images/babyname numerology.jpg" class="img-fluid" style="width: 350px; height: 350px;border: 1px solid black;">
           <div class="overlay">
             <div class="content">
               <p style="margin-top: 10px;">Select option</p>
@@ -246,7 +246,7 @@ text-align: center;
     <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
     <a href="luckydate.php">
         <div class="image-container">
-            <img src="images/C section delivery date.jpg" class="img-fluid" style="width: 350px; height: 350px; border: 2px solid black;">
+            <img src="images/C section delivery date.jpg" class="img-fluid" style="width: 350px; height: 350px;border: 1px solid black;">
             <div class="overlay">
                 <div class="content">
                     <p style="margin-top: 10px;">Select option</p>
@@ -262,7 +262,7 @@ text-align: center;
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
     <a href="luckyname.php">
         <div class="image-container">
-            <img src="images/LUCKY ALPHABETS.jpg" class="img-fluid" style="width: 350px; height: 350px; border: 2px solid black;">
+            <img src="images/LUCKY ALPHABETS.jpg" class="img-fluid" style="width: 350px; height: 350px;border: 1px solid black;">
             <div class="overlay">
                 <div class="content">
                     <p style="margin-top: 10px;">Select option</p>
@@ -277,7 +277,7 @@ text-align: center;
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
     <a href="nameanalysis.php">
         <div class="image-container">
-            <img src="images/Name analysis.jpg" class="img-fluid" style="width: 350px; height: 350px; border: 2px solid black;">
+            <img src="images/Name analysis.jpg" class="img-fluid" style="width: 350px; height: 350px; border: 1px solid black;">
             <div class="overlay">
                 <div class="content">
                     <p style="margin-top: 10px;">Select option</p>

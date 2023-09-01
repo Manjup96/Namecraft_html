@@ -589,7 +589,7 @@
     }
   </style>
 
-
+<!-- 
   <div class="testimonial">
     <div class="row">
       <div class="col-md-12">
@@ -605,7 +605,6 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card">
-                  <!-- <img class="profile-pic rounded-circle" src="images/testimonial-6.jpg" alt="Profile Picture"> -->
                   <div class="card-body ">
                     <p style="text-transform: uppercase;font-weight: 400;padding-top:70px;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
                     <br>
@@ -616,9 +615,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-1.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
                     <br>
                     <p style="font-weight: 500;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
@@ -628,9 +627,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-2.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
                     <br>
                     <p style="font-weight: 500;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
@@ -646,9 +645,9 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-3.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Consult her for magicology! She creates magic with numbers"</p>
                     <br>
                     <p style="font-weight: 500;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
@@ -658,9 +657,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-4.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
                     <br>
                     <p style="font-weight: 500;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
@@ -670,9 +669,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-5.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Thanks Sheela for the amazing human being she is"</p>
                     <br>
                     <p style="font-weight: 500;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
@@ -709,9 +708,90 @@
 
 
 
-
+ -->
 
   <!-- Testimonials ends -->
+
+  
+  <!-- video Gallery starts -->
+  <style>
+    .gallery .container-fluid .row {
+      margin-top: 50px;
+
+    }
+
+    .gallery .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      padding: 20px;
+
+
+    }
+
+    .gallery .video-column {
+      padding: 25px;
+      margin-top: -60px;
+    }
+
+    .gallery .video-column video {
+      width: 80%;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery h2 {
+      font-family: 'Montserrat';
+      letter-spacing: 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 991px) {
+      .gallery .video-column {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+
+
+  <div class="gallery">
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h2 style="text-align: center; font-weight: bold; margin-top: 80px;">CLIENT FEEDBACK</h2>
+        </div>
+      </div>
+
+      <div class="row mb-5 video-container">
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/lRn7rAHJ1Ts?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZXTYn0yMKNI?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/rgqss3fBgXw?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZIo0Q3zJTx0?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- video Gallery ends -->
+
+
+
+
+
 
 
   <!-- Millions of Clients Starts -->
@@ -771,6 +851,64 @@
   </div>
 
   <!-- Millions of Clients Ends -->
+
+  <!-- Video Section Starts -->
+  <style>
+    .video .video-container {
+      padding: 20px;
+      background-color: #f2f2f2;
+      margin-top: 30px;
+    }
+
+    .video .embed-responsive {
+      position: relative;
+      display: block;
+      width: 100%;
+      padding: 0;
+      overflow: hidden;
+      border-radius: 10px;
+      margin-top: 80px;
+    }
+
+    .video .embed-responsive::before {
+      content: "";
+      display: block;
+      padding-top: 56.25%;
+    }
+
+    .embed-responsive-item,
+    .embed-responsive iframe,
+    .embed-responsive embed,
+    .embed-responsive object,
+    .embed-responsive video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+
+
+
+
+  <div class="video">
+    <div id="video-container" class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qjXbvNdbamg" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Video Section Ends -->
+
 
   <!-- Book Section starts -->
 
@@ -873,63 +1011,7 @@
 
   <!-- Book Section Ends -->
 
-  <!-- Video Section Starts -->
-  <style>
-    .video .video-container {
-      padding: 20px;
-      background-color: #f2f2f2;
-      margin-top: 30px;
-    }
-
-    .video .embed-responsive {
-      position: relative;
-      display: block;
-      width: 100%;
-      padding: 0;
-      overflow: hidden;
-      border-radius: 10px;
-      margin-top: 80px;
-    }
-
-    .video .embed-responsive::before {
-      content: "";
-      display: block;
-      padding-top: 56.25%;
-    }
-
-    .embed-responsive-item,
-    .embed-responsive iframe,
-    .embed-responsive embed,
-    .embed-responsive object,
-    .embed-responsive video {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-  </style>
-
-
-
-
-  <div class="video">
-    <div id="video-container" class="container text-center">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qjXbvNdbamg" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Video Section Ends -->
-
+  
   <!-- Container Section Starts -->
   <style>
     /* Custom styles */
@@ -1007,85 +1089,6 @@
 
 
   <!-- Container Section Ends -->
-
-
-  <!-- video Gallery starts -->
-  <style>
-    .gallery .container-fluid .row {
-      margin-top: 50px;
-
-    }
-
-    .gallery .video-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      padding: 20px;
-
-
-    }
-
-    .gallery .video-column {
-      padding: 25px;
-      margin-top: -60px;
-    }
-
-    .gallery .video-column video {
-      width: 80%;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .gallery h2 {
-      font-family: 'Montserrat';
-      letter-spacing: 10px;
-      font-weight: bold;
-    }
-
-    @media (max-width: 991px) {
-      .gallery .video-column {
-        margin-bottom: 20px;
-      }
-    }
-  </style>
-
-
-
-  <div class="gallery">
-    <div class="container-fluid">
-      <div class="row mb-5">
-        <div class="col-md-12">
-          <h2 style="text-align: center; font-weight: bold; margin-top: 80px;">VIDEO FEEDBACK</h2>
-        </div>
-      </div>
-
-      <div class="row mb-5 video-container">
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/lRn7rAHJ1Ts?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <br>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZXTYn0yMKNI?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/rgqss3fBgXw?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZIo0Q3zJTx0?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- video Gallery ends -->
-
-
-
 
   <?php include 'footer.php'; ?>
 

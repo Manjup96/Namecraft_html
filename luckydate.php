@@ -210,7 +210,7 @@
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
             <div class="zoom-container">
 
-            <img src="images/C section delivery date.jpg" class="img-fluid" style="width:500px;height:400px;  border: 2px solid black;">
+            <img src="images/C section delivery date.jpg" class="img-fluid" style="width:500px;height:400px;border: 1px solid black; ">
 
               
             </div>

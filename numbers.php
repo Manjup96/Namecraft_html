@@ -65,7 +65,7 @@
 </style>
 
   
-
+<div style=" font-family:Montserrat ;">
 
     <div class="container-fluid " style="padding-top:100px;" >
         <div class="row">
@@ -269,7 +269,7 @@
 
 
 
-
+    </div>
 
 
     <?php include("footer.php"); ?>
