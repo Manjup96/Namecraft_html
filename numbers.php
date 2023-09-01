@@ -10,7 +10,7 @@
         transition: 0.3s;
         width: 80%;
         border-radius: 5px;
-       font-family:Montserrat ;
+       /* font-family:Montserrat ; */
     }
 
     .card:hover {
@@ -62,74 +62,66 @@
     .card-body {
         flex: 1;
     }
+  
+    @media (max-width: 767px) { /* Apply styles for mobile screens */
+        .custom-centered {
+           
+            margin-left: -12px;
+           
+        }
+    }
 </style>
+
 
   
 <div style=" font-family:Montserrat ;">
 
-    <div class="container-fluid " style="padding-top:100px;" >
-        <div class="row">
-            <div class="col-md-4 pt-5 " data-aos="slide-up" data-aos-duration="500">
-                <div class="card mx-5 d-flex flex-column" >
-                    <a id="link" href="number1.php"  >
-                     <img src="images/numbers/1.jpg" alt="Avatar" style="width:100%" id="pic">
-                     </a>
-                    <div class="container-fluid">
-                        <h5 >Number 1</h5>
-                        <p>The first number in the series of numbers from which all subsequent numbers were produced is 1.</p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class=" mt-4  mb-4" >
-                            <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
-                        </div>
-
+<div class="container-fluid " style="padding-top: 100px;">
+    <div class="row ">
+        <div class="col-md-12 col-lg-4 pt-5  custom-centered " data-aos="slide-up" data-aos-duration="500">
+            <div class="card mx-5 d-flex flex-column">
+                <a id="link" href="number1.php">
+                    <img src="images/numbers/1.jpg" alt="Avatar" style="width: 100%" id="pic">
+                </a>
+                <div class="container-fluid">
+                    <h5>Number 1</h5>
+                    <p>The first number in the series of numbers from which all subsequent numbers were produced is 1.</p>
+                    <div class=" mt-4  mb-4">
+                        <p style="font-size: 10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1, 2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="1000">
-                <div class="card mx-5 d-flex flex-column">
-                   <a id="link" href="number2.php">
-                     <img src="images/numbers/2.jpg" alt="Avatar" style="width:100%"  id="pic">
-                     </a>
-                    <div class="container">
-                        <h5 >Number 2</h5>
-                        <p>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class=" mt-4  mb-4" >
-                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
-
-                        </div>
-
+        </div>
+        <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
+            <div class="card mx-5 d-flex flex-column">
+                <a id="link" href="number2.php">
+                    <img src="images/numbers/2.jpg" alt="Avatar" style="width: 100%" id="pic">
+                </a>
+                <div class="container">
+                    <h5>Number 2</h5>
+                    <p>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</p>
+                    <div class=" mt-4  mb-4">
+                        <p style="font-size: 10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1, 2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
-                <div class="card mx-5 d-flex flex-column ">
-                   <a id="link" href="number3.php">
-                     <img src="images/numbers/3.jpg" alt="Avatar" style="width:100%"  id="pic">
-                     </a>
-                    <div class="container">
-                        <h5 >Number 3</h5>
-                        <p>Number 3’s Distinctive Qualities in Numerology In numerology, number three represents everything</p>
-                        <!-- <div class="text-center mt-3 fs-5">
-                            <span class="fa fa-calendar"></span> June 1, 2023
-                        </div> -->
-                        <div class=" mt-3  mb-3" >
-                        <p style="font-size:10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1,2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
-
-                        </div>
-
-
+        </div>
+        <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
+            <div class="card mx-5 d-flex flex-column">
+                <a id="link" href="number3.php">
+                    <img src="images/numbers/3.jpg" alt="Avatar" style="width: 100%" id="pic">
+                </a>
+                <div class="container">
+                    <h5>Number 3</h5>
+                    <p>Number 3’s Distinctive Qualities in Numerology In numerology, number three represents everything</p>
+                    <div class=" mt-3  mb-3">
+                        <p style="font-size: 10px"><i class="fa fa-calendar"></i>&nbsp;JUNE 1, 2023&nbsp;&nbsp;&nbsp;&nbsp; <span class="fa fa-user"></span>&nbsp;Sheelaa M Bajaj</p>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up"data-aos-duration="500"  >
+        </div>
+  
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up"data-aos-duration="500"  >
                 <div class="card mx-5 d-flex flex-column">
                    <a id="link" href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -150,7 +142,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column">
                  <a id="link" href="number5.php">
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -171,7 +163,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5  d-flex flex-column">
                      <a id="link" href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -193,7 +185,9 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="500">
+
+
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="500">
                 <div class="card mx-5 d-flex flex-column">
                      <a  id="link" href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -215,7 +209,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1000">
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
                 <div class="card mx-5 d-flex flex-column ">
                     
                      <a id="link" href="number8.php">
@@ -238,7 +232,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4 pt-5" data-aos="slide-up" data-aos-duration="1500">
+            <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
                 <div class="card mx-5 d-flex flex-column">
                      <a id="link" href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -259,16 +253,19 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
+         
+    
+
+
+
+
+
+
+
     </div>
 
-
-
-
-
-
-
+    </div>
+    </div>
     </div>
 
 

@@ -35,22 +35,33 @@ html {
             }
     
             .carousel-caption h2 {
-                font-size: 18px;
+                /* font-size: 18px; */
                 padding-top: 20%;
                 display:flex;
             
                 justify-content:center;
+               
     
             }
         }
-    
+        @media (max-width: 767px) {
+        h2 {
+            font-size: 25px !important; 
+           
+     
+        }
+       #text1{
+        font-size: 25px !important;
+       }
+    }
+ 
         
         .carousel-caption {
             display: grid;
             place-items: center;
             height: 100%;
             text-align: center;
-    
+            white-space: nowrap;
         }
     
         .carousel-caption h2 {
@@ -65,9 +76,9 @@ html {
             padding-top: 35px;
     
             color: white;
-    
+           
         }
-    
+   
 </style>
 
 
@@ -101,6 +112,9 @@ html {
     #location{
         font-size:15px;
     }
+    #text1{
+        white-space: nowrap;   
+    }
 
   </style>
   <style>
@@ -130,7 +144,7 @@ html {
     <div class="container" data-aos="slide-up" data-aos-duration="1000">
         <div class="row ">
             <div class="col-md-12 mt-5">
-                <p style="font-size: 40px;letter-spacing:5px;">GET&nbsp; IN &nbsp;TOUCH</p>
+                <p style="font-size: 40px;letter-spacing:5px;"id="text1">GET&nbsp; IN &nbsp;TOUCH</p>
             </div>
         </div>
 
@@ -153,8 +167,8 @@ html {
             <div class="col-md-6  mt-5">
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex" >
-                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px; font-size:16px;" required>
-                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
+                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
+                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;x" required>Baby name correction</option>
                                             <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
                                             <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
                                             <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
@@ -163,6 +177,9 @@ html {
             </div>
 
         </div>
+ 
+
+
 
         <div class="row mt-5">
             <div class="col-md-12">
@@ -171,7 +188,7 @@ html {
             </div>
         </div>
 
-       <center> <button type="button"  style="font-size: 25px;background-color:black;color:white" class="mt-5 mb-5 p-2 " >&nbsp;Send Email&nbsp;</button></center>
+       <center> <button type="button"  style="font-size:20px;background-color:black;color:white" class="mt-5 mb-5 p-2 " >&nbsp;Send Email&nbsp;</button></center>
     </div>
 </div>
 </div>

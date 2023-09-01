@@ -12,6 +12,43 @@
   ?>
 
   <style>
+
+ 
+/* Media query for screens up to 768px (covers most mobile devices and iPads) */
+@media (max-width: 768px) {
+    .carousel-item img {
+        /* Mobile and iPad styles go here */
+        position: relative;
+        width: auto; /* Set width to auto to maintain the original aspect ratio */
+        height: 230px; /* Adjust the height as needed */
+    }
+   
+}
+
+
+
+/* Media query for iPad Mini (portrait) */
+@media (min-width: 768px) and (max-width: 768px) and (orientation: portrait) {
+    .carousel-item img {
+        /* iPad Mini (portrait) styles go here */
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust the height to 600px for iPad Mini portrait */
+    }
+}
+
+
+
+/* Media query for iPad Air (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .carousel-item img {
+        /* iPad Air (portrait) styles go here */
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust the height to 600px for iPad Air portrait */
+    }
+}
+
     #carouselExampleCaptions {
       background-color: black;
       /* Set the background color to match your design */
@@ -52,6 +89,19 @@
     .carousel-inner {
       background-color: transparent !important;
     }
+
+  
+    @media (max-width: 768px) {
+    /* Hide the buttons on mobile screens */
+    #next-previous {
+        display: none;
+    }
+}
+
+
+
+  
+
   </style>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -66,15 +116,15 @@
     });
   </script>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';padding-top:100px;">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/banner/1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+<div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" style="font-family: 'Montserrat';padding-top:100px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner/1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
           <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
           <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
           <p class=" fs-5 text-center" style="letter-spacing: 2px; ">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
-          <!--<a class="btn btn-primary btn-border btn-lg fs-4"  href="">Our services</a>-->
+       <!--<a class="btn btn-primary btn-border btn-lg fs-4"  href="">Our services</a>-->
           <a class="btn  btn-dark btn-border btn-lg fs-4" href="" style="background-color: black;">Our services</a>
         </div>
       </div>
@@ -115,16 +165,26 @@
         </div>
       </div>
     </div>
+    <div class="d-none d-sm-flex justify-content-center align-items-center" id="next-previous">
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
     </button>
+</div>
+
+
+
+
+
+
   </div>
   <!-- banner ends -->
+
+  
 
   <br>
 
@@ -367,7 +427,7 @@
     }
 
     #services .col-md-3 p {
-      font-size: 16px;
+      font-size: 13px;
       line-height: 1.7;
       font-family: 'Montserrat';
       font-weight: 500;
@@ -422,7 +482,7 @@
         <a href="babyname.php">
           <img src="images/Service1-home.png" alt="logo"><br><br>
         </a>
-        <h6>BABY NAME <br> CORRECTION</h6><br>
+        <h6>LUCKY<br>BABY NAME </h6><br>
         <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents' preferences.</p><br>
       </div>
 
@@ -430,7 +490,7 @@
         <a href="luckydate.php">
           <img src="images/service2.png" alt="logo"><br><br>
         </a>
-        <h6>LUCKY DATE <br> DELIVERY</h6><br>
+        <h6>LUCKY<br> C-SECTION DATE</h6><br>
         <p>Is your brand name numerologically lucky? Learn what leading brand names have in common, good numerology, lucky names which give them a boost over their competitors.</p><br>
       </div>
 
@@ -930,7 +990,7 @@
 
     .tedx_talk img {
       border-radius: 10px;
-      margin-top: 30px;
+      margin-top: 10px;
       width: 100%;
       height: auto;
     }
@@ -987,19 +1047,19 @@
         </div>
 
         <div class="col-md-8 col-lg-8 col-xs-12 pt-4">
-          <h2>IS LOVE A GAME? READ THIS BOOK</h2>
-          <p>THE LOVE MIRAGE: The Game of Love Deciphered</p>
-          <p>A book by Sheelaa M Bajaj</p>
+          <h3 style="font-weight:bold">IS LOVE A GAME? READ THIS BOOK</h3>
+          <p>THE LOVE MIRAGE: The Game of Love Deciphered<br>
+          A book by Sheelaa M Bajaj</p>
 
 
 
           <p>Is love illusive and elusive like a mirage? </br> Are relationships like a game of chess? </br>
-            Why do marriages become stagnant?</p>
-          <p>Why are so many people unhappy in love relationships and marriage?</p><br>
+            Why do marriages become stagnant?<br>
+          Why are so many people unhappy in love relationships and marriage?</p><br>
 
 
 
-          <h5>Explore these surprisingly revealing truths in this book authored by</h5>
+          <h5 >Explore these surprisingly revealing truths in this book authored by</h5>
           <h5>Sheelaa M Bajaj.</h5>
           <a href="https://www.amazon.com" target="_blank">
             <button class="button" style="color:white;background-color:black;">Buy on Amazon</button>
@@ -1016,10 +1076,10 @@
   <style>
     /* Custom styles */
     .tedx .container-fluid {
-      padding-top: 100px;
+      padding: 30px;
       padding-bottom: 50px;
-      background-color: #eee5ef;
-      margin-top: 150px;
+      
+      margin-top: 100px;
 
 
     }
@@ -1033,7 +1093,7 @@
 
     }
 
-    .tedx .container-fluid h2 {
+    .tedx .container-fluid h3 {
       font-weight: bold;
       margin-bottom: 20px;
       font-family: 'Montserrat';
@@ -1077,7 +1137,7 @@
           <iframe width="100%" height="480px" src="https://www.youtube.com/embed/zODg8WBfR8w" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-md-12 col-lg-6 col-sm-12">
-          <h2>A <span style="color: #6f3473;">LIFE COACH</span> AND TED-X TALKER</h2>
+          <h3>A <span style="color: #6f3473;">LIFE COACH</span> AND TED-X TALKER</h3>
           <p>Sheelaa Bajaj spoke on one of the golbally respected idea-sharing platform TEDx at New Delhi in january 2019. She enlighted the audience about the topic ‘Finding the Best in the Worst’. It was lauded by hundreds and thousands of people who were present at the venue as well as online.</p>
           <p>Our lives are filled with mystic secrets. Each one of us is in search of some guiding light which will help us understand our past and present and help us peek into the future.</p>
           <p>Did you know that your life is guided by numbers? You may not even realize, but these numbers are constantly manoeuvring your life.</p>
