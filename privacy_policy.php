@@ -133,7 +133,7 @@
 <!-- Banner End -->
 
 <!-- Privacy policy Content Start -->
-
+<div style=" font-family:Montserrat ;">
 <div class="container pt-5">
     <div class="row">
         <div class="col-md-12">
@@ -206,6 +206,7 @@
 <p>Last updated: 09/06/2023</p>
 </div>
     </div>
+</div>
 </div>
 
 <!-- Privacy policy Content End -->
