@@ -12,6 +12,43 @@
   ?>
 
   <style>
+
+ 
+/* Media query for screens up to 768px (covers most mobile devices and iPads) */
+@media (max-width: 768px) {
+    .carousel-item img {
+        /* Mobile and iPad styles go here */
+        position: relative;
+        width: auto; /* Set width to auto to maintain the original aspect ratio */
+        height: 230px; /* Adjust the height as needed */
+    }
+   
+}
+
+
+
+/* Media query for iPad Mini (portrait) */
+@media (min-width: 768px) and (max-width: 768px) and (orientation: portrait) {
+    .carousel-item img {
+        /* iPad Mini (portrait) styles go here */
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust the height to 600px for iPad Mini portrait */
+    }
+}
+
+
+
+/* Media query for iPad Air (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .carousel-item img {
+        /* iPad Air (portrait) styles go here */
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust the height to 600px for iPad Air portrait */
+    }
+}
+
     #carouselExampleCaptions {
       background-color: black;
       /* Set the background color to match your design */
@@ -52,6 +89,19 @@
     .carousel-inner {
       background-color: transparent !important;
     }
+
+  
+    @media (max-width: 768px) {
+    /* Hide the buttons on mobile screens */
+    #next-previous {
+        display: none;
+    }
+}
+
+
+
+  
+
   </style>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -66,15 +116,15 @@
     });
   </script>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="font-family: 'Montserrat';">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/banner/1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+<div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" style="font-family: 'Montserrat';padding-top:100px;">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner/1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
           <h2 class=" text-center" style=" color:white; font-size: 50px; font-weight: 600; letter-spacing: 15px; ">NAMECRAFT</h2>
           <h5 class="fs-5 text-center" style="font-weight: normal; letter-spacing: 2px;">BY SHEELAA M BAJAJ</h5>
           <p class=" fs-5 text-center" style="letter-spacing: 2px; ">A Corrected name as per numerology can correct the defect of the date of birth and turn things around for individual or the business.</p>
-          <!--<a class="btn btn-primary btn-border btn-lg fs-4"  href="">Our services</a>-->
+       <!--<a class="btn btn-primary btn-border btn-lg fs-4"  href="">Our services</a>-->
           <a class="btn  btn-dark btn-border btn-lg fs-4" href="" style="background-color: black;">Our services</a>
         </div>
       </div>
@@ -115,16 +165,26 @@
         </div>
       </div>
     </div>
+    <div class="d-none d-sm-flex justify-content-center align-items-center" id="next-previous">
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
     </button>
+</div>
+
+
+
+
+
+
   </div>
   <!-- banner ends -->
+
+  
 
   <br>
 
@@ -367,7 +427,7 @@
     }
 
     #services .col-md-3 p {
-      font-size: 16px;
+      font-size: 13px;
       line-height: 1.7;
       font-family: 'Montserrat';
       font-weight: 500;
@@ -422,7 +482,7 @@
         <a href="babyname.php">
           <img src="images/Service1-home.png" alt="logo"><br><br>
         </a>
-        <h6>BABY NAME <br> CORRECTION</h6><br>
+        <h6>LUCKY<br>BABY NAME </h6><br>
         <p>If you are looking for a lucky baby name, Sheelaa M Bajaj can help. She has assisted hundreds of couples and families in choosing a suitable lucky baby name based on parents' preferences.</p><br>
       </div>
 
@@ -430,7 +490,7 @@
         <a href="luckydate.php">
           <img src="images/service2.png" alt="logo"><br><br>
         </a>
-        <h6>LUCKY DATE <br> DELIVERY</h6><br>
+        <h6>LUCKY<br> C-SECTION DATE</h6><br>
         <p>Is your brand name numerologically lucky? Learn what leading brand names have in common, good numerology, lucky names which give them a boost over their competitors.</p><br>
       </div>
 
@@ -589,7 +649,7 @@
     }
   </style>
 
-
+<!-- 
   <div class="testimonial">
     <div class="row">
       <div class="col-md-12">
@@ -605,7 +665,6 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card">
-                  <!-- <img class="profile-pic rounded-circle" src="images/testimonial-6.jpg" alt="Profile Picture"> -->
                   <div class="card-body ">
                     <p style="text-transform: uppercase;font-weight: 400;padding-top:70px;">"Loads of gratitude &amp; being associated with Sheelaa has been a life changer"</p>
                     <br>
@@ -616,9 +675,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-1.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Truly amazing and wonderful person I have ever met. Thank you, ma'am"</p>
                     <br>
                     <p style="font-weight: 500;">Sheelaa M Bajaj is very down to earth and always smiling and ready to solve your problems. Simple remedies but very effective and life-changing. Once you meet her, you'll have lots and lots of positiveness filled within you.</p>
@@ -628,9 +687,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-2.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Sheelaa mam is a magnanimous, flamboyant & magnetic human being"</p>
                     <br>
                     <p style="font-weight: 500;">With her solutions, I was able to successfully complete my Masters in spite of the million hurdles I faced. More than anything, being in her extremely positive aura makes you feel good, energetic & hopeful. I will be forever thankful to her.</p>
@@ -646,9 +705,9 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-3.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Consult her for magicology! She creates magic with numbers"</p>
                     <br>
                     <p style="font-weight: 500;">That's the spark and energy she adds in everyone's life. I feel she is the healer of Mind, Body, and Soul. The wealth of her knowledge and Keys to Unlock doors is phenomenal.</p>
@@ -658,9 +717,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-4.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Please follow her remedies to see magic! Sheelaa mam is magic"</p>
                     <br>
                     <p style="font-weight: 500;">Sheela ma'am has also been a life coach to me, helped me get over my emotional imbalances, poverty consciousness, and has made me a very positive person, opening myself to receive more.</p>
@@ -670,9 +729,9 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card">
+                <div class="card"> -->
                   <!-- <img class="profile-pic rounded-circle" src="images/testimonial-5.jpg" alt="Profile Picture"> -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <p style="text-transform: uppercase; font-weight: 400;padding-top:70px;">"Thanks Sheela for the amazing human being she is"</p>
                     <br>
                     <p style="font-weight: 500;">Sheelaa is selfless enough to give so much valuable information which is beyond belief. I thank you from the core of my heart and I am so much proud of getting associated with you.</p>
@@ -709,9 +768,90 @@
 
 
 
-
+ -->
 
   <!-- Testimonials ends -->
+
+  
+  <!-- video Gallery starts -->
+  <style>
+    .gallery .container-fluid .row {
+      margin-top: 50px;
+
+    }
+
+    .gallery .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      padding: 20px;
+
+
+    }
+
+    .gallery .video-column {
+      padding: 25px;
+      margin-top: -60px;
+    }
+
+    .gallery .video-column video {
+      width: 80%;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery h2 {
+      font-family: 'Montserrat';
+      letter-spacing: 10px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 991px) {
+      .gallery .video-column {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+
+
+  <div class="gallery">
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h2 style="text-align: center; font-weight: bold; margin-top: 80px;">CLIENT FEEDBACK</h2>
+        </div>
+      </div>
+
+      <div class="row mb-5 video-container">
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/lRn7rAHJ1Ts?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZXTYn0yMKNI?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/rgqss3fBgXw?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
+          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZIo0Q3zJTx0?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- video Gallery ends -->
+
+
+
+
+
 
 
   <!-- Millions of Clients Starts -->
@@ -772,107 +912,6 @@
 
   <!-- Millions of Clients Ends -->
 
-  <!-- Book Section starts -->
-
-  <style>
-    .tedx_talk {
-      background-color: #eee5ef;
-      margin-top: 50px;
-      font-family: 'Montserrat';
-      padding: 50px;
-      padding-bottom: 80px;
-
-    }
-
-    .tedx_talk p {
-      font-size: 100%;
-      font-family: 'Montserrat';
-      font-weight: 500;
-    }
-
-    .tedx_talk img {
-      border-radius: 10px;
-      margin-top: 30px;
-      width: 100%;
-      height: auto;
-    }
-
-    .button {
-      background-color: #b97ebb;
-      /* box-shadow: 0 5px 0 #a559a8; */
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      text-align: center;
-      display: inline-block;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 10px;
-      letter-spacing: 2px;
-    }
-
-    .button:hover {
-      color: #6f3473;
-    }
-
-    @media (max-width: 992px) {
-      .tedx_talk .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-      }
-
-      .tedx_talk .col-md-4,
-      .tedx_talk .col-md-8 {
-        flex-basis: 100%;
-        max-width: 100%;
-      }
-    }
-
-    @media (min-width: 768px) and (max-width: 992px) {
-
-      .tedx_talk .col-md-4,
-      .tedx_talk .col-md-8 {
-        flex-basis: 50%;
-        max-width: 50%;
-        /* margin-top:100px; */
-      }
-    }
-  </style>
-
-  <div class="tedx_talk">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-4 col-xs-12">
-          <img style="width: 280px; height: 400px;" src="images/Book.jpg" alt="">
-        </div>
-
-        <div class="col-md-8 col-lg-8 col-xs-12 pt-4">
-          <h2>IS LOVE A GAME? READ THIS BOOK</h2>
-          <p>THE LOVE MIRAGE: The Game of Love Deciphered</p>
-          <p>A book by Sheelaa M Bajaj</p>
-
-
-
-          <p>Is love illusive and elusive like a mirage? </br> Are relationships like a game of chess? </br>
-            Why do marriages become stagnant?</p>
-          <p>Why are so many people unhappy in love relationships and marriage?</p><br>
-
-
-
-          <h5>Explore these surprisingly revealing truths in this book authored by</h5>
-          <h5>Sheelaa M Bajaj.</h5>
-          <a href="https://www.amazon.com" target="_blank">
-            <button class="button" style="color:white;background-color:black;">Buy on Amazon</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Book Section Ends -->
-
   <!-- Video Section Starts -->
   <style>
     .video .video-container {
@@ -930,14 +969,117 @@
 
   <!-- Video Section Ends -->
 
+
+  <!-- Book Section starts -->
+
+  <style>
+    .tedx_talk {
+      background-color: #eee5ef;
+      margin-top: 50px;
+      font-family: 'Montserrat';
+      padding: 50px;
+      padding-bottom: 80px;
+
+    }
+
+    .tedx_talk p {
+      font-size: 100%;
+      font-family: 'Montserrat';
+      font-weight: 500;
+    }
+
+    .tedx_talk img {
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+    }
+
+    .button {
+      background-color: #b97ebb;
+      /* box-shadow: 0 5px 0 #a559a8; */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      letter-spacing: 2px;
+    }
+
+    .button:hover {
+      color: #6f3473;
+    }
+
+    @media (max-width: 992px) {
+      .tedx_talk .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+      }
+
+      .tedx_talk .col-md-4,
+      .tedx_talk .col-md-8 {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+
+      .tedx_talk .col-md-4,
+      .tedx_talk .col-md-8 {
+        flex-basis: 50%;
+        max-width: 50%;
+        /* margin-top:100px; */
+      }
+    }
+  </style>
+
+  <div class="tedx_talk">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-xs-12">
+          <img style="width: 280px; height: 400px;" src="images/Book.jpg" alt="">
+        </div>
+
+        <div class="col-md-8 col-lg-8 col-xs-12 pt-4">
+          <h3 style="font-weight:bold">IS LOVE A GAME? READ THIS BOOK</h3>
+          <p>THE LOVE MIRAGE: The Game of Love Deciphered<br>
+          A book by Sheelaa M Bajaj</p>
+
+
+
+          <p>Is love illusive and elusive like a mirage? </br> Are relationships like a game of chess? </br>
+            Why do marriages become stagnant?<br>
+          Why are so many people unhappy in love relationships and marriage?</p><br>
+
+
+
+          <h5 >Explore these surprisingly revealing truths in this book authored by</h5>
+          <h5>Sheelaa M Bajaj.</h5>
+          <a href="https://www.amazon.com" target="_blank">
+            <button class="button" style="color:white;background-color:black;">Buy on Amazon</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Book Section Ends -->
+
+  
   <!-- Container Section Starts -->
   <style>
     /* Custom styles */
     .tedx .container-fluid {
-      padding-top: 100px;
+      padding: 30px;
       padding-bottom: 50px;
-      background-color: #eee5ef;
-      margin-top: 150px;
+      
+      margin-top: 100px;
 
 
     }
@@ -951,7 +1093,7 @@
 
     }
 
-    .tedx .container-fluid h2 {
+    .tedx .container-fluid h3 {
       font-weight: bold;
       margin-bottom: 20px;
       font-family: 'Montserrat';
@@ -995,7 +1137,7 @@
           <iframe width="100%" height="480px" src="https://www.youtube.com/embed/zODg8WBfR8w" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-md-12 col-lg-6 col-sm-12">
-          <h2>A <span style="color: #6f3473;">LIFE COACH</span> AND TED-X TALKER</h2>
+          <h3>A <span style="color: #6f3473;">LIFE COACH</span> AND TED-X TALKER</h3>
           <p>Sheelaa Bajaj spoke on one of the golbally respected idea-sharing platform TEDx at New Delhi in january 2019. She enlighted the audience about the topic ‘Finding the Best in the Worst’. It was lauded by hundreds and thousands of people who were present at the venue as well as online.</p>
           <p>Our lives are filled with mystic secrets. Each one of us is in search of some guiding light which will help us understand our past and present and help us peek into the future.</p>
           <p>Did you know that your life is guided by numbers? You may not even realize, but these numbers are constantly manoeuvring your life.</p>
@@ -1007,85 +1149,6 @@
 
 
   <!-- Container Section Ends -->
-
-
-  <!-- video Gallery starts -->
-  <style>
-    .gallery .container-fluid .row {
-      margin-top: 50px;
-
-    }
-
-    .gallery .video-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      padding: 20px;
-
-
-    }
-
-    .gallery .video-column {
-      padding: 25px;
-      margin-top: -60px;
-    }
-
-    .gallery .video-column video {
-      width: 80%;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .gallery h2 {
-      font-family: 'Montserrat';
-      letter-spacing: 10px;
-      font-weight: bold;
-    }
-
-    @media (max-width: 991px) {
-      .gallery .video-column {
-        margin-bottom: 20px;
-      }
-    }
-  </style>
-
-
-
-  <div class="gallery">
-    <div class="container-fluid">
-      <div class="row mb-5">
-        <div class="col-md-12">
-          <h2 style="text-align: center; font-weight: bold; margin-top: 80px;">VIDEO FEEDBACK</h2>
-        </div>
-      </div>
-
-      <div class="row mb-5 video-container">
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/lRn7rAHJ1Ts?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <br>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZXTYn0yMKNI?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/rgqss3fBgXw?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-
-        </div>
-        <div class="col-md-6 col-lg-3 col-sm-12 video-column">
-          <iframe width="100%" height="480" src="https://www.youtube.com/embed/ZIo0Q3zJTx0?list=PLgK6llXnqLHg06OiIXWr9GTs7GOqx54mL" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- video Gallery ends -->
-
-
-
 
   <?php include 'footer.php'; ?>
 

@@ -6,7 +6,7 @@
 <style>
   .footer-links a {
     text-decoration: none;
-    /* Remove underline */
+    
     color: #000000;
     font-size: 14px;
     margin-bottom: 5px;
@@ -15,7 +15,7 @@
 
   .footer-links a:hover {
     color: #61156B;
-    /* Change color on hover */
+   
   }
 
   /* Center-align text in #footer only in mobile view (up to 767px) */
@@ -115,7 +115,7 @@
               <a href="https://www.twitter.com/c/SheelaaMBajaj/" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
               <a href="https://www.instagram.com/sheelaambajaj/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
               <a href="https://www.youtube.com/c/SheelaaMBajajOfficial" target="_blank"><i class="fab fa-youtube social-icon"></i></a>
-              <p id="p">Namecraft © 2023</p>
+              <p id="p" style="text-align:center;">Namecraft © 2023</p>
             </center>
           </div>
 
@@ -125,9 +125,9 @@
 
 
       </div>
-
+      
     </div>
-
+   
   </footer>
   <?php include 'scrollup.php'; ?>
 </div>

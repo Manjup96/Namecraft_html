@@ -182,7 +182,7 @@
     ?>
 
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="padding-top:110px;">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/servicebanner1.png" class="d-block w-100" alt="...">
@@ -210,7 +210,7 @@
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px">
             <div class="zoom-container">
 
-            <img src="images/C section delivery date.jpg" class="img-fluid" style="width:500px;height:400px;  border: 2px solid black;">
+            <img src="images/C section delivery date.jpg" class="img-fluid" style="width:500px;height:400px;border: 1px solid black; ">
 
               
             </div>

@@ -111,7 +111,7 @@
 
 
 
-<div class="container-fluid p-0">
+<div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="banner-overlay"></div>
@@ -138,17 +138,17 @@
 
 <style>
     
-    .content .container p {
+    .class .container p {
         text-align: justify;
         font-size:16px;
     }
    
-    .content .container h3{
+    .class .container h3{
       margin-bottom:20px;
     }
 </style>
 
-<div class="content">
+<div class="class">
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
@@ -277,7 +277,7 @@
 </style>
 <style>
   .Readmore-button {
-    background-color: #c0c0c0;
+    background-color: black;
     color: white;
     border: none;
     padding: 6px 12px;
@@ -287,7 +287,7 @@
   }
 
   .Readmore-button:hover {
-    background-color: black;
+    background-color: #c0c0c0;
     color: white;
   }
 </style>
@@ -361,6 +361,7 @@
         transition: 0.3s;
         width: 100%;
         border-radius: 5px;
+        font-family:Montserrat ;
     }
 
     .card:hover {
@@ -417,7 +418,7 @@
     }
     
     .post-comment-button {
-        background-color: #c0c0c0;
+        background-color: black;
         color: white;
         padding: 8px 12px;
         font-size: 13px;
@@ -429,7 +430,7 @@
     }
     
     .post-comment-button:hover {
-        background-color: black;
+        background-color: #c0c0c0;
         color: white;
     }
 </style>

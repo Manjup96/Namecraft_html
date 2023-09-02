@@ -69,12 +69,12 @@
     }
   </style>
 
-  <section class="tedx_talk" style="background-color:#eee5ef;">
+  <section class="tedx_talk" style="background-color:#eee5ef; padding-top:90px;">
     <div class="container pb-5">
       <div class="row">
         <div class="col-md-12 col-xs-12 col-lg-6">
           <div class="text pt-5"><br>
-            <h2 class="about" style=" letter-spacing: 8px;">ABOUT OUR <span style="color: #6f3473;">BRAND</span></h2>
+            <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">ABOUT OUR <span style="color: #6f3473;">BRAND</span></h2>
 
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">Welcome to Namecraft, a sub-brand of Sheelaa M Bajaj, a leading numerology company based in Bangalore, India. At Namecraft, we specialize in providing customized numerology reports for institutions, with a focus on maternity hospitals. Our goal is to help new parents choose the perfect name for their baby, based on numerological analysis.</p>
 
@@ -91,219 +91,217 @@
   </div>
 
 
-  <style>
-    .carousel-section {
-      background-image: url("images/why-choose-us-1.jpg");
-      position: relative;
-      background-size: cover;
-      background-position: center;
-      background-color: rgba(0, 0, 0, 0.75);
-      /* background-color: purple; */
-      /* color:inherit; */
-    }
-
-    .carousel-section::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.75);
 
 
 
-      /* Add any other background-related styles here */
-    }
+<style>
 
-    .services__item h3.custom-heading {
+.carousel-section {
+   background-image: url("images/why-choose-us-1.jpg"); 
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color:rgba(0,0,0,0.75); 
+  /* background-color: purple; */
+  /* color:inherit; */
+}
+  
+  .carousel-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0,0,0,0.75);
+  
+  
+   
+  /* Add any other background-related styles here */
+}
+.services__item h3.custom-heading {
       font-family: 'Open Sans';
       font-weight: 600;
-      text-align: center;
+      text-align:center;
       font-size: 16px;
       line-height: 1.2;
     }
+  /* Default Button Styles */
+  .slick-next.default {
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+  }
 
-    /* Default Button Styles */
-    .slick-next.default {
-      color: rgb(184, 184, 184);
-      font-size: 20px;
+  /* Media Query for Mobile Devices */
+  @media (max-width: 576px) {
+    .services__item p {
+      font-size: 14px;
     }
+  }
 
-    /* Media Query for Mobile Devices */
-    @media (max-width: 576px) {
-      .services__item p {
-        font-size: 14px;
-      }
+  /* Media Query for Tablets */
+  @media (min-width: 577px) and (max-width: 991px) {
+    .services__item  p{
+      font-size: 15px;
     }
+  }
 
-    /* Media Query for Tablets */
-    @media (min-width: 577px) and (max-width: 991px) {
-      .services__item p {
-        font-size: 15px;
-      }
+  /* Media Query for Large Devices */
+  @media (min-width: 992px) {
+    .services__item p{
+      font-size: 16px;
     }
-
-    /* Media Query for Large Devices */
-    @media (min-width: 992px) {
-      .services__item p {
-        font-size: 16px;
-      }
-    }
+  }
 
 
-    .owl-carousel .owl-nav button.owl-next,
-    .owl-carousel .owl-nav button.owl-prev,
-    .owl-carousel button.owl-dot {
-      background: white;
-      color: inherit;
-      border: none;
-      padding: 0 !;
-      font: inherit;
-    }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: white;
+    color: inherit;
+    border: none;
+    padding: 0!;
+    font: inherit;
+}
+/* Styles for the carousel controls */
+  .carousel-section .owl-nav button {
+    font-size: 20px;
+    width: 25px;
+    height: 50px;
+    margin:-35px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    /* Styles for the carousel controls */
-    .carousel-section .owl-nav button {
-      font-size: 20px;
-      width: 25px;
-      height: 50px;
-      margin: -35px;
-      color: white;
-      background-color: white;
-      border: none;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 40%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
+  .carousel-section .owl-nav button:hover {
+    background-color:grey;
+  }
 
-    .carousel-section .owl-nav button:hover {
-      background-color: grey;
-    }
+  .carousel-section .owl-prev {
+    left: 15px;
+  }
 
-    .carousel-section .owl-prev {
-      left: 15px;
-    }
+  .carousel-section .owl-next {
+    right: 15px;
+  }
+ 
+</style>
 
-    .carousel-section .owl-next {
-      right: 15px;
-    }
-  </style>
-
-  <section class="carousel-section">
+<section class="carousel-section" >  
     <!-- End of left and right controls -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 pt-5">
-          <div class="section-title">
-            <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 pt-5">
+        <div class="section-title">
+        <br>  
+        <!-- <h2 style="text-align:center;color:white;font-weight:bold">Why Choose Us</h2> -->
 
-          </div>
         </div>
       </div>
-      <br>
-      <div class="row services__list owl-carousel owl-loaded owl-drag">
-
-        <h3 style="font-size: 30px;color: #ffffff;text-align: center" class="vc_custom_heading">WHY CHOOSE US?</h3> <br>
-        <div class="owl-stage-outer">
-          <div class="owl-stage">
-            <div class="owl-item why_choose_box">
-
-              <div class="services__item">
-
-
-                <h3 class="custom-heading" style="font-family: 'Montserrat';font-size:13px;font-weight:bold;color:white;text-align:center; font: size 10px;">
-
-                  <i class="fa-solid fa-gift" aria-hidden="true" style="font-size: 38px;margin-bottom: 20px;"></i><br>
-                  HOLISTIC TRANSFORMATION
-                </h3> <br>
-                <p style=" margin-inline: 30px;font-size: 13px; text-align:center;font-family: 'Montserrat';color: white;font-weight:semi-bold;font-size:10px;">
-                  Our focus goes beyond a mere name change; we aim to facilitate holistic transformation in your life. By aligning your name with the principles of numerology, we strive to bring harmony and balance to various aspects of your life, including career, relationships, health, and overall well-being.
-                </p> <br>
-              </div>
-
-            </div>
-
-
-            <div class="owl-item why_choose_box">
-
-              <div class="services__item">
-
-                <h3 class="custom-heading" style=" font-size:13px;font-weight:bold;color:white;text-align:center;">
-                  <i class="fa-solid fa-hand-holding" style="font-size: 38px;margin-bottom: 20px;"></i><br>
-                  PERSONALIZED APPORACH
-                </h3> <br>
-                <p style="margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:bold;font-size:10px;"> At Namecraft, we recognize that each individual is unique, and their name correction needs should be treated with utmost care and customization. The result is a meticulously crafted name that resonates with your true essence and enhances your positive vibrations</P><br>
-
-              </div>
-
-            </div>
-            <div class="owl-item">
-
-              <div class="services__item">
-
-                <h3 class="custom-heading" style="font-size:13px;font-weight:bold;color:white;text-align:center;">
-                  <!-- <i class="fa-sharp fa-solid fa-ranking-star"></i> -->
-                  <i class="fa-solid fa-handshake" style="font-size: 38px;margin-bottom: 20px;"></i><br>TRUSTED EXPERIENCE
-                </h3> <br>
-                <!-- <center> <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist </p>  <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">Sheelaa M Bajaj, a highly respected figure in the </p>  field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>               -->
-                <center>
-                  <p style="margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:bold;font-size:10px;"> Namecraft is backed by the renowned numerologist Sheelaa M Bajaj, a highly respected figure in the field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>
-                  <br>
-
-              </div>
-
-            </div>
-
-            <!-- Add more carousel items here -->
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
     </div>
-  </section>
+    <br>
+   <div class="row services__list owl-carousel owl-loaded owl-drag">
+    <!-- <h2 style="text-align:center;color:white;font-weight:bold">Why Choose Us?</h2> <br> <br> -->
+    <h3 style="font-size: 30px;color: #ffffff;text-align: center" class="vc_custom_heading">WHY CHOOSE US?</h3> <br> 
+  <div class="owl-stage-outer">
+    <div class="owl-stage">
+      <div class="owl-item why_choose_box">
+          
+  <div class="services__item">
+  <!-- <img src="types_of_dances/semi_classical.jpg" alt=""> -->
+  
+  <h3 class="custom-heading" style="font-family: 'Montserrat';font-size:13px;font-weight:;color:white;text-align:center; font: size 10px;">
+  
+  <i class="fa-solid fa-gift" aria-hidden="true" style="font-size: 38px;margin-bottom: 20px;"></i><br>
+    HOLISTIC TRANSFORMATION
+  </h3> <br>
+  <p style= " margin-inline: 30px;font-size: 13px; text-align:center;font-family: 'Montserrat';color: white;font-weight:semi-bold;font-size;10px;">
+    Our focus goes beyond a mere name change; we aim to facilitate holistic transformation in your life. By aligning your name with the principles of numerology, we strive to bring harmony and balance to various aspects of your life, including career, relationships, health, and overall well-being.
+  </p> <br> 
+</div>
+        
+      </div>
+      
+      
+      <div class="owl-item why_choose_box">
+        
+          <div class="services__item">
+            <!--<img src="types_of_dances/folk.png" alt="">-->
+         <h3 class="custom-heading"  style=" font-size:13px;font-weight:;color:white;text-align:center;">
+   <i class="fa-solid fa-hand-holding" style="font-size: 38px;margin-bottom: 20px;"></i><br>
+    PERSONALIZED APPORACH</h3> <br>
+    <p style= "margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;"> At Namecraft, we recognize that each individual is unique, and their name correction needs should be treated with utmost care and customization. The result is a meticulously crafted name that resonates with your true essence and enhances your positive vibrations</P><br>
+                  
+          </div>
+        
+      </div>
+      <div class="owl-item">
+        
+          <div class="services__item">
+            
+  <h3 class="custom-heading" style="font-size:13px;font-weight:;color:white;text-align:center;">
+  <!-- <i class="fa-sharp fa-solid fa-ranking-star"></i> -->
+ <i class="fa-solid fa-handshake" style="font-size: 38px;margin-bottom: 20px;"></i><br>TRUSTED EXPERIENCE</h3> <br>
+ <!-- <center> <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist </p>  <p style= " font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">Sheelaa M Bajaj, a highly respected figure in the </p>  field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>               -->
+  <center> <p style= "margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;">  Namecraft is backed by the renowned numerologist Sheelaa M Bajaj, a highly respected figure in the field of numerology. With years of experience and a deep understanding of the profound impact of names on individuals, our team of experts is committed to delivering accurate and effective name correction solutions.</P>
+                <br>
+            
+          </div>
+        
+      </div>
+     
+      <!-- Add more carousel items here -->
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </div>
+</section>
 
-  <!-- Services Section End -->
+<!-- Services Section End -->
 
 
 
 
-  <!-- Add the Owl Carousel JavaScript code -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $(".services__list").owlCarousel({
-        loop: true,
-        margin: 20,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        // nav: true,
-        // dots: true,
-        responsive: {
-          0: {
-            items: 1 // 1 item for mobile view
-          },
-          576: {
-            items: 2 // 2 items for iPad portrait view
-          },
-          992: {
-            items: 3 // 3 items for large devices like laptops, desktops
-          }
+<!-- Add the Owl Carousel JavaScript code -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>          
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $(".services__list").owlCarousel({
+      loop: true,
+      margin: 20,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      // nav: true,
+      // dots: true,
+      responsive: {
+        0: {
+          items: 1 // 1 item for mobile view
+        },
+        576: {
+          items: 2 // 2 items for iPad portrait view
+        },
+        992: {
+          items: 3 // 3 items for large devices like laptops, desktops
         }
-      });
+      }
     });
-  </script>
+  });
+</script>
 
 
   <section class="tedx_talk" style="background-color:#eee5ef;">
@@ -311,7 +309,7 @@
       <div class="row">
         <div class="col-md-12 col-xs-12 col-lg-8">
           <div class="text pt-5">
-            <h2 class="about" style=" letter-spacing: 8px;">AT NAMECRAFT</h2>
+            <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">AT NAMECRAFT</h2>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we have built on Sheelaa’s legacy by bringing her knowledge to institutions, helping them make informed decisions about names and other numerology-based services. We understand the importance of choosing the right name for a child, as it can have a significant impact on their life and future. Our numerology reports are based on a combination of traditional numerology principles and modern scientific research, ensuring accuracy and reliability.</p>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">We work closely with maternity hospitals to understand their requirements and provide customized reports that are easy to understand and implement. We also offer a wide range of other numerology-based services, such as business name analysis, Lucky name numerology, and movie name numerology to help organizations achieve their goals.</p>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we are committed to providing exceptional service and support to our clients. We believe in building long-term relationships with our clients, and we are always available to answer any questions or provide additional guidance. We are constantly exploring new ways to enhance our services and improve the experiences of our clients.</p>
@@ -334,8 +332,8 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center pt-5">
-        <h2 class="about" style=" letter-spacing: 8px;">AWARDS & RECOGNITION</h2>
+      <div class="col-md-12 text-center pt-5 mt-5 mb-3">
+        <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">AWARDS & RECOGNITION</h2>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -366,7 +364,7 @@
   <!-- Video start -->
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center pt-5">
+      <div class="col-md-12 text-center pt-5 mt-5 mb-3">
         <h2 style=" letter-spacing: 8px; font-weight:bold ;">VIDEO & PRESENTATIONS</h2>
       </div>
     </div>
@@ -374,7 +372,7 @@
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container border-radius pt-5">
           <!-- <iframe max-width="500" min-width="200" height="315" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -383,7 +381,7 @@
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container pt-5">
          
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;" class="border rounded border-dark ">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark ">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/plBqTLGooAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -439,26 +437,17 @@
 
 
 
-  <!-- 
-        <div id="video-container" class="container text-center pt-5" >
-            <div class="row">
-                <div class="col-md-12  class=border rounded ">
-                    <div class="embed-responsive embed-responsive-16by9" >
-                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HmMEkwW36uw?start=7" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
   <div id="video-container" class="container text-center pt-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="embed-responsive embed-responsive-16by9 rounded" style="border-radius: 40px;">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HmMEkwW36uw?start=7" allowfullscreen></iframe>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="embed-responsive embed-responsive-16by9 " style="border-radius: 30px;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HmMEkwW36uw?start=7" allowfullscreen></iframe>
       </div>
     </div>
   </div>
+</div>
+
   <!-- Video Section Ends -->
 
 
