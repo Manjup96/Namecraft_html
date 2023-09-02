@@ -400,6 +400,9 @@
         margin-top: 20px;
     }
     
+    .form label{
+        letter-spacing:2px;
+    }
     .form label {
         font-weight: bold;
         margin-top: 10px;

@@ -463,6 +463,10 @@
         background-color: #c0c0c0;
         color: white;
     }
+    .form label{
+        letter-spacing:2px;
+    }
+    
 </style>
 
 

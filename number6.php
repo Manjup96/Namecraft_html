@@ -433,6 +433,10 @@
         font-weight: bold;
         margin-top: 10px;
     }
+
+    .form label{
+        letter-spacing:2px;
+    }
     
     .form textarea,
     .form input[type="text"],
