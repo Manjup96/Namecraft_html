@@ -137,7 +137,7 @@
 <!-- Banner End -->
 
 <!-- Refund Content start -->
-
+<div style=" font-family:Montserrat ;">
      <div class="container pt-5">
         <div class="row">
             <div class="col-md-12">
@@ -149,6 +149,7 @@
         <p>If more than 15 days have passed since you've requested for a revised report, please contact us at connect@namecraft.co.in</p>
         </div>
         </div>
+    </div>
     </div>
     <script>
         function openEmailOptions() {
