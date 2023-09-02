@@ -42,6 +42,7 @@
     margin: 0;
     padding-top: 25px;
     color: white;
+   
     white-space: nowrap;
 }
 
@@ -99,19 +100,12 @@
         font-size: 9px;
     }
 }
-</style>
-<style>
-        #email-link {
-            cursor: pointer;
-            color: gray;
 
-        }
-        #text{
+#text{
     color:white;
     text-decoration: none;
 }
-    </style>
-
+</style>
 
 <body>
     <!-- navbar start -->
