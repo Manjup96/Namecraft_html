@@ -110,7 +110,7 @@
 </style>
 
 
-
+<div style=" font-family:Montserrat ;">
 <div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -488,7 +488,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- give a reply Ends --> 
 
 
