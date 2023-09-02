@@ -36,7 +36,7 @@
 }
 
 .submit {
-        background-color: #c0c0c0;
+        background-color: black;
         color: white;
         padding: 8px 12px;
         font-size: 13px;
@@ -48,7 +48,7 @@
     }
     
     .submit:hover {
-        background-color: black;
+        background-color: #c0c0c0;
         color: white;
     }
 
@@ -60,7 +60,7 @@
   .related-products .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+   
   }
 
   .col-lg-4.col-md-8.col-sm-10 {
@@ -177,10 +177,6 @@
   }
 } */
 </style>
-<<<<<<< HEAD
-
-=======
->>>>>>> fa8c4bda7f718be74f85c0f9c465991a7bd0aff6
 
 <head>
 
@@ -262,7 +258,7 @@
 
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
            <p class="text" style=" font-size: 36px">Lucky name correction</p>
-            <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:100.00</h2>
+            <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:7,500.00</h2>
 
            
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
@@ -349,9 +345,9 @@
         
                   </div>
                   <input type="submit" value="Add to cart" class="submit">
-                  <div class="mb-3 mt-3">
+                  <!-- <div class="mb-3 mt-3">
                         <a href="services.php"> <p> Category: Uncategorized</p></a>
-                       </div>
+                       </div> -->
   </div>
  
                   
@@ -531,28 +527,28 @@
     <div class="row g-0 mt-5">
         <h5 class="text" style="font-family: montserrat;">Related products</h5>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
+        <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
             <a href="luckydate.php">
                 <img src="images/C section delivery date.jpg" style="width:350px;height:350px;border: 2px solid black;" >
             </a>
-            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky Date Delivery</h2>
-            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky C-Section Date</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 3,000.00</p>
         </div>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
+        <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
             <a href="nameanalysis.php">
                 <img src="images/Name analysis.jpg" style="width:350px;height:350px;border: 2px solid black;">
             </a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Name Analysis</h2>
-            <p class="text-center" style="font-size: 16px;">Rs: 45.00</p>
+            <p class="text-center" style="font-size: 16px;">Rs: 500.00</p>
         </div>
 
-        <div class="col-lg-4 col-md-8 col-sm-10" style="margin-top:10px">
+        <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
             <a href="babyname.php">
                 <img src="images/babyname numerology.jpg" style="width:350px;height:350px;border: 2px solid black;">
             </a>
-            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Baby Name Correction</h2>
-            <p class="text-center" style="font-size: 16px;">Rs: 35.00</p>
+            <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky Baby Name</h2>
+            <p class="text-center" style="font-size: 16px;">Rs: 7,500.00</p>
         </div>
     </div>
 
