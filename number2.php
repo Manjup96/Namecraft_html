@@ -58,7 +58,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:100px;
+  margin-top:50px;
 }
 .carousel-caption p {
     margin-top: -50px;
@@ -107,7 +107,7 @@
 </style>
 
 
-
+<div style=" font-family:Montserrat ;">
 <div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -149,7 +149,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-               <h3>The number 2 represents togetherness. This might be a union of anything that seeks to eliminate division.</h3>
+               <h3>The Number 2 Represents Togetherness. This might be a union of anything that seeks to eliminate division.</h3>
                <p >If your birth number or life path number is 2, you are dominated by the number 2. As a 2 in numerology, you have a deep connection to the Earth and want tranquilly.</p>
                <h3>The Characteristics of Number 2 in Numerology</h3>
                <p >The Moon is represented by number two. It has an impact on your mind, ideas, and imagination. You experience mood swings of euphoria and despair every two weeks, just like the Moon does. You have a volatile personality. You would rather toe someone’s line and work hard for him in business than work for your own earnings. The moon, for example, does not produce its own light and instead receives it from the sun. Someone else gets the credit for the number two. You are suspicious, dubious, and have a tendency to be dominated or dominate if given authority. You are also susceptible to being fooled and duped by flattery. You have a keen sense of intuition. A number 2 should seek expert assistance with naming since even a minor mistake can heighten its extremely charged emotions.</p>
@@ -322,7 +322,7 @@
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4 ">
         <img src="images/numbers/8.jpg" alt="Image of Number 8" id="pic">
 
@@ -334,7 +334,7 @@
         <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4 ">
         <img src="images/numbers/7.jpg" alt="Image of Number 7" id="pic">
 
@@ -400,6 +400,9 @@
         margin-top: 20px;
     }
     
+    .form label{
+        letter-spacing:2px;
+    }
     .form label {
         font-weight: bold;
         margin-top: 10px;
@@ -483,7 +486,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- give a reply Ends --> 
 
 

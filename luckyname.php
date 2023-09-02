@@ -260,8 +260,13 @@
             </div>
 
             <div class="col-lg-6 col-md-8 col-sm-10"  style="margin-top:50px;">
+<<<<<<< HEAD
            <p class="text" style=" font-size: 36px;font-family:montserrat;">Lucky name correction</p>
             <h2 class="text" style="font-family:montserrat;font-size: 26px;">Rs:7,500.00</h2>
+=======
+           <p class="text" style=" font-size: 36px">Lucky name correction</p>
+            <h2 class="text" style=" font-family: montserrat;font-size: 26px;">Rs:7,500.00</h2>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
 
            
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When a person is born under the influence of a negative number,
@@ -535,7 +540,11 @@
                 <img src="images/C section delivery date.jpg" style="width:350px;height:350px;border: 1px solid black;" >
             </a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky C-Section Date</h2>
+<<<<<<< HEAD
             <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 3,000.00</p>
+=======
+            <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 3,000.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
@@ -543,7 +552,11 @@
                 <img src="images/Name analysis.jpg" style="width:350px;height:350px;border: 1px solid black;">
             </a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Name Analysis</h2>
+<<<<<<< HEAD
             <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 500.00</p>
+=======
+            <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
@@ -551,7 +564,11 @@
                 <img src="images/babyname numerology.jpg" style="width:350px;height:350px;border: 1px solid black;">
             </a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family: montserrat;">Lucky Baby Name</h2>
+<<<<<<< HEAD
             <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 7,500.00</p>
+=======
+            <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 7,500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
         </div>
     </div>
 

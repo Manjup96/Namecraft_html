@@ -53,13 +53,13 @@
 
           <div class="col-md-4 mb-3">
             <div>
-              <h4 style="font-size: 16px; color: #61156B;" class="pb-2">| SERVICES BY NAMECRAFT</h4><br>
-              <div class="text-center" style="font-family: Open Sans, sans-serif;">
+              <h4 style="font-size: 16px; color: #61156B;font-family:Montserrat ;" class="pb-2">| SERVICES BY NAMECRAFT</h4><br>
+              <div class="text-center" style="font-family:Montserrat ;">
                 <ul class="footer-links list-unstyled text-start">
                   <li><a href="nameanalysis.php">Name Analysis</a></li><br>
-                  <li><a href="luckydate.php">Lucky date delivery</a></li><br>
-                  <li><a href="babyname.php">Baby name correction</a></li><br>
-                  <li><a href="luckyname.php">Lucky name correction</a></li><br>
+                  <li><a href="luckydate.php">Lucky C-Section Date</a></li><br>
+                  <li><a href="babyname.php">Lucky Baby Name</a></li><br>
+                  <li><a href="luckyname.php">Lucky Name Correction</a></li><br>
                 </ul>
               </div>
             </div>
@@ -70,8 +70,8 @@
           <!-- <div class="col-md-1"></div> -->
           <div class="col-md-4 mb-3">
             <div>
-              <h4 style="font-size:16px;color:#61156B ;" class="pb-1">| MORE INFO</h4><br>
-              <div class="text-center" style="font-family:Open Sans, sans-serif;">
+              <h4 style="font-size:16px;color:#61156B ;font-family:Montserrat ;" class="pb-1">| MORE INFO</h4><br>
+              <div class="text-center" style="font-family:Montserrat ;">
                 <ul class="footer-links list-unstyled text-start">
                   <li><a href="terms_and_services.php">Terms of service</a></li><br>
                   <li><a href="refund_policy.php"> Refund policy</a></li><br>
@@ -115,7 +115,7 @@
               <a href="https://www.twitter.com/c/SheelaaMBajaj/" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
               <a href="https://www.instagram.com/sheelaambajaj/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
               <a href="https://www.youtube.com/c/SheelaaMBajajOfficial" target="_blank"><i class="fab fa-youtube social-icon"></i></a>
-              <p id="p" style="text-align:center;">Namecraft © 2023</p>
+              <p id="p" style="text-align:center;font-family:Montserrat ;">Namecraft © 2023</p>
             </center>
           </div>
 

@@ -46,7 +46,7 @@
     margin: 0;
     padding-top: 25px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 /* Separate h1 and p in carousel-caption */
@@ -132,7 +132,7 @@
 
 <!-- Banner Start -->
 
-
+<div style=" font-family:Montserrat ;">
 <div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -260,7 +260,7 @@ Bangalore - 560034
 
 
 </div>
-
+</div>
 
 
 <?php include("footer.php");?>

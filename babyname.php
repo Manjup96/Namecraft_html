@@ -223,7 +223,11 @@
             <div class="col-lg-6 col-md-8 col-sm-10" style="margin-top:50px;">
                 <p class="text" style=" font-size:36px; font-family:montserrat;">Lucky Baby Name</p>
                 
+<<<<<<< HEAD
                 <h2 class="text" style="font-family:montserrat;;font-size: 26px;">Rs:7,500.00</h2>
+=======
+                <h2 class="text" style=" font-family: montserrat;font-size: 26px;">Rs:7,500.00</h2>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
                 
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;">The cosmic power of numbers may determine one’s happiness and success in life. As a result,
                     it is the obligation of the parents to choose the ideal name for their child that not only sounds great but also sums up correctly.
@@ -473,19 +477,31 @@
                 <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px;  border: 1px solid black;"></a>
                 <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Lucky C-Section Date </b>
                 </h2>
+<<<<<<< HEAD
                 <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:3,000.00</p>
+=======
+                <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:3,000.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10"style="margin-top:10px">
                 <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px;  border: 1px solid black;"></a>
                 <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Name Analysis</h2>
+<<<<<<< HEAD
                 <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:500.00</p>
+=======
+                <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
                 <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px;  border: 1px solid black;"></a>
                 <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;">Lucky Name Correction</h2>
+<<<<<<< HEAD
                 <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:7,500.00</p>
+=======
+                <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:7,500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
             </div>
         </div>
     </div>

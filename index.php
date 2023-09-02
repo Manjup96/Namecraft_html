@@ -165,7 +165,7 @@
         </div>
       </div>
     </div>
-    <div class="d-none d-sm-flex justify-content-center align-items-center" id="next-previous">
+    <div class="d-none d-sm-flex justify-content-center align-items-center " id="next-previous">
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -989,7 +989,9 @@
     }
 
     .tedx_talk img {
-      border-radius: 10px;
+      border: 7px solid rgba(211, 211, 211, 0.5); /* 0.5 represents the transparency (adjust as needed) */
+      box-shadow: 5px 5px 5px 0px lightgrey;
+
       margin-top: 10px;
       width: 100%;
       height: auto;
@@ -1076,11 +1078,11 @@
   <style>
     /* Custom styles */
     .tedx .container-fluid {
-      padding: 30px;
+      padding: 90px;
       padding-bottom: 50px;
       
-      margin-top: 100px;
-
+      margin-top: -1px;
+      margin-bottom: -100px;
 
     }
 

@@ -68,7 +68,7 @@
 
     }
   </style>
-
+<div style=" font-family:Montserrat ;">
   <section class="tedx_talk" style="background-color:#eee5ef; padding-top:90px;">
     <div class="container pb-5">
       <div class="row">
@@ -120,7 +120,7 @@
   /* Add any other background-related styles here */
 }
 .services__item h3.custom-heading {
-      font-family: 'Open Sans';
+      font-family: 'Montserrat' !important;
       font-weight: 600;
       text-align:center;
       font-size: 16px;
@@ -130,7 +130,7 @@
   .slick-next.default {
     color: rgb(184, 184, 184);
     font-size: 20px;
-  }
+  } 
 
   /* Media Query for Mobile Devices */
   @media (max-width: 576px) {
@@ -210,7 +210,7 @@
     <br>
    <div class="row services__list owl-carousel owl-loaded owl-drag">
     <!-- <h2 style="text-align:center;color:white;font-weight:bold">Why Choose Us?</h2> <br> <br> -->
-    <h3 style="font-size: 30px;color: #ffffff;text-align: center" class="vc_custom_heading">WHY CHOOSE US?</h3> <br> 
+    <h3 style="font-size: 30px;color: #ffffff;text-align: center; font-family: 'Montserrat';" class="vc_custom_heading">WHY CHOOSE US?</h3> <br> 
   <div class="owl-stage-outer">
     <div class="owl-stage">
       <div class="owl-item why_choose_box">
@@ -309,7 +309,7 @@
       <div class="row">
         <div class="col-md-12 col-xs-12 col-lg-8">
           <div class="text pt-5">
-            <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">AT NAMECRAFT</h2>
+            <h2 class="about" style=" letter-spacing: 8px;font-weight:bold; font-family: 'Montserrat';">AT NAMECRAFT</h2>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we have built on Sheelaa’s legacy by bringing her knowledge to institutions, helping them make informed decisions about names and other numerology-based services. We understand the importance of choosing the right name for a child, as it can have a significant impact on their life and future. Our numerology reports are based on a combination of traditional numerology principles and modern scientific research, ensuring accuracy and reliability.</p>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">We work closely with maternity hospitals to understand their requirements and provide customized reports that are easy to understand and implement. We also offer a wide range of other numerology-based services, such as business name analysis, Lucky name numerology, and movie name numerology to help organizations achieve their goals.</p>
             <p class="about pt-2" style="font-family: 'Montserrat'; text-align: justify; color: black; font-weight: 500;">At Namecraft, we are committed to providing exceptional service and support to our clients. We believe in building long-term relationships with our clients, and we are always available to answer any questions or provide additional guidance. We are constantly exploring new ways to enhance our services and improve the experiences of our clients.</p>
@@ -327,13 +327,19 @@
     <br>
   </section>
 
-
+<!-- <style>
+   @media (max-width: 768px) {
+        #award {
+           padding-top:-50px ; /* Adjust the value as needed */
+        }
+    }
+</style> -->
 
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center pt-5 mt-5 mb-3">
-        <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">AWARDS & RECOGNITION</h2>
+        <h2 class="about" style=" letter-spacing: 8px;font-weight:bold; font-family: 'Montserrat';" id="award">AWARDS & RECOGNITION</h2>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -365,14 +371,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center pt-5 mt-5 mb-3">
-        <h2 style=" letter-spacing: 8px; font-weight:bold ;">VIDEO & PRESENTATIONS</h2>
+        <h2 style=" letter-spacing: 7px; font-weight:bold ; font-family: 'Montserrat';">VIDEO & PRESENTATIONS</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container border-radius pt-5">
           <!-- <iframe max-width="500" min-width="200" height="315" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 20px;" class="border  border-dark">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -381,7 +387,7 @@
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container pt-5">
          
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark ">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 20px;" class="border  border-dark ">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/plBqTLGooAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -447,7 +453,7 @@
     </div>
   </div>
 </div>
-
+        </div>
   <!-- Video Section Ends -->
 
 

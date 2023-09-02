@@ -126,7 +126,7 @@
 </style>
 
 
-
+<div style=" font-family:Montserrat ;">
 <div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -433,6 +433,10 @@
         font-weight: bold;
         margin-top: 10px;
     }
+
+    .form label{
+        letter-spacing:2px;
+    }
     
     .form textarea,
     .form input[type="text"],
@@ -512,7 +516,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- give a reply Ends --> 
 
 

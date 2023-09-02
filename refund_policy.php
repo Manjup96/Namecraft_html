@@ -42,7 +42,8 @@
     margin: 0;
     padding-top: 25px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+   
+    white-space: nowrap;
 }
 
 /* Separate h1 and p in carousel-caption */
@@ -88,27 +89,23 @@
     .carousel-caption h5 {
         font-size: 20px;
         letter-spacing:10px;
-        margin-bottom:30px;
+        margin-top:30px;
         
+    }
+    .carousel-caption p{
+        margin-bottom:-60px;
     }
 
     .carousel-caption p {
         font-size: 9px;
     }
 }
-</style>
-<style>
-        #email-link {
-            cursor: pointer;
-            color: gray;
 
-        }
-        #text{
+#text{
     color:white;
     text-decoration: none;
 }
-    </style>
-
+</style>
 
 <body>
     <!-- navbar start -->
@@ -127,7 +124,6 @@
             <img src="images/policy_banner.jpg" class="d-block w-100" alt="..." style="image-rendering: auto;">
             <div class="carousel-caption">
                 <h5>REFUND POLICY</h5>
-            
                 <p><a id="text" href="index.php">Home</a> / REFUND POLICY</p>
             </div>
         </div>
@@ -137,7 +133,7 @@
 <!-- Banner End -->
 
 <!-- Refund Content start -->
-
+<div style=" font-family:Montserrat ;">
      <div class="container pt-5">
         <div class="row">
             <div class="col-md-12">
@@ -149,6 +145,7 @@
         <p>If more than 15 days have passed since you've requested for a revised report, please contact us at connect@namecraft.co.in</p>
         </div>
         </div>
+    </div>
     </div>
     <script>
         function openEmailOptions() {

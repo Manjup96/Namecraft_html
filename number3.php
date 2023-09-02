@@ -59,7 +59,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:100px;
+  margin-top:50px;
 }
 .carousel-caption p {
     margin-top: -50px;
@@ -109,7 +109,7 @@
 </style>
 
 
-
+<div style=" font-family:Montserrat ;">
 <div class="container-fluid p-0" style="margin-top:110px;">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -401,7 +401,10 @@
         font-weight: bold;
         margin-top: 10px;
     }
-    
+    .form label{
+        letter-spacing:2px;
+    }
+
     .form textarea,
     .form input[type="text"],
     .form input[type="email"] {
@@ -480,7 +483,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- give a reply Ends --> 
 
 

@@ -74,7 +74,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:100px;
+  margin-top:50px;
 }
 .carousel-caption p {
     margin-top: -50px;
@@ -463,6 +463,10 @@
         background-color: #c0c0c0;
         color: white;
     }
+    .form label{
+        letter-spacing:2px;
+    }
+    
 </style>
 
 
