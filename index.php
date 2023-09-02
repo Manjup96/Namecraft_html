@@ -1078,10 +1078,10 @@
   <style>
     /* Custom styles */
     .tedx .container-fluid {
-      padding: 90px;
+      padding: 50px;
       padding-bottom: 50px;
       
-      margin-top: -1px;
+      margin-top: 30px;
       margin-bottom: -100px;
 
     }
