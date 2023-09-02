@@ -57,9 +57,9 @@
               <div class="text-center" style="font-family: Open Sans, sans-serif;">
                 <ul class="footer-links list-unstyled text-start">
                   <li><a href="nameanalysis.php">Name Analysis</a></li><br>
-                  <li><a href="luckydate.php">Lucky date delivery</a></li><br>
-                  <li><a href="babyname.php">Baby name correction</a></li><br>
-                  <li><a href="luckyname.php">Lucky name correction</a></li><br>
+                  <li><a href="luckydate.php">Lucky C-Section Date</a></li><br>
+                  <li><a href="babyname.php">Lucky Baby Name</a></li><br>
+                  <li><a href="luckyname.php">Lucky Name Correction</a></li><br>
                 </ul>
               </div>
             </div>
