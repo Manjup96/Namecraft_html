@@ -371,7 +371,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center pt-5 mt-5 mb-3">
-        <h2 style=" letter-spacing: 8px; font-weight:bold ; font-family: 'Montserrat';">VIDEO & PRESENTATIONS</h2>
+        <h2 style=" letter-spacing: 7px; font-weight:bold ; font-family: 'Montserrat';">VIDEO & PRESENTATIONS</h2>
       </div>
     </div>
     <div class="row">
