@@ -327,13 +327,19 @@
     <br>
   </section>
 
-
+<!-- <style>
+   @media (max-width: 768px) {
+        #award {
+           padding-top:-50px ; /* Adjust the value as needed */
+        }
+    }
+</style> -->
 
 
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center pt-5 mt-5 mb-3">
-        <h2 class="about" style=" letter-spacing: 8px;font-weight:bold">AWARDS & RECOGNITION</h2>
+        <h2 class="about" style=" letter-spacing: 8px;font-weight:bold" id="award">AWARDS & RECOGNITION</h2>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -372,7 +378,7 @@
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container border-radius pt-5">
           <!-- <iframe max-width="500" min-width="200" height="315" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 20px;" class="border  border-dark">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/qtYiXuh27_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -381,7 +387,7 @@
       <div class="col-md-6 col-lg-6 col-xs-12">
         <div class="video-container pt-5">
          
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 30px;" class="border  border-dark ">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;border-radius: 20px;" class="border  border-dark ">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/plBqTLGooAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
