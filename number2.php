@@ -58,7 +58,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:100px;
+  margin-top:50px;
 }
 .carousel-caption p {
     margin-top: -50px;
@@ -322,7 +322,7 @@
     </div>
 </div>
    </div>
-   <div class="col-md-4  ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4 ">
         <img src="images/numbers/8.jpg" alt="Image of Number 8" id="pic">
 
@@ -334,7 +334,7 @@
         <input type="submit" class="Readmore-button mt-3 mb-3" value="READ MORE"></a>
     </div>
 </div></div>
-   <div class="col-md-4 ">
+   <div class="col-md-4 mb-5 ">
     <div class="card p-4 ">
         <img src="images/numbers/7.jpg" alt="Image of Number 7" id="pic">
 

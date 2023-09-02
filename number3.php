@@ -59,7 +59,7 @@
 }
 
 .carousel-caption h5{
-  margin-top:100px;
+  margin-top:50px;
 }
 .carousel-caption p {
     margin-top: -50px;
