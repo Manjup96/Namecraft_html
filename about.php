@@ -236,7 +236,7 @@
           <div class="services__item">
             <!--<img src="types_of_dances/folk.png" alt="">-->
          <h3 class="custom-heading"  style=" font-size:13px;font-weight:;color:white;text-align:center;">
-   <i class="fa-solid fa-hand-holding" style="font-size: 38px;margin-bottom: 20px;"></i><br>
+         <i class="fa-solid fa-feather-pointed" style="font-size: 38px;margin-bottom: 20px;"></i><br>
     PERSONALIZED APPORACH</h3> <br>
     <p style= "margin-inline: 30px; font-size: 13px;text-align:center;font-family :montserrat;color: white;font-weight:;font-size;10px;"> At Namecraft, we recognize that each individual is unique, and their name correction needs should be treated with utmost care and customization. The result is a meticulously crafted name that resonates with your true essence and enhances your positive vibrations</P><br>
                   

@@ -136,6 +136,8 @@ html {
   transform: translateY(0);
 }
 
+
+
   </style>
 
     <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
@@ -168,7 +170,7 @@ html {
                 <label for="entity_type" class="form-label d-block">Service Desired</label>
                                     <div class="d-flex" >
                                         <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
-                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;x" required>Baby name correction</option>
+                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
                                             <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
                                             <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
                                             <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
