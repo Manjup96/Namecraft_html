@@ -42,11 +42,12 @@
     margin: 0;
     padding-top: 25px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+   
+    white-space: nowrap;
 }
 
 /* Separate h1 and p in carousel-caption */
-.carousel-caption h5,
+
 .carousel-caption p {
     display: block;
     margin: 0;
@@ -88,8 +89,11 @@
     .carousel-caption h5 {
         font-size: 20px;
         letter-spacing:10px;
-        margin-bottom:30px;
+        margin-top:30px;
         
+    }
+    .carousel-caption p{
+        margin-bottom:-60px;
     }
 
     .carousel-caption p {

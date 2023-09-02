@@ -240,7 +240,11 @@ text-align: center;
       </a>
       <h5 class="text-center pt-3" style=" font-family: montserrat;">Lucky Baby Name </b>
       </h5>
+<<<<<<< HEAD
+      <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:7,500.00</p>
+=======
       <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:7,500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
     </div>
     
     <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
@@ -256,7 +260,11 @@ text-align: center;
     </a>
     <h5 class="text-center pt-3" style=" font-family: montserrat;">Lucky C-Section Date</b>
     </h5>
+<<<<<<< HEAD
+    <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 3000.00</p>
+=======
     <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 3,000.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
 </div>
 
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
@@ -272,7 +280,11 @@ text-align: center;
     </a>
     <h5 class="text-center pt-3" style=" font-family: montserrat;">Lucky Name Correction</b>
     </h5>
+<<<<<<< HEAD
+    <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 7,500.00</p>
+=======
     <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 7,500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
 </div>
 <div class="col-lg-4 col-md-6 col-sm-6 text-center" style="margin-top: 50px">
     <a href="nameanalysis.php">
@@ -287,7 +299,11 @@ text-align: center;
     </a>
     <h5 class="text-center pt-3" style="font-family: montserrat;">Name Analysis</b>
     </h5>
+<<<<<<< HEAD
+    <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs: 500.00</p>
+=======
     <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs: 500.00</p>
+>>>>>>> ae7dd9dc9895c677f4cc73e1ddb54131bef01b91
 </div>
     </div>
     </div>

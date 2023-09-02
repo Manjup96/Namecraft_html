@@ -139,7 +139,7 @@ html {
 
 
   </style>
-
+<div style=" font-family:Montserrat ;">
     <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
               
     <div class="container-fluid" style="background-color:#eee5ef">
@@ -295,6 +295,7 @@ html {
             </div>
         </div>
     </div>
+</div>
 </div>
     <!-- map & address Ends -->
     <?php include("footer.php"); ?>
