@@ -5,26 +5,26 @@
 
 <style>
 
-        .card {
+      #box  .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
-        width: 80%;
+       
         border-radius: 5px;
        /* font-family:Montserrat ; */
     }
 
-    .card:hover {
+    #box .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         
     }
    
-    p{
+   #box p{
         font-size:13px;
         text-align:justify;
 
     }
 
-    .container {
+    #box .container {
         padding: 2px 16px;
     }
 
@@ -55,31 +55,25 @@
 
 
 <style>
-    .card {
+  #box .card {
         height: 100%;
     }
 
-    .card-body {
+   #box .card-body {
         flex: 1;
     }
   
-    @media (max-width: 767px) { /* Apply styles for mobile screens */
-        .custom-centered {
-           
-            margin-left: -12px;
-           
-        }
-    }
+   
 </style>
 
 
   
 <div style=" font-family:Montserrat ;">
 
-<div class="container-fluid " style="padding-top: 100px;">
+<div class="container-fluid " style="padding-top: 100px;" id="box">
     <div class="row ">
         <div class="col-md-12 col-lg-4 pt-5  custom-centered " data-aos="slide-up" data-aos-duration="500">
-            <div class="card mx-5 d-flex flex-column">
+            <div class="card mx-5">
                 <a id="link" href="number1.php">
                     <img src="images/numbers/1.jpg" alt="Avatar" style="width: 100%" id="pic">
                 </a>
@@ -93,7 +87,7 @@
             </div>
         </div>
         <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
-            <div class="card mx-5 d-flex flex-column">
+            <div class="card mx-5 ">
                 <a id="link" href="number2.php">
                     <img src="images/numbers/2.jpg" alt="Avatar" style="width: 100%" id="pic">
                 </a>
@@ -107,7 +101,7 @@
             </div>
         </div>
         <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
-            <div class="card mx-5 d-flex flex-column">
+            <div class="card mx-5">
                 <a id="link" href="number3.php">
                     <img src="images/numbers/3.jpg" alt="Avatar" style="width: 100%" id="pic">
                 </a>
@@ -120,9 +114,10 @@
                 </div>
             </div>
         </div>
-  
+</div>
+                <div class="row">
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up"data-aos-duration="500"  >
-                <div class="card mx-5 d-flex flex-column">
+                <div class="card mx-5 ">
                    <a id="link" href="number4.php">
                      <img src="images/numbers/4.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
@@ -143,7 +138,7 @@
 
             </div>
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
-                <div class="card mx-5 d-flex flex-column">
+                <div class="card mx-5">
                  <a id="link" href="number5.php">
     <img src="images/numbers/5.jpg" alt="Avatar" style="width:100%"  id="pic">
 </a>
@@ -164,7 +159,7 @@
 
             </div>
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
-                <div class="card mx-5  d-flex flex-column">
+                <div class="card mx-5 ">
                      <a id="link" href="number6.php">
                      <img src="images/numbers/6.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
@@ -185,10 +180,11 @@
                 </div>
 
             </div>
+            </div>
 
-
+            <div class="row">
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="500">
-                <div class="card mx-5 d-flex flex-column">
+                <div class="card mx-5 ">
                      <a  id="link" href="number7.php">
                      <img src="images/numbers/7.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
@@ -210,7 +206,7 @@
 
             </div>
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1000">
-                <div class="card mx-5 d-flex flex-column ">
+                <div class="card mx-5 ">
                     
                      <a id="link" href="number8.php">
                      <img src="images/numbers/8.jpg" alt="Avatar" style="width:100%"  id="pic">
@@ -233,7 +229,7 @@
 
             </div>
             <div class="col-md-12 col-lg-4 pt-5 custom-centered" data-aos="slide-up" data-aos-duration="1500">
-                <div class="card mx-5 d-flex flex-column">
+                <div class="card mx-5">
                      <a id="link" href="number9.php">
                      <img src="images/numbers/9.jpg" alt="Avatar" style="width:100%"  id="pic">
                      </a>
@@ -252,17 +248,7 @@
 
                     </div>
                 </div>
-
-         
-    
-
-
-
-
-
-
-
-    </div>
+             </div>
 
     </div>
     </div>
