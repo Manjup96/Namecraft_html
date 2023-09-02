@@ -218,7 +218,7 @@
 
             <div class="col-lg-6"  style="margin-top:50px; ">
                     <p class="text" style=" font-size:36px;"> Lucky C-Section date</p>
-                    <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:3,000.00</h2>
+                    <h2 class="text" style=" font-family: montserrat;font-size: 26px;">Rs:3,000.00</h2>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
                        beginning a new business, or choosing the delivery date for our child, 
                        most of us would prefer to rely on our fortunate dates. We all rely on specific dates, 
@@ -404,19 +404,19 @@
             <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">   
             <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
              <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Name Analysis</h2>
-             <p class="text-center" style="font-size: 16px;">Rs:500.00</p>
+             <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:500.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10 " style="margin-top:10px">
             <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Name Correction</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:7,500.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10"  style="margin-top:10px">
             <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Baby Name</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px; font-family: montserrat;">Rs:7,500.00</p>
             </div>
 
             
