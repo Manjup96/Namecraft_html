@@ -44,6 +44,7 @@
         border: none;
         letter-spacing: 2px;
         cursor: pointer;
+        font-family:montserrat;
         margin-top: 10px;
         transition: background-color 0.3s, color 0.3s;
     }
@@ -204,8 +205,8 @@
 
 
             <div class="col-lg-6"  style="margin-top:50px;">
-            <p class="text" style=" font-size:36px;">Name Analysis</p>
-            <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:500.00</h2>
+            <p class="text" style=" font-size:36px; font-family:montserrat;">Name Analysis</p>
+            <h2 class="text" style="font-family:montserrat;font-size: 26px;">Rs:500.00</h2>
             <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> Name analysis in numerology entails analysing the letters of a person’s name
                      to get insight into their personality, attributes, and probable life events.
                      Numerologists think that each letter contains a distinct vibration or energy, 
@@ -214,12 +215,12 @@
                     <div class="container mt-3">
                         
                     <form action="/action_page.php">
-                    <div class="mb-3 mt-3">
+                    <div class="mb-3 mt-3" style="font-family:montserrat;">
                         <label for="full_name">Full name*</label>
                         <input type="full_name" class="form-control" id="full_name1"  name="full_name1" onkeyup="validateFullNameForm()">  
                     <div id="name_error" class="error hidden">Please enter a valid full name</div>
                         </div>
-                    <div class="mb-3">
+                    <div class="mb-3" style="font-family:montserrat;">
                     <label for="date_of_birth">Date of birth*</label>
                     <input type="date" class="form-control" id="date_of_birth"  name="date_of_birth">
                     </div>
@@ -236,7 +237,7 @@
    </div>
 
    <div class="container">
-       <div class="row g-0">
+       <div class="row g-0"  style="font-family:montserrat;">
             <div  style="margin-top:50px">
             <div class="tabContainer">
         <div class="buttonContainer">
@@ -310,7 +311,7 @@ they may learn about a person’s personality and life path.</p>
           
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
             <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
-            <select name="rating">
+            <select name="rating" style="font-family:montserrat;">
             <option value="1">Rate</option>
             <option value="2">Perfect</option>
             <option value="3">Good</option>
@@ -323,18 +324,18 @@ they may learn about a person’s personality and life path.</p>
 
                 <div class="form">
                     <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6"  style="font-family:montserrat;">
             <label  class="mb-3 mt-3">NAME *</label><br>
             <input type="text" name="name" class="form-control" required/>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"  style="font-family:montserrat;">
             <label  class="mb-3 mt-3">EMAIL *</label><br>
             <input type="email" name="email" class="form-control" required/>
         </div>
                     </div>
                     
                     <div class="row mt-3 mb-3">
-        <div class="col-md-12">
+        <div class="col-md-12"  style="font-family:montserrat;">
             <label>
                 <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
@@ -358,21 +359,21 @@ they may learn about a person’s personality and life path.</p>
             <h5 class="text" style="font-family:montserrat;">Related products</h5>
 
             <div class="col-lg-4 col-md-6 col-sm-10 " style="margin-top:10px">
-            <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="luckydate.php"> <img src="images/C section delivery date.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Lucky C-Section Date</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:3,000.00</p>
+            <p class="text-center" style="font-size: 16px; font-family:montserrat;">Rs:3,000.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10"  style="margin-top:10px">
-            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Lucky Baby Name</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px; font-family:montserrat;">Rs:7,500.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">
-            <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Lucky Name Correction</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px; font-family:montserrat;">Rs:7,500.00</p>
             </div>
 </div>
 </div>

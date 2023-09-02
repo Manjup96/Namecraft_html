@@ -52,6 +52,7 @@
         color: white;
         padding: 8px 12px;
         font-size: 13px;
+        font-family:montserrat;
         border: none;
         letter-spacing: 2px;
         cursor: pointer;
@@ -217,8 +218,8 @@
             </div>
 
             <div class="col-lg-6"  style="margin-top:50px; ">
-                    <p class="text" style=" font-size:36px;"> Lucky C-Section date</p>
-                    <h2 class="text" style="font-family:Mulish,Arial,sans-serif;font-size: 26px;">Rs:3,000.00</h2>
+                    <p class="text" style=" font-size:36px;font-family:montserrat;"> Lucky C-Section date</p>
+                    <h2 class="text" style="font-family:montserrat;font-size: 26px;">Rs:3,000.00</h2>
                     <p style="text-align: justify; font-size: 16px; font-family:montserrat;">When it comes to making big decisions, like as purchasing a new home, 
                        beginning a new business, or choosing the delivery date for our child, 
                        most of us would prefer to rely on our fortunate dates. We all rely on specific dates, 
@@ -226,7 +227,7 @@
                        it is not required that the dates you believe to be auspicious for you are in fact lucky. 
                        In order to learn which dates and times are fortunate for you, 
                        you will need to seek expert help, such as numerology by birth date.</p>
-                    <div class="container mt-3">
+                    <div class="container mt-3" style="font-family:montserrat;" >
                         
                     <form action="/action_page.php">
                     <div class="mb-3 mt-3">
@@ -271,7 +272,7 @@
 </div>
 
    <div class="container">
-       <div class="row g-0">
+       <div class="row g-0"  style="font-family:montserrat;">
             <div  style="margin-top:50px">
             <div class="tabContainer">
         <div class="buttonContainer">
@@ -353,7 +354,7 @@
           
                 <p style="text-align: justify; font-size: 16px; font-family:montserrat;"> YOUR RATING * <i class="far fa-star"></i><i class="far fa-star"></i>
             <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> </p> 
-            <select name="rating">
+            <select name="rating"  style="font-family:montserrat;">
             <option value="1">Rate</option>
             <option value="2">Perfect</option>
             <option value="3">Good</option>
@@ -366,18 +367,18 @@
 
                 <div class="form">
                     <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6"  style="font-family:montserrat;">
             <label  class="mb-3 mt-3">NAME *</label><br>
             <input type="text" name="name" class="form-control" required/>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6"  style="font-family:montserrat;">
             <label  class="mb-3 mt-3">EMAIL *</label><br>
             <input type="email" name="email" class="form-control" required/>
         </div>
                     </div>
                     
                     <div class="row mt-3 mb-3">
-        <div class="col-md-12">
+        <div class="col-md-12"  style="font-family:montserrat;">
             <label>
                 <input type="checkbox" name="save_info"/> Save my name, email, and website in this browser for the next time I comment.
             </label><br>
@@ -402,21 +403,21 @@
             <h5  class="text" style=" font-family:montserrat;">Related products</h5>
 
             <div class="col-lg-4 col-md-6 col-sm-10" style="margin-top:10px">   
-            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="nameanalysis.php"><img src="images/Name analysis.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
              <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat; font-color:#595959;">Name Analysis</h2>
-             <p class="text-center" style="font-size: 16px;">Rs:500.00</p>
+             <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:500.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10 " style="margin-top:10px">
-            <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="luckyname.php"><img src="images/LUCKY ALPHABETS.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Name Correction</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:7,500.00</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-10"  style="margin-top:10px">
-            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 2px solid black;"></a>
+            <a href="babyname.php"><img src="images/babyname numerology.jpg" style="width:350px;height:350px; border: 1px solid black;"></a>
             <h2 class="text-center mt-3" style="font-size: 16px; font-family:montserrat;  font-color:#595959;">Lucky Baby Name</h2>
-            <p class="text-center" style="font-size: 16px;">Rs:7,500.00</p>
+            <p class="text-center" style="font-size: 16px;font-family:montserrat;">Rs:7,500.00</p>
             </div>
 
             
