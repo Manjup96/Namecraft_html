@@ -467,6 +467,13 @@
       animation: zoomIn 0.2s ease-in-out;
       transform: scale(1.2);
     }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+            #services .col-md-3 {
+                width: 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
   </style>
 
 
