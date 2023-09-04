@@ -138,6 +138,55 @@ html {
 
 
 
+ /* Custom dropdown container */
+ .custom-dropdown {
+            position: relative;
+            width: 100%;
+        }
+
+        /* Styled dropdown button */
+        .custom-dropdown select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px; /* Adjust font size as needed */
+            line-height: 2; /* Adjust line height as needed */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        /* Style the dropdown arrow */
+        .custom-dropdown select::-ms-expand {
+            display: none;
+        }
+
+        /* Style the dropdown options container */
+        .custom-dropdown .dropdown-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            background-color: #fff;
+            z-index: 1;
+        }
+
+        /* Style the dropdown options */
+        .custom-dropdown select option {
+            padding: 10px;
+            font-size: 16px; /* Adjust font size as needed */
+            line-height: 2; /* Adjust line height as needed */
+        }
+
+        /* Show the dropdown options on hover */
+        .custom-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
   </style>
 <div style=" font-family:Montserrat ;">
     <div class="container-fluid bg-light px-0 animate-bg d-flex justify-content-center" id="bg-container" style="overflow: hidden;"> 
@@ -167,15 +216,16 @@ html {
                 <input type="text" name="subject" class="form-control"  style="width: 100%;height:45px;" required/>
             </div>
             <div class="col-md-6  mt-5">
-                <label for="entity_type" class="form-label d-block">Service Desired</label>
-                                    <div class="d-flex" >
-                                        <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>
-                                            <option value="Baby name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Baby name correction</option>
-                                            <option value="Lucky name correction" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky name correction</option>
-                                            <option value="comLucky date deliverypany" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Lucky date delivery</option>
-                                            <option value="Name analysis" class="form-select flex-grow-1" style="width: 100%;height:45px;" required>Name analysis</option>
-                                        </select>
-                                    </div>
+            <label for="entity_type" class="form-label d-block">Service Desired</label>
+<div class="d-flex">
+    <select id="form" id="entity_type" name="entity_type" class="form-select flex-grow-1" style="width: 100%; height: 45px;  font-size:16px;" required>
+        <option style=" font-size:16px;" value="Baby name correction">Baby name correction</option>
+        <option style=" font-size:16px;" value="Lucky name correction">Lucky name correction</option>
+        <option  style=" font-size:16px;" value="Lucky date delivery">Lucky date delivery</option>
+        <option  style=" font-size:16px;" value="Name analysis">Name analysis</option>
+    </select>
+</div>
+
             </div>
 
         </div>
